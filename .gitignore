@@ -1,0 +1,83 @@
+.htaccess
+# WordPress Core Files
+/wp-admin/
+/wp-includes/
+/wp-content/languages/
+wp-config.php
+
+# Ignore all themes except your active one
+/wp-content/themes/*
+!/wp-content/themes/pinaka/
+
+# Ignore node_modules inside the pinaka theme folder
+/wp-content/themes/pinaka/node_modules/
+
+# Ignore all plugins except custom ones
+/wp-content/plugins/*
+!/wp-content/plugins/your-custom-plugin/
+
+# Ignore uploads, but keep custom media or specific files (optional)
+/wp-content/uploads/*
+!/wp-content/uploads/specific-folder-or-file/
+
+# WP Rocket Cache and Config Files
+/wp-content/cache/
+/wp-content/wp-rocket-config/
+wp-rocket-config.php
+/wp-content/advanced-cache.php
+
+# Advanced Cache Plugin Related Files
+/wp-content/advanced-cache.php
+/wp-content/cache/
+/wp-content/w3tc-config/
+wp-cache-config.php
+
+# Ignore Composer dependencies if used
+/vendor/
+
+# Ignore node_modules globally
+/node_modules/
+
+# Ignore node_modules inside the pinaka theme folder
+/wp-content/themes/pinaka/node_modules/
+
+# Env files (optional)
+.env
+.env.local
+.env.production
+.env.staging
+
+# Backup and Logs
+*.log
+*.sql
+*.sql.gz
+/wp-content/backup-db/
+/wp-content/backups/
+/wp-content/upgrade/
+/wp-content/uploads/backups/
+
+# Ignore temporary and cache files
+*.tmp
+*.cache
+*.swp
+*.swo
+*.sass-cache
+
+# Ignore WP Rocket / Cache Plugin specific files
+/wp-content/advanced-cache.php
+/wp-content/wp-rocket-config/
+/wp-content/cache/
+/wp-content/wp-cache-config.php
+/wp-content/w3tc-config/
+/wp-content/plugins/wp-super-cache/
+/wp-content/plugins/wp-rocket/wp-rocket.php
+
+# Ignore IDE/editor specific files
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
