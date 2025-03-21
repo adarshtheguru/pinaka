@@ -33,6 +33,10 @@
  *
  * @since Twenty Twenty 1.0
  */
+
+ if ( ! defined( 'THEMEURL' ) ) {
+    define( 'THEMEURL', get_stylesheet_directory_uri() );
+}
 function twentytwenty_theme_support() {
 
 	// Add default posts and comments RSS feed links to head.
