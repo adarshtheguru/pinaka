@@ -1,8 +1,8 @@
 $color_1: #fff;
 $color_2: #000;
 $color_3: #6b6b6b;
-$background-color_1: #6b6b6b;
-$background-color_2: #fff;
+$white: #6b6b6b;
+$white: #fff;
 $background-color_3: rgba(255, 254, 254, 0.97);
 
 /* Large Devices, Wide Screens */
@@ -114,7 +114,7 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 			position: fixed;
 			top: 94px;
 			left: 0;
-			background-color: $background-color_2;
+			background-color: $white;
 			width: 100%;
 			height: 100%;
 			z-index: 999;
@@ -157,7 +157,7 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 		display: block;
 		width: 50px;
 		padding: 14px 8px 4px 8px;
-		background-color: $background-color_1;
+		background-color: $white;
 		border-radius: 0px;
 		margin: 0;
 		position: absolute;
@@ -169,7 +169,7 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 			height: 2px;
 			width: 100%;
 			margin-bottom: 4px;
-			background-color: $background-color_2;
+			background-color: $white;
 		}
 	}
 	.menu-icon-mobile.active {
@@ -311,7 +311,7 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 		left: 0;
 		width: 100%;
 		text-align: center;
-		background-color: $background-color_2;
+		background-color: $white;
 		font-size: 14px;
 		font-weight: 600;
 		z-index: 999999;
@@ -320,14 +320,14 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 			line-height: 30px;
 		}
 		a.mob-enq-btn {
-			background-color: $background-color_1;
+			background-color: $white;
 			color: $color_1;
 			text-transform: uppercase;
 			font-weight: 600;
 			font-size: 14px;
 		}
 		a.mob-call-btn {
-			background-color: $background-color_2;
+			background-color: $white;
 			color: $color_3;
 			text-transform: uppercase;
 			font-weight: 600;
