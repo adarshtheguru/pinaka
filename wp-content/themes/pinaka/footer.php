@@ -13,21 +13,20 @@
 
 ?>
 <footer>
-		<div class="row">
-			<div class="col-12 lower">
-				<div class="container">
-					<div class="row">
-						<div class="col-7 col-xs-12">
-							<p>&copy; <span class="copyrightYear"></span>&nbsp;All Rights Reserved</p>
-						</div>
-						<div class="col-5 col-xs-12 text-right">
-							<p>Marketed By: <a href="javascript:;" target="_blank">Adarsh</a></p>
-						</div>
-					</div>
+	<div class="container">
+		<div class="footerWrapper">
+			<div class="partA">
+				<div class="content">
+					<div class="title">Stay Ahead in Real Estate Marketing</div>
+					<p class="para">Sign up for our newsletter to receive the latest insights, tips, and industry news directly to your inbox.</p>
+				</div>
+				<div class="mailBox">
+					
 				</div>
 			</div>
 		</div>
-	</footer>
+	</div>
+</footer>
 	<div class="mob-footer visible-xs">
 		<div class="row">
 			<div class="col-6">

@@ -1,16 +1,9 @@
-/*Header Section*/
-/*.bar1{width: 70% !important;}
-      .bar2{width: 100% !important;}
-      .bar3{width: 60% !important;}*/
-/* NAV LINKS COMPRESS ANIM ------------------------------------------------- */
-/*Footer Section*/
-
 html {
 	padding: 0;
 	margin: 0;
 	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
-	font-family: $font-family_1;
+	font-family: $aspekta;
 	font-weight: 400;
 	color: $color_1;
 	line-height: 1.4;
@@ -22,7 +15,7 @@ body {
 	margin: 0;
 	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
-	font-family: $font-family_1;
+	font-family: $aspekta;
 	font-weight: 400;
 	color: $color_1;
 	line-height: 1.4;
@@ -519,10 +512,11 @@ header {
 	width: 100%;
 	top: 0;
 	left: 0;
-	padding: 5px 0 5px 0;
+	padding: 10px 0;
 	z-index: 9999;
 	background-color: $white;
 	transition: all 0.6s ease-in-out;
+	box-shadow: 0px 3px 6px #00000029;
 	.upper {
 		.number-wrapper {
 			margin-right: 20px;
@@ -548,7 +542,7 @@ header {
 			a {
 				display: inline-block;
 				margin-right: 20px;
-				margin-top: 10px;
+				// margin-top: 10px;
 				color: $color_2;
 				position: relative;
 				&:last-child {
@@ -619,18 +613,16 @@ header.active {
 footer {
 	float: left;
 	width: 100%;
-	color: $color_3;
+	background-color: $black;
+	color: $white;
+	padding: 50px 0;
 	a {
-		color: $color_3;
+		color: $white;
 	}
-	.upper {
-		background-color: $background-color_6;
-		padding: 10px 0;
-	}
-	.lower {
-		background-color: $background-color_7;
-		padding: 10px 0;
-		font-size: 12px;
+	.container{
+		max-width: 1160px;
+		margin: 0px auto;
+		padding: 0 15px;
 	}
 }
 /* ------------------------------ text animation code starts ---------------------------  */
