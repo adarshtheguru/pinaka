@@ -1,0 +1,106 @@
+.brandHero{
+    background-image: url('../images/brandsBanner.webp');
+    .container{
+        height: 100%;
+        .bannerCont{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: space-between;
+            align-items: center;
+            grid-gap: 0 50px;
+            height: 100%;
+            .content{
+                display: grid;
+                grid-gap: 35px 0;
+                .mainTitle{
+                    font-weight: 650;
+                    font-size: 46px;
+                    line-height: 47px;
+                    color: #151515;
+                }
+                .para{
+                    font-weight: 450;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                .ctas{
+                    display: flex;
+                    gap: 20px;
+                }
+            }
+        }
+    }
+}
+.branding{
+    background: linear-gradient(0deg, #EAF7FF 0%, #FBFEFF 100%);
+    .brandingCont{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 25% auto;
+        gap: 0 75px;
+        .sideBar{
+            .box{
+                background-color: #FFFFFF;
+                padding: 15px 20px;
+                border-radius: 12px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px 0;
+                >div{
+                    padding: 10px 0;
+                    border-bottom: 1px solid #C9E4F4;
+                    color: #161616;
+                    font-weight: 600;
+                    &:last-of-type{
+                        border-bottom: none;
+                    }
+                }
+            }
+        }
+        .mainCont{
+            .secPrefix{
+                margin-bottom: 15px;
+            }
+            .secTitle{
+                margin-bottom: 20px;
+            }
+            .abtBoxes{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0 20px;
+                margin: 50px 0;
+                .box{
+                    border-radius: 12px;
+                    padding: 25px 30px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px 0;
+                    &:first-of-type{
+                        background-color: #B4E2FF;
+                    }
+                    &:nth-of-type(2){
+                        background-color: #B4E2EB;
+                    }
+                    &:last-of-type{
+                        background-color: #B4E2D7;
+                    }
+                    .number{
+                        color: #161616;
+                        font-weight: 300;
+                        font-size: 42px;
+                    }
+                    .title{
+                        color: #161616;
+                        font-weight: 600;
+                    }
+                    p{
+                        color: #161616;
+                        font-weight: 450;
+                        font-size: 14px;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

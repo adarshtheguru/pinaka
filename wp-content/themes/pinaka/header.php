@@ -8,7 +8,6 @@
  * @subpackage Twenty_Twenty
  * @since Twenty Twenty 1.0
  */
-
 ?>
 
 <!DOCTYPE html>
@@ -42,10 +41,10 @@
 						</div>
 						<div class="col-12 lower">
 							<div class="nav-links">
-								<a href="javascript:;" rel="overview" class="active" data-event-category="Header"
-									data-event-action="Click" data-event-name="Overview">Overview</a>
-								<a href="javascript:;" rel="lifestyle" data-event-category="Header"
-									data-event-action="Click" data-event-name="Lifestyle">Lifestyle</a>
+								<a href="<?php echo home_url(); ?>" rel="overview" class="active" data-event-category="Header"
+									data-event-action="Click" data-event-name="home">Home</a>
+								<a href="<?php echo home_url(); ?>/brands" rel="brands" data-event-category="Header"
+									data-event-action="Click" data-event-name="Brands">Brands</a>
 								<a href="javascript:;" rel="amenities" data-event-category="Header"
 									data-event-action="Click" data-event-name="Amenities">Amenities</a>
 								<a href="javascript:;" rel="gallery" data-event-category="Header"

@@ -821,3 +821,51 @@ function twentytwenty_get_elements_array() {
 	 */
 	return apply_filters( 'twentytwenty_get_elements_array', $elements );
 }
+function get_nested_menu_array($location_slug) {
+    $locations = get_nav_menu_locations();
+
+    if (!isset($locations[$location_slug])) {
+        return [];
+    }
+
+    $menu_id = $locations[$location_slug];
+    $menu_items = wp_get_nav_menu_items($menu_id);
+    if (!$menu_items) return [];
+
+    $items = [];
+    $children = [];
+
+    // Separate parent and child items
+    foreach ($menu_items as $item) {
+        $menu_item = [
+            'id'    => $item->ID,
+            'title' => $item->title,
+            'url'   => $item->url,
+            'children' => [],
+        ];
+
+        if ($item->menu_item_parent == 0) {
+            $items[$item->ID] = $menu_item;
+        } else {
+            $children[$item->menu_item_parent][] = $menu_item;
+        }
+    }
+
+    // Attach children to respective parents
+    foreach ($children as $parent_id => $child_items) {
+        if (isset($items[$parent_id])) {
+            $items[$parent_id]['children'] = $child_items;
+        } else {
+            // Optional: handle multi-level nesting (children of children)
+            foreach ($items as &$parent) {
+                foreach ($parent['children'] as &$sub_item) {
+                    if ($sub_item['id'] == $parent_id) {
+                        $sub_item['children'] = $child_items;
+                    }
+                }
+            }
+        }
+    }
+
+    return array_values($items); // reset numeric keys
+}
