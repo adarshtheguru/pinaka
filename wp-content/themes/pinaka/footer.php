@@ -21,7 +21,58 @@
 					<p class="para">Sign up for our newsletter to receive the latest insights, tips, and industry news directly to your inbox.</p>
 				</div>
 				<div class="mailBox">
-					
+					<?php include 'customTemplates/subscribeMailForm.php'; ?>
+				</div>
+			</div>
+			<div class="partB">
+				<div class="companyInfo">
+					<div class="logo">
+						<img src="<?php echo THEMEURL; ?>/assets/images/pinakaWhite.svg" alt="" class="img-responsive">
+					</div>
+					<p class="address">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</p>
+					<div class="mail">
+						<div class="arrow">
+							<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/whiteArrow.svg" alt="">
+						</div>
+						<a href="mailto:info@pinaka.digital">info@pinaka.digital</a>
+					</div>
+				</div>
+				<div class="footerNavs">
+					<div class="ql cols">
+						<div class="title">Quick Links</div>
+						<div class="navLinks">
+							<a href="javascript:;">About Us</a>
+							<a href="javascript:;">Clients</a>
+							<a href="javascript:;">Services</a>
+							<a href="javascript:;">Media Center</a>
+							<a href="javascript:;">Casestudy</a>
+							<a href="javascript:;">Contact Us</a>
+						</div>
+					</div>
+					<div class="socials cols">
+						<div class="title">Socials</div>
+						<div class="navLinks">
+							<a href="javascript:;">Linkedin</a>
+							<a href="javascript:;">Twitter</a>
+							<a href="javascript:;">Instagram</a>
+						</div>
+					</div>
+					<div class="address cols">
+						<div class="title">Address</div>
+						<p>
+							202, 2nd Floor, Vishnu Darshan Apartments, Fergusson College Rd, Rage Path, Model Colony, Shivajinagar, Pune, Maharashtra 411005
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="partC">
+				<div class="corpInfo">
+					© 2024 Pinaka Digital Technologies
+				</div>
+				<div class="pagesInfo">
+					<a href="jaavscript:;">Privacy Policy</a> | <a href="javascript:;">Terms & Conditions</a> | <a href="javascript:;">Refund Policy</a>
 				</div>
 			</div>
 		</div>
@@ -42,8 +93,9 @@
 
 	<?php wp_footer(); ?>
 
-	<script src="https://code.jquery.com/jquery-3.7.0.js"
-		integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+	<script src="<?php echo THEMEURL; ?>/assets/js/lenis-min.js"></script>
 	<script src="<?php echo THEMEURL; ?>/assets/js/all.js"></script>
 
 	</body>

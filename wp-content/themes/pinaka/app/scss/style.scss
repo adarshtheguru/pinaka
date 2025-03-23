@@ -512,11 +512,10 @@ header {
 	width: 100%;
 	top: 0;
 	left: 0;
-	padding: 10px 0;
+	padding: 15px 0;
 	z-index: 9999;
-	background-color: $white;
+	// background-color: $white;
 	transition: all 0.6s ease-in-out;
-	box-shadow: 0px 3px 6px #00000029;
 	.upper {
 		.number-wrapper {
 			margin-right: 20px;
@@ -543,14 +542,14 @@ header {
 				display: inline-block;
 				margin-right: 20px;
 				// margin-top: 10px;
-				color: $color_2;
+				color: #4C4C4C;
 				position: relative;
 				&:last-child {
 					margin-right: 0px;
 				}
 			}
 			a.active {
-				color: $color_6;
+				color: $pc;
 			}
 		}
 	}
@@ -580,6 +579,7 @@ header {
 header.active {
 	background-color: $white;
 	z-index: 100000;
+	box-shadow: 0px 3px 6px #00000029;
 }
 .call-icon {
 	svg {
@@ -607,9 +607,6 @@ header.active {
 	display: flex;
 	flex-wrap: wrap;
 }
-.home-banner {
-	background-image: url('https://dummyimage.com/1366X700/6b6b6b/565659.png&text=banner');
-}
 footer {
 	float: left;
 	width: 100%;
@@ -623,6 +620,128 @@ footer {
 		max-width: 1160px;
 		margin: 0px auto;
 		padding: 0 15px;
+		.footerWrapper{
+			.partA{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				gap: 0 120px;
+				padding-bottom: 35px;
+				border-bottom: 1px solid #5A5A5A;
+				.content{
+					.title{
+						font-weight: 650;
+						font-size: 24px;
+					}
+					.para{
+						font-weight: 450;
+						font-size: 16px;
+						line-height: 24px;
+					}
+				}
+				.mailBox{
+					.subscribeMailForm{
+						.formGroup{
+							display: flex;
+							font-weight: 450;
+							font-size: 14px;
+							color: #003E63;
+							input{
+								&::placeholder{
+									font-weight: 450;
+									font-size: 14px;
+									color: #003E63;
+								}
+							}
+
+							.emailPassage{
+								padding: 13px 18px;
+								padding-right: 200px;
+								background-color: $white;
+								margin: 0;
+								border: 0px;
+								border-radius: 6px 0 0 6px;
+							}
+							.submitBtn{
+								padding: 13px 20px;
+								padding-right: 40px;
+								font-size: 14px;
+								font-weight: 600;
+								text-transform: uppercase;
+								background-color: $white;
+								border-left: 1px solid #003E63;
+								border-radius: 0 6px 6px 0;
+								position: relative;
+								&::after{
+									position: absolute;
+									content: url('../images/rightVector.svg');
+									top: 50%;
+									right: 15px;
+									transform: translateY(-50%);
+								}
+							}
+						}
+					}
+				}
+			}
+			.partB{
+				padding: 35px 0;
+				display: grid;
+				grid-template-columns: 30% auto;
+				align-items: center;
+				gap: 0 50px;
+				.companyInfo{
+					.logo{
+						margin-bottom: 15px;
+					}
+					.address{
+						font-weight: 450;
+						font-size: 14px;
+						line-height: 24px;
+						margin-bottom: 20px;
+					}
+					.mail{
+						font-weight: 350;
+						font-size: 24px;
+						display: flex;
+						align-items: center;
+						gap: 10px;
+					}
+				}
+				.footerNavs{
+					display: grid;
+					grid-template-columns: repeat(3, 1fr);
+					gap: 0 45px;
+					.cols{
+						display: flex;
+						flex-direction: column;
+						gap: 15px 0;
+						&.ql{
+							.navLinks{
+								grid-template-columns: repeat(2, 1fr);
+								gap: 20px 30px;
+							}
+						}
+						.title{
+							font-weight: 600;
+							font-size: 14px;
+						}
+						.navLinks{
+							display: grid;
+							gap: 20px 0;
+							a{
+								font-weight: 400;
+								font-size: 14px;
+							}
+						}
+					}
+				}
+			}
+			.partC{
+				display: flex;
+				justify-content: space-between;
+			}
+		}
 	}
 }
 /* ------------------------------ text animation code starts ---------------------------  */
