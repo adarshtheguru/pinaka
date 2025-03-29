@@ -1,0 +1,31 @@
+.aboutUs{
+    .hero{
+        background-color: #738FFF;
+        .container-fluid{
+            height: 100%;
+        }
+        .bannerCont{
+            grid-template-columns: 35% auto;
+            padding-right: 30px;
+            .content{
+                color: $white;
+                .mainTitle{
+                    color: $white;
+                }
+            }
+        }
+    }
+    .aboutUsOverview{
+        background-color: #EAF7FF;
+        &.padding{
+            padding-bottom: 150px;
+        }
+        .container{
+            position: relative;
+            z-index: 2;
+            .para{
+                margin-top: 30px;
+            }
+        }
+    }
+}

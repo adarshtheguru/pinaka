@@ -25,6 +25,14 @@ $(document).ready(function(){
 		$('.banner_ht').css('height', bannerHt);
 		// $('.section-first').css('margin-top', navHt)
 
+		//dynamic margin code
+		var containerWidth = $(".container").width(); // Get container width
+        var windowWidth = $(window).width(); // Get full window width
+        var sideMargin = (windowWidth - containerWidth) / 2; // Calculate side margin
+
+        $(".dynamicMarLeft").css("margin-left", sideMargin + "px"); // Apply left margin
+        $(".dynamicPadLeft").css("padding-left", sideMargin + "px"); // Apply left padding
+
 		$(".goto-home").on("click", function(){
 			$("html,body").animate({
 				scrollTop : 0
