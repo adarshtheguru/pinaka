@@ -119,6 +119,9 @@
         }
     }
     .awards{
+        &.padding{
+            padding-bottom: 150px;
+        }
         background-color: #EAF7FF;
         .awardBox{
             .partA{
@@ -163,6 +166,37 @@
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+    .whitePanel{
+        .panelBox{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 0 80px;
+            .box{
+                display: grid;
+                align-items: last baseline;
+                gap: 20px 0px;
+                .text{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 26px;
+                    color: #161616;
+                    padding-right: 10px;
+                }
+                .anchor{
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: 2%;
+                    text-transform: uppercase;
+                    color: #003E63;
+                    padding-bottom: 5px;
+                    border-bottom: 1px solid #003E63;
+                    display: flex;
+                    justify-content: space-between;
                 }
             }
         }

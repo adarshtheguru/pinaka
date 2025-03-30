@@ -197,6 +197,40 @@ get_header();
         </div>
     </section>
 
+    <section class="padding whitePanel" id="whitePanel">
+        <div class="container">
+            <div class="panelBox">
+                <div class="box">
+                    <div class="icon">
+                        <img src="<?php echo THEMEURL; ?>/assets/images/handshake.svg" alt="">
+                    </div>
+                    <p class="text">Let's Build Something Extraordinary Together</p>
+                    <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/assets/images/greaterThan.svg" alt=""></span> </a>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <img src="<?php echo THEMEURL; ?>/assets/images/stocks.svg" alt="">
+                    </div>
+                    <p class="text">See How We Drive Results</p>
+                    <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/assets/images/greaterThan.svg" alt=""></span> </a>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <img src="<?php echo THEMEURL; ?>/assets/images/bulb.svg" alt="">
+                    </div>
+                    <p class="text">Join the Leading Edge of Marketing Innovation</p>
+                    <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/assets/images/greaterThan.svg" alt=""></span> </a>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <img src="<?php echo THEMEURL; ?>/assets/images/arrows.svg" alt="">
+                    </div>
+                    <p class="text">Take the First Step Toward Better Marketing</p>
+                    <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/assets/images/greaterThan.svg" alt=""></span> </a>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php include 'customTemplates/footerGreen.php'; ?>

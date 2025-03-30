@@ -45,10 +45,10 @@
 									data-event-action="Click" data-event-name="home">Home</a>
 								<a href="<?php echo home_url(); ?>/brands" rel="brands" data-event-category="Header"
 									data-event-action="Click" data-event-name="Brands">Brands</a>
-								<a href="javascript:;" rel="amenities" data-event-category="Header"
-									data-event-action="Click" data-event-name="Amenities">Amenities</a>
-								<a href="javascript:;" rel="gallery" data-event-category="Header"
-									data-event-action="Click" data-event-name="Gallery">Gallery</a>
+								<a href="<?php echo home_url(); ?>/case-study" rel="amenities" data-event-category="Header"
+									data-event-action="Click" data-event-name="Amenities">Case Study</a>
+								<a href="<?php echo home_url(); ?>/clients" rel="gallery" data-event-category="Header"
+									data-event-action="Click" data-event-name="Gallery">Clients</a>
 								<a href="javascript:;" rel="location" data-event-category="Header"
 									data-event-action="Click" data-event-name="Location">Location</a>
 								<a href="<?php echo home_url(); ?>/about-us" rel="about" data-event-category="Header"
