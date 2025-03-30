@@ -51,7 +51,7 @@
 									data-event-action="Click" data-event-name="Gallery">Gallery</a>
 								<a href="javascript:;" rel="location" data-event-category="Header"
 									data-event-action="Click" data-event-name="Location">Location</a>
-								<a href="javascript:;" rel="about" data-event-category="Header"
+								<a href="<?php echo home_url(); ?>/about-us" rel="about" data-event-category="Header"
 									data-event-action="Click" data-event-name="about">About</a>
 								<a href="javascript:;" class="themeBtn enq_click" id="hid-on-mob"
 									data-event-category="Header" data-event-action="Click"

@@ -1,15 +1,15 @@
 $(document).ready(function(){
 
-		//smooth scroll
-		const lenis = new Lenis()
-		lenis.on('scroll', (e) => {
-		})
-		function raf(time) {
-			lenis.raf(time)
-			requestAnimationFrame(raf)
-		}
-		requestAnimationFrame(raf)
-		//smooth scroll
+		// //smooth scroll
+		// const lenis = new Lenis()
+		// lenis.on('scroll', (e) => {
+		// })
+		// function raf(time) {
+		// 	lenis.raf(time)
+		// 	requestAnimationFrame(raf)
+		// }
+		// requestAnimationFrame(raf)
+		// //smooth scroll
 
 		var d = new Date();
 		$('.copyrightYear').html(d.getFullYear());

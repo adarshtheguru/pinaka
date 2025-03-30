@@ -38,6 +38,26 @@ get_header();
             
         </div>
 </section>
+    <section class="padding pinakaJourney" id="pinakaJourney">
+        <div class="container">
+            <div class="text-center">
+                <div class="secTitle">
+                    The PINAKA Journey
+                </div>
+                <p class="secPara">From Vision to Market Leader</p>
+            </div>
+        </div>
+    </section>
+    <section class="padding">
+        <div class="container">
+            <div class="text-center">
+                <div class="secPrefix">Our Team</div>
+                <div class="secTitle">
+                    Lorem Ipsum is simply dummytext of the typesetting industry.
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php include 'customTemplates/footerGreen.php'; ?>
