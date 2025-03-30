@@ -175,7 +175,17 @@ $(document).ready(function(){
 				//   }
 				// },
 			  ]
+		});
+		$('.awardSlider').slick({
+			slidesToShow:4,
 		})
+
+		//aboutUs bg video
+		$('.play-button, .video-thumbnail').click(function() {
+			$('.video-thumbnail, .play-button').fadeOut();
+			$('.video-content')[0].requestFullscreen();
+			$('.video-content')[0].play();
+		});
 
 			/*------------------- animation js----------------------------------------*/
 

@@ -48,16 +48,155 @@ get_header();
             </div>
         </div>
     </section>
-    <section class="padding">
+
+    <section class="backgroundVideo" id="backgroundVideo">
+        <div class="video-wrapper">
+            <img src="<?php echo THEMEURL; ?>/assets/images/bgPlaceholder.webp" alt="Video Placeholder" class="video-thumbnail img-full">
+            <div class="play-button">
+                <img src="<?php echo THEMEURL; ?>/assets/images/redPlay.svg" alt="">
+                <p class="text">
+                    Background on Kailash Singh and Vijay Chotrani.
+                </p>
+            </div>
+            <video class="video-content" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <section class="padding ourTeam" id="ourTeam">
         <div class="container">
             <div class="text-center">
                 <div class="secPrefix">Our Team</div>
                 <div class="secTitle">
-                    Lorem Ipsum is simply dummytext of the typesetting industry.
+                    Lorem Ipsum is simply dummytext of the typesetting industry.
+                </div>
+            </div>
+            <div class="ownerCards">
+                <div class="card">
+                    <div class="img">
+                        <img class="img-full" src="<?php echo THEMEURL; ?>/assets/images/john.webp" alt="">
+                    </div>
+                    <div class="data">
+                        <div class="ownerInfo">
+                            <div class="name">John Luthar</div>
+                            <div class="desg">Designation</div>
+                        </div>
+                        <div class="sm">
+                            <img class="" src="<?php echo THEMEURL; ?>/assets/images/linkedin.svg" alt="">
+                            <img class="" src="<?php echo THEMEURL; ?>/assets/images/twitter.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img class="img-full" src="<?php echo THEMEURL; ?>/assets/images/girl.webp" alt="">
+                    </div>
+                    <div class="data">
+                        <div class="ownerInfo">
+                            <div class="name">John Luthar</div>
+                            <div class="desg">Designation</div>
+                        </div>
+                        <div class="sm">
+                            <img class="" src="<?php echo THEMEURL; ?>/assets/images/linkedin.svg" alt="">
+                            <img class="" src="<?php echo THEMEURL; ?>/assets/images/twitter.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img class="img-full" src="<?php echo THEMEURL; ?>/assets/images/boy2.webp" alt="">
+                    </div>
+                    <div class="data">
+                        <div class="ownerInfo">
+                            <div class="name">John Luthar</div>
+                            <div class="desg">Designation</div>
+                        </div>
+                        <div class="sm">
+                            <img class="" src="<?php echo THEMEURL; ?>/assets/images/linkedin.svg" alt="">
+                            <img class="" src="<?php echo THEMEURL; ?>/assets/images/twitter.svg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="padding awards" id="awards">
+        <div class="container">
+            <div class="secPrefix">Awards & Recognition </div>
+            <div class="awardBox">
+                <div class="partA">
+                    <div class="secTitle">Lorem Ipsum is simply dummy text of the printing.</div>
+                    <p class="para">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy.
+                    </p>
+                </div>
+                <div class="partB awardSliderWrapper">
+                    <div class="awardSlider">
+                        <div class="slide">
+                            <div class="box">
+                                <div class="img">
+                                    <img class="img-full" src="<?php echo THEMEURL; ?>/assets/images/starImg.webp" alt="">
+                                </div>
+                                <div class="info">
+                                    <span class="category">Category • </span>
+                                    <span class="date">AUG 31 2024</span>
+                                </div>
+                                <p class="abstract">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="box">
+                                <div class="img">
+                                    <img class="img-full" src="<?php echo THEMEURL; ?>/assets/images/starImg.webp" alt="">
+                                </div>
+                                <div class="info">
+                                    <span class="category">Category • </span>
+                                    <span class="date">AUG 31 2024</span>
+                                </div>
+                                <p class="abstract">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="box">
+                                <div class="img">
+                                    <img class="img-full" src="<?php echo THEMEURL; ?>/assets/images/starImg.webp" alt="">
+                                </div>
+                                <div class="info">
+                                    <span class="category">Category • </span>
+                                    <span class="date">AUG 31 2024</span>
+                                </div>
+                                <p class="abstract">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="box">
+                                <div class="img">
+                                    <img class="img-full" src="<?php echo THEMEURL; ?>/assets/images/starImg.webp" alt="">
+                                </div>
+                                <div class="info">
+                                    <span class="category">Category • </span>
+                                    <span class="date">AUG 31 2024</span>
+                                </div>
+                                <p class="abstract">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </main>
 
 <?php include 'customTemplates/footerGreen.php'; ?>
