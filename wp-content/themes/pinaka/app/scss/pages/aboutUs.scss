@@ -1,0 +1,204 @@
+.aboutUs{
+    .hero{
+        background-color: #738FFF;
+        .container-fluid{
+            height: 100%;
+        }
+        .bannerCont{
+            grid-template-columns: 35% auto;
+            padding-right: 30px;
+            .content{
+                color: $white;
+                .mainTitle{
+                    color: $white;
+                }
+            }
+        }
+    }
+    .aboutUsOverview{
+        background-color: #EAF7FF;
+        &.padding{
+            padding-bottom: 150px;
+        }
+        .container{
+            position: relative;
+            z-index: 2;
+            .para{
+                margin-top: 30px;
+            }
+        }
+    }
+    .ourTeam{
+        .ownerCards{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0 45px;
+            margin-top: 55px;
+            .card{
+                .data{
+                    display: flex;
+                    justify-content: space-between;
+                    padding-right: 90px;
+                    padding-top: 18px;
+                    padding-bottom: 18px;
+                    .img{
+                        border-radius: 6px;
+                    }
+                    .ownerInfo{
+                        .name{
+                            font-weight: 550;
+                            font-size: 18px;
+                            color: #161616;
+                        }
+                        .desg{
+                            font-weight: 550;
+                            font-size: 14px;
+                            color: #4C4C4C;
+                        }
+                    }
+                    .sm{
+                        display: flex;
+                        gap: 10px;
+                        img{
+                            width: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .backgroundVideo {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        &::after{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            content: '';
+            background-color: rgba(28, 27, 27, 0.3);
+            z-index: 1;
+            top: 0;
+            left: 0;
+        }
+    
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            
+            .video-thumbnail {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                cursor: pointer;
+            }
+    
+            .play-button {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                cursor: pointer;
+                text-align: center;
+                z-index: 2;
+                .text{
+                    margin-top: 25px;
+                    color: $white;
+                    font-weight: 650;
+                    font-size: 38px;
+                    line-height: 47px;
+                }
+            }
+    
+            .video-content {
+                display: none;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .awards{
+        &.padding{
+            padding-bottom: 150px;
+        }
+        background-color: #EAF7FF;
+        .awardBox{
+            .partA{
+                margin-top: 25px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0 40px;
+                .para{
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 100%;
+                    color: #161616;
+                }
+            }
+            .partB{
+                &.awardSliderWrapper{
+                    margin-top: 30px;
+                    .awardSlider{
+                        .slick-slide{
+                            padding: 0 15px;
+                        }
+                        .box{
+                            color: #4C4C4C;
+                            .img{
+                                border-radius: 6px;
+                            }
+                            .info{
+                                font-weight: 600;
+                                font-size: 12px;
+                                line-height: 28px;
+                                letter-spacing: 2%;
+                            }
+                            .date{
+                                text-transform: capitalize;
+                            }
+                            .abstract{
+                                font-weight: 550;
+                                font-size: 20px;
+                                line-height: 26px;
+                                letter-spacing: 2%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .whitePanel{
+        .panelBox{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 0 80px;
+            .box{
+                display: grid;
+                align-items: last baseline;
+                gap: 20px 0px;
+                .text{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 26px;
+                    color: #161616;
+                    padding-right: 10px;
+                }
+                .anchor{
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: 2%;
+                    text-transform: uppercase;
+                    color: #003E63;
+                    padding-bottom: 5px;
+                    border-bottom: 1px solid #003E63;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}

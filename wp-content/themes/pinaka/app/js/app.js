@@ -1,15 +1,15 @@
 $(document).ready(function(){
 
-		//smooth scroll
-		const lenis = new Lenis()
-		lenis.on('scroll', (e) => {
-		})
-		function raf(time) {
-			lenis.raf(time)
-			requestAnimationFrame(raf)
-		}
-		requestAnimationFrame(raf)
-		//smooth scroll
+		// //smooth scroll
+		// const lenis = new Lenis()
+		// lenis.on('scroll', (e) => {
+		// })
+		// function raf(time) {
+		// 	lenis.raf(time)
+		// 	requestAnimationFrame(raf)
+		// }
+		// requestAnimationFrame(raf)
+		// //smooth scroll
 
 		var d = new Date();
 		$('.copyrightYear').html(d.getFullYear());
@@ -24,6 +24,14 @@ $(document).ready(function(){
 
 		$('.banner_ht').css('height', bannerHt);
 		// $('.section-first').css('margin-top', navHt)
+
+		//dynamic margin code
+		var containerWidth = $(".container").width(); // Get container width
+        var windowWidth = $(window).width(); // Get full window width
+        var sideMargin = (windowWidth - containerWidth) / 2; // Calculate side margin
+
+        $(".dynamicMarLeft").css("margin-left", sideMargin + "px"); // Apply left margin
+        $(".dynamicPadLeft").css("padding-left", sideMargin + "px"); // Apply left padding
 
 		$(".goto-home").on("click", function(){
 			$("html,body").animate({
@@ -167,7 +175,17 @@ $(document).ready(function(){
 				//   }
 				// },
 			  ]
+		});
+		$('.awardSlider').slick({
+			slidesToShow:4,
 		})
+
+		//aboutUs bg video
+		$('.play-button, .video-thumbnail').click(function() {
+			$('.video-thumbnail, .play-button').fadeOut();
+			$('.video-content')[0].requestFullscreen();
+			$('.video-content')[0].play();
+		});
 
 			/*------------------- animation js----------------------------------------*/
 
