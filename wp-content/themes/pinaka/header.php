@@ -20,7 +20,7 @@
 	<title>Pinaka</title>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo THEMEURL; ?>/app/css/main.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo THEMEURL; ?>/assets/css/main.css">
 </head>
 
 <body>
