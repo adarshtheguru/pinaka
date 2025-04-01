@@ -1,7 +1,7 @@
 <section class="footerGreen" id="footerGreen">
 	<div class="fgCont">
         <div class="imgBox">
-            <img src="<?php echo THEMEURL; ?>/assets/images/stockHigh.webp" alt="" class="img-responsive">
+            <img src="<?php echo THEMEURL; ?>/app/images/stockHigh.png" alt="" class="img-responsive">
         </div>
         <div class="content">
             <div class="secTitle">Let's Get Started <br> on Your Success Journey</div>

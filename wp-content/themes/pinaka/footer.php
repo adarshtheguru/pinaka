@@ -27,14 +27,14 @@
 			<div class="partB">
 				<div class="companyInfo">
 					<div class="logo">
-						<img src="<?php echo THEMEURL; ?>/assets/images/pinakaWhite.svg" alt="" class="img-responsive">
+						<img src="<?php echo THEMEURL; ?>/app/images/pinakaWhite.svg" alt="" class="img-responsive">
 					</div>
 					<p class="address">
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 					</p>
 					<div class="mail">
 						<div class="arrow">
-							<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/whiteArrow.svg" alt="">
+							<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/whiteArrow.svg" alt="">
 						</div>
 						<a href="mailto:info@pinaka.digital">info@pinaka.digital</a>
 					</div>

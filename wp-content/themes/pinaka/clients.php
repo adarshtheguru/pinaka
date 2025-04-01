@@ -7,7 +7,7 @@ get_header();
 <main class="clients">
         <section class="padding clientOverview" id="clientOverview">
             <div class="watermark">
-                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/placeholderVector.webp" alt="">
+                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/placeholderVector.png" alt="">
             </div>
             <div class="container">
                 <div class="secPrefix">Clients</div>
@@ -29,52 +29,52 @@ get_header();
                         </div>
                         <div class="gridBox">
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client2.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client2.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client3.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client3.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client4.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client4.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client5.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client5.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client6.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client6.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client7.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client7.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client8.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client8.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client9.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client9.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client10.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client10.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client11.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client11.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client12.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client12.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client13.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client13.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client14.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client14.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client15.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client15.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client16.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client16.png" alt="">
                             </div>
                         </div>
                         <div class="text-center">

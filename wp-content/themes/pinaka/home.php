@@ -13,7 +13,7 @@ get_header();
 				</div>
 			</div>
 			<div class="imgBox">
-				<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/bannerImg.webp" alt="">
+				<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/bannerImg.png" alt="">
 			</div>
 		</div>
 	</div>
@@ -57,7 +57,7 @@ get_header();
 		</div>
 	</div>
 	<div class="watermark">
-		<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/watermark.webp" alt="">
+		<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/watermark.png" alt="">
 	</div>
 </section>
 <section class="padding whatWeDo" id="whatWeDo">
@@ -95,7 +95,7 @@ get_header();
 							</div>
 						</div>
 						<div class="imgBox">
-							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.webp" alt="" class="img-full">
+							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.png" alt="" class="img-full">
 						</div>
 					</div>
 				  </div>
@@ -118,7 +118,7 @@ get_header();
 							</div>
 						</div>
 						<div class="imgBox">
-							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.webp" alt="" class="img-full">
+							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.png" alt="" class="img-full">
 						</div>
 					</div>
 				  </div>
@@ -141,7 +141,7 @@ get_header();
 							</div>
 						</div>
 						<div class="imgBox">
-							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.webp" alt="" class="img-full">
+							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.png" alt="" class="img-full">
 						</div>
 					</div>
 				  </div>
@@ -164,7 +164,7 @@ get_header();
 							</div>
 						</div>
 						<div class="imgBox">
-							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.webp" alt="" class="img-full">
+							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.png" alt="" class="img-full">
 						</div>
 					</div>
 				  </div>
@@ -187,7 +187,7 @@ get_header();
 							</div>
 						</div>
 						<div class="imgBox">
-							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.webp" alt="" class="img-full">
+							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.png" alt="" class="img-full">
 						</div>
 					</div>
 				  </div>
@@ -206,28 +206,28 @@ get_header();
 			</div>
 			<div class="gridBox">
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.png" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client2.png" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client3.png" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client4.png" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client5.png" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client6.png" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client7.png" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client8.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -253,7 +253,7 @@ get_header();
 						</p>
 						<div class="authorInfo">
 							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.webp" alt="" class="img-responsive">
+								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="" class="img-responsive">
 							</div>
 							<div class="authorData">
 								<p class="authorName">John Luthar</p>
@@ -270,7 +270,7 @@ get_header();
 						</p>
 						<div class="authorInfo">
 							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.webp" alt="" class="img-responsive">
+								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="" class="img-responsive">
 							</div>
 							<div class="authorData">
 								<p class="authorName">John Luthar</p>
@@ -287,7 +287,7 @@ get_header();
 						</p>
 						<div class="authorInfo">
 							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.webp" alt="" class="img-responsive">
+								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="" class="img-responsive">
 							</div>
 							<div class="authorData">
 								<p class="authorName">John Luthar</p>
@@ -304,7 +304,7 @@ get_header();
 						</p>
 						<div class="authorInfo">
 							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.webp" alt="" class="img-responsive">
+								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="" class="img-responsive">
 							</div>
 							<div class="authorData">
 								<p class="authorName">John Luthar</p>
@@ -321,7 +321,7 @@ get_header();
 						</p>
 						<div class="authorInfo">
 							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.webp" alt="" class="img-responsive">
+								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="" class="img-responsive">
 							</div>
 							<div class="authorData">
 								<p class="authorName">John Luthar</p>
@@ -338,7 +338,7 @@ get_header();
 						</p>
 						<div class="authorInfo">
 							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.webp" alt="" class="img-responsive">
+								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="" class="img-responsive">
 							</div>
 							<div class="authorData">
 								<p class="authorName">John Luthar</p>
@@ -355,7 +355,7 @@ get_header();
 						</p>
 						<div class="authorInfo">
 							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.webp" alt="" class="img-responsive">
+								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="" class="img-responsive">
 							</div>
 							<div class="authorData">
 								<p class="authorName">John Luthar</p>
@@ -372,7 +372,7 @@ get_header();
 						</p>
 						<div class="authorInfo">
 							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.webp" alt="" class="img-responsive">
+								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="" class="img-responsive">
 							</div>
 							<div class="authorData">
 								<p class="authorName">John Luthar</p>
@@ -417,22 +417,22 @@ get_header();
 			</div>
 			<div class="partnerLogoWrapper">
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Brahmastra.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Brahmastra.svg" alt="">
 				</div>
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Eskimi.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Eskimi.svg" alt="">
 				</div>
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Brahmastra.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Facebook.svg" alt="">
 				</div>
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Eskimi.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Google.svg" alt="">
 				</div>
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Brahmastra.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Sinch.svg" alt="">
 				</div>
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Eskimi.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Taboola.svg" alt="">
 				</div>
 			</div>
 		</div>
