@@ -4,7 +4,7 @@ var sass = require('gulp-sass')(require('sass'));
 var sourcemaps = require('gulp-sourcemaps');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
-const webp = require('gulp-webp');
+// const webp = require('gulp-webp');
 const cleanCSS = require('gulp-clean-css');
 var plumber = require('gulp-plumber');
 var livereload = require('gulp-livereload');
@@ -49,4 +49,4 @@ gulp.task('watch', function() {
 
 
 // gulp.task('default', ['sass', 'js', 'watch']);
-gulp.task('default', gulp.parallel('sass', 'js', 'webp-converter', 'watch'));
+// gulp.task('default', gulp.parallel('sass', 'js', 'webp-converter', 'watch'));
