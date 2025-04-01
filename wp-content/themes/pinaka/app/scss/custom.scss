@@ -3,35 +3,35 @@
     background-color: #FFD338;
     .container{
         height: 100%;
-        .bannerCont{
+    }
+    .bannerCont{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        grid-gap: 0 50px;
+        height: 100%;
+        .content{
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            justify-content: space-between;
-            align-items: center;
-            grid-gap: 0 50px;
-            height: 100%;
-            .content{
-                display: grid;
-                grid-gap: 35px 0;
-                .mainTitle{
-                    font-weight: 650;
-                    font-size: 46px;
-                    line-height: 47px;
-                    color: #151515;
-                }
-                .para{
-                    font-weight: 450;
-                    font-size: 16px;
-                    line-height: 24px;
-                }
-                .ctas{
-                    display: flex;
-                    gap: 20px;
-                }
+            grid-gap: 35px 0;
+            .mainTitle{
+                font-weight: 650;
+                font-size: 46px;
+                line-height: 47px;
+                color: #151515;
             }
-            .imgBox{
+            .para{
+                font-weight: 450;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            .ctas{
+                display: flex;
+                gap: 20px;
+            }
+        }
+        .imgBox{
 
-            }
         }
     }
 }
