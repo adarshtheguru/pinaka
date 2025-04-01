@@ -7,7 +7,7 @@ get_header();
 <main class="clients">
         <section class="padding clientOverview" id="clientOverview">
             <div class="watermark">
-                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/placeholderVector.webp" alt="">
+                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/placeholderVector.webp" alt="">
             </div>
             <div class="container">
                 <div class="secPrefix">Clients</div>
@@ -29,52 +29,52 @@ get_header();
                         </div>
                         <div class="gridBox">
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/shapoorji.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/client2.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client2.webp" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/client3.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client3.webp" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/client4.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client4.webp" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/client5.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client5.webp" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/client6.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client6.webp" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/client7.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client7.webp" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/client8.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client8.webp" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/client9.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client9.webp" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/client10.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client10.webp" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/client11.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client11.webp" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/client12.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client12.webp" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/client13.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client13.webp" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/client14.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client14.webp" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/client15.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client15.webp" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/client16.webp" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client16.webp" alt="">
                             </div>
                         </div>
                         <div class="text-center">
@@ -89,17 +89,17 @@ get_header();
                 <div class="text-center secTitle">Business Solutions, Reimagined</div>
                 <div class="buisSolBox">
                     <div class="box">
-                        <img src="<?php echo THEMEURL; ?>/assets/images/targetTick.svg" alt="">
+                        <img src="<?php echo THEMEURL; ?>/app/images/targetTick.svg" alt="">
                         <div class="title">Customized Strategies for Growth</div>
                         <p class="para">Tailored marketing approaches to showcase unique offerings and amplify brand impact.</p>
                     </div>
                     <div class="box">
-                        <img src="<?php echo THEMEURL; ?>/assets/images/speaker.svg" alt="">
+                        <img src="<?php echo THEMEURL; ?>/app/images/speaker.svg" alt="">
                         <div class="title">Visibility and Engagement Boost</div>
                         <p class="para">Innovative digital solutions to enhance brand visibility and drive customer engagement.</p>
                     </div>
                     <div class="box">
-                        <img src="<?php echo THEMEURL; ?>/assets/images/greenBar.svg" alt="">
+                        <img src="<?php echo THEMEURL; ?>/app/images/greenBar.svg" alt="">
                         <div class="title">Data-Driven Decision-Making</div>
                         <p class="para">Leveraging advanced analytics and insights to support smarter business decisions.</p>
                     </div>

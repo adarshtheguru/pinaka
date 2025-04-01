@@ -13,14 +13,14 @@ get_header();
 				</div>
 			</div>
 			<div class="imgBox">
-				<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/bannerImg.webp" alt="">
+				<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/bannerImg.webp" alt="">
 			</div>
 		</div>
 	</div>
 	<div class="scrollDownWrapper">
 		<div class="pos-rel">
-			<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/scrollPatch.svg" alt="">
-			<img src="<?php echo THEMEURL; ?>/assets/images/arrowBot.svg" alt="" class="sdArrow img-responsive">
+			<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/scrollPatch.svg" alt="">
+			<img src="<?php echo THEMEURL; ?>/app/images/arrowBot.svg" alt="" class="sdArrow img-responsive">
 		</div>
 	</div>		
 </section>
@@ -57,7 +57,7 @@ get_header();
 		</div>
 	</div>
 	<div class="watermark">
-		<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/watermark.webp" alt="">
+		<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/watermark.webp" alt="">
 	</div>
 </section>
 <section class="padding whatWeDo" id="whatWeDo">
@@ -95,7 +95,7 @@ get_header();
 							</div>
 						</div>
 						<div class="imgBox">
-							<img src="<?php echo THEMEURL; ?>/assets/images/placeholder.webp" alt="" class="img-full">
+							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.webp" alt="" class="img-full">
 						</div>
 					</div>
 				  </div>
@@ -118,7 +118,7 @@ get_header();
 							</div>
 						</div>
 						<div class="imgBox">
-							<img src="<?php echo THEMEURL; ?>/assets/images/placeholder.webp" alt="" class="img-full">
+							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.webp" alt="" class="img-full">
 						</div>
 					</div>
 				  </div>
@@ -141,7 +141,7 @@ get_header();
 							</div>
 						</div>
 						<div class="imgBox">
-							<img src="<?php echo THEMEURL; ?>/assets/images/placeholder.webp" alt="" class="img-full">
+							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.webp" alt="" class="img-full">
 						</div>
 					</div>
 				  </div>
@@ -164,7 +164,7 @@ get_header();
 							</div>
 						</div>
 						<div class="imgBox">
-							<img src="<?php echo THEMEURL; ?>/assets/images/placeholder.webp" alt="" class="img-full">
+							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.webp" alt="" class="img-full">
 						</div>
 					</div>
 				  </div>
@@ -187,7 +187,7 @@ get_header();
 							</div>
 						</div>
 						<div class="imgBox">
-							<img src="<?php echo THEMEURL; ?>/assets/images/placeholder.webp" alt="" class="img-full">
+							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.webp" alt="" class="img-full">
 						</div>
 					</div>
 				  </div>
@@ -206,28 +206,28 @@ get_header();
 			</div>
 			<div class="gridBox">
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/shapoorji.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/shapoorji.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/shapoorji.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/shapoorji.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/shapoorji.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/shapoorji.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/shapoorji.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/shapoorji.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.webp" alt="">
 				</div>
 			</div>
 		</div>
@@ -247,13 +247,13 @@ get_header();
 			<div class="testSlider">
 				<div class="slide">
 					<div class="box">
-						<img src="<?php echo THEMEURL; ?>/assets/images/quote.svg" alt="" class="img-responsive">
+						<img src="<?php echo THEMEURL; ?>/app/images/quote.svg" alt="" class="img-responsive">
 						<p class="para">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
 						</p>
 						<div class="authorInfo">
 							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/assets/images/placeEclipse.webp" alt="" class="img-responsive">
+								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.webp" alt="" class="img-responsive">
 							</div>
 							<div class="authorData">
 								<p class="authorName">John Luthar</p>
@@ -264,13 +264,13 @@ get_header();
 				</div>
 				<div class="slide">
 					<div class="box">
-						<img src="<?php echo THEMEURL; ?>/assets/images/quote.svg" alt="" class="img-responsive">
+						<img src="<?php echo THEMEURL; ?>/app/images/quote.svg" alt="" class="img-responsive">
 						<p class="para">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
 						</p>
 						<div class="authorInfo">
 							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/assets/images/placeEclipse.webp" alt="" class="img-responsive">
+								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.webp" alt="" class="img-responsive">
 							</div>
 							<div class="authorData">
 								<p class="authorName">John Luthar</p>
@@ -281,13 +281,13 @@ get_header();
 				</div>
 				<div class="slide">
 					<div class="box">
-						<img src="<?php echo THEMEURL; ?>/assets/images/quote.svg" alt="" class="img-responsive">
+						<img src="<?php echo THEMEURL; ?>/app/images/quote.svg" alt="" class="img-responsive">
 						<p class="para">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
 						</p>
 						<div class="authorInfo">
 							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/assets/images/placeEclipse.webp" alt="" class="img-responsive">
+								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.webp" alt="" class="img-responsive">
 							</div>
 							<div class="authorData">
 								<p class="authorName">John Luthar</p>
@@ -298,13 +298,13 @@ get_header();
 				</div>
 				<div class="slide">
 					<div class="box">
-						<img src="<?php echo THEMEURL; ?>/assets/images/quote.svg" alt="" class="img-responsive">
+						<img src="<?php echo THEMEURL; ?>/app/images/quote.svg" alt="" class="img-responsive">
 						<p class="para">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
 						</p>
 						<div class="authorInfo">
 							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/assets/images/placeEclipse.webp" alt="" class="img-responsive">
+								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.webp" alt="" class="img-responsive">
 							</div>
 							<div class="authorData">
 								<p class="authorName">John Luthar</p>
@@ -315,13 +315,13 @@ get_header();
 				</div>
 				<div class="slide">
 					<div class="box">
-						<img src="<?php echo THEMEURL; ?>/assets/images/quote.svg" alt="" class="img-responsive">
+						<img src="<?php echo THEMEURL; ?>/app/images/quote.svg" alt="" class="img-responsive">
 						<p class="para">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
 						</p>
 						<div class="authorInfo">
 							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/assets/images/placeEclipse.webp" alt="" class="img-responsive">
+								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.webp" alt="" class="img-responsive">
 							</div>
 							<div class="authorData">
 								<p class="authorName">John Luthar</p>
@@ -332,13 +332,13 @@ get_header();
 				</div>
 				<div class="slide">
 					<div class="box">
-						<img src="<?php echo THEMEURL; ?>/assets/images/quote.svg" alt="" class="img-responsive">
+						<img src="<?php echo THEMEURL; ?>/app/images/quote.svg" alt="" class="img-responsive">
 						<p class="para">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
 						</p>
 						<div class="authorInfo">
 							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/assets/images/placeEclipse.webp" alt="" class="img-responsive">
+								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.webp" alt="" class="img-responsive">
 							</div>
 							<div class="authorData">
 								<p class="authorName">John Luthar</p>
@@ -349,13 +349,13 @@ get_header();
 				</div>
 				<div class="slide">
 					<div class="box">
-						<img src="<?php echo THEMEURL; ?>/assets/images/quote.svg" alt="" class="img-responsive">
+						<img src="<?php echo THEMEURL; ?>/app/images/quote.svg" alt="" class="img-responsive">
 						<p class="para">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
 						</p>
 						<div class="authorInfo">
 							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/assets/images/placeEclipse.webp" alt="" class="img-responsive">
+								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.webp" alt="" class="img-responsive">
 							</div>
 							<div class="authorData">
 								<p class="authorName">John Luthar</p>
@@ -366,13 +366,13 @@ get_header();
 				</div>
 				<div class="slide">
 					<div class="box">
-						<img src="<?php echo THEMEURL; ?>/assets/images/quote.svg" alt="" class="img-responsive">
+						<img src="<?php echo THEMEURL; ?>/app/images/quote.svg" alt="" class="img-responsive">
 						<p class="para">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
 						</p>
 						<div class="authorInfo">
 							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/assets/images/placeEclipse.webp" alt="" class="img-responsive">
+								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.webp" alt="" class="img-responsive">
 							</div>
 							<div class="authorData">
 								<p class="authorName">John Luthar</p>
@@ -386,10 +386,10 @@ get_header();
 				<div class="testDotWrap"></div>
 				<div class="customArrow">
 					<div id="testLeft">
-						<img src="<?php echo THEMEURL; ?>/assets/images/blueLeft.svg" alt="" class="img-responsive">
+						<img src="<?php echo THEMEURL; ?>/app/images/blueLeft.svg" alt="" class="img-responsive">
 					</div>
 					<div id="testRight">
-						<img src="<?php echo THEMEURL; ?>/assets/images/blueRight.svg" alt="" class="img-responsive">
+						<img src="<?php echo THEMEURL; ?>/app/images/blueRight.svg" alt="" class="img-responsive">
 					</div>
 				</div>
 			</div>
@@ -417,22 +417,22 @@ get_header();
 			</div>
 			<div class="partnerLogoWrapper">
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/Brahmastra.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Brahmastra.webp" alt="">
 				</div>
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/Eskimi.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Eskimi.webp" alt="">
 				</div>
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/Brahmastra.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Brahmastra.webp" alt="">
 				</div>
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/Eskimi.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Eskimi.webp" alt="">
 				</div>
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/Brahmastra.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Brahmastra.webp" alt="">
 				</div>
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/Eskimi.webp" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Eskimi.webp" alt="">
 				</div>
 			</div>
 		</div>

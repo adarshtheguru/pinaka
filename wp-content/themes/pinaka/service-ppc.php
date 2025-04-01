@@ -19,8 +19,8 @@ get_header();
 	</div>
 	<div class="scrollDownWrapper">
 		<div class="pos-rel">
-			<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/scrollPatch.svg" alt="">
-			<img src="<?php echo THEMEURL; ?>/assets/images/arrowBot.svg" alt="" class="sdArrow img-responsive">
+			<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/scrollPatch.svg" alt="">
+			<img src="<?php echo THEMEURL; ?>/app/images/arrowBot.svg" alt="" class="sdArrow img-responsive">
 		</div>
 	</div>	
 </section>
@@ -57,7 +57,7 @@ get_header();
                         <div class="inner-service-list">
                             <div class="service-item">
                                 <div class="service-icon">
-                                    <img src="<?php echo THEMEURL; ?>/assets/images/service-icon.svg">
+                                    <img src="<?php echo THEMEURL; ?>/app/images/service-icon.svg">
                                 </div>
                                 <div class="service-info">
                                     <h3 class="service-title">Pay-Per-Click (PPC) Advertising</h3>
@@ -69,7 +69,7 @@ get_header();
                             </div>
                             <div class="service-item">
                                 <div class="service-icon">
-                                    <img src="<?php echo THEMEURL; ?>/assets/images/service-icon.svg">
+                                    <img src="<?php echo THEMEURL; ?>/app/images/service-icon.svg">
                                 </div>
                                 <div class="service-info">
                                     <h3 class="service-title">Social Media Advertising</h3>
@@ -81,7 +81,7 @@ get_header();
                             </div>
                             <div class="service-item">
                                 <div class="service-icon">
-                                    <img src="<?php echo THEMEURL; ?>/assets/images/service-icon.svg">
+                                    <img src="<?php echo THEMEURL; ?>/app/images/service-icon.svg">
                                 </div>
                                 <div class="service-info">
                                     <h3 class="service-title">E-commerce Advertising</h3>
@@ -93,7 +93,7 @@ get_header();
                             </div>
                             <div class="service-item">
                                 <div class="service-icon">
-                                    <img src="<?php echo THEMEURL; ?>/assets/images/service-icon.svg">
+                                    <img src="<?php echo THEMEURL; ?>/app/images/service-icon.svg">
                                 </div>
                                 <div class="service-info">
                                     <h3 class="service-title">Remarketing & Retargeting</h3>
@@ -105,7 +105,7 @@ get_header();
                             </div>
                             <div class="service-item">
                                 <div class="service-icon">
-                                    <img src="<?php echo THEMEURL; ?>/assets/images/service-icon.svg">
+                                    <img src="<?php echo THEMEURL; ?>/app/images/service-icon.svg">
                                 </div>
                                 <div class="service-info">
                                     <h3 class="service-title">Performance Analytics & Optimization</h3>
@@ -117,7 +117,7 @@ get_header();
                             </div>
                             <div class="service-item">
                                 <div class="service-icon">
-                                    <img src="<?php echo THEMEURL; ?>/assets/images/service-icon.svg">
+                                    <img src="<?php echo THEMEURL; ?>/app/images/service-icon.svg">
                                 </div>
                                 <div class="service-info">
                                     <h3 class="service-title">Lead Generation Campaigns</h3>

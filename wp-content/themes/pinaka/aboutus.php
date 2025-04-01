@@ -16,13 +16,13 @@ get_header();
                     </div>
                 </div>
                 <div class="imgBox">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/aboutUsBanner.webp" alt="">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/aboutUsBanner.webp" alt="">
                 </div>
         </div>
         <div class="scrollDownWrapper">
             <div class="pos-rel">
-                <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/scrollPatch.svg" alt="">
-                <img src="<?php echo THEMEURL; ?>/assets/images/arrowBot.svg" alt="" class="sdArrow img-responsive">
+                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/scrollPatch.svg" alt="">
+                <img src="<?php echo THEMEURL; ?>/app/images/arrowBot.svg" alt="" class="sdArrow img-responsive">
             </div>
         </div>		
     </section>
@@ -51,9 +51,9 @@ get_header();
 
     <section class="backgroundVideo" id="backgroundVideo">
         <div class="video-wrapper">
-            <img src="<?php echo THEMEURL; ?>/assets/images/bgPlaceholder.webp" alt="Video Placeholder" class="video-thumbnail img-full">
+            <img src="<?php echo THEMEURL; ?>/app/images/bgPlaceholder.webp" alt="Video Placeholder" class="video-thumbnail img-full">
             <div class="play-button">
-                <img src="<?php echo THEMEURL; ?>/assets/images/redPlay.svg" alt="">
+                <img src="<?php echo THEMEURL; ?>/app/images/redPlay.svg" alt="">
                 <p class="text">
                     Background on Kailash Singh and Vijay Chotrani.
                 </p>
@@ -76,7 +76,7 @@ get_header();
             <div class="ownerCards">
                 <div class="card">
                     <div class="img">
-                        <img class="img-full" src="<?php echo THEMEURL; ?>/assets/images/john.webp" alt="">
+                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/john.webp" alt="">
                     </div>
                     <div class="data">
                         <div class="ownerInfo">
@@ -84,14 +84,14 @@ get_header();
                             <div class="desg">Designation</div>
                         </div>
                         <div class="sm">
-                            <img class="" src="<?php echo THEMEURL; ?>/assets/images/linkedin.svg" alt="">
-                            <img class="" src="<?php echo THEMEURL; ?>/assets/images/twitter.svg" alt="">
+                            <img class="" src="<?php echo THEMEURL; ?>/app/images/linkedin.svg" alt="">
+                            <img class="" src="<?php echo THEMEURL; ?>/app/images/twitter.svg" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="img">
-                        <img class="img-full" src="<?php echo THEMEURL; ?>/assets/images/girl.webp" alt="">
+                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/girl.webp" alt="">
                     </div>
                     <div class="data">
                         <div class="ownerInfo">
@@ -99,14 +99,14 @@ get_header();
                             <div class="desg">Designation</div>
                         </div>
                         <div class="sm">
-                            <img class="" src="<?php echo THEMEURL; ?>/assets/images/linkedin.svg" alt="">
-                            <img class="" src="<?php echo THEMEURL; ?>/assets/images/twitter.svg" alt="">
+                            <img class="" src="<?php echo THEMEURL; ?>/app/images/linkedin.svg" alt="">
+                            <img class="" src="<?php echo THEMEURL; ?>/app/images/twitter.svg" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="img">
-                        <img class="img-full" src="<?php echo THEMEURL; ?>/assets/images/boy2.webp" alt="">
+                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/boy2.webp" alt="">
                     </div>
                     <div class="data">
                         <div class="ownerInfo">
@@ -114,8 +114,8 @@ get_header();
                             <div class="desg">Designation</div>
                         </div>
                         <div class="sm">
-                            <img class="" src="<?php echo THEMEURL; ?>/assets/images/linkedin.svg" alt="">
-                            <img class="" src="<?php echo THEMEURL; ?>/assets/images/twitter.svg" alt="">
+                            <img class="" src="<?php echo THEMEURL; ?>/app/images/linkedin.svg" alt="">
+                            <img class="" src="<?php echo THEMEURL; ?>/app/images/twitter.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -138,7 +138,7 @@ get_header();
                         <div class="slide">
                             <div class="box">
                                 <div class="img">
-                                    <img class="img-full" src="<?php echo THEMEURL; ?>/assets/images/starImg.webp" alt="">
+                                    <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/starImg.webp" alt="">
                                 </div>
                                 <div class="info">
                                     <span class="category">Category • </span>
@@ -152,7 +152,7 @@ get_header();
                         <div class="slide">
                             <div class="box">
                                 <div class="img">
-                                    <img class="img-full" src="<?php echo THEMEURL; ?>/assets/images/starImg.webp" alt="">
+                                    <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/starImg.webp" alt="">
                                 </div>
                                 <div class="info">
                                     <span class="category">Category • </span>
@@ -166,7 +166,7 @@ get_header();
                         <div class="slide">
                             <div class="box">
                                 <div class="img">
-                                    <img class="img-full" src="<?php echo THEMEURL; ?>/assets/images/starImg.webp" alt="">
+                                    <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/starImg.webp" alt="">
                                 </div>
                                 <div class="info">
                                     <span class="category">Category • </span>
@@ -180,7 +180,7 @@ get_header();
                         <div class="slide">
                             <div class="box">
                                 <div class="img">
-                                    <img class="img-full" src="<?php echo THEMEURL; ?>/assets/images/starImg.webp" alt="">
+                                    <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/starImg.webp" alt="">
                                 </div>
                                 <div class="info">
                                     <span class="category">Category • </span>
@@ -202,31 +202,31 @@ get_header();
             <div class="panelBox">
                 <div class="box">
                     <div class="icon">
-                        <img src="<?php echo THEMEURL; ?>/assets/images/handshake.svg" alt="">
+                        <img src="<?php echo THEMEURL; ?>/app/images/handshake.svg" alt="">
                     </div>
                     <p class="text">Let's Build Something Extraordinary Together</p>
-                    <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/assets/images/greaterThan.svg" alt=""></span> </a>
+                    <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg" alt=""></span> </a>
                 </div>
                 <div class="box">
                     <div class="icon">
-                        <img src="<?php echo THEMEURL; ?>/assets/images/stocks.svg" alt="">
+                        <img src="<?php echo THEMEURL; ?>/app/images/stocks.svg" alt="">
                     </div>
                     <p class="text">See How We Drive Results</p>
-                    <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/assets/images/greaterThan.svg" alt=""></span> </a>
+                    <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg" alt=""></span> </a>
                 </div>
                 <div class="box">
                     <div class="icon">
-                        <img src="<?php echo THEMEURL; ?>/assets/images/bulb.svg" alt="">
+                        <img src="<?php echo THEMEURL; ?>/app/images/bulb.svg" alt="">
                     </div>
                     <p class="text">Join the Leading Edge of Marketing Innovation</p>
-                    <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/assets/images/greaterThan.svg" alt=""></span> </a>
+                    <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg" alt=""></span> </a>
                 </div>
                 <div class="box">
                     <div class="icon">
-                        <img src="<?php echo THEMEURL; ?>/assets/images/arrows.svg" alt="">
+                        <img src="<?php echo THEMEURL; ?>/app/images/arrows.svg" alt="">
                     </div>
                     <p class="text">Take the First Step Toward Better Marketing</p>
-                    <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/assets/images/greaterThan.svg" alt=""></span> </a>
+                    <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg" alt=""></span> </a>
                 </div>
             </div>
         </div>

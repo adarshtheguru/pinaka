@@ -20,7 +20,7 @@
 	<title>Pinaka</title>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo THEMEURL; ?>/assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo THEMEURL; ?>/app/css/main.css">
 </head>
 
 <body>
@@ -30,7 +30,7 @@
 				<div id="comp-logo">
 					<div class="pull-left col-2 col-xs-9 brand-logo">
 						<a href="javascript:;" class="goto-home"><img
-								src="<?php echo THEMEURL; ?>/assets/images/logo.svg" class="img-responsive"
+								src="<?php echo THEMEURL; ?>/app/images/logo.svg" class="img-responsive"
 								data-event-category="Header" data-event-action="Click" data-event-name="Logo"></a>
 					</div>
 					<div class="col-10 col-xs-3 pull-right">

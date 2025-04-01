@@ -28,20 +28,20 @@ gulp.task('sass', function() {
         .pipe(gulp.dest('assets/css'))
         .pipe(livereload());
 });
-gulp.task('webp-converter', () =>
-    gulp.src('app/images/**/*.*')
-    .pipe(webp({
-        quality: 100
-    }))
-    .pipe(plumber())
-    .pipe(gulp.dest('assets/images'))
-);
+// gulp.task('webp-converter', () =>
+//     gulp.src('app/images/**/*.*')
+//     .pipe(webp({
+//         quality: 100
+//     }))
+//     .pipe(plumber())
+//     .pipe(gulp.dest('assets/images'))
+// );
 gulp.task('watch', function() {
     var server = livereload();
     // livereload({ start: true });
     gulp.watch('app/scss/**/*.scss', gulp.series('sass'));
     gulp.watch('app/js/*.js', gulp.series('js'));
-    gulp.watch('app/images/**/*.*', gulp.series('webp-converter'));
+    // gulp.watch('app/images/**/*.*', gulp.series('webp-converter'));
 });
 
 

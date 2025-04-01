@@ -7,7 +7,7 @@ get_header();
 <main class="caseStudy" id="caseStudy">
     <section class="padding caseOverview" id="caseOverview">
 		<div class="watermark">
-            <img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/placeholderVector.webp" alt="">
+            <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/placeholderVector.webp" alt="">
         </div>
         <div class="container">
             <div class="secPrefix">Casestudy</div>
@@ -21,53 +21,53 @@ get_header();
                 <div class="partB">
                     <div class="caseGridBox">
                         <div class="box">
-                            <img src="<?php echo THEMEURL; ?>/assets/images/placeholderBlank.webp" alt="" class="img-full">
+                            <img src="<?php echo THEMEURL; ?>/app/images/placeholderBlank.webp" alt="" class="img-full">
                             <div class="dates">Sept 5, 2022</div>
                             <p class="abstract">
                                 Pride World City takes homeownership celebrations to the next level with Casa Carnival, Pune’s biggest home-buying festival. 
                             </p>
                             <a href="javascript:;">
-                                <img src="<?php echo THEMEURL; ?>/assets/images/roundLeft.svg" alt="">
+                                <img src="<?php echo THEMEURL; ?>/app/images/roundLeft.svg" alt="">
                             </a>
                         </div>
                         <div class="box">
-                            <img src="<?php echo THEMEURL; ?>/assets/images/placeholderBlank.webp" alt="" class="img-full">
+                            <img src="<?php echo THEMEURL; ?>/app/images/placeholderBlank.webp" alt="" class="img-full">
                             <div class="dates">Sept 5, 2022</div>
                             <p class="abstract">
                                 Pride World City takes homeownership celebrations to the next level with Casa Carnival, Pune’s biggest home-buying festival. 
                             </p>
                             <a href="javascript:;">
-                                <img src="<?php echo THEMEURL; ?>/assets/images/roundLeft.svg" alt="">
+                                <img src="<?php echo THEMEURL; ?>/app/images/roundLeft.svg" alt="">
                             </a>
                         </div>
                         <div class="box">
-                            <img src="<?php echo THEMEURL; ?>/assets/images/placeholderBlank.webp" alt="" class="img-full">
+                            <img src="<?php echo THEMEURL; ?>/app/images/placeholderBlank.webp" alt="" class="img-full">
                             <div class="dates">Sept 5, 2022</div>
                             <p class="abstract">
                                 Pride World City takes homeownership celebrations to the next level with Casa Carnival, Pune’s biggest home-buying festival. 
                             </p>
                             <a href="javascript:;">
-                                <img src="<?php echo THEMEURL; ?>/assets/images/roundLeft.svg" alt="">
+                                <img src="<?php echo THEMEURL; ?>/app/images/roundLeft.svg" alt="">
                             </a>
                         </div>
                         <div class="box">
-                            <img src="<?php echo THEMEURL; ?>/assets/images/placeholderBlank.webp" alt="" class="img-full">
+                            <img src="<?php echo THEMEURL; ?>/app/images/placeholderBlank.webp" alt="" class="img-full">
                             <div class="dates">Sept 5, 2022</div>
                             <p class="abstract">
                                 Pride World City takes homeownership celebrations to the next level with Casa Carnival, Pune’s biggest home-buying festival. 
                             </p>
                             <a href="javascript:;">
-                                <img src="<?php echo THEMEURL; ?>/assets/images/roundLeft.svg" alt="">
+                                <img src="<?php echo THEMEURL; ?>/app/images/roundLeft.svg" alt="">
                             </a>
                         </div>
                         <div class="box">
-                            <img src="<?php echo THEMEURL; ?>/assets/images/placeholderBlank.webp" alt="" class="img-full">
+                            <img src="<?php echo THEMEURL; ?>/app/images/placeholderBlank.webp" alt="" class="img-full">
                             <div class="dates">Sept 5, 2022</div>
                             <p class="abstract">
                                 Pride World City takes homeownership celebrations to the next level with Casa Carnival, Pune’s biggest home-buying festival. 
                             </p>
                             <a href="javascript:;">
-                                <img src="<?php echo THEMEURL; ?>/assets/images/roundLeft.svg" alt="">
+                                <img src="<?php echo THEMEURL; ?>/app/images/roundLeft.svg" alt="">
                             </a>
                         </div>
                     </div>

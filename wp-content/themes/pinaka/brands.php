@@ -19,8 +19,8 @@ get_header();
 	</div>
 	<div class="scrollDownWrapper">
 		<div class="pos-rel">
-			<img class="img-responsive" src="<?php echo THEMEURL; ?>/assets/images/scrollPatch.svg" alt="">
-			<img src="<?php echo THEMEURL; ?>/assets/images/arrowBot.svg" alt="" class="sdArrow img-responsive">
+			<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/scrollPatch.svg" alt="">
+			<img src="<?php echo THEMEURL; ?>/app/images/arrowBot.svg" alt="" class="sdArrow img-responsive">
 		</div>
 	</div>	
 </section>
