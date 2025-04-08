@@ -1,0 +1,47 @@
+.career{
+    .hero{
+        background: url('../../app/images/careerBanner.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        .bannerCont{
+            grid-template-columns:50% auto;
+            padding-right: 30px;
+            .content{
+                color: $black;
+                .mainTitle{
+                    color: #003E63;
+                }
+            }
+        }
+    }
+    .careerOv{
+        background-color: #EAF7FF;
+        .ovBox{
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(7, auto);
+            grid-gap: 18px 18px;
+            .boxa{
+                grid-row: span 3;
+            }
+            .boxb{
+                grid-column: span 2;
+                grid-row: span 7;
+            }
+            .boxc{
+                grid-row: span 3;
+            }
+            .boxd{
+                grid-row: span 3;
+            }
+            .boxe{
+                grid-row: span 4;
+            }
+            .boxf{
+                grid-row: span 4;
+                grid-column: span 2;
+            }
+        }
+    }
+}

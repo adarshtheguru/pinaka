@@ -49,8 +49,8 @@
 									data-event-action="Click" data-event-name="Amenities">Case Study</a>
 								<a href="<?php echo home_url(); ?>/clients" rel="gallery" data-event-category="Header"
 									data-event-action="Click" data-event-name="Gallery">Clients</a>
-								<a href="javascript:;" rel="location" data-event-category="Header"
-									data-event-action="Click" data-event-name="Location">Location</a>
+								<a href="<?php echo home_url(); ?>/career" rel="Career" data-event-category="Header"
+									data-event-action="Click" data-event-name="Career">Career</a>
 								<a href="<?php echo home_url(); ?>/about-us" rel="about" data-event-category="Header"
 									data-event-action="Click" data-event-name="about">About</a>
 								<a href="javascript:;" class="themeBtn enq_click" id="hid-on-mob"
