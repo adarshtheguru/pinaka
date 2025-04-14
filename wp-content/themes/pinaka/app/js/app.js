@@ -178,7 +178,13 @@ $(document).ready(function(){
 		});
 		$('.awardSlider').slick({
 			slidesToShow:4,
-		})
+		});
+		$('.openingSlider').slick({
+			slidesToShow:2,
+			centerMode:true,
+			centerPadding:'250px',
+			arrows:false
+		});
 
 		//aboutUs bg video
 		$('.play-button, .video-thumbnail').click(function() {

@@ -44,4 +44,86 @@
             }
         }
     }
+    .openings{
+        background-color: #EAF7FF;
+        .openingSliderWrapper{
+            margin-top: 40px;
+            .openingSlider{
+                .slick-slide{
+                    padding: 0 20px;
+                }
+                .slick-list{
+                    padding-left: 0px !important;
+                }
+                .box{
+                    box-shadow: 0px 8px 24px 0px #959DA533;
+                    background-color: #fff;
+                    border-radius: 12px;
+                    padding: 50px 40px;
+                    .main{
+                        padding-bottom: 30px;
+                        border-bottom: 1px solid #D2D2D2;
+                        margin-bottom: 30px;
+                        .title{
+                            font-size: 24px;
+                            line-height: 42px;
+                            font-weight: 600;
+                            color: #161616;
+                            padding-bottom: 20px;
+                        }
+                        .moreInfo{
+                            display: flex;
+                            gap: 15px;
+                            .capsule{
+                                border-radius: 999px;
+                                border: 1px solid #000000;
+                                padding: 5px 15px;
+                                font-size: 14px;
+                                color: #161616;
+                            }
+                        }
+                    }
+                    .btn{
+                        margin-top: 60px;
+                    }
+                }
+            }
+        }
+    }
+    .advantages{
+        .advantagesBox{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0 30px;
+            .box{
+                border-radius: 12px;
+                text-align: center;
+                padding: 50px 35px;
+                display: grid;
+                gap: 10px 0;
+                justify-content: center;
+                &:first-of-type{
+                    background-color: #FCF0D9;
+                }
+                &:nth-of-type(2){
+                    background-color: #D6F0FF;
+                }
+                &:last-of-type{
+                    background-color: #ADE1FF;
+                }
+                .image{
+                    margin: 0 auto;
+                }
+                .title{
+                    color: #4C4C4C;
+                    font-size: 24px;
+                    font-weight: 750;
+                }
+                .para{
+                    color: #4C4C4C;
+                    font-weight: 450px;
+                }
+            }
+        }
+    }
 }
