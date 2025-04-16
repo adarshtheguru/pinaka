@@ -193,3 +193,51 @@
         }
     }
 }
+.paid-marketing-wrap{
+    width:110%;
+    .col-4{
+        width: 290px;
+    }
+    &.reverse-row{
+        display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    }
+    .marketing-list{
+        .number{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 10px;
+            width: 100px;
+            height: 100px;
+            background: #B4E2FF;
+            border-radius: 999px;
+            span{
+                font-weight: 850;
+                font-size: 36px;
+                line-height: 24px;
+                color: #0D669C;
+            }
+        }
+        .marketing-content{
+            width:265px;
+            .title{
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 32px;
+                color: #161616;
+                margin-top: 10px;
+            }
+            .desc{
+                font-weight: 450;
+                font-size: 16px;
+                line-height: 24px;
+                color: #161616;
+                margin-top: 20px;
+            }
+        }
+    }
+}

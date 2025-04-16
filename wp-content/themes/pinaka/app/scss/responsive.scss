@@ -12,6 +12,20 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 /* Extra Small Devices, Phones */
 /* Extra Small Devices, Phones */
 /* Extra Small Devices, Phones */
+@media only screen and (min-width : 1920px) {
+	.container {
+		max-width: 1600px;
+		margin: 0px auto;
+		padding: 0 15px;
+	}
+}
+@media only screen and (min-width : 1600px) {
+	.container {
+		max-width: 1440px;
+		margin: 0px auto;
+		padding: 0 15px;
+	}
+}
 @media only screen and (max-width : 1024px) {
 	.col-md-1 {
 		width: 8.333333333333333%;
