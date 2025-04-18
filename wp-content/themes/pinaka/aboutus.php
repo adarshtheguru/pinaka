@@ -16,7 +16,7 @@ get_header();
                     </div>
                 </div>
                 <div class="imgBox">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/aboutUsBanner.webp" alt="">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/aboutUsBanner.png" alt="">
                 </div>
         </div>
         <div class="scrollDownWrapper">
@@ -51,7 +51,7 @@ get_header();
 
     <section class="backgroundVideo" id="backgroundVideo">
         <div class="video-wrapper">
-            <img src="<?php echo THEMEURL; ?>/app/images/bgPlaceholder.webp" alt="Video Placeholder" class="video-thumbnail img-full">
+            <img src="<?php echo THEMEURL; ?>/app/images/bgPlaceholder.jpg" alt="Video Placeholder" class="video-thumbnail img-full">
             <div class="play-button">
                 <img src="<?php echo THEMEURL; ?>/app/images/redPlay.svg" alt="">
                 <p class="text">
