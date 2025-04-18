@@ -31,8 +31,8 @@ get_header();
         <div class="brandingCont">
             <div class="sideBar">
                 <div class="box">
-                    <div>About Us</div>
-                    <div>Our Services</div>
+                    <div>Overview</div>
+                    <div>Our Core Offerings</div>
                     <div>Why choose us</div>
                     <div>You get more</div>
                     <div>Our Customers Say</div>
@@ -40,18 +40,18 @@ get_header();
             </div>
             <div class="mainCont">
                <div class="aboutUs">
-                    <div class="secPrefix">About Us</div>
+                    <div class="secPrefix">Overview</div>
                     <div class="secTitle">
-                       In the fast-paced digital landscape, businesses need data-driven strategies to generate high-quality leads and maximize ROI.
+                       Maximize every click with targeted PPC campaigns that drive traffic, boost visibility, and instantly deliver measurable business growth.
                     </div>
                     <p class="para">
-                        At Pinaka Digital, we specialize in Paid Marketing and Performance Marketing, helping brands achieve measurable results through targeted campaigns. Our expertise in PPC, Facebook Marketing, Google Ads Marketing, LinkedIn Marketing, Bing Ads, and conversion optimization ensures that your business reaches the right audience at the right time, driving higher engagement and increased revenue.<br>
-                        With a deep understanding of market trends and consumer behavior, we craft performance-focused campaigns that deliver real, tangible outcomes. Whether you are looking to boost brand awareness, drive website traffic, or increase sales, our tailored solutions will help you achieve your business goals effectively.
+                        At Pinaka Digital, we engineer precision-driven performance marketing, transforming goals into growth through hyper-targeted, data-backed campaigns. From PPC, Facebook, Google, and LinkedIn Marketing to Bing Ads and conversion optimization, we make sure your brand shows up where it matters, boldly and impactfully.<br>
+                        Rooted in insight and powered by innovation, our campaigns are more than clicks—they’re crafted journeys that speak to the right audience at the right moment. Whether it's amplifying awareness, accelerating traffic, or igniting sales, we deliver measurable momentum that fuels your brand’s evolution.
                     </p>
                     <section class="padding">
-                    <div class="secPrefix">Our Services Include</div>
+                    <div class="secPrefix">Our Core Offerings</div>
                     <div class="secTitle">
-                       Lorem Ipsum is simply dummy.
+                       Strategic Solutions for your Brands
                     </div>
                     <div class="services-list-wrap">
                         <div class="inner-service-list">
@@ -127,10 +127,19 @@ get_header();
                                     <a href="javascript:;">ENQUIRE NOW</a>
                                 </div>
                             </div>
+                            <div class="service-item">
+                                <div class="service-icon">
+                                    <img src="<?php echo THEMEURL; ?>/app/images/service-icon.svg">
+                                </div>
+                                <div class="service-info">
+                                    <h3 class="service-title">Native Advertising</h3>
+                                    <p class="service-desc">Taboola, Bing, and other premium platforms for content-driven ads.</p>
+                                </div>
+                                <div class="service-btn">
+                                    <a href="javascript:;">ENQUIRE NOW</a>
+                                </div>
+                            </div>
                         </div>
-                        
-
-
                     </div>
                 </section>
                 <section class="padding pd-tp-5">
@@ -138,32 +147,91 @@ get_header();
                     <div class="secTitle">
                        Why Choose Us for Paid Marketing?
                     </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard since the 1500s.</p>
+                    <p>Because performance isn't just a promise, it’s our precision. We blend strategy, data, and creativity to craft campaigns that don’t just reach audiences, but move them. </p>
+                    <div class="col-12 mg-tp-30 pd-tp-30 paid-marketing-wrap">
+                        <div class="col-4">
+                            <div class="marketing-list">
+                                <div class="number">
+                                    <span>01</span>
+                                </div>
+                                <div class="marketing-content">
+                                    <h3 class="title">Strategic Approach</h3>
+                                    <p class="desc">We tailor each campaign to your goals—no templates, just customized strategies built for impact and business alignment.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="marketing-list">
+                                <div class="number">
+                                    <span>02</span>
+                                </div>
+                                <div class="marketing-content">
+                                    <h3 class="title">ROI-Driven Campaigns</h3>
+                                    <p class="desc">Focused on maximizing returns, we craft cost-effective strategies using Google, Facebook, and LinkedIn ads that truly convert.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="marketing-list">
+                                <div class="number">
+                                    <span>03</span>
+                                </div>
+                                <div class="marketing-content">
+                                    <h3 class="title">Continuous Optimization</h3>
+                                    <p class="desc">Campaigns evolve in real-time. We track, test, and tweak to keep your ads performing at peak efficiency always.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mg-tp-30 pd-tp-30 paid-marketing-wrap reverse-row">
+                        <div class="col-4">
+                            <div class="marketing-list">
+                                <div class="number">
+                                    <span>04</span>
+                                </div>
+                                <div class="marketing-content">
+                                    <h3 class="title">Certified Experts</h3>
+                                    <p class="desc">Our certified pros bring deep platform expertise across Google, Meta, Bing, and Taboola—executing smart, scalable paid strategies.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="marketing-list">
+                                <div class="number">
+                                    <span>05</span>
+                                </div>
+                                <div class="marketing-content">
+                                    <h3 class="title">Transparent Reporting</h3>
+                                    <p class="desc">Every metric, clearly reported. You get full visibility into campaign performance across platforms like Facebook, Google, and LinkedIn.</p>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
                 </section>
                     <div class="secTitle">
-                       You Get More with Pinaka Digital
+                       What More You Get With Pinaka
                     </div>
                     <div class="abtBoxes">
                         <div class="box">
                             <div class="number">100+</div>
                             <div class="title">Developers</div>
-                            <p>A robust tech team supporting your marketing initiatives for Paid Marketing.</p>
+                            <p>A robust in-house tech team that supports your Paid Marketing efforts with seamless execution, integration, and backend performance optimization.</p>
                         </div>
                         <div class="box">
                             <div class="number">500+</div>
                             <div class="title">Projects</div>
-                            <p>Proven expertise across diverse industries in Facebook Marketing, Google Ads Marketing, & LinkedIn Marketing.</p>
+                            <p>Extensive experience across industries in executing high-performance campaigns on Facebook, Google, and LinkedIn for measurable, scalable marketing outcomes.</p>
                         </div>
                         <div class="box">
                             <div class="number">2000+</div>
                             <div class="title">Leads Per Day</div>
-                            <p>High-quality leads generated consistently through Paid Marketing strategies, including Bing and Taboola campaigns.</p>
+                            <p>We consistently generate high-quality leads through expert Paid Marketing strategies across platforms like Bing, Taboola, and social media.</p>
                         </div>
                     </div>
 
                     <div class="secPrefix">Testimonials</div>
                     <div class="secTitle">
-                       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                       See why our clients choose Pinaka to fuel their digital growth every day.
                     </div>
                     <div class="">
                </div>
@@ -171,6 +239,6 @@ get_header();
         </div>
     </div>
 </section>
-<?php include 'customTemplates/footerGreen.php'; ?>
+<?php include 'customTemplates/footerGreenService.php'; ?>
 
 <?php get_footer(); ?>

@@ -213,6 +213,7 @@ ol {
 }
 .center-block {
 	margin: 0 auto;
+	float:none!important;
 }
 .bg-white {
 	background-color: $white;
@@ -384,6 +385,9 @@ ol {
 }
 .pd-tp-30 {
 	padding-top: 30px!important;
+}
+.pd-bt-0{
+	padding-bottom:0px!important
 }
 .pd-bt-5 {
 	padding-bottom: 5px!important;

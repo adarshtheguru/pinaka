@@ -9,10 +9,11 @@ get_header();
     <section class="section-first bg-cover home-banner hero pos-rel" id="hero">
         <div class="bannerCont dynamicPadLeft">
                 <div class="content">
-                    <div class="mainTitle">Shaping stories that create culture</div>
-                    <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                    <div class="mainTitle">Your trusted partner for digital innovation and transformation.</div>
+                    <p class="para">We architect game-changing strategies that command attention, drive impact, and accelerate unstoppable growth.</p>
                     <div class="ctas">
-                        <a href="javascript:;" class="themeBtn">Explore About us</a>
+                        <a href="javascript:;" class="themeBtn">Explore</a>
+                        <a href="javascript:;" class="themeBtn">GET IN TOUCH</a>
                     </div>
                 </div>
                 <div class="imgBox">
@@ -30,10 +31,10 @@ get_header();
         <div class="container">
             <div class="secPrefix">About Us</div>
             <div class="secTitle">
-            Pinaka emerged as the visionary creation of industry maestros Kailash Singh and Vijay Chotrani, boldly delving into the realm of real estate marketing. Recognizing a crucial void in technology within this dynamic arena, they have strategically brought cutting-edge innovations to the forefront.
+            Pinaka isn’t just a digital marketing agency—it’s a catalyst for brands that dare to lead. With strategy, creativity, and data-driven precision, we craft campaigns that spark engagement, maximize ROI, and build lasting Impact. We don’t follow trends—we set them, shaping brand legacies.
             </div>
             <p class="para">
-            Their on-field research not only fueled insights but also sparked the conception of a game-changing, cost-effective CRM solution – introducing Brahmastra. In the intricate dance of real estate, Pinaka not only orchestrates captivating marketing strategies but also introduces the transformative power of Brahmastra, your key to streamlined efficiency in customer relationship management.
+            In a world where attention is fleeting, we create connections that last. At Pinaka Digital Technologies, we don’t just market—we tell stories, spark emotions, and turn strategies into success. By blending creativity with tech, we craft campaigns that speak to hearts and drive real results. This is where your brand transforms into impact.
             </p>
             
         </div>

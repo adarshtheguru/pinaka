@@ -7,7 +7,7 @@ get_header();
 <main class="clients">
         <section class="padding clientOverview" id="clientOverview">
             <div class="watermark">
-                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/placeholderVector.png" alt="">
+                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/placeHolderVector.png" alt="">
             </div>
             <div class="container">
                 <div class="secPrefix">Clients</div>
@@ -15,7 +15,8 @@ get_header();
                     <div class="partA">
                         <div class="secTitle">Empowering Brands to Achieve Their Marketing Goals</div>
                         <p class="para">
-                            Introduce the concept of partnership. Highlight how PINAKA collaborates with clients to tailor solutions that address their specific challenges in the real estate marketing space.
+                            Introduce the concept of partnership. Highlight how PINAKA collaborates with clients to tailor solutions that address their specific challenges in the real estate marketing space.<br>
+                            <a href="javascript:;" class="inner-link"><span>See Our Success Stories <img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg"><span></a>
                         </p>
                     </div>
                     <div class="partB">
@@ -44,7 +45,7 @@ get_header();
                                 <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client5.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client6.png" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client6.svg" alt="">
                             </div>
                             <div class="box">
                                 <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client7.png" alt="">
@@ -62,13 +63,13 @@ get_header();
                                 <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client11.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client12.png" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client12.svg" alt="">
                             </div>
                             <div class="box">
                                 <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client13.png" alt="">
                             </div>
                             <div class="box">
-                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client14.png" alt="">
+                                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client14.svg" alt="">
                             </div>
                             <div class="box">
                                 <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client15.png" alt="">
@@ -111,7 +112,7 @@ get_header();
             <div class="container">
                 <div class="partA text-center">
                     <div class="secTitle">Transforming Ambitions into Achievements</div>
-                    <div class="para">At PINAKA, our focus is on measurable results that drive your business forward. From increasing brand reach to enhancing lead quality, our tailored solutions bring success stories to life."</div>
+                    <div class="para col-8 center-block col-xs-12">At PINAKA, our focus is on measurable results that drive your business forward. From increasing brand reach to enhancing lead quality, our tailored solutions bring success stories to life.</div>
                 </div>
                 <div class="partB">
                     <div class="dataBox">
