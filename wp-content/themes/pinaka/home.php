@@ -441,6 +441,51 @@ get_header();
 				<div class="secTitle col-9 col-xs-12">Explore industry trends and expert insights that drive business growth and success.</div>
 				<a href="javascript:;" class="blackBtn">Explore BLogs</a>
 			</div>
+			<div class="blogSliderWrapper">
+				<div class="blogSlider">
+					<div class="slide">
+						<div class="box">
+							<img src="<?php echo THEMEURL; ?>/app/images/placeholderRect.jpg" alt="" class="img-full">
+							<div class="blogInfo"><span>BLOG</span> <span class="date">• AUG 31 2024</span></div>
+							<div class="para">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.Lorem Ipsum is simply dummy text of the printing.
+							</div>
+							<div class="readingTime">30 min reading</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="box">
+							<img src="<?php echo THEMEURL; ?>/app/images/placeholderRect.jpg" alt="" class="img-full">
+							<div class="blogInfo"><span>BLOG</span> <span class="date">• AUG 31 2024</span></div>
+							<div class="para">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.Lorem Ipsum is simply dummy text of the printing.
+							</div>
+							<div class="readingTime">30 min reading</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="box">
+							<img src="<?php echo THEMEURL; ?>/app/images/placeholderRect.jpg" alt="" class="img-full">
+							<div class="blogInfo"><span>BLOG</span> <span class="date">• AUG 31 2024</span></div>
+							<div class="para">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.Lorem Ipsum is simply dummy text of the printing.
+							</div>
+							<div class="readingTime">30 min reading</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="box">
+							<img src="<?php echo THEMEURL; ?>/app/images/placeholderRect.jpg" alt="" class="img-full">
+							<div class="blogInfo"><span>BLOG</span> <span class="date">• AUG 31 2024</span></div>
+							<div class="para">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.Lorem Ipsum is simply dummy text of the printing.
+							</div>
+							<div class="readingTime">30 min reading</div>
+						</div>
+					</div>
+				</div>
+				<div class="blogDots"></div>
+			</div>
 		</div>
 	</div>
 </section>

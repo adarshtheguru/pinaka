@@ -167,13 +167,18 @@ $(document).ready(function(){
 					slidesToShow: 3
 				  }
 				},
-				// {
-				//   breakpoint: 600,
-				//   settings: {
-				// 	slidesToShow: 2,
-				// 	slidesToScroll: 2
-				//   }
-				// },
+				{
+				  breakpoint: 1025,
+				  settings: {
+					slidesToShow: 2
+				  }
+				},
+				{
+					breakpoint: 993,
+					settings: {
+					  slidesToShow: 1
+					}
+				},
 			  ]
 		});
 		$('.awardSlider').slick({
@@ -184,6 +189,26 @@ $(document).ready(function(){
 			centerMode:true,
 			centerPadding:'250px',
 			arrows:false
+		});
+		$('.blogSlider').slick({
+			slidesToShow:3,
+			arrows:false,
+			dots:true,
+			appendDots:'.blogDots',
+			responsive: [
+				{
+					breakpoint:1025,
+					settings: {
+						slidesToShow:2
+					}
+				},
+				{
+					breakpoint:767,
+					settings: {
+						slidesToShow:1
+					}
+				}
+			]
 		});
 
 		//aboutUs bg video

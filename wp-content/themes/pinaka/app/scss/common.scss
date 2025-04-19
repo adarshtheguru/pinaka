@@ -44,6 +44,10 @@ p{
     line-height: 53px;
     color: #161616;
     // margin-bottom: 30px;
+    @media ($max640) {
+        font-size: 32px;
+        line-height: 36px;
+    }
 }
 .img-responsive, .img-full{
     display: flex;

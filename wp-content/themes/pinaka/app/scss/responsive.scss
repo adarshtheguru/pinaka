@@ -126,7 +126,7 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 		.nav-links {
 			display: none;
 			position: fixed;
-			top: 94px;
+			top: 60px;
 			left: 0;
 			background-color: $white;
 			width: 100%;
@@ -149,6 +149,7 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 						margin-right: 0px;
 					}
 					margin-right: 0px;
+					margin-bottom: 30px;
 					color: $color_2;
 				}
 			}
@@ -170,13 +171,13 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 	.menu-icon-mobile {
 		display: block;
 		width: 50px;
-		padding: 14px 8px 4px 8px;
-		background-color: $white;
-		border-radius: 0px;
+		padding: 14px 10px 4px;
+		background: linear-gradient(90deg, #003E63 0%, #0D669C 100%);
+		border-radius: 6px;
 		margin: 0;
 		position: absolute;
-		top: 15px;
-		right: 0;
+		top: 0px;
+		right: 15px;
 		height: 40px;
 		>span {
 			display: block;
@@ -187,6 +188,7 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 		}
 	}
 	.menu-icon-mobile.active {
+		padding-top: 18px;
 		>span {
 			&:nth-child(1) {
 				transform: rotate(45deg);
@@ -214,7 +216,7 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 		display: none !important;
 	}
 	.home-banner {
-		background-image: url('https://dummyimage.com/768X1024/6b6b6b/565659&text=ipad-banner');
+		// background-image: url('https://dummyimage.com/768X1024/6b6b6b/565659&text=ipad-banner');
 	}
 }
 @media only screen and (max-width : 640px) {
@@ -267,15 +269,16 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 		display: block !important;
 	}
 	.menu-icon-mobile {
-		height: 60px;
-		padding: 25px 8px 4px 8px;
-		top: -5px;
+		// height: 60px;
+		// padding: 25px 8px 4px 8px;
+		top: -10px;
 	}
 	header {
-		padding: 5px 0;
+		padding: 15px 0;
+		background-color: $white;
 		.nav-links {
 			padding: 10px 0;
-			top: 55px;
+			top: 50px;
 		}
 		.brand-logo {
 			img {
@@ -311,7 +314,7 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 		}
 	}
 	footer {
-		padding-bottom: 30px;
+		padding-bottom: 60px;
 		.lower {
 			font-size: 10px;
 			div {
@@ -334,7 +337,7 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 			line-height: 30px;
 		}
 		a.mob-enq-btn {
-			background-color: $white;
+			background-color: $pc;
 			color: $color_1;
 			text-transform: uppercase;
 			font-weight: 600;
@@ -342,13 +345,13 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 		}
 		a.mob-call-btn {
 			background-color: $white;
-			color: $color_3;
+			color: $pc;
 			text-transform: uppercase;
 			font-weight: 600;
 			font-size: 14px;
 		}
 	}
 	.home-banner {
-		background-image: url('https://dummyimage.com/320X480/6b6b6b/565659&text=mobile-banner');
+		// background-image: url('https://dummyimage.com/320X480/6b6b6b/565659&text=mobile-banner');
 	}
 }
