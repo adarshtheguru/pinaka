@@ -18,14 +18,70 @@
     }
     .aboutUsOverview{
         background-color: #EAF7FF;
-        &.padding{
-            padding-bottom: 150px;
-        }
         .container{
             position: relative;
             z-index: 2;
             .para{
                 margin-top: 30px;
+            }
+        }
+        .circleBox{
+            margin-top: 30px;
+            .floatingTxt{
+                position: absolute;
+                max-width: 300px;
+                &.vision{
+                    top: 13%;
+                    left: 43%;
+                }
+                &.mission{
+                    bottom: 26%;
+                    left: 16%;
+                }
+                .title{
+                    font-size: 32px;
+                    color: #161616;
+                    font-weight: 650;
+                    margin-bottom: 15px;
+                }
+                .para{
+                    color: #4C4C4C;
+                    font-weight: 450;
+                }
+            }
+        }
+        .circleBoxMob{
+            margin-top: 30px;
+            text-align: center;
+            .textBox{
+                text-align: center;
+                .title{
+                    font-size: 32px;
+                    color: #161616;
+                    font-weight: 650;
+                    margin-bottom: 5px;
+                }
+                .para{
+                    margin-top: 0;
+                    color: #4C4C4C;
+                    font-weight: 450;
+                }
+            }
+            .second{
+                padding-top: 70px;
+                .Pshape{
+                    position: absolute;
+                    top: 15px;
+                    right: 25px;
+                }
+            }
+        }
+    }
+    .pinakaJourney{
+        .jrnBox{
+            margin-top: 50px;
+            @media ($max640) {
+                margin-top: 20px;
             }
         }
     }
@@ -35,6 +91,11 @@
             grid-template-columns: repeat(3, 1fr);
             gap: 0 45px;
             margin-top: 55px;
+            @media ($max992) {
+                grid-template-columns: auto;
+                gap: 20px 0;
+                margin-top: 30px;
+            }
             .card{
                 .data{
                     display: flex;
@@ -103,12 +164,25 @@
                 cursor: pointer;
                 text-align: center;
                 z-index: 2;
+                @media ($max992) {
+                    width: 100%;
+                }
+                img{
+                    @media ($max640) {
+                        width: 75px;
+                    }
+                }
                 .text{
                     margin-top: 25px;
                     color: $white;
                     font-weight: 650;
                     font-size: 38px;
                     line-height: 47px;
+                    @media ($max640) {
+                        font-size: 20px;
+                        line-height: 24px;
+                        margin-top: 5px;
+                    }
                 }
             }
     
@@ -121,7 +195,7 @@
     }
     .awards{
         &.padding{
-            padding-bottom: 150px;
+            // padding-bottom: 150px;
         }
         background-color: #EAF7FF;
         .awardBox{
@@ -131,6 +205,11 @@
                 justify-content: space-between;
                 align-items: center;
                 gap: 0 40px;
+                @media ($max992) {
+                    margin-top: 5px;
+                    flex-direction: column;
+                    gap: 15px 0;
+                }
                 .para{
                     font-weight: 400;
                     font-size: 20px;
@@ -144,6 +223,9 @@
                     .awardSlider{
                         .slick-slide{
                             padding: 0 15px;
+                            @media ($max640) {
+                                padding: 0;
+                            }
                         }
                         .box{
                             color: #4C4C4C;
@@ -176,6 +258,13 @@
             display: grid;
             grid-template-columns: repeat(4,1fr);
             gap: 0 80px;
+            @media ($max1024) {
+                grid-template-columns: repeat(2,1fr);
+                gap: 50px 80px;
+            }
+            @media ($max992) {
+                grid-template-columns: auto;
+            }
             .box{
                 display: grid;
                 align-items: last baseline;

@@ -36,6 +36,42 @@ get_header();
             <p class="para">
             In a world where attention is fleeting, we create connections that last. At Pinaka Digital Technologies, we don’t just market—we tell stories, spark emotions, and turn strategies into success. By blending creativity with tech, we craft campaigns that speak to hearts and drive real results. This is where your brand transforms into impact.
             </p>
+            <div class="circleBox pos-rel hidden-xs">
+                <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/abtCircle.svg" alt="">
+                <div class="floatingTxt vision">
+                    <div class="title">Vision</div>
+                    <p class="para">
+                    To equip businesses with tech-infused marketing magic. We're on a mission to propel you into the digital stratosphere, where success isn't just a goal—it's the only destination.
+                    </p>
+                </div>
+                <div class="floatingTxt mission">
+                    <div class="title">Mission</div>
+                    <p class="para">
+                    We're on a mission to weave a digital tapestry that harmonizes every customer's journey, seamlessly connecting all touchpoints.
+                    </p>
+                </div>
+            </div>
+            <div class="circleBoxMob visible-xs">
+                <div class="first">
+                    <img src="<?php echo THEMEURL; ?>/app/images/firstCirc.svg" alt="">
+                    <div class="textBox">
+                        <div class="title">Vision</div>
+                        <p class="para">
+                        To equip businesses with tech-infused marketing magic. We're on a mission to propel you into the digital stratosphere, where success isn't just a goal—it's the only destination.
+                        </p>
+                    </div>
+                </div>
+                <div class="second pos-rel">
+                    <img src="<?php echo THEMEURL; ?>/app/images/pShape.svg" alt="" class="Pshape">
+                    <img src="<?php echo THEMEURL; ?>/app/images/secondCirc.svg" alt="">
+                    <div class="textBox">
+                        <div class="title">Mission</div>
+                        <p class="para">
+                        We're on a mission to weave a digital tapestry that harmonizes every customer's journey, seamlessly connecting all touchpoints.
+                        </p>
+                    </div>
+                </div>
+            </div>
             
         </div>
 </section>
@@ -46,6 +82,10 @@ get_header();
                     The PINAKA Journey
                 </div>
                 <p class="secPara">From Vision to Market Leader</p>
+                <div class="jrnBox">
+                    <img class="img-full hidden-xs" src="<?php echo THEMEURL; ?>/app/images/pinakaJrn.svg" alt="">
+                    <img class="img-full visible-xs" src="<?php echo THEMEURL; ?>/app/images/pinakaJrnMob.svg" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -77,7 +117,7 @@ get_header();
             <div class="ownerCards">
                 <div class="card">
                     <div class="img">
-                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/john.webp" alt="">
+                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/john.png" alt="">
                     </div>
                     <div class="data">
                         <div class="ownerInfo">
@@ -92,7 +132,7 @@ get_header();
                 </div>
                 <div class="card">
                     <div class="img">
-                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/girl.webp" alt="">
+                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/girl.png" alt="">
                     </div>
                     <div class="data">
                         <div class="ownerInfo">
@@ -107,7 +147,7 @@ get_header();
                 </div>
                 <div class="card">
                     <div class="img">
-                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/boy2.webp" alt="">
+                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/boy2.png" alt="">
                     </div>
                     <div class="data">
                         <div class="ownerInfo">
@@ -139,7 +179,7 @@ get_header();
                         <div class="slide">
                             <div class="box">
                                 <div class="img">
-                                    <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/starImg.webp" alt="">
+                                    <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/starImg.png" alt="">
                                 </div>
                                 <div class="info">
                                     <span class="category">Category • </span>
@@ -153,7 +193,7 @@ get_header();
                         <div class="slide">
                             <div class="box">
                                 <div class="img">
-                                    <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/starImg.webp" alt="">
+                                    <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/starImg.png" alt="">
                                 </div>
                                 <div class="info">
                                     <span class="category">Category • </span>
@@ -167,7 +207,7 @@ get_header();
                         <div class="slide">
                             <div class="box">
                                 <div class="img">
-                                    <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/starImg.webp" alt="">
+                                    <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/starImg.png" alt="">
                                 </div>
                                 <div class="info">
                                     <span class="category">Category • </span>
@@ -181,7 +221,7 @@ get_header();
                         <div class="slide">
                             <div class="box">
                                 <div class="img">
-                                    <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/starImg.webp" alt="">
+                                    <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/starImg.png" alt="">
                                 </div>
                                 <div class="info">
                                     <span class="category">Category • </span>

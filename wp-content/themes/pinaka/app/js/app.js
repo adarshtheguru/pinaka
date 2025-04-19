@@ -183,6 +183,21 @@ $(document).ready(function(){
 		});
 		$('.awardSlider').slick({
 			slidesToShow:4,
+			arrows:false,
+			responsive: [
+				{
+					breakpoint:1025,
+					settings: {
+						slidesToShow:2
+					}
+				},
+				{
+					breakpoint:767,
+					settings: {
+						slidesToShow:1
+					}
+				}
+			]
 		});
 		$('.openingSlider').slick({
 			slidesToShow:2,
