@@ -27,6 +27,7 @@
             grid-template-rows: repeat(7, auto);
             grid-gap: 18px 18px;
             @media ($max640) {
+                margin-top: 20px;
                 grid-template-columns: auto;
                 grid-template-rows: auto;
             }
@@ -75,6 +76,7 @@
                     padding: 50px 40px;
                     @media ($max640) {
                         box-shadow: unset;
+                        padding: 25px 20px;
                     }
                     .main{
                         padding-bottom: 30px;
