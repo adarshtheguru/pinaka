@@ -118,6 +118,7 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 		transition: unset;
 	}
 	header {
+		background-color: $white;
 		.form-container.show {
 			top: 0 !important;
 			bottom: 0 !important;

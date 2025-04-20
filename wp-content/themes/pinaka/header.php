@@ -55,6 +55,8 @@
 									data-event-action="Click" data-event-name="about">About</a>
 									<a href="<?php echo home_url(); ?>/contact-us" rel="Contact" data-event-category="Header"
 									data-event-action="Click" data-event-name="Contact">Contact Us</a>
+									<a href="<?php echo home_url(); ?>/service-ppc" rel="Service" data-event-category="Header"
+									data-event-action="Click" data-event-name="Service">Service PPC</a>
 								<a href="javascript:;" class="themeBtn enq_click" id="hid-on-mob"
 									data-event-category="Header" data-event-action="Click"
 									data-event-name="Enquire Now">Enquire Now</a>

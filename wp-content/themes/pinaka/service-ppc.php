@@ -31,23 +31,25 @@ get_header();
         <div class="brandingCont">
             <div class="sideBar">
                 <div class="box">
-                    <div>Overview</div>
-                    <div>Our Core Offerings</div>
-                    <div>Why choose us</div>
-                    <div>You get more</div>
-                    <div>Our Customers Say</div>
+                    <div class="smoothMover" data-cont="aboutUs">Overview</div>
+                    <div class="smoothMover" data-cont="aboutUs">Our Core Offerings</div>
+                    <div class="smoothMover" data-cont="aboutUs">Why choose us</div>
+                    <div class="smoothMover" data-cont="aboutUs">You get more</div>
+                    <div class="smoothMover" data-cont="aboutUs">Our Customers Say</div>
                 </div>
             </div>
             <div class="mainCont">
                <div class="aboutUs">
-                    <div class="secPrefix">Overview</div>
-                    <div class="secTitle">
-                       Maximize every click with targeted PPC campaigns that drive traffic, boost visibility, and instantly deliver measurable business growth.
+                    <div class="overView">
+                        <div class="secPrefix">Overview</div>
+                        <div class="secTitle">
+                        Maximize every click with targeted PPC campaigns that drive traffic, boost visibility, and instantly deliver measurable business growth.
+                        </div>
+                        <p class="para">
+                            At Pinaka Digital, we engineer precision-driven performance marketing, transforming goals into growth through hyper-targeted, data-backed campaigns. From PPC, Facebook, Google, and LinkedIn Marketing to Bing Ads and conversion optimization, we make sure your brand shows up where it matters, boldly and impactfully.<br>
+                            Rooted in insight and powered by innovation, our campaigns are more than clicks—they’re crafted journeys that speak to the right audience at the right moment. Whether it's amplifying awareness, accelerating traffic, or igniting sales, we deliver measurable momentum that fuels your brand’s evolution.
+                        </p>
                     </div>
-                    <p class="para">
-                        At Pinaka Digital, we engineer precision-driven performance marketing, transforming goals into growth through hyper-targeted, data-backed campaigns. From PPC, Facebook, Google, and LinkedIn Marketing to Bing Ads and conversion optimization, we make sure your brand shows up where it matters, boldly and impactfully.<br>
-                        Rooted in insight and powered by innovation, our campaigns are more than clicks—they’re crafted journeys that speak to the right audience at the right moment. Whether it's amplifying awareness, accelerating traffic, or igniting sales, we deliver measurable momentum that fuels your brand’s evolution.
-                    </p>
                     <section class="padding">
                     <div class="secPrefix">Our Core Offerings</div>
                     <div class="secTitle">

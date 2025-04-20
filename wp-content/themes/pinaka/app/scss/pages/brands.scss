@@ -203,8 +203,11 @@
     .brandingCont{
         margin-top: 30px;
         display: grid;
-        grid-template-columns: 211px auto;
-        gap: 0 160px;
+        grid-template-columns: 20% auto;
+        gap: 0 75px;
+        @media ($max992) {
+            grid-template-columns: auto;
+        }
     }
 }
 .services-list-wrap{
@@ -234,7 +237,7 @@
                 justify-content: center;
                 padding: 0px;
                 gap: 8px;
-                width: 496px;
+                // width: 496px;
                 height: 64px;
 
                 .service-title{
@@ -243,7 +246,7 @@
                     justify-content: left;
                     align-items: start;
                     padding: 0px;
-                    width: 496px;
+                    // width: 496px;
                     font-weight: 600;
                     font-size: 24px;
                     line-height: 32px;
@@ -257,7 +260,7 @@
                     align-items: start;
                     padding: 0px;
                     gap: 10px;
-                    width: 476px;
+                    // width: 476px;
                     font-weight: 450;
                     font-size: 16px;
                     line-height: 24px;
@@ -273,7 +276,7 @@
                     align-items: center;
                     padding: 6px 17px;
                     gap: 10px;
-                    width: 143px;
+                    // width: 143px;
                     height: 44px;
                     border: 1px solid #003E63;
                     border-radius: 6px;
