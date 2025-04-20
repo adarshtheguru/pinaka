@@ -3,11 +3,21 @@
     border-radius: 12px;
     padding: 40px;
     background-color: #FFFFFFCC;
+    @media ($max992) {
+        margin-top: 30px;
+    }
+    @media ($max640) {
+        padding: 20px;
+    }
     .formRow{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 0 20px;
         padding: 10px 0;
+        @media ($max640) {
+            grid-template-columns: auto;
+            gap: 20px 0;
+        }
         &.full{
             grid-template-columns: auto;
         }

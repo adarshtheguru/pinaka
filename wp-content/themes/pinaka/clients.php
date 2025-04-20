@@ -79,7 +79,7 @@ get_header();
                             </div>
                         </div>
                         <div class="text-center">
-                            <a href="javascript:;" class="blankBtn">LOAD MORE</a>
+                            <a href="javascript:;" class="blankBtn gridLoadBtn">LOAD MORE</a>
                         </div>
                     </div>
                 </div>

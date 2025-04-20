@@ -31,10 +31,10 @@ get_header();
         <div class="brandingCont">
             <div class="sideBar">
                 <div class="box">
-                    <div>About Us</div>
-                    <div>Conceptualisation & Ideation</div>
-                    <div>Brand & Designing</div>
-                    <div>Clients</div>
+                    <div class="smoothMover" data-cont="aboutUs">About Us</div>
+                    <div class="smoothMover" data-cont="concept">Conceptualisation & Ideation</div>
+                    <div class="smoothMover" data-cont="bd">Brand & Designing</div>
+                    <div class="smoothMover" data-cont="clients">Clients</div>
                 </div>
             </div>
             <div class="mainCont">
@@ -61,6 +61,67 @@ get_header();
                             <div class="number">95%</div>
                             <div class="title">Client Satisfaction Rate</div>
                             <p>Demonstrating the success and trust built with clients.</p>
+                        </div>
+                    </div>
+               </div>
+               <div class="concept">
+                    <div class="secPrefix">Conceptualisation & Ideation</div>
+                    <div class="secTitle">Lorem Ipsum is simply dummy.</div>
+                    <p class="para">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard since the 1500s.
+                    </p>
+                    <div class="flowimg">
+                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/brandsflow.png" alt="">
+                    </div>
+               </div>
+               <div class="bd">
+                    <div class="secPrefix">Brand & Designing</div>
+                    <div class="secTitle">Lorem Ipsum is simply dummy.</div>
+                    <p class="para">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard since the 1500s.
+                    </p>
+                    <div class="brandBoxes">
+                        <div class="box">
+                            <img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="">
+                            <div class="title">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </div>
+                            <div class="para">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard since the 1500s.
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="">
+                            <div class="title">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </div>
+                            <div class="para">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard since the 1500s.
+                            </div>
+                        </div>
+                    </div>
+               </div>
+               <div class="clients">
+                    <div class="secPrefix">Clients</div>
+                    <div class="secTitle">Lorem Ipsum is simply dummy.</div>
+                    <div class="gridBox">
+                        <div class="box">
+                            <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.png" alt="">
+                        </div>
+                        <div class="box">
+                            <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client2.png" alt="">
+                        </div>
+                        <div class="box">
+                            <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client3.png" alt="">
+                        </div>
+                        <div class="box">
+                            <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client4.png" alt="">
+                        </div>
+                        <div class="box">
+                            <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client5.png" alt="">
+                        </div>
+                        <div class="box">
+                            <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client6.png" alt="">
                         </div>
                     </div>
                </div>

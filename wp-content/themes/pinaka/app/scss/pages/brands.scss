@@ -9,6 +9,9 @@
             align-items: center;
             grid-gap: 0 50px;
             height: 100%;
+            @media ($max1024) {
+                grid-template-columns: auto;
+            }
             .content{
                 display: grid;
                 grid-gap: 35px 0;
@@ -17,6 +20,10 @@
                     font-size: 46px;
                     line-height: 47px;
                     color: #151515;
+                    @media ($max640) {
+                        font-size: 32px;
+                        line-height: 36px;
+                    }
                 }
                 .para{
                     font-weight: 450;
@@ -26,6 +33,9 @@
                 .ctas{
                     display: flex;
                     gap: 20px;
+                    @media ($max1024) {
+                        // justify-content: center;
+                    }
                 }
             }
         }
@@ -38,6 +48,10 @@
         display: grid;
         grid-template-columns: 25% auto;
         gap: 0 75px;
+        @media ($max992) {
+            grid-template-columns: auto;
+            gap: 25px 0;
+        }
         .sideBar{
             .box{
                 background-color: #FFFFFF;
@@ -46,6 +60,10 @@
                 display: flex;
                 flex-direction: column;
                 gap: 10px 0;
+                @media ($max992) and ($min641) {
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
                 >div{
                     padding: 10px 0;
                     border-bottom: 1px solid #C9E4F4;
@@ -53,6 +71,9 @@
                     font-weight: 600;
                     &:last-of-type{
                         border-bottom: none;
+                        @media ($max992) {
+                            border-bottom: 1px solid #C9E4F4;
+                        }
                     }
                 }
             }
@@ -69,6 +90,13 @@
                 grid-template-columns: repeat(3, 1fr);
                 gap: 0 20px;
                 margin: 50px 0;
+                @media ($max992) {
+                    grid-template-columns: auto;
+                    gap: 20px 0;
+                }
+                @media ($max640) {
+                    margin: 25px 0;
+                }
                 .box{
                     border-radius: 12px;
                     padding: 25px 30px;
@@ -98,6 +126,73 @@
                         font-weight: 450;
                         font-size: 14px;
                         line-height: 18px;
+                    }
+                }
+            }
+            .concept{
+                .flowimg{
+                    margin: 50px 0;
+                    @media ($max640) {
+                        margin: 25px 0;
+                    }
+                }
+            }
+            .bd{
+                .brandBoxes{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 0 30px;
+                    margin: 50px 0;
+                    @media ($max992) {
+                        grid-template-columns: auto;
+                        gap: 20px 0;
+                    }
+                    @media ($max640) {
+                        margin: 25px 0;
+                    }
+                    .box{
+                        border-radius: 12px;
+                        padding: 45px 50px;
+                        display: grid;
+                        gap: 20px 0;
+                        @media ($max640) {
+                            padding: 20px 25px;
+                        }
+                        &:first-of-type{
+                            background-color: #D7F0FF;
+                        }
+                        &:last-of-type{
+                            background-color: #D7F0E1;
+                        }
+                        .title{
+                            font-weight: 450;
+                            font-size: 24px;
+                            line-height: 32px;
+                            color: #161616;
+                        }
+                        .para{
+                            color: #161616;
+                            font-weight: 450;
+                            font-size: 14px;
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+            .clients{
+                .gridBox{
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    @media ($max640) {
+                        grid-template-columns: auto;
+                    }
+                    .box{
+                        border: 1px solid #D0D0D0;
+                        padding: 30px 25px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        min-height: 100px;
                     }
                 }
             }

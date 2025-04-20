@@ -94,37 +94,37 @@ $(document).ready(function(){
 		}
 		
 		//On Scroll - Add class active to active tab
-		$(window).scroll(function(){
-			var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page
-			var windowHeight = $(window).height(); // get the height of the window
-			var docHeight = $(document).height();
-			for(i=0;i<aArray.length;i++){
-				var theID = aArray[i];
-				var divPos = $("#"+theID).offset().top; // get the offset of the div from the top of page
-				var divHeight = $("#"+theID).outerHeight(); // get the height of the div in question
-				if (windowPos >= (divPos - gap) && windowPos < ((divPos - gap) + divHeight)) {
-					if (!$("a[rel='" + theID + "']").hasClass("active"))
-					{
-           	// ga('set', 'page', '/'+theID);
-           	// ga('send', 'pageview');
-           	$("a[rel='" + theID + "']").addClass("active"); 
-          }
-	      } 
-	      else 
-	      {
-	       	$("a[rel='" + theID + "']").removeClass("active");
-	      }
-	   	}	
+		// $(window).scroll(function(){
+		// 	var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page
+		// 	var windowHeight = $(window).height(); // get the height of the window
+		// 	var docHeight = $(document).height();
+		// 	for(i=0;i<aArray.length;i++){
+		// 		var theID = aArray[i];
+		// 		var divPos = $("#"+theID).offset().top; // get the offset of the div from the top of page
+		// 		var divHeight = $("#"+theID).outerHeight(); // get the height of the div in question
+		// 		if (windowPos >= (divPos - gap) && windowPos < ((divPos - gap) + divHeight)) {
+		// 			if (!$("a[rel='" + theID + "']").hasClass("active"))
+		// 			{
+        //    	// ga('set', 'page', '/'+theID);
+        //    	// ga('send', 'pageview');
+        //    	$("a[rel='" + theID + "']").addClass("active"); 
+        //   }
+	    //   } 
+	    //   else 
+	    //   {
+	    //    	$("a[rel='" + theID + "']").removeClass("active");
+	    //   }
+	   	// }	
 
-			//If document has scrolled to the end. Add active class to the last navigation menu
-			if(windowPos + windowHeight == docHeight) {
-				if (!$(".nav-links a:not(.extLink):last-child").hasClass("active")) {
-					var navActiveCurrent = $(".active").attr("rel");
-					$("a[rel='" + navActiveCurrent + "']").removeClass("active");
-					$(".nav-links a:not(.extLink):last-child").addClass("active");
-				}
-			}
-		});
+		// 	//If document has scrolled to the end. Add active class to the last navigation menu
+		// 	if(windowPos + windowHeight == docHeight) {
+		// 		if (!$(".nav-links a:not(.extLink):last-child").hasClass("active")) {
+		// 			var navActiveCurrent = $(".active").attr("rel");
+		// 			$("a[rel='" + navActiveCurrent + "']").removeClass("active");
+		// 			$(".nav-links a:not(.extLink):last-child").addClass("active");
+		// 		}
+		// 	}
+		// });
 		
 		//On Click
 		$('.nav-links a').on("click", function(){
@@ -203,7 +203,23 @@ $(document).ready(function(){
 			slidesToShow:2,
 			centerMode:true,
 			centerPadding:'250px',
-			arrows:false
+			arrows:false,
+			responsive: [
+				{
+					breakpoint:1025,
+					settings: {
+						slidesToShow:2,
+						centerMode:false
+					}
+				},
+				{
+					breakpoint:767,
+					settings: {
+						slidesToShow:1,
+						centerMode:false
+					}
+				}
+			]
 		});
 		$('.blogSlider').slick({
 			slidesToShow:3,
@@ -232,6 +248,73 @@ $(document).ready(function(){
 			$('.video-content')[0].requestFullscreen();
 			$('.video-content')[0].play();
 		});
+
+		//smooth mover
+		$('.smoothMover').on('click', function () {
+			const relValue = $(this).attr('data-cont');
+			const target = $('div[class="' + relValue + '"]');
+			if (target.length) {
+			  $('html, body').animate({
+				scrollTop: target.offset().top - navHt -10
+			  }, 800); // Smooth scroll
+			}
+		  });
+		  $('.scrollDownWrapper').on('click', function () {
+		  
+			// Traverse DOM upwards to a common parent, then find next visible sibling
+			const nextSection = $(this).closest('*').parent().nextAll(':visible').first();
+		  
+			if (nextSection.length) {
+			  $('html, body').animate({
+				scrollTop: nextSection.offset().top - navHt +10
+			  }, 800);
+			} else {
+			  console.log('No next section found');
+			}
+		  });
+
+		  //load more
+		function loadMoreHandler(containerSelector, btnSelector, desktopCount, mobileCount) {
+			const $container = $(containerSelector);
+			const $boxes = $container.find('.box');
+			const $btn = $(btnSelector);
+		  
+			function getCount() {
+			  return $(window).width() < 992 ? mobileCount : desktopCount;
+			}
+		  
+			function showInitial() {
+			  const count = getCount();
+			  $boxes.hide().slice(0, count).show();
+			  $btn.text('LOAD MORE').data('expanded', false);
+			}
+		  
+			showInitial();
+		  
+			$(window).on('resize', function () {
+			  if (!$btn.data('expanded')) {
+				showInitial();
+			  }
+			});
+		  
+			$btn.off('click').on('click', function () {
+			  const isExpanded = $btn.data('expanded');
+			  const count = getCount();
+			  const visible = $boxes.filter(':visible').length;
+		  
+			  if (!isExpanded) {
+				$boxes.slice(visible, visible + count).slideDown();
+				if (visible + count >= $boxes.length) {
+				  $btn.text('LOAD LESS').data('expanded', true);
+				}
+			  } else {
+				showInitial();
+			  }
+			});
+		  }
+
+		  loadMoreHandler('.gridBox', '.gridLoadBtn', 8, 6);
+		  loadMoreHandler('.caseGridBox', '.caseLoadBtn', 6, 4);
 
 			/*------------------- animation js----------------------------------------*/
 

@@ -70,9 +70,39 @@ get_header();
                                 <img src="<?php echo THEMEURL; ?>/app/images/roundLeft.svg" alt="">
                             </a>
                         </div>
+                        <div class="box">
+                            <img src="<?php echo THEMEURL; ?>/app/images/placeholderBlank.png" alt="" class="img-full">
+                            <div class="dates">Sept 5, 2022</div>
+                            <p class="abstract">
+                                Pride World City takes homeownership celebrations to the next level with Casa Carnival, Pune’s biggest home-buying festival. 
+                            </p>
+                            <a href="javascript:;">
+                                <img src="<?php echo THEMEURL; ?>/app/images/roundLeft.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="box">
+                            <img src="<?php echo THEMEURL; ?>/app/images/placeholderBlank.png" alt="" class="img-full">
+                            <div class="dates">Sept 5, 2022</div>
+                            <p class="abstract">
+                                Pride World City takes homeownership celebrations to the next level with Casa Carnival, Pune’s biggest home-buying festival. 
+                            </p>
+                            <a href="javascript:;">
+                                <img src="<?php echo THEMEURL; ?>/app/images/roundLeft.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="box">
+                            <img src="<?php echo THEMEURL; ?>/app/images/placeholderBlank.png" alt="" class="img-full">
+                            <div class="dates">Sept 5, 2022</div>
+                            <p class="abstract">
+                                Pride World City takes homeownership celebrations to the next level with Casa Carnival, Pune’s biggest home-buying festival. 
+                            </p>
+                            <a href="javascript:;">
+                                <img src="<?php echo THEMEURL; ?>/app/images/roundLeft.svg" alt="">
+                            </a>
+                        </div>
                     </div>
                     <div class="text-center">
-                        <a href="javascript:;" class="blankBtn">LOAD MORE</a>
+                        <a href="javascript:;" class="blankBtn caseLoadBtn">LOAD MORE</a>
                     </div>
                 </div>
             </div>
