@@ -42,10 +42,10 @@ get_header();
 				</div>
 			</div>
 			<div class="data">
-				<div class="stats">
+				<!-- <div class="stats">
 					<div class="number">3+</div>
 					<p class="para">Years of Digital Excellence, helping brands grow with strategy and innovation</p>
-				</div>
+				</div> -->
 				<div class="stats">
 					<div class="number">125+</div>
 					<p class="para">Years of shared expertise to deliver powerful and effective marketing solutions.</p>
@@ -54,18 +54,18 @@ get_header();
 					<div class="number">100+</div>
 					<p class="para">Successful clients reaching new heights with powerful digital strategies.</p>
 				</div>
-				<div class="stats">
+				<!-- <div class="stats">
 					<div class="number">150+</div>
 					<p class="para">Brands transformed with strategic marketing and impactful execution.</p>
-				</div>
+				</div> -->
 				<div class="stats">
 					<div class="number">99.9%</div>
 					<p class="para">Uptime for seamless digital solutions, ensuring reliability and performance.</p>
 				</div>
-				<div class="stats">
+				<!-- <div class="stats">
 					<div class="number">5x</div>
 					<p class="para">Higher lead conversions with data-driven strategies and precision marketing.</p>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
@@ -76,18 +76,18 @@ get_header();
 <section class="padding whatWeDo" id="whatWeDo">
 	<div class="container">
 		<div class="whatWeDoCont">
-			<div class="text-center">
+			<div class="text-center text-left-xs">
 				<div class="secPrefix">Our Expertise</div>
 				<div class="secTitle">Digital Is Our Mastery, And We Deliver Excellence To Grow Your Brand</div>
 			</div>
 			<div class="custom-tabs">
 				<div class="tab-titles">
-				  <div class="tab-title active" data-tab="tab1">Performance <br> Marketing</div>
-				  <div class="tab-title" data-tab="tab2">Social Media <br> Strategy & Management</div>
-				  <div class="tab-title" data-tab="tab3">Online Reputation Management</div>
-				  <div class="tab-title" data-tab="tab4">Digital Public <br>Relations (PR)</div>
+				  <div class="tab-title active" data-tab="tab1">Performance Marketing</div>
+				  <div class="tab-title" data-tab="tab6">SEO</div>
+				  <div class="tab-title" data-tab="tab2">Social Media</div>
+				  <div class="tab-title" data-tab="tab3">OR Management</div>
+				  <div class="tab-title" data-tab="tab4">Digital PR</div>
 				  <div class="tab-title" data-tab="tab5">Web Development</div>
-				  <div class="tab-title" data-tab="tab6">Branding</div>
 				</div>
 				<div class="tab-content-wrapper">
 				  <div class="tab-content active" id="tab1">
@@ -235,7 +235,7 @@ get_header();
 <section class="padding client pd-bt-0" id="client">
 	<div class="container">
 		<div class="clientCont">
-			<div class="text-center">
+			<div class="text-center text-left-xs">
 				<div class="secPrefix">Our Clients</div>
 				<div class="secTitle mg-bt-20">Success Delivered, Every Time</div>
 				<p class="para col-8 col-xs-12 center-block">From fresh ventures to market giants, we’ve driven success through bold strategies and creative execution. See the brands that trust us.</p>
@@ -269,12 +269,12 @@ get_header();
 		</div>
 	</div>
 </section>
-<section class="padding testimonials" id="testimonials">
+<section class="padding testimonials pd-bt-0" id="testimonials">
 	<div class="container">
 		<div class="testCont">
-			<div class="text-center">
+			<div class="text-center text-left-xs">
 				<div class="secPrefix">Our Success Stories </div>
-				<div class="secTitle col-8 col-xs-12 center-block">Shaping Every Story With Expertise, Strategy, And Real Results.</div>
+				<div class="secTitle col-6 col-xs-12 center-block">Shaping Every Story With Expertise, Strategy, And Real Results.</div>
 			</div>
 		</div>
 	</div>
@@ -283,22 +283,20 @@ get_header();
 			<div class="testSlider">
 				<div class="slide">
 					<div class="box">
-						<img src="<?php echo THEMEURL; ?>/app/images/quote.svg" alt="" class="img-responsive">
-						<p class="para">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
-						</p>
-						<div class="authorInfo">
-							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="" class="img-responsive">
-							</div>
-							<div class="authorData">
-								<p class="authorName">John Luthar</p>
-								<p class="authorDesg">CEO, Tech Innovations Inc.</p>
-							</div>
-						</div>
+						<iframe width="100%" height="260" src="https://www.youtube.com/embed/bbOm_o7jS4k" title="Client Testimonial - KBD Group" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 					</div>
 				</div>
 				<div class="slide">
+					<div class="box">
+						<iframe width="100%" height="260" src="https://www.youtube.com/embed/qaKBMPuHVug" title="Client Testimonial - Ceratec Group" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="box">
+						<iframe width="100%" height="260" src="https://www.youtube.com/embed/gqcSAxuPRvw" title="Client Testimonial - Pride World City" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+				</div>
+			<!-- 	<div class="slide">
 					<div class="box">
 						<img src="<?php echo THEMEURL; ?>/app/images/quote.svg" alt="" class="img-responsive">
 						<p class="para">
@@ -314,109 +312,7 @@ get_header();
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="slide">
-					<div class="box">
-						<img src="<?php echo THEMEURL; ?>/app/images/quote.svg" alt="" class="img-responsive">
-						<p class="para">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
-						</p>
-						<div class="authorInfo">
-							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="" class="img-responsive">
-							</div>
-							<div class="authorData">
-								<p class="authorName">John Luthar</p>
-								<p class="authorDesg">CEO, Tech Innovations Inc.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="slide">
-					<div class="box">
-						<img src="<?php echo THEMEURL; ?>/app/images/quote.svg" alt="" class="img-responsive">
-						<p class="para">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
-						</p>
-						<div class="authorInfo">
-							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="" class="img-responsive">
-							</div>
-							<div class="authorData">
-								<p class="authorName">John Luthar</p>
-								<p class="authorDesg">CEO, Tech Innovations Inc.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="slide">
-					<div class="box">
-						<img src="<?php echo THEMEURL; ?>/app/images/quote.svg" alt="" class="img-responsive">
-						<p class="para">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
-						</p>
-						<div class="authorInfo">
-							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="" class="img-responsive">
-							</div>
-							<div class="authorData">
-								<p class="authorName">John Luthar</p>
-								<p class="authorDesg">CEO, Tech Innovations Inc.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="slide">
-					<div class="box">
-						<img src="<?php echo THEMEURL; ?>/app/images/quote.svg" alt="" class="img-responsive">
-						<p class="para">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
-						</p>
-						<div class="authorInfo">
-							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="" class="img-responsive">
-							</div>
-							<div class="authorData">
-								<p class="authorName">John Luthar</p>
-								<p class="authorDesg">CEO, Tech Innovations Inc.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="slide">
-					<div class="box">
-						<img src="<?php echo THEMEURL; ?>/app/images/quote.svg" alt="" class="img-responsive">
-						<p class="para">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
-						</p>
-						<div class="authorInfo">
-							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="" class="img-responsive">
-							</div>
-							<div class="authorData">
-								<p class="authorName">John Luthar</p>
-								<p class="authorDesg">CEO, Tech Innovations Inc.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="slide">
-					<div class="box">
-						<img src="<?php echo THEMEURL; ?>/app/images/quote.svg" alt="" class="img-responsive">
-						<p class="para">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
-						</p>
-						<div class="authorInfo">
-							<div class="authorImg">
-								<img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="" class="img-responsive">
-							</div>
-							<div class="authorData">
-								<p class="authorName">John Luthar</p>
-								<p class="authorDesg">CEO, Tech Innovations Inc.</p>
-							</div>
-						</div>
-					</div>
-				</div>
+				</div> -->
 			</div>
 			<div class="sliderAccesorries">
 				<div class="testDotWrap"></div>
@@ -433,7 +329,7 @@ get_header();
 	</div>
 </section>
 
-<section class="padding media" id="media">
+<!-- <section class="padding media" id="media">
 	<div class="container-fluid">
 		<div class="mediaCont">
 			<div class="secPrefix">Our Blogs</div>
@@ -488,13 +384,13 @@ get_header();
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <section class="padding partners" id="partners">
 	<div class="container">
 		<div class="partnerCont">
-			<div class="text-center">
+			<div class="text-center text-left-xs">
 				<div class="secPrefix">Our Partners</div>
-				<div class="secTitle">Strategic Partnerships That Drive Innovation And Fuel Long-term Growth And Business Success.</div>
+				<div class="secTitle col-8 center-block col-xs-12">Strategic Partnerships That Drive Innovation And Fuel Long-term Growth And Business Success.</div>
 			</div>
 			<div class="partnerLogoWrapper">
 				<div class="logo">

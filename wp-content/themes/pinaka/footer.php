@@ -30,13 +30,19 @@
 						<img src="<?php echo THEMEURL; ?>/app/images/pinakaWhite.svg" alt="" class="img-responsive">
 					</div>
 					<p class="address">
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						202, 2nd Floor, Vishnu Darshan Apartments, Fergusson College Rd, Rage Path, Model Colony, Shivajinagar, Pune, Maharashtra 411005
 					</p>
 					<div class="mail">
 						<div class="arrow">
 							<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/whiteArrow.svg" alt="">
 						</div>
-						<a href="mailto:info@pinaka.digital">info@pinaka.digital</a>
+						<a href="tell:+917498044954">+91-7498044954</a>
+					</div>
+					<div class="mail">
+						<div class="arrow">
+							<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/whiteArrow.svg" alt="">
+						</div>
+						<a href="mailto:sales@pinaka.digital">sales@pinaka.digital</a>
 					</div>
 				</div>
 				<div class="footerNavs">
@@ -51,25 +57,37 @@
 							<a href="javascript:;">Contact Us</a>
 						</div>
 					</div>
+					<div class=" cols">
+						<div class="title">Services</div>
+						<div class="navLinks">
+							<a href="javascript:;">Brand Management</a>
+							<a href="javascript:;">Website Development</a>
+							<a href="javascript:;">Performance Marketing</a>
+							<a href="javascript:;">Social Media Management</a>
+							<a href="javascript:;">Search Engine Optimization</a>
+							<a href="javascript:;">Online Reputation Management</a>
+						</div>
+					</div>
 					<div class="socials cols">
 						<div class="title">Socials</div>
 						<div class="navLinks">
-							<a href="javascript:;">Linkedin</a>
-							<a href="javascript:;">Twitter</a>
-							<a href="javascript:;">Instagram</a>
+							<a href="https://www.facebook.com/PinakaDigitalTechnologies"><img src="<?php echo THEMEURL; ?>/app/images/fb-white.svg"></a>
+							<a href="https://www.instagram.com/pinaka_digital_technologies"><img src="<?php echo THEMEURL; ?>/app/images/insta-white.svg"></a>
+							<a href="https://www.linkedin.com/company/pinakadigitaltechnologies"><img src="<?php echo THEMEURL; ?>/app/images/li-white.svg"></a>
+							<a href="https://twitter.com/_pinakadigital"><img src="<?php echo THEMEURL; ?>/app/images/twitterblue-white.svg"></a>
 						</div>
 					</div>
-					<div class="address cols">
+					<!-- <div class="address cols">
 						<div class="title">Address</div>
 						<p>
 							202, 2nd Floor, Vishnu Darshan Apartments, Fergusson College Rd, Rage Path, Model Colony, Shivajinagar, Pune, Maharashtra 411005
 						</p>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div class="partC">
 				<div class="corpInfo">
-					© 2024 Pinaka Digital Technologies
+					© 2025 Pinaka Digital Technologies
 				</div>
 				<div class="pagesInfo">
 					<a href="jaavscript:;">Privacy Policy</a> | <a href="javascript:;">Terms & Conditions</a> | <a href="javascript:;">Refund Policy</a>

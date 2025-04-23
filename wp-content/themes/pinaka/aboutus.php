@@ -90,7 +90,7 @@ get_header();
         </div>
     </section>
 
-    <section class="backgroundVideo" id="backgroundVideo">
+<!--     <section class="backgroundVideo" id="backgroundVideo">
         <div class="video-wrapper">
             <img src="<?php echo THEMEURL; ?>/app/images/bgPlaceholder.jpg" alt="Video Placeholder" class="video-thumbnail img-full">
             <div class="play-button">
@@ -104,7 +104,7 @@ get_header();
                 Your browser does not support the video tag.
             </video>
         </div>
-    </section>
+    </section> -->
 
     <section class="padding ourTeam" id="ourTeam">
         <div class="container">
@@ -117,46 +117,55 @@ get_header();
             <div class="ownerCards">
                 <div class="card">
                     <div class="img">
-                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/john.png" alt="">
+                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/kailash.jpg" alt="">
+                        <div class="profile-info info1">
+                            <img src="<?php echo THEMEURL; ?>/app/images/quote-white.svg">
+                            <p>With a background in ad tech and serving top-tier companies, our goal is to provide cutting-edge, tech-driven ad services. We aim to help clients not only meet their ROI targets but also stay ahead in the competitive landscape.</p>
+                        </div>
                     </div>
                     <div class="data">
                         <div class="ownerInfo">
-                            <div class="name">John Luthar</div>
-                            <div class="desg">Designation</div>
+                            <div class="name">Kailash Singh</div>
+                            <div class="desg">Co-Founder</div>
                         </div>
                         <div class="sm">
-                            <img class="" src="<?php echo THEMEURL; ?>/app/images/linkedin.svg" alt="">
-                            <img class="" src="<?php echo THEMEURL; ?>/app/images/twitter.svg" alt="">
+                            <a href="https://www.linkedin.com/in/kailashsingh/" target="_blank"><img class="" src="<?php echo THEMEURL; ?>/app/images/linkedin.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="img">
-                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/girl.png" alt="">
+                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/vijay.jpg" alt="">
+                        <div class="profile-info info2">
+                            <img src="<?php echo THEMEURL; ?>/app/images/quote-white.svg">
+                            <p>At Pinaka, our essence lies in achieving client triumphs through united efforts. Guided by a culture of transparency, we cultivate an environment where client success takes center stage.</p>
+                        </div>
                     </div>
                     <div class="data">
                         <div class="ownerInfo">
-                            <div class="name">John Luthar</div>
-                            <div class="desg">Designation</div>
+                            <div class="name">Vijay Chotrani</div>
+                            <div class="desg">Co-Founder</div>
                         </div>
                         <div class="sm">
-                            <img class="" src="<?php echo THEMEURL; ?>/app/images/linkedin.svg" alt="">
-                            <img class="" src="<?php echo THEMEURL; ?>/app/images/twitter.svg" alt="">
+                            <a href="https://www.linkedin.com/in/vijaychotrani/" target="_blank"><img class="" src="<?php echo THEMEURL; ?>/app/images/linkedin.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="img">
-                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/boy2.png" alt="">
+                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/Amit.jpg" alt="">
+                        <div class="profile-info info3">
+                            <img src="<?php echo THEMEURL; ?>/app/images/quote-white.svg">
+                            <p>By fostering transparency and collaboration, we ensure that every client achieves their full potential with Pinaka Digital Technologies.</p>
+                        </div>
                     </div>
                     <div class="data">
                         <div class="ownerInfo">
-                            <div class="name">John Luthar</div>
-                            <div class="desg">Designation</div>
+                            <div class="name">Amit Debnath</div>
+                            <div class="desg">Business Head</div>
                         </div>
                         <div class="sm">
-                            <img class="" src="<?php echo THEMEURL; ?>/app/images/linkedin.svg" alt="">
-                            <img class="" src="<?php echo THEMEURL; ?>/app/images/twitter.svg" alt="">
+                            <a href="https://www.linkedin.com/in/amit0106/" target="_blank"><img class="" src="<?php echo THEMEURL; ?>/app/images/linkedin.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
