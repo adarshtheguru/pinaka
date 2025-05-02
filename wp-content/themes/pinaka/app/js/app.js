@@ -153,7 +153,7 @@ $(document).ready(function(){
 
 		//sliders
 		$('.testSlider').slick({
-			slidesToShow: 4,
+			slidesToShow: 3,
 			arrows:true,
 			dots:true,
 			appendDots:'.testDotWrap',
@@ -387,3 +387,22 @@ $(document).ready(function(){
 
 		});
 
+  document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.getElementById("menu-toggle");
+    const mainMenu = document.getElementById("main-menu");
+
+    // Toggle menu on mobile
+    menuToggle.addEventListener("click", () => {
+      mainMenu.classList.toggle("hidden");
+    });
+
+    // Close menu on link click (only on mobile)
+    const links = mainMenu.querySelectorAll("a");
+    links.forEach(link => {
+      link.addEventListener("click", () => {
+        if (window.innerWidth < 768) {
+          mainMenu.classList.add("hidden");
+        }
+      });
+    });
+  });

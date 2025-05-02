@@ -869,3 +869,51 @@ function get_nested_menu_array($location_slug) {
 
     return array_values($items); // reset numeric keys
 }
+
+function register_my_menus() {
+    register_nav_menus(
+        array(
+            'header-menu' => __( 'Header Menu' ),
+        )
+    );
+}
+add_action( 'init', 'register_my_menus' );
+
+class Tailwind_Nav_Walker extends Walker_Nav_Menu {
+    function start_lvl(&$output, $depth = 0, $args = null) {
+        $output .= '<ul class="absolute left-0 mt-2 bg-white shadow-lg rounded-md py-2 z-50 hidden group-hover:block">';
+    }
+
+    function start_el(&$output, $item, $depth = 0, $args = null, $id = 0) {
+        $has_children = in_array('menu-item-has-children', $item->classes);
+
+        $icon = '';
+        if (!empty($item->attr_title)) {
+            $icon = '<i class="' . esc_attr($item->attr_title) . ' mr-2"></i>';
+        }
+
+        $link_class = 'block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition';
+
+        if ($has_children) {
+            $link_class .= ' group relative';
+        }
+
+        $output .= '<li class="relative">';
+        $output .= '<a href="' . esc_attr($item->url) . '" class="' . $link_class . '">';
+        $output .= $icon . esc_html($item->title);
+
+        if ($has_children) {
+            $output .= ' <svg class="w-4 h-4 inline-block ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M19 9l-7 7-7-7"/></svg>';
+        }
+
+        $output .= '</a>';
+    }
+
+    function end_el(&$output, $item, $depth = 0, $args = null) {
+        $output .= '</li>';
+    }
+
+    function end_lvl(&$output, $depth = 0, $args = null) {
+        $output .= '</ul>';
+    }
+}

@@ -222,10 +222,13 @@
         height: 130px;
         background: #FFFFFF;
         border-radius: 12px;
-        flex: none;
-        order: 0;
-        align-self: stretch;
-        flex-grow: 0;
+        justify-content:space-between;
+            .service-item-inner{
+                display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 20px;
+            }
 
             .service-icon{
 
@@ -237,9 +240,9 @@
                 justify-content: center;
                 padding: 0px;
                 gap: 8px;
-                // width: 496px;
+                width: 496px;
                 height: 64px;
-
+                max-width:80%;
                 .service-title{
                     display: flex;
                     flex-direction: row;
@@ -301,8 +304,37 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: flex-end;
+    margin-top: 80px;
     }
     .marketing-list{
+        position:relative;
+        .arrow-list{
+            position: absolute;
+            img{
+                    width: 85%;
+                }
+            &.arrow-right {
+                top: 41px;
+                right: -20px;
+                img{
+                    width: 85%;
+                }
+            }
+            &.arrow-down-left {
+                bottom: -175px;
+                left: -170px;
+            }
+            &.arrow-left {
+                left: -178px;
+                top: 41px;
+                
+            }
+            &.arrow-up {
+                top: -96px;
+                left: 42px;
+            }
+        }
+
         .number{
             display: flex;
             flex-direction: row;
@@ -324,7 +356,7 @@
             width:265px;
             .title{
                 font-weight: 600;
-                font-size: 24px;
+                font-size: 20px;
                 line-height: 32px;
                 color: #161616;
                 margin-top: 10px;
@@ -334,8 +366,21 @@
                 font-size: 16px;
                 line-height: 24px;
                 color: #161616;
-                margin-top: 20px;
+                margin-top: 10px;
             }
         }
     }
 }
+
+.service-page-test.testSliderWrapper{
+    width:100%;
+    overflow:hidden;
+  .testSlider{
+    .slick-track{
+        margin-left: 0px;
+    }
+    .slick-slide {
+        margin: 0 8px;
+    }   
+  }  
+}  

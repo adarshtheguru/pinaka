@@ -9,8 +9,8 @@ get_header();
     <div class="container">
 		<div class="bannerCont">
 			<div class="content">
-				<div class="mainTitle">Lorem Ipsum is  dummy text of the printing industry.</div>
-				<p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				<div class="mainTitle">Every Click Counts When PPC Is Done With Purpose</div>
+				<p class="para">Reach the right people at the right time with data-driven PPC strategies that scale.</p>
 				<div class="ctas">
 					<a href="javascript:;" class="themeBtn">Explore More</a>
 				</div>
@@ -32,10 +32,10 @@ get_header();
             <div class="sideBar">
                 <div class="box">
                     <div class="smoothMover" data-cont="aboutUs">Overview</div>
-                    <div class="smoothMover" data-cont="aboutUs">Our Core Offerings</div>
-                    <div class="smoothMover" data-cont="aboutUs">Why choose us</div>
-                    <div class="smoothMover" data-cont="aboutUs">You get more</div>
-                    <div class="smoothMover" data-cont="aboutUs">Our Customers Say</div>
+                    <div class="smoothMover" data-cont="ourCoreOffer">Our Core Offerings</div>
+                    <div class="smoothMover" data-cont="whyChooseUs">Why choose us</div>
+                    <div class="smoothMover" data-cont="getMore">What you Get More</div>
+                    <div class="smoothMover" data-cont="testimonials">Testimonials</div>
                 </div>
             </div>
             <div class="mainCont">
@@ -51,6 +51,7 @@ get_header();
                         </p>
                     </div>
                     <section class="padding">
+                        <div class="ourCoreOffer">
                     <div class="secPrefix">Our Core Offerings</div>
                     <div class="secTitle">
                        Strategic Solutions for your Brands
@@ -58,6 +59,7 @@ get_header();
                     <div class="services-list-wrap">
                         <div class="inner-service-list">
                             <div class="service-item">
+                                <div class="service-item-inner">
                                 <div class="service-icon">
                                     <img src="<?php echo THEMEURL; ?>/app/images/service-icon.svg">
                                 </div>
@@ -65,11 +67,13 @@ get_header();
                                     <h3 class="service-title">Pay-Per-Click (PPC) Advertising</h3>
                                     <p class="service-desc">Google Ads Marketing, Bing Ads, and Display Advertising</p>
                                 </div>
+                            </div>
                                 <div class="service-btn">
                                     <a href="javascript:;">ENQUIRE NOW</a>
                                 </div>
                             </div>
                             <div class="service-item">
+                                <div class="service-item-inner">
                                 <div class="service-icon">
                                     <img src="<?php echo THEMEURL; ?>/app/images/service-icon.svg">
                                 </div>
@@ -77,11 +81,13 @@ get_header();
                                     <h3 class="service-title">Social Media Advertising</h3>
                                     <p class="service-desc">Facebook Marketing, Instagram, LinkedIn Marketing & Twitter Ads</p>
                                 </div>
+                            </div>
                                 <div class="service-btn">
                                     <a href="javascript:;">ENQUIRE NOW</a>
                                 </div>
                             </div>
                             <div class="service-item">
+                                <div class="service-item-inner">
                                 <div class="service-icon">
                                     <img src="<?php echo THEMEURL; ?>/app/images/service-icon.svg">
                                 </div>
@@ -89,11 +95,13 @@ get_header();
                                     <h3 class="service-title">E-commerce Advertising</h3>
                                     <p class="service-desc">Google Shopping, Amazon Ads, and Marketplace Promotions</p>
                                 </div>
+                            </div>
                                 <div class="service-btn">
                                     <a href="javascript:;">ENQUIRE NOW</a>
                                 </div>
                             </div>
                             <div class="service-item">
+                                <div class="service-item-inner">
                                 <div class="service-icon">
                                     <img src="<?php echo THEMEURL; ?>/app/images/service-icon.svg">
                                 </div>
@@ -101,11 +109,13 @@ get_header();
                                     <h3 class="service-title">Remarketing & Retargeting</h3>
                                     <p class="service-desc">Engaging past visitors to boost conversions through Google Ads Marketing and Facebook Marketing.</p>
                                 </div>
+                            </div>
                                 <div class="service-btn">
                                     <a href="javascript:;">ENQUIRE NOW</a>
                                 </div>
                             </div>
                             <div class="service-item">
+                                <div class="service-item-inner">
                                 <div class="service-icon">
                                     <img src="<?php echo THEMEURL; ?>/app/images/service-icon.svg">
                                 </div>
@@ -113,11 +123,13 @@ get_header();
                                     <h3 class="service-title">Performance Analytics & Optimization</h3>
                                     <p class="service-desc">Data-driven campaign enhancements for Paid Marketing success.</p>
                                 </div>
+                            </div>
                                 <div class="service-btn">
                                     <a href="javascript:;">ENQUIRE NOW</a>
                                 </div>
                             </div>
                             <div class="service-item">
+                                <div class="service-item-inner">
                                 <div class="service-icon">
                                     <img src="<?php echo THEMEURL; ?>/app/images/service-icon.svg">
                                 </div>
@@ -125,11 +137,13 @@ get_header();
                                     <h3 class="service-title">Lead Generation Campaigns</h3>
                                     <p class="service-desc">High-intent lead capture for better ROI through Google Ads, Facebook Marketing, and LinkedIn Marketing.</p>
                                 </div>
+                            </div>
                                 <div class="service-btn">
                                     <a href="javascript:;">ENQUIRE NOW</a>
                                 </div>
                             </div>
                             <div class="service-item">
+                                <div class="service-item-inner">
                                 <div class="service-icon">
                                     <img src="<?php echo THEMEURL; ?>/app/images/service-icon.svg">
                                 </div>
@@ -137,14 +151,17 @@ get_header();
                                     <h3 class="service-title">Native Advertising</h3>
                                     <p class="service-desc">Taboola, Bing, and other premium platforms for content-driven ads.</p>
                                 </div>
+                            </div>
                                 <div class="service-btn">
                                     <a href="javascript:;">ENQUIRE NOW</a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
                 </section>
                 <section class="padding pd-tp-5">
+                    <div class="whyChooseUs">
                     <div class="secPrefix">Paid Marketing</div>
                     <div class="secTitle">
                        Why Choose Us for Paid Marketing?
@@ -153,6 +170,9 @@ get_header();
                     <div class="col-12 mg-tp-30 pd-tp-30 paid-marketing-wrap">
                         <div class="col-4">
                             <div class="marketing-list">
+                                <div class="arrow-right arrow-list">
+                                    <img src="<?php echo THEMEURL; ?>/app/images/arrow-right.svg">
+                                </div>
                                 <div class="number">
                                     <span>01</span>
                                 </div>
@@ -164,6 +184,9 @@ get_header();
                         </div>
                         <div class="col-4">
                             <div class="marketing-list">
+                                <div class="arrow-right arrow-list">
+                                    <img src="<?php echo THEMEURL; ?>/app/images/arrow-right.svg">
+                                </div>
                                 <div class="number">
                                     <span>02</span>
                                 </div>
@@ -175,6 +198,9 @@ get_header();
                         </div>
                         <div class="col-4">
                             <div class="marketing-list">
+                                <div class="arrow-down-left arrow-list">
+                                    <img src="<?php echo THEMEURL; ?>/app/images/arrow-down-left.svg">
+                                </div>
                                 <div class="number">
                                     <span>03</span>
                                 </div>
@@ -188,6 +214,9 @@ get_header();
                     <div class="col-12 mg-tp-30 pd-tp-30 paid-marketing-wrap reverse-row">
                         <div class="col-4">
                             <div class="marketing-list">
+                                <div class="arrow-left arrow-list">
+                                    <img src="<?php echo THEMEURL; ?>/app/images/arrow-left.svg">
+                                </div>
                                 <div class="number">
                                     <span>04</span>
                                 </div>
@@ -199,6 +228,9 @@ get_header();
                         </div>
                         <div class="col-4">
                             <div class="marketing-list">
+                                <div class="arrow-up arrow-list">
+                                    <img src="<?php echo THEMEURL; ?>/app/images/arrow-up.svg">
+                                </div>
                                 <div class="number">
                                     <span>05</span>
                                 </div>
@@ -209,7 +241,10 @@ get_header();
                             </div>
                         </div>                        
                     </div>
+                </div>
                 </section>
+                <section>
+                <div class="getMore">
                     <div class="secTitle">
                        What More You Get With Pinaka
                     </div>
@@ -230,12 +265,36 @@ get_header();
                             <p>We consistently generate high-quality leads through expert Paid Marketing strategies across platforms like Bing, Taboola, and social media.</p>
                         </div>
                     </div>
-
+                </div>
+                </section>
+                <section>
+                <div class="testimonials">
                     <div class="secPrefix">Testimonials</div>
                     <div class="secTitle">
                        See why our clients choose Pinaka to fuel their digital growth every day.
                     </div>
-                    <div class="">
+                    <div class="testSliderWrapper service-page-test">
+                    <div class="testSlider">
+                <div class="slide">
+                    <div class="box">
+                        <iframe width="100%" height="260" src="https://www.youtube.com/embed/bbOm_o7jS4k" title="Client Testimonial - KBD Group" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="box">
+                        <iframe width="100%" height="260" src="https://www.youtube.com/embed/qaKBMPuHVug" title="Client Testimonial - Ceratec Group" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="box">
+                        <iframe width="100%" height="260" src="https://www.youtube.com/embed/gqcSAxuPRvw" title="Client Testimonial - Pride World City" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    
+                </div>
+                </section>
                </div>
             </div>
         </div>

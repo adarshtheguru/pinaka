@@ -12,9 +12,9 @@ get_header();
 					<a href="javascript:;" class="themeBtn">get in touch</a>
 				</div>
 			</div>
-			<div class="imgBox">
+			<!-- <div class="imgBox">
 				<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/bannerImg.png" alt="">
-			</div>
+			</div> -->
 		</div>
 	</div>
 	<div class="scrollDownWrapper">

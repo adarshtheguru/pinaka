@@ -18,7 +18,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<title>Pinaka</title>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo THEMEURL; ?>/assets/css/main.css">
 </head>
@@ -40,27 +39,18 @@
 							<span class="bar3"></span>
 						</div>
 						<div class="col-12 lower">
-							<div class="nav-links">
-								<a href="<?php echo home_url(); ?>" rel="overview" class="active" data-event-category="Header"
-									data-event-action="Click" data-event-name="home">Home</a>
-								<a href="<?php echo home_url(); ?>/brands" rel="brands" data-event-category="Header"
-									data-event-action="Click" data-event-name="Brands">Brands</a>
-								<a href="<?php echo home_url(); ?>/case-study" rel="amenities" data-event-category="Header"
-									data-event-action="Click" data-event-name="Amenities">Case Study</a>
-								<a href="<?php echo home_url(); ?>/clients" rel="gallery" data-event-category="Header"
-									data-event-action="Click" data-event-name="Gallery">Clients</a>
-								<a href="<?php echo home_url(); ?>/career" rel="Career" data-event-category="Header"
-									data-event-action="Click" data-event-name="Career">Career</a>
-								<a href="<?php echo home_url(); ?>/about-us" rel="about" data-event-category="Header"
-									data-event-action="Click" data-event-name="about">About</a>
-									<a href="<?php echo home_url(); ?>/contact-us" rel="Contact" data-event-category="Header"
-									data-event-action="Click" data-event-name="Contact">Contact Us</a>
-									<a href="<?php echo home_url(); ?>/service-ppc" rel="Service" data-event-category="Header"
-									data-event-action="Click" data-event-name="Service">Service PPC</a>
-								<a href="javascript:;" class="themeBtn enq_click" id="hid-on-mob"
-									data-event-category="Header" data-event-action="Click"
-									data-event-name="Enquire Now">Enquire Now</a>
+							 <div class="nav-links">
+								<?php
+									wp_nav_menu(array(
+									    'theme_location' => 'header-menu',
+									    'menu_class'     => 'main-menu',
+									    'container'      => 'nav',
+									    'container_class'=> 'main-nav flex space-x-6',
+									));
+									?>
 							</div>
+
+      </div>
 						</div>
 					</div>
 				</div>
