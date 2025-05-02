@@ -36,7 +36,7 @@
 						<div class="arrow">
 							<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/whiteArrow.svg" alt="">
 						</div>
-						<a href="tell:+917498044954">+91-7498044954</a>
+						<a href="tel:+917498044954">+91-7498044954</a>
 					</div>
 					<div class="mail">
 						<div class="arrow">
@@ -99,8 +99,7 @@
 	<div class="mob-footer visible-xs">
 		<div class="row">
 			<div class="col-6">
-				<a href="tel:+911234567890" class="mob-call-btn"><span class="sell_do_virtual_numbers">+91 1234 5678
-						90</span></a>
+				<a href="tel:+917498044954" class="mob-call-btn"><span>+91-7498044954</span></a>
 			</div>
 			<div class="col-6">
 				<a href="javascript:;" class="mob_enq_click mob-enq-btn" data-event-category="Footer"

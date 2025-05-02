@@ -109,7 +109,7 @@ get_header();
 							</div>
 						</div>
 						<div class="imgBox">
-							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.png" alt="" class="img-full">
+							<img src="<?php echo THEMEURL; ?>/app/images/ppc.png" alt="" class="img-full">
 						</div>
 					</div>
 				  </div>
@@ -131,7 +131,7 @@ get_header();
 							</div>
 						</div>
 						<div class="imgBox">
-							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.png" alt="" class="img-full">
+							<img src="<?php echo THEMEURL; ?>/app/images/smm.png" alt="" class="img-full">
 						</div>
 					</div>
 				  </div>
@@ -154,7 +154,7 @@ get_header();
 							</div>
 						</div>
 						<div class="imgBox">
-							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.png" alt="" class="img-full">
+							<img src="<?php echo THEMEURL; ?>/app/images/orm.png" alt="" class="img-full">
 						</div>
 					</div>
 				  </div>
@@ -177,7 +177,7 @@ get_header();
 							</div>
 						</div>
 						<div class="imgBox">
-							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.png" alt="" class="img-full">
+							<img src="<?php echo THEMEURL; ?>/app/images/pr.png" alt="" class="img-full">
 						</div>
 					</div>
 				  </div>
@@ -200,7 +200,7 @@ get_header();
 							</div>
 						</div>
 						<div class="imgBox">
-							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.png" alt="" class="img-full">
+							<img src="<?php echo THEMEURL; ?>/app/images/website.png" alt="" class="img-full">
 						</div>
 					</div>
 				  </div>
@@ -223,7 +223,7 @@ get_header();
 							</div>
 						</div>
 						<div class="imgBox">
-							<img src="<?php echo THEMEURL; ?>/app/images/placeholder.png" alt="" class="img-full">
+							<img src="<?php echo THEMEURL; ?>/app/images/seo.png" alt="" class="img-full">
 						</div>
 					</div>
 				  </div>
