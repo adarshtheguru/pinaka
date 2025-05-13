@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
 		// //smooth scroll
 		// const lenis = new Lenis()
 		// lenis.on('scroll', (e) => {
@@ -46,17 +45,17 @@ $(document).ready(function(){
 
 		
 
-		if (winWD > 992) {
-			$(".enq_click, .frmclose").click(function() {
-				if ($(".form-container").is(':visible')) {
-					$(".form-container").slideUp();
-				} else {
-					$(".form-container").slideToggle();
-				}
-				$(".form-container, .frmclose").toggleClass("show");
-			});
+		// if (winWD > 992) {
+		// 	$(".enq_click, .frmclose").click(function() {
+		// 		if ($(".form-container").is(':visible')) {
+		// 			$(".form-container").slideUp();
+		// 		} else {
+		// 			$(".form-container").slideToggle();
+		// 		}
+		// 		$(".form-container, .frmclose").toggleClass("show");
+		// 	});
 
-		}
+		// }
 
 		$(".menu-icon-mobile").on("click", function(){
 			$(".nav-links").slideToggle();
@@ -68,11 +67,11 @@ $(document).ready(function(){
 				$(".menu-icon-mobile").trigger("click");
 			})
 
-			$(".mob_enq_click, .frmclose").on("click" , function(){
-				isBrochure = 0;
-				isFloorplan = 0;
-				$(".form-container").toggleClass("show");
-			});
+			// $(".mob_enq_click, .frmclose").on("click" , function(){
+			// 	isBrochure = 0;
+			// 	isFloorplan = 0;
+			// 	$(".form-container").toggleClass("show");
+			// });
 		}
 
 
@@ -353,6 +352,45 @@ $(document).ready(function(){
 					});
 				}
 			// --------------------------------------
+	//form handle
+	$("#formA, #subscribeMailForm, #contactUsForm, #popUpForm").each(function () {
+		$(this).validate({
+			submitHandler: function (form) {
+			$(form).find('button[type="submit"]').val('Please wait....').attr('disabled', "true");
+			$.ajax({
+				type: "POST",
+				url: wpData.siteUrl + '/leadFormSubmit.php',
+				data: $(form).serialize(), // Serialize the correct form data
+				success: function (resp, status, xhr) {
+				// Handle success response
+				if (resp == 'success') {
+					$(form).hide();
+					$(form).next('.success-msg').show();
+				}
+				},
+				error: function (resp, status, xhr) {
+				// Handle error response
+				}
+			});
+			}
+		});
+	});
+
+	//popup form
+	 $('.enq_click').on('click', function() {
+        $('#popupOverlay').fadeIn();
+    });
+
+    $('#closePopupBtn').on('click', function() {
+        $('#popupOverlay').fadeOut();
+    });
+
+    // Optional: Hide popup on outside click
+    $('#popupOverlay').on('click', function(e) {
+        if ($(e.target).is('#popupOverlay')) {
+            $(this).fadeOut();
+        }
+    });
 
 	});
 

@@ -1,35 +1,39 @@
-<?php
-/**
- * The template for displaying single posts and pages.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Twenty
- * @since Twenty Twenty 1.0
- */
+<?php get_header(); ?>
 
-get_header();
-?>
+<main id="site-content" role="main">
+    <div class="single-post container">
 
-<main id="site-content">
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+            <article <?php post_class(); ?>>
 
-	<?php
+                <h1 class="post-title"><?php the_title(); ?></h1>
 
-	if ( have_posts() ) {
+                <div class="post-meta">
+                    <span>Posted on <?php echo get_the_date(); ?> by <?php the_author(); ?></span>
+                </div>
 
-		while ( have_posts() ) {
-			the_post();
+                <div class="post-content">
+                    <?php the_content(); ?>
+                </div>
 
-			get_template_part( 'template-parts/content', get_post_type() );
-		}
-	}
+                <div class="post-categories">
+                    <strong>Categories:</strong> <?php the_category(', '); ?>
+                </div>
 
-	?>
+                <div class="post-tags">
+                    <strong>Tags:</strong> <?php the_tags('', ', '); ?>
+                </div>
 
-</main><!-- #site-content -->
+            </article>
 
-<?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
+            <div class="post-navigation">
+                <?php previous_post_link(); ?> |
+                <?php next_post_link(); ?>
+            </div>
 
-<?php
-get_footer();
+        <?php endwhile; endif; ?>
+
+    </div>
+</main>
+
+<?php get_footer(); ?>

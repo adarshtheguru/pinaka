@@ -107,12 +107,18 @@
 			</div>
 		</div>
 	</div>
+	<?php include 'customTemplates/popUpForm.php' ?>
 
 	<?php wp_footer(); ?>
-
+	<script>
+		var wpData = {
+			siteUrl: "<?php echo esc_url( get_site_url() ); ?>"
+		};
+	</script>
 	<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
 	<script src="<?php echo THEMEURL; ?>/assets/js/lenis-min.js"></script>
+	<script type="text/javascript" src="<?php echo THEMEURL; ?>/assets/js/validate.js"></script>
 	<script src="<?php echo THEMEURL; ?>/assets/js/all.js"></script>
 
 	</body>

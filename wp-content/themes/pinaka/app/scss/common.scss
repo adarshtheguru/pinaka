@@ -1,3 +1,14 @@
+.form-group, .formGroup{
+    position: relative;
+}
+label.error {
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  color: red !important;
+  font-size: 9px !important;
+  padding: 0 !important; 
+}
 p{
     font-weight: 400;
     font-size: 16px;
