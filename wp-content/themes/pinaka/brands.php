@@ -9,8 +9,8 @@ get_header();
     <div class="container">
 		<div class="bannerCont">
 			<div class="content">
-				<div class="mainTitle">Innovating Real Estate Marketing with Cutting Edge Technology</div>
-				<p class="para">Experience the power of our Brahmastra CRM and elevate your marketing strategy to new heights.</p>
+				<div class="mainTitle">We branch beyond digital marketing to build brands</div>
+				<p class="para">Growing from just a digital marketing agency to building brands for you</p>
 				<div class="ctas">
 					<a href="javascript:;" class="themeBtn">Explore Brahmastra</a>
 				</div>
@@ -31,20 +31,20 @@ get_header();
         <div class="brandingCont">
             <div class="sideBar">
                 <div class="box">
-                    <div class="smoothMover" data-cont="aboutUs">About Us</div>
-                    <div class="smoothMover" data-cont="concept">Conceptualisation & Ideation</div>
-                    <div class="smoothMover" data-cont="bd">Brand & Designing</div>
-                    <div class="smoothMover" data-cont="clients">Clients</div>
+                    <div class="smoothMover" data-cont="aboutUs">Overview</div>
+                    <div class="smoothMover" data-cont="concept">Our Strategies</div>
+                    <div class="smoothMover" data-cont="bd"> Brand Essence</div>
+                    <div class="smoothMover" data-cont="clients">Our Clients</div>
                 </div>
             </div>
             <div class="mainCont">
                <div class="aboutUs">
-                    <div class="secPrefix">About Us</div>
+                    <div class="secPrefix">Overview</div>
                     <div class="secTitle">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard since the 1500s.
+                        Beyond digital campaigns, Pinaka crafts bold brand strategies that spark connection, inspire loyalty, and leave a lasting mark on every audience. 
                     </div>
                     <p class="para">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        Pinaka is venturing into a full-scale branding agency, transforming beyond digital campaigns to offer holistic branding strategies that connect and resonate with customers and make lasting experiences for brands.
                     </p>
                     <div class="abtBoxes">
                         <div class="box">
@@ -53,57 +53,57 @@ get_header();
                             <p>Demonstrating the success and trust built with clients.</p>
                         </div>
                         <div class="box">
-                            <div class="number">95%</div>
-                            <div class="title">Client Satisfaction Rate</div>
-                            <p>Demonstrating the success and trust built with clients.</p>
+                            <div class="number">1 Million</div>
+                            <div class="title">Leads Generated</div>
+                            <p>Highlighting measurable outcomes and business growth.</p>
                         </div>
                         <div class="box">
-                            <div class="number">95%</div>
-                            <div class="title">Client Satisfaction Rate</div>
-                            <p>Demonstrating the success and trust built with clients.</p>
+                            <div class="number">20%</div>
+                            <div class="title">Faster Execution Time</div>
+                            <p>Showcasing efficiency and commitment to deadlines.</p>
                         </div>
                     </div>
                </div>
                <div class="concept">
-                    <div class="secPrefix">Conceptualisation & Ideation</div>
-                    <div class="secTitle">Lorem Ipsum is simply dummy.</div>
+                    <div class="secPrefix">Our Strategies</div>
+                    <div class="secTitle">Strategy That Powers Brand Success</div>
                     <p class="para">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard since the 1500s.
+                    We create strategies that help brands grow, build clarity, and achieve lasting success through purposeful action and consistent execution.
                     </p>
                     <div class="flowimg">
                         <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/brandsflow.png" alt="">
                     </div>
                </div>
                <div class="bd">
-                    <div class="secPrefix">Brand & Designing</div>
-                    <div class="secTitle">Lorem Ipsum is simply dummy.</div>
+                    <div class="secPrefix">Brand Essence</div>
+                    <div class="secTitle">Rooted in Our Brand Truth</div>
                     <p class="para">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard since the 1500s.
+                        We build brands from their core truth, creating authentic identities that resonate deeply, inspire trust, and drive meaningful connections with every audience.
                     </p>
                     <div class="brandBoxes">
                         <div class="box">
                             <img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="">
                             <div class="title">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Discovering What Truly Defines Your Brand From the Inside Out
                             </div>
                             <div class="para">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard since the 1500s.
+                                We uncover the values, purpose, and unique voice that define your brand, laying the foundation for authentic and consistent storytelling across all touchpoints.
                             </div>
                         </div>
                         <div class="box">
                             <img src="<?php echo THEMEURL; ?>/app/images/placeEclipse.png" alt="">
                             <div class="title">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Positioning Your Brand Strategically to Stand Out and Connect Deeply
                             </div>
                             <div class="para">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard since the 1500s.
+                                We align your brand truth with market needs to carve out a clear space in the industry that drives relevance, resonance and recognition.
                             </div>
                         </div>
                     </div>
                </div>
                <div class="clients">
-                    <div class="secPrefix">Clients</div>
-                    <div class="secTitle">Lorem Ipsum is simply dummy.</div>
+                    <div class="secPrefix">Our Clients</div>
+                    <div class="secTitle">Driven by Client-Centered Success</div>
                     <div class="gridBox">
                         <div class="box">
                             <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.png" alt="">

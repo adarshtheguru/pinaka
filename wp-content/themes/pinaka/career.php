@@ -9,11 +9,11 @@ get_header();
         <div class="container">
             <div class="bannerCont">
                 <div class="content">
-                    <div class="mainTitle">Be part of our visionary team shaping the future.</div>
-                    <p class="para">Work alongside visionaries and innovators to bring groundbreaking ideas to life.</p>
+                    <div class="mainTitle">Where Creative Talent Builds the Future of Marketing</div>
+                    <p class="para">Join our team of forward thinkers and creators who aim to make a change</p>
                     <div class="ctas">
-                        <a href="javascript:;" class="themeBtn">All Available positions</a>
-                        <a href="javascript:;" class="blankBtn">Our Social Media</a>
+                        <a href="javascript:;" class="themeBtn">POSITION OPEN HERE</a>
+                        <a href="javascript:;" class="blankBtn">OUR SOCIAL MEDIA</a>
                     </div>
                 </div>
                 <!-- <div class="imgBox">
@@ -31,9 +31,9 @@ get_header();
     <section class="padding careerOv" id="careerOv">
         <div class="container">
             <div class="text-center">
-                <div class="secTitle">Be part of our visionary team shaping the future.</div>
+                <div class="secTitle">Be a part of a moment where we aim to build for the future</div>
                 <p class="para">
-                    Work alongside visionaries and innovators to bring groundbreaking ideas to life.
+                    Make your place in building a future for tomorrow
                 </p>
             </div>
             <div class="ovBox">
@@ -61,10 +61,9 @@ get_header();
     <section class="padding openings" id="openings">
         <div class="container">
             <div class="secPrefix">Openings</div>
-            <div class="secTitle">We're looking for talented people</div>
+            <div class="secTitle">For Talent that Thinks Sideways</div>
             <p class="secPara">
-                Untitled is growing fast, and we are always looking for passionate, dynamic, and
-                laientedinaividuaisiooinourdistriouredteamallaroundtheworld
+                Out-of-the-box ideas drive breakthroughs. If that sounds familiar, we’ve saved a seat for you.
             </p>
             <div class="openingSliderWrapper">
                 <div class="openingSlider">
@@ -143,27 +142,27 @@ get_header();
                     <div class="image">
                         <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/whiteCircle.png" alt="">
                     </div>
-                    <div class="title">Innovative Culture</div>
+                    <div class="title">Committed to Growth</div>
                     <p class="para">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
+                        Our growth-focused mindset makes us more than just an agency, and we believe in investing in your success every step of the way.
                     </p>
                 </div>
                 <div class="box">
                     <div class="image">
                         <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/whiteCircle.png" alt="">
                     </div>
-                    <div class="title">Innovative Culture</div>
+                    <div class="title">Customer-Centric Philosophy</div>
                     <p class="para">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
+                        Pinaka puts customers at the center of every campaign, focusing on emotional resonance, relevance, and value to drive deeper brand loyalty and long-term engagement.
                     </p>
                 </div>
                 <div class="box">
                     <div class="image">
                         <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/whiteCircle.png" alt="">
                     </div>
-                    <div class="title">Innovative Culture</div>
+                    <div class="title">Value-Driven Marketing</div>
                     <p class="para">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy text of the printing and typesetting industry.
+                        In a world of noise and manipulation, Pinaka emphasizes authenticity, integrity, and meaningful messaging, helping brands build trust and lasting relationships with their audiences.
                     </p>
                 </div>
             </div>

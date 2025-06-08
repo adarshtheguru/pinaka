@@ -13,9 +13,9 @@ get_header();
             <div class="secPrefix">Casestudy</div>
             <div class="caseBox">
                 <div class="partA">
-                    <div class="secTitle">Where Innovation Meets Proven Results</div>
+                    <div class="secTitle">Proven results through strategic execution</div>
                     <p class="para">
-                        Explore how our creative solutions and strategies have driven meaningful growth and transformed businesses into success stories.
+                        We build a sharp strategy, execute with purpose, deliver real results, and push your business to new heights.
                     </p>
                 </div>
                 <div class="partB">
@@ -111,8 +111,8 @@ get_header();
     <section class="padding wantResult" id="wantResult">
         <div class="container">
             <div class="text-center">
-                <div class="secTitle">Want results that stand out?</div>
-                <div class="secTitle">Select your objective , and we’ll craft the strategy:</div>
+                <div class="secTitle">Make your Results Unforgettable</div>
+                <div class="secTitle">Tell us more about yourself, and we’ll do the rest</div>
             </div>
             <?php include 'customTemplates/mainForm.php'; ?>
         </div>

@@ -13,9 +13,9 @@ get_header();
                 <div class="secPrefix">Clients</div>
                 <div class="caseBox">
                     <div class="partA">
-                        <div class="secTitle">Empowering Brands to Achieve Their Marketing Goals</div>
+                        <div class="secTitle">Helping Brands Dream Big and Deliver Bigger</div>
                         <p class="para">
-                            Introduce the concept of partnership. Highlight how PINAKA collaborates with clients to tailor solutions that address their specific challenges in the real estate marketing space.<br>
+                            Empowering ambitious brands with marketing strategies that drive growth, visibility, and long-term success<br>
                             <a href="javascript:;" class="inner-link"><span>See Our Success Stories <img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg"><span></a>
                         </p>
                     </div>
@@ -87,22 +87,22 @@ get_header();
         </section>
         <section class="padding buisSol" id="buisSol">
             <div class="container">
-                <div class="text-center secTitle">Business Solutions, Reimagined</div>
+                <div class="text-center secTitle">Solutions that Think Ahead</div>
                 <div class="buisSolBox">
                     <div class="box">
                         <img src="<?php echo THEMEURL; ?>/app/images/targetTick.svg" alt="">
-                        <div class="title">Customized Strategies for Growth</div>
-                        <p class="para">Tailored marketing approaches to showcase unique offerings and amplify brand impact.</p>
+                        <div class="title">Designed for Tomorrow’s Goals</div>
+                        <p class="para">Your brand is growing, and your marketing should grow with it. Our solutions are scalable, data-informed, and built to evolve, so they align not only with where you are now but where you're headed.</p>
                     </div>
                     <div class="box">
                         <img src="<?php echo THEMEURL; ?>/app/images/speaker.svg" alt="">
-                        <div class="title">Visibility and Engagement Boost</div>
-                        <p class="para">Innovative digital solutions to enhance brand visibility and drive customer engagement.</p>
+                        <div class="title">Efficiency Without Compromise</div>
+                        <p class="para">Thinking ahead means delivering more than what's expected, it means creating systems that are sustainable, efficient, and set up for long-term performance without sacrificing quality.</p>
                     </div>
                     <div class="box">
                         <img src="<?php echo THEMEURL; ?>/app/images/greenBar.svg" alt="">
-                        <div class="title">Data-Driven Decision-Making</div>
-                        <p class="para">Leveraging advanced analytics and insights to support smarter business decisions.</p>
+                        <div class="title">Prepared for What's Next</div>
+                        <p class="para">Trends fade. Platforms change. But strategic thinking endures. Our team is always researching, testing, and refining so your brand stays on the edge of relevance and readiness.</p>
                     </div>
                 </div>
             </div>
@@ -111,35 +111,35 @@ get_header();
         <section class="padding ambitions" id="ambitions">
             <div class="container">
                 <div class="partA text-center">
-                    <div class="secTitle">Transforming Ambitions into Achievements</div>
-                    <div class="para col-8 center-block col-xs-12">At PINAKA, our focus is on measurable results that drive your business forward. From increasing brand reach to enhancing lead quality, our tailored solutions bring success stories to life.</div>
+                    <div class="secTitle">Turning Vision into Wins</div>
+                    <div class="para col-8 center-block col-xs-12">Guiding brands from insightful strategies to high-impact execution with measurable business outcomes.</div>
                 </div>
                 <div class="partB">
                     <div class="dataBox">
                         <div class="box">
                             <div class="number">60%</div>
-                            <div class="title">Boost in Lead Quality</div>
+                            <div class="title">Increase in Lead Quality</div>
                             <p class="para">
-                                Our data-centric approach raised lead quality by 60%, helping clients attract and engage the right audience effectively.
+                                Our data-driven strategies helped clients boost lead quality by 60%, attracting better and high-converting prospects.
                             </p>
                         </div>
                         <div class="box">
                             <div class="number">120%</div>
-                            <div class="title">Increase in Organic Traffic</div>
+                            <div class="title">Growth in Organic Traffic</div>
                             <p class="para">
-                                With our SEO strategies, clients have seen a 120% increase in organic site traffic, bringing long-term growth and visibility.
+                                With advanced SEO and content strategies, clients saw a 120% rise in organic traffic while building long-term visibility and trust.
                             </p>
                         </div>
                         <div class="box">
                             <div class="number">40%</div>
-                            <div class="title">Reduction in Cost-Per-Lead</div>
+                            <div class="title">Drop in Cost-Per-Lead</div>
                             <p class="para">
-                                We helped clients cut lead generation costs by 40%, allowing for more budget to go toward growth and innovation.
+                                By optimizing campaign efficiency, we helped clients reduce CPL by 40%, maximizing marketing ROI and budget impact.
                             </p>
                         </div>
                     </div>
                     <div class="text-center">
-                        <a href="jaavscript:;" class="themeBtn">Schedule a Free Consultation</a>
+                        <a href="jaavscript:;" class="themeBtn">SCHEDULE FREE CONSULTATION</a>
                     </div>
                 </div>
             </div>

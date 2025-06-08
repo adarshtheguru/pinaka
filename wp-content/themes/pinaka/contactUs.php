@@ -13,9 +13,9 @@ get_header();
             <div class="secPrefix">Contact Us</div>
             <div class="caseBox">
                 <div class="partA">
-                    <div class="secTitle">Let's work together!</div>
+                    <div class="secTitle">Join our Journey</div>
                     <p class="para">
-                        Work with a team that brings creativity and technology together. Together, we'll make a difference.
+                        Partner with us to blend creative thinking and smart strategy for results that truly stand out.
                     </p>
                 </div>
                 <div class="partB">
@@ -24,17 +24,19 @@ get_header();
                         <div class="layer layerA">
                             <div class="title">Address</div>
                             <p class="address">
-                                202, 2nd Floor, Vishnu Darshan Apartments, Fergusson College Rd, Rage Path, Model Colony, Shivajinagar, Pune, Maharashtra 411005
+                                202, Vishnu Darshan Apartments,
+                                Fergusson College Rd, Rge Path, Model Colony,
+                                Shivajinagar, Pune, Maharashtra 411005
                             </p>
                             <a href="javascript:;" class="goldenLink">get Directions</a> &nbsp;<img src="<?php echo THEMEURL; ?>/app/images/goldenArrow.svg" alt="">
                         </div>
                         <div class="layer layerB">
                             <div class="title">Phone</div>
                             <div class="numbers">
-                                <div><img width="20" src="<?php echo THEMEURL; ?>/app/images/indiaFlag.png" alt="" class="flag">&nbsp;&nbsp;<a href="tel:76767" class="phone">91-7498044954</a></div>
+                                <div><img width="20" src="<?php echo THEMEURL; ?>/app/images/indiaFlag.png" alt="" class="flag">&nbsp;&nbsp;<a href="tel:+917498044954" class="phone">91-7498044954</a></div>
                             </div>
                             <div class="numbers">
-                                <div><img width="20" src="<?php echo THEMEURL; ?>/app/images/usaFlag.png" alt="" class="flag">&nbsp;&nbsp;<a href="tel:76767" class="phone">1-3202896184</a></div>
+                                <div><img width="20" src="<?php echo THEMEURL; ?>/app/images/usaFlag.png" alt="" class="flag">&nbsp;&nbsp;<a href="tel:+13202896184" class="phone">1-3202896184</a></div>
                             </div>
                         </div>
                         <div class="layer layerC">
@@ -44,7 +46,7 @@ get_header();
                             </a>
                         </div>
                         <div class="layer layerD">
-                            <div class="title">Social with us</div>
+                            <div class="title">SOCIALIZE WITH US</div>
                             <div class="icons">
                                 <a href="javascript:;"> <img src="<?php echo THEMEURL; ?>/app/images/fb.svg" alt=""></a>
                                 <a href="javascript:;"> <img src="<?php echo THEMEURL; ?>/app/images/li.svg" alt=""></a>
