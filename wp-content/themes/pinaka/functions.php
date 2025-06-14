@@ -917,3 +917,35 @@ class Tailwind_Nav_Walker extends Walker_Nav_Menu {
         $output .= '</ul>';
     }
 }
+
+//custom code for post
+function add_welcome_text_meta_box() {
+    add_meta_box(
+        'welcome_text_meta_box',       // ID
+        'Welcome Text',                // Title
+        'render_welcome_text_meta_box', // Callback
+        'post',                        // Post type
+        'normal',                      // Context (normal shows below title, before editor)
+        'high'                         // Priority
+    );
+}
+add_action('add_meta_boxes', 'add_welcome_text_meta_box');
+
+function render_welcome_text_meta_box($post) {
+    $value = get_post_meta($post->ID, '_welcome_text', true);
+    wp_nonce_field('save_welcome_text_meta_box', 'welcome_text_meta_box_nonce');
+    echo '<textarea style="width:100%;" rows="3" name="welcome_text">' . esc_textarea($value) . '</textarea>';
+}
+function save_welcome_text_meta_box($post_id) {
+    if (!isset($_POST['welcome_text_meta_box_nonce']) ||
+        !wp_verify_nonce($_POST['welcome_text_meta_box_nonce'], 'save_welcome_text_meta_box')) {
+        return;
+    }
+
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) return;
+
+    if (isset($_POST['welcome_text'])) {
+        update_post_meta($post_id, '_welcome_text', sanitize_text_field($_POST['welcome_text']));
+    }
+}
+add_action('save_post', 'save_welcome_text_meta_box');
