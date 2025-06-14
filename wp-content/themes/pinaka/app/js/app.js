@@ -140,14 +140,25 @@ $(document).ready(function(){
 			}
 		});
 		//tab code
+		// ✅ TAB SWITCH CODE — Update to re-run handler:
 		$('.tab-title').on('click', function () {
 			var targetTab = $(this).data('tab');
-	  
+
 			$('.tab-title').removeClass('active');
 			$(this).addClass('active');
-	  
+
 			$('.tab-content').removeClass('active');
 			$('#' + targetTab).addClass('active');
+
+			// 🔁 Re-apply load more on new active tab
+			setTimeout(() => {
+				const $activeGrid = $('#' + targetTab).find('.blogGridBox');
+				const $activeBtn = $('#' + targetTab).find('.blogLoadBtn');
+
+				if ($activeGrid.length && $activeBtn.length) {
+					loadMoreHandler($activeGrid, $activeBtn, 6, 4);
+				}
+			}, 10); // small delay to ensure tab content is visible
 		});
 
 		//sliders
@@ -277,43 +288,44 @@ $(document).ready(function(){
 			const $container = $(containerSelector);
 			const $boxes = $container.find('.box');
 			const $btn = $(btnSelector);
-		  
+
 			function getCount() {
-			  return $(window).width() < 992 ? mobileCount : desktopCount;
+				return $(window).width() < 992 ? mobileCount : desktopCount;
 			}
-		  
+
 			function showInitial() {
-			  const count = getCount();
-			  $boxes.hide().slice(0, count).show();
-			  $btn.text('LOAD MORE').data('expanded', false);
+				const count = getCount();
+				$boxes.hide().slice(0, count).show();
+				$btn.text('LOAD MORE').data('expanded', false);
 			}
-		  
+
 			showInitial();
-		  
+
 			$(window).on('resize', function () {
-			  if (!$btn.data('expanded')) {
-				showInitial();
-			  }
-			});
-		  
-			$btn.off('click').on('click', function () {
-			  const isExpanded = $btn.data('expanded');
-			  const count = getCount();
-			  const visible = $boxes.filter(':visible').length;
-		  
-			  if (!isExpanded) {
-				$boxes.slice(visible, visible + count).slideDown();
-				if (visible + count >= $boxes.length) {
-				  $btn.text('LOAD LESS').data('expanded', true);
+				if (!$btn.data('expanded')) {
+					showInitial();
 				}
-			  } else {
-				showInitial();
-			  }
 			});
-		  }
+
+			$btn.off('click').on('click', function () {
+				const isExpanded = $btn.data('expanded');
+				const count = getCount();
+				const visible = $boxes.filter(':visible').length;
+
+				if (!isExpanded) {
+					$boxes.slice(visible, visible + count).slideDown();
+					if (visible + count >= $boxes.length) {
+						$btn.text('LOAD LESS').data('expanded', true);
+					}
+				} else {
+					showInitial();
+				}
+			});
+		}
 
 		  loadMoreHandler('.gridBox', '.gridLoadBtn', 8, 6);
 		  loadMoreHandler('.caseGridBox', '.caseLoadBtn', 6, 4);
+		  loadMoreHandler('.blogGridBox', '.blogLoadBtn', 6, 4);
 
 			/*------------------- animation js----------------------------------------*/
 
