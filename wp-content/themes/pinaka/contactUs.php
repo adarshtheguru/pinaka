@@ -40,7 +40,7 @@ get_header();
                             </div>
                         </div>
                         <div class="layer layerC">
-                            <div class="title">Phone</div>
+                            <div class="title">Email</div>
                             <a href="mailto:testtt" class="address">
                                 sales@pinaka.digital
                             </a>

@@ -949,3 +949,9 @@ function save_welcome_text_meta_box($post_id) {
     }
 }
 add_action('save_post', 'save_welcome_text_meta_box');
+
+// $menus = wp_get_nav_menus();
+
+// foreach ( $menus as $menu ) {
+//     echo $menu->term_id . ' - ' . $menu->name . ' (' . $menu->slug . ')<br>';
+// }

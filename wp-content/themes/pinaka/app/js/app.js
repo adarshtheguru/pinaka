@@ -327,6 +327,35 @@ $(document).ready(function(){
 		  loadMoreHandler('.caseGridBox', '.caseLoadBtn', 6, 4);
 		  loadMoreHandler('.blogGridBox', '.blogLoadBtn', 6, 4);
 
+		  //hamburger
+		  $('.hamburger').click(function() {
+			$(this).toggleClass('active');
+			
+			if ($(this).hasClass('active')) {
+			$("header").addClass('headerBg');
+			$('.hamburgerMenu').stop(true, true).slideDown(300);
+			} else {
+			$("header").removeClass('headerBg');
+			$('.hamburgerMenu').stop(true, true).slideUp(300);
+			}
+		});
+
+		//hamburger sub menus
+		$(".hasSubMenu > a").click(function (e) {
+			e.preventDefault(); // prevent default anchor behavior
+			var parentLi = $(this).parent();
+
+			// Toggle active class
+			parentLi.toggleClass("active");
+
+			// Show submenu only if active
+			if (parentLi.hasClass("active")) {
+			parentLi.find(".hamMenuB").slideDown(); // or use `.show()` if no animation needed
+			} else {
+			parentLi.find(".hamMenuB").slideUp(); // or use `.hide()`
+			}
+		});
+
 			/*------------------- animation js----------------------------------------*/
 
 			var $window = $(window),
@@ -391,6 +420,7 @@ $(document).ready(function(){
 	//popup form
 	 $('.enq_click').on('click', function() {
         $('#popupOverlay').fadeIn();
+		checkHamburgerActive();
     });
 
     $('#closePopupBtn').on('click', function() {
@@ -421,21 +451,28 @@ $(document).ready(function(){
 				$("header").removeClass("active");
 			}
 
-			// TOP NAV ANIMATION ----------------------------------------s------------
-		// if (windscroll >= 50) {
-
-		// 	$("header").addClass("active");
-		// 	$("#comp-logo .brand-logo").addClass("compress-logo")
-		// 	$(".nav-links").removeClass("set-transform");
-
-		// }
-		// else{
-		// 	$("header").removeClass("active");
-		// 	$("#comp-logo .brand-logo").removeClass("compress-logo")
-		// 	$(".nav-links").addClass("set-transform");
-		// }
-
 		});
+		let lastScrollTop = $(window).scrollTop();
+
+		$(window).on('scroll', function() {
+		let currentScrollTop = $(this).scrollTop();
+
+		if (Math.abs(currentScrollTop - lastScrollTop) >= 50) {
+			checkHamburgerActive();
+			
+			// Update the last scroll position
+			lastScrollTop = currentScrollTop;
+		}
+});
+
+function checkHamburgerActive(){
+	// Close hamburger menu if open
+    if ($('.hamburger').hasClass('active')) {
+      $('.hamburger').removeClass('active');
+      $('header').removeClass('headerBg');
+      $('.hamburgerMenu').stop(true, true).slideUp(300);
+    }
+}
 
   document.addEventListener("DOMContentLoaded", function () {
     const menuToggle = document.getElementById("menu-toggle");
