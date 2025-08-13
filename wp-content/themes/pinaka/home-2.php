@@ -24,26 +24,72 @@ get_header();
 				</div>
 			</div>
 		</div>
+		<!-- <div class="future_swiper_wrapper">
+			<div class="future_swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="data-stats">
+							<div class="stats">
+								<div class="number">200+</div>
+								<p class="para">Years of shared expertise to deliver powerful <br>and effective marketing solutions.</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="data-stats">
+								<div class="stats">
+									<div class="number">100+</div>
+									<p class="para">Successful clients reaching new heights with<br> powerful digital strategies.</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="data-stats">
+								<div class="stats">
+									<div class="number">99.90%</div>
+									<p class="para">Uptime for seamless digital solutions, ensuring<br> reliability and performance.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
 	</div>
 	<div class="text-anim">
-		<h3 class="text-anim-1 textAnim">Results That Speak Results That Speak Results That Speak Results That Speak Results That Speak</h3>
-		<h3 class="text-anim-2 textAnim">Tailored Strategies for Every Client Tailored Strategies for Every Client Tailored Strategies for Every Client</h3>
-		<h3 class="text-anim-3 textAnim">Trusted by Brands Across Sectors Trusted by Brands Across Sectors Trusted by Brands Across Sectors</h3>
-		<h3 class="text-anim-4 textAnim">Full-Funnel Expertise Full-Funnel Expertise</h3>
-		<h3 class="text-anim-5 textAnim">Transparent, Collaborative Partnerships Transparent, Collaborative Partnerships Transparent, Collaborative Partnerships</h3>
+		<h3 class="text-anim-1 textAnim parallax-slide" data-speed="0.4" style="transform: translateX(-100vw);">Results That Speak Results That Speak Results That Speak Results That Speak Results That Speak &nbsp;&nbsp;&nbsp; Results That Speak Results That Speak Results That Speak Results That Speak Results That Speak</h3>
+		<h3 class="text-anim-2 textAnim parallax-slide" data-speed="-0.4" >Tailored Strategies for Every Client Tailored Strategies for Every Client Tailored Strategies for Every Client &nbsp;&nbsp;&nbsp; Tailored Strategies for Every Client Tailored Strategies for Every Client Tailored Strategies for Every Client </h3>
+		<h3 class="text-anim-3 textAnim parallax-slide" data-speed="0.4"  style="transform: translateX(-100vw);">Trusted by Brands Across Sectors Trusted by Brands Across Sectors Trusted by Brands Across Sectors &nbsp;&nbsp;&nbsp; Trusted by Brands Across Sectors Trusted by Brands Across Sectors Trusted by Brands Across Sectors</h3>
+		<h3 class="text-anim-4 textAnim parallax-slide" data-speed="-0.4" >Full-Funnel Expertise Full-Funnel Expertise &nbsp;&nbsp;&nbsp; Full-Funnel Expertise &nbsp;&nbsp;&nbsp;Full-Funnel Expertise Full-Funnel Expertise&nbsp;&nbsp;&nbsp; Full-Funnel Expertise</h3>
+		<h3 class="text-anim-5 textAnim parallax-slide" data-speed="0.4"  style="transform: translateX(-100vw);">Transparent, Collaborative Partnerships Transparent, Collaborative Partnerships Transparent, Collaborative Partnerships &nbsp;&nbsp;&nbsp; Transparent, Collaborative Partnerships Transparent, Collaborative Partnerships Transparent, Collaborative Partnerships</h3>
 	</div>
 </section>
 <section>
 	<div class="specialize-slide col-12">
-		<div class="container">
+		<div class="">
 			<div class="col-12">
-				<h2>We Specialize </h2>
-				<h3>in connecting brands<br>with the right audience...</h3>
+				<div class="specialize_slider">
+					<div class="specialize_cont specialise_1">
+						<h2 class="">We Specialize </h2>
+						<h3 class="">in connecting brands<br>with the right audience...</h3>
+					</div>
+					<div class="specialize_cont  specialise_2">
+						<h3 class="text-white text-center">driving long-term <br>loyalty and measurable <br> digital growth.</h3> 
+					</div>
+				</div>
+				<div class="specialiseArrow">
+					<div id="specialize_sliderLeft">
+						<img src="<?php echo THEMEURL; ?>/app/images/special_prev.svg" alt="" class="img-responsive">
+					</div>
+					<div id="specialize_sliderRight">
+						<img src="<?php echo THEMEURL; ?>/app/images/special_next.svg" alt="" class="img-responsive">
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="padding home-project">
+<section class="padding section__wrapper home-project">
+	<div class="section__line"></div>
 	<div class="container">
 		<div class="col-12">
 			<div class="col-4">

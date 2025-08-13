@@ -117,6 +117,9 @@
 	</script>
 	<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+	<script src="https://assets.codepen.io/16327/ScrollTrigger.min.js"></script>
+	<!-- <script src="/assets/js/gsapanimation.js" defer></script> -->
 	<script src="<?php echo THEMEURL; ?>/assets/js/lenis-min.js"></script>
 	<script type="text/javascript" src="<?php echo THEMEURL; ?>/assets/js/validate.js"></script>
 	<script src="<?php echo THEMEURL; ?>/assets/js/all.js"></script>

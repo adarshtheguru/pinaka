@@ -19,6 +19,10 @@
 .shapingFuture {
 	background-color: #EAF7FF;
 
+	.future_swiper_wrapper {
+		margin-top: 20px;
+	}
+
 	.data-stats {
 		padding: 130px 0;
 
@@ -91,9 +95,24 @@
 	}
 }
 
+
+
+.specialize_slider {
+	.specialise_1 {
+		background-color: #003E63;
+		padding: 250px 150px;
+	}
+
+	.specialise_2 {
+		background-image: url("../../app/images/home-banner.svg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding: 250px 150px;
+	}
+}
+
 .specialize-slide {
-	background-color: #003E63;
-	padding: 250px 0;
+	position: relative;
 
 	h2 {
 		font-family: 'Inter';
@@ -112,6 +131,18 @@
 		line-height: 82px;
 		color: #FFFFFF;
 	}
+
+	.specialiseArrow {
+		display: flex;
+		justify-content: space-between;
+		width: 90%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 4;
+		cursor: pointer;
+	}
 }
 
 .sec-title {
@@ -128,6 +159,18 @@
 }
 
 .home-project {
+	position: relative;
+
+	.section__line {
+	  position: absolute;
+	  left: 50%;
+	  top: 0;
+	  width: 2px;
+	  transform: translateX(-50%);
+	  height: 100%;
+	  background-color: red;
+	}
+	
 	p {
 		font-family: 'Inter';
 		font-style: normal;
@@ -135,6 +178,22 @@
 		font-size: 28px;
 		line-height: 34px;
 		color: #161616;
+	}
+	
+	.linesvg_wrap {
+		position: absolute;
+		top: 50px;
+		left: 50%;
+		transform: translateX(-50%);
+
+		.g-line-1 {
+		  stroke-dasharray: 6141.7158203125; /* Path length */
+		  stroke-dashoffset: 6141.7158203125; /* Initially hidden */
+		  stroke: #4A7A5E;
+		  stroke-width: 2;
+		  fill: none;
+		}
+
 	}
 }
 

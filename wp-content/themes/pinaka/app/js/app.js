@@ -260,6 +260,27 @@ $(document).ready(function(){
 				}
 			]
 		});
+		$('.shapingFutureCont').slick({
+			slidesToShow:1,
+			arrows:false,
+			dots:true,  
+			infinite: true,
+			speed: 1, 
+			fade: true,  
+			cssEase: 'linear',
+			touchThreshold: 100,
+			autoplay: true,
+			autoplaySpeed: 1,
+		});
+		$('.specialize_slider').slick({
+			slidesToShow:1,
+			arrows:true,
+			dots:false,  
+			infinite: true,
+			speed: 1000, 
+			prevArrow:'#specialize_sliderLeft',
+			nextArrow:'#specialize_sliderRight',
+		});
 
 		//aboutUs bg video
 		$('.play-button, .video-thumbnail').click(function() {
