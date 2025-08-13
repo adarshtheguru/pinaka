@@ -67,7 +67,7 @@
         }
     }
 }
-.shapingFuture{
+/*.shapingFuture{
     background-color: #EAF7FF;
     &.padding{
         padding-bottom: 150px;
@@ -78,18 +78,12 @@
     .container{
         position: relative;
         z-index: 2;
-        /*.secPrefix{
-            @media ($max1024) {
-                text-align: center;
-            }
-        }*/
         .shapingFutureCont{
             display: grid;
             grid-template-columns: 55% auto;
             gap: 0 70px;
             @media ($max1024) {
                 grid-template-columns: auto;
-/*                text-align: center;*/
                 gap: 30px 0;
             }
             .content{
@@ -105,7 +99,6 @@
             .data{
                 display: grid;
                 @media($max1024) {
-/*                    grid-template-columns: auto auto;*/
                     gap: 10px 0;
                 }
                 @media ($max992) {
@@ -139,7 +132,7 @@
         transform: translateX(-50%);
         z-index: 1;
     }
-}
+}*/
 .whatWeDo{
     background: linear-gradient(90deg, #B1E2FF 0%, #4397C8 100%);
     .container{

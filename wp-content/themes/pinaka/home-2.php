@@ -1,0 +1,273 @@
+<?php /* Template Name: Home New Page */
+get_header();
+?>
+<section class="section-first bg-cover home-banner hero pos-rel" id="hero">
+	<div class="container">
+		<h1 class="banner-title">Accelerating<br>Ambition Through<br>Smart Digital<br>Execution</h1>
+	</div>
+</section>
+<section class="shapingFuture pos-rel" id="shapingFuture">
+	<div class="container">
+		<div class="shapingFutureCont">
+			<div class="data-stats">
+				<div class="stats">
+					<div class="number">200+</div>
+					<p class="para">Years of shared expertise to deliver powerful <br>and effective marketing solutions.</p>
+				</div>
+				<div class="stats">
+					<div class="number">100+</div>
+					<p class="para">Successful clients reaching new heights with<br> powerful digital strategies.</p>
+				</div>
+				<div class="stats">
+					<div class="number">99.90%</div>
+					<p class="para">Uptime for seamless digital solutions, ensuring<br> reliability and performance.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="text-anim">
+		<h3 class="text-anim-1 textAnim">Results That Speak Results That Speak Results That Speak Results That Speak Results That Speak</h3>
+		<h3 class="text-anim-2 textAnim">Tailored Strategies for Every Client Tailored Strategies for Every Client Tailored Strategies for Every Client</h3>
+		<h3 class="text-anim-3 textAnim">Trusted by Brands Across Sectors Trusted by Brands Across Sectors Trusted by Brands Across Sectors</h3>
+		<h3 class="text-anim-4 textAnim">Full-Funnel Expertise Full-Funnel Expertise</h3>
+		<h3 class="text-anim-5 textAnim">Transparent, Collaborative Partnerships Transparent, Collaborative Partnerships Transparent, Collaborative Partnerships</h3>
+	</div>
+</section>
+<section>
+	<div class="specialize-slide col-12">
+		<div class="container">
+			<div class="col-12">
+				<h2>We Specialize </h2>
+				<h3>in connecting brands<br>with the right audience...</h3>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="padding home-project">
+	<div class="container">
+		<div class="col-12">
+			<div class="col-4">
+				<h2 class="sec-title">Featured Projects</h2>
+				<p>From regional businesses seeking national recognition to enterprises gearing up for expansion, we build digital strategies that scale with your ambitions.</p>
+			</div>
+		</div>
+		<div class="project-card-list justify-end col-12">
+			<div class="col-5">
+				<div class="project-card-info">
+					<img src="<?php echo THEMEURL; ?>/app/images/project-1.jpg">
+					<h3>Huntsville Botanical Garden</h3>
+					<p>Campaigns, Digital Advertising, Social Advertising</p>
+					<a href="javascript:;" class="white-btn">See the case study</a>
+				</div>
+			</div>
+		</div>
+		<div class="project-card-list col-12">
+			<div class="col-5">
+				<div class="project-card-info">
+					<img src="<?php echo THEMEURL; ?>/app/images/project-1.jpg">
+					<h3>Huntsville Botanical Garden</h3>
+					<p>Campaigns, Digital Advertising, Social Advertising</p>
+					<a href="javascript:;" class="white-btn">See the case study</a>
+				</div>
+			</div>
+		</div>
+		<div class="project-card-list justify-end col-12">
+			<div class="col-5">
+				<div class="project-card-info">
+					<img src="<?php echo THEMEURL; ?>/app/images/project-1.jpg">
+					<h3>Huntsville Botanical Garden</h3>
+					<p>Campaigns, Digital Advertising, Social Advertising</p>
+					<a href="javascript:;" class="white-btn">See the case study</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-12">
+			<div class="col-4">
+				<p>From regional businesses seeking national recognition to enterprises gearing up for expansion, we build digital strategies that scale with your ambitions.</p>
+				<a href="javascript:;" class="blue-btn">Explore More</a>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="padding pinaka-service">
+	<div class="container">
+		<div class="col-12">
+			<h2 class="sec-title text-white text-center mg-bt-20">Services We Provide</h2>
+		</div>
+		<div class="col-12">
+			<div class="pinaka-service-list">
+				<div class="cols">
+					<div class="col" ontouchstart="this.classList.toggle('hover');">
+						<div class="container">
+							<div class="front bg-top">
+								<div class="inner">
+									<p>Event Brand Consulting VS. Event Planning</p>
+								</div>
+							</div>
+							<div class="back">
+								<div class="inner">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col" ontouchstart="this.classList.toggle('hover');">
+						<div class="container">
+							<div class="front">
+								<div class="inner">
+									<p>How do you align Brand Identity at Events?</p>
+								</div>
+							</div>
+							<div class="back">
+								<div class="inner">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col" ontouchstart="this.classList.toggle('hover');">
+						<div class="container">
+							<div class="front bg-top">
+								<div class="inner">
+									<p>Long-term partnerships or Project Based?</p>
+								</div>
+							</div>
+							<div class="back">
+								<div class="inner">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col" ontouchstart="this.classList.toggle('hover');">
+						<div class="container">
+							<div class="front bg-top">
+								<div class="inner">
+									<p>Will you work with my industry?</p>
+								</div>
+							</div>
+							<div class="back">
+								<div class="inner">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col" ontouchstart="this.classList.toggle('hover');">
+						<div class="container">
+							<div class="front">
+								<div class="inner">
+									<p>How is our confidential information handled?</p>
+								</div>
+							</div>
+							<div class="back">
+								<div class="inner">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col" ontouchstart="this.classList.toggle('hover');">
+						<div class="container">
+							<div class="front bg-top">
+								<div class="inner">
+									<p>What are your strategies?</p>
+								</div>
+							</div>
+							<div class="back">
+								<div class="inner">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="padding clients" id="client">
+	<div class="container">
+		<div class="clientCont">
+			<div class="col-5 text-left-xs">
+				<div class="secPrefix">Our Clients</div>
+				<div class="secTitle mg-bt-20">Why customers<br> love partnering<br> with us? </div>
+				<p class="secPara col-10 col-xs-12">Because we pair smart strategy with relentless execution.</p>
+				<a href="javascript:;" class="blue-btn mg-tp-30 col-12">Explore More</a>
+			</div>
+			<div class="gridBoxs col-7">
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client2.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client3.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client4.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client5.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client6.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client7.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client8.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="padding partners" id="partners">
+	<div class="container">
+		<div class="clientCont">
+			<div class="col-5 text-left-xs">
+				<div class="secPrefix">Our Partners</div>
+				<div class="secTitle mg-bt-20">We simplify the<br> complex </div>
+				<p class="secPara col-10 col-xs-12">guiding you to the best-fit digital solutions without the guesswork.</p>
+				<a href="javascript:;" class="blue-btn mg-tp-30 col-12">Explore More</a>
+			</div>
+			<div class="col-1">&nbsp;</div>
+			<div class="gridBoxs col-6">
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Brahmastra.svg" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Eskimi.svg" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Facebook.svg" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Google.svg" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Sinch.svg" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Taboola.svg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<?php include 'customTemplates/footerGreen.php'; ?>
+<!-- <section class="padding" id="overview">
+						<div class="container">
+												<div class="row">
+																		<div class="col-12 banner_ht">
+																								<p>overview</p>
+																		</div>
+												</div>
+						</div>
+</section> -->
+<?php get_footer(); ?>

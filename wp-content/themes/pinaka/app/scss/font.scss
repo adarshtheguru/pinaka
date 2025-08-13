@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: 'Aspekta';
     font-style: normal;
     font-weight: 50;
@@ -156,4 +156,25 @@
     font-weight: 1000;
     font-display: swap;
     src: url('../fonts/aspekta/Aspekta-1000.woff2') format('woff2');
-  }
+  }*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  @font-face {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  @font-face {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

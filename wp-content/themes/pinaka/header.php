@@ -62,14 +62,14 @@ if ($menu_items) {
 						</div>
 						<div class="col-12 lower">
 							<div class="nav-links">
-								<?php
+								<!-- <?php
 									wp_nav_menu(array(
 									    'theme_location' => 'header-menu',
 									    'menu_class'     => 'main-menu',
 									    'container'      => 'nav',
 									    'container_class'=> 'main-nav flex space-x-6',
 									));
-									?>
+									?> -->
 									<div class="hamburger">
 										<span class="bar1"></span>
 										<span class="bar2"></span>

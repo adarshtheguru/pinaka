@@ -162,6 +162,15 @@ $(document).ready(function(){
 		});
 
 		//sliders
+		$('.data-stats').slick({
+			slidesToShow: 1,
+			arrows:false,
+			dots:false,
+			autoplay:true,
+			fade: true,
+  cssEase: 'linear'
+		});
+		
 		$('.testSlider').slick({
 			slidesToShow: 3,
 			arrows:true,
