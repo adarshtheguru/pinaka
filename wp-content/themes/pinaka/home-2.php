@@ -89,7 +89,7 @@ get_header();
 	</div>
 </section>
 <section class="padding section__wrapper home-project">
-	<div class="section__line"></div>
+	<!-- <div class="section__line"></div> -->
 	<div class="container">
 		<div class="col-12">
 			<div class="col-4">
