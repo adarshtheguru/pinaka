@@ -88,8 +88,15 @@ get_header();
 		</div>
 	</div>
 </section>
-<section class="padding section__wrapper home-project">
-	<!-- <div class="section__line"></div> -->
+<section class="padding scroll_section__wrapper home-project">
+	<div class="section_line_wrap">
+		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 485"  xml:space="preserve">
+			<style type="text/css">
+				.st0{fill:none;stroke:#666560;stroke-width:2;stroke-miterlimit:10;}
+			</style>
+			<polyline class="st0" points="97.5,0 97.5,476 0.5,476 " fill="transparent"></polyline>
+			</svg>
+	</div>
 	<div class="container">
 		<div class="col-12">
 			<div class="col-4">
@@ -100,34 +107,44 @@ get_header();
 		<div class="project-card-list justify-end col-12">
 			<div class="col-5">
 				<div class="project-card-info">
-					<img src="<?php echo THEMEURL; ?>/app/images/project-1.jpg">
-					<h3>Huntsville Botanical Garden</h3>
-					<p>Campaigns, Digital Advertising, Social Advertising</p>
-					<a href="javascript:;" class="white-btn">See the case study</a>
+					<img src="<?php echo THEMEURL; ?>/app/images/project-1.jpg" class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">
+					<h3 class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Huntsville Botanical Garden</h3>
+					<p class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Campaigns, Digital Advertising, Social Advertising</p>
+					<a href="javascript:;" class="white-btn revealOnScroll" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
 			</div>
 		</div>
 		<div class="project-card-list col-12">
 			<div class="col-5">
 				<div class="project-card-info">
-					<img src="<?php echo THEMEURL; ?>/app/images/project-1.jpg">
-					<h3>Huntsville Botanical Garden</h3>
-					<p>Campaigns, Digital Advertising, Social Advertising</p>
-					<a href="javascript:;" class="white-btn">See the case study</a>
+					<img class="revealOnScroll" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/project-1.jpg">
+					<h3 class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Huntsville Botanical Garden</h3>
+					<p class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Campaigns, Digital Advertising, Social Advertising</p>
+					<a href="javascript:;" class="white-btn revealOnScroll" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
 			</div>
 		</div>
-		<div class="project-card-list justify-end col-12">
+		<div class="project-card-list scroll_card justify-end col-12">
 			<div class="col-5">
 				<div class="project-card-info">
-					<img src="<?php echo THEMEURL; ?>/app/images/project-1.jpg">
-					<h3>Huntsville Botanical Garden</h3>
-					<p>Campaigns, Digital Advertising, Social Advertising</p>
-					<a href="javascript:;" class="white-btn">See the case study</a>
+					<img class="revealOnScroll" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/project-1.jpg">
+					<h3 class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Huntsville Botanical Garden</h3>
+					<p class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Campaigns, Digital Advertising, Social Advertising</p>
+					<a href="javascript:;" class="white-btn revealOnScroll" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
 			</div>
 		</div>
-		<div class="col-12">
+		<div class="col-12 section_wrap_btm">
+
+			<div class="section_line_wrap_btm">
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 485" style="enable-background:new 0 0 100 485;" xml:space="preserve">
+					<style type="text/css">
+						.st2{fill:none;stroke:#666560;stroke-width:2;stroke-miterlimit:10;}
+					</style>
+					<polyline class="st2" points="97.5,0 97.5,476 0.5,476 " fill="transparent"></polyline>
+				</svg>
+			</div>
+			
 			<div class="col-4">
 				<p>From regional businesses seeking national recognition to enterprises gearing up for expansion, we build digital strategies that scale with your ambitions.</p>
 				<a href="javascript:;" class="blue-btn">Explore More</a>

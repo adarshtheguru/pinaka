@@ -37,23 +37,44 @@ $(document).ready(function(){
         ease: "none"
       });
 
-    //   const line = $(".section__line"),
-    //   lineWrapper = $(".section__wrapper");
-    //     gsap.set(line, {transformOrigin: "center top", xPercent: -50, x: 0})
+      const line = document.querySelector('.st0');
+        const length = line.getTotalLength();
 
-    //     gsap.fromTo(line, {
-    //         scaleY: 0,
-    //         }, {
-    //         scaleY: 1,
-    //         ease: "none",
-    //         scrollTrigger: {
-    //             trigger: lineWrapper,
-    //             start: 0,
-    //             end: () => "+=" + lineWrapper[0].offsetHeight,
-    //             markers: true,
-    //             scrub: true,
-    //         }
-    //     });
+        // Setup stroke-dasharray & stroke-dashoffset
+        line.style.strokeDasharray = length;
+        line.style.strokeDashoffset = length;
+
+        gsap.to(line, {
+        strokeDashoffset: 0,
+        ease: "none",
+        scrollTrigger: {
+            trigger: ".specialize-slide",
+            start: "75% center", // when element hits the center of viewport
+            end: "+=500", // adjust how long the scroll animation lasts
+            scrub: true, // smooth scrubbing
+            markers: false // remove in production
+        }
+        });
+
+        const line2 = document.querySelector('.st2');
+        const length2 = line2.getTotalLength();
+
+        // Setup stroke-dasharray & stroke-dashoffset
+        line2.style.strokeDasharray = length2;
+        line2.style.strokeDashoffset = length2;
+
+        gsap.to(line2, {
+        strokeDashoffset: 0,
+        ease: "none",
+        scrollTrigger: {
+            trigger: ".scroll_card",
+            start: "center center", // when element hits the center of viewport
+            end: "+=300", // adjust how long the scroll animation lasts
+            scrub: true, // smooth scrubbing
+            markers: false // remove in production
+        }
+        });
 
 
+        
 });

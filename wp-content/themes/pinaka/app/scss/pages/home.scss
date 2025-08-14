@@ -160,16 +160,29 @@
 
 .home-project {
 	position: relative;
+	overflow: hidden;
 
-	.section__line {
-	  position: absolute;
-	  left: 50%;
-	  top: 0;
-	  width: 2px;
-	  transform: translateX(-50%);
-	  height: 100%;
-	  background-color: red;
+	.section_line_wrap {
+		position: absolute;
+		left: 45%;
+		top: -150px;
+		width: 80px;
+		transform: translateX(-50%);
+		height: 100%;
 	}
+	.section_wrap_btm {
+		position: relative;
+
+		.section_line_wrap_btm {
+			position: absolute;
+			left: 45%;
+			bottom: 300px;
+			width: 80px;
+			transform: translateX(-50%);
+			height: 100%;
+		}
+	}
+	
 	
 	p {
 		font-family: 'Inter';
