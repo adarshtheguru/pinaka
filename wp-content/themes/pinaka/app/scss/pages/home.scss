@@ -262,6 +262,210 @@
 		// margin-top: -15rem;
 	}
 }
+.blueCards{
+	background-color: #003E63;
+	.container{
+		.contentBox{
+			display: grid;
+			grid-template-columns: 40% auto;
+			justify-content: space-between;
+			align-items: start;
+			.partA{
+				.coloredTitle{
+					background: linear-gradient(318.01deg, #FFDC61 3.07%, #FFDC61 46.32%, #FF6EF1 96.93%);
+					-webkit-background-clip: text;
+					-webkit-text-fill-color: transparent;
+					background-clip: text;
+					text-fill-color: transparent;
+					font-weight: 600;
+					font-size: 48px;
+					line-height: 56px;
+				}
+			}
+			.partB{
+				.secHeading{
+					font-weight: 500;
+					font-size: 32px;
+					line-height: normal;
+					padding-bottom: 30px;
+				}
+				p{
+					font-weight: 400;
+					font-size: 20px;
+					line-height: normal;
+				}
+			}
+		}
+		.cardBox{
+			margin-top: 100px;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 75px 58px;
+			.box{
+				background-color: #0A3459;
+				padding: 32px 90px 48px;
+				text-align: center;
+				display: flex;
+				flex-direction: column;
+				gap: 32px 0;
+				img{
+					margin: 0 auto;
+				}
+				.title{
+					font-family: Playfair Display;
+					font-weight: 700;
+					font-size: 26px;
+					line-height: normal;
+					padding: 0 100px;
+				}
+				p{
+					padding: 0 50px;
+					font-weight: 400;
+					font-size: 18px;
+					line-height: normal;
+				}
+			}
+		}
+	}
+	.blueCardSliderWrapepr {
+		margin-top: 130px;
+		.blueCardSlider {
+			.slick-slide {
+				padding: 0 15px; // half of 30px to create gap
+					img {
+						border-radius: 12px;
+						width: 100%;
+						display: block;
+						object-fit: cover;
+						aspect-ratio: 3/2;
+					}
+				}
+
+				.slick-list {
+				margin: 0 -15px; // compensate for padding
+				}
+			}
+			.customArrow{
+				padding-top: 50px;
+				justify-content: center;
+				gap: 10px;
+			}
+		}
+}
+.benefits{
+	background-color: #EAF7FF;
+	&.padding{
+		padding-bottom: 0;
+	}
+	.container{
+		padding-bottom: 100px;
+		border-bottom: 1px solid #003E63;
+		.dataBox{
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 70px;
+			.partA{
+				.secPrefix{
+					padding-bottom: 16px;
+				}
+				.title{
+					font-weight: 500;
+					font-size: 48px;
+					line-height: 52px;
+					color: #161616;
+					padding-bottom: 24px;
+				}
+				p{
+					color: #161616;
+					font-weight: 300;
+					font-size: 18px;
+					line-height: normal;
+				}
+				.themeBtn{
+					margin-top: 100px;
+				}
+			}
+			.partB{
+				background-color: #003E63;
+				padding: 32px 48px;
+				color: #fff;
+				.title{
+					font-family: Playfair Display;
+					font-weight: 700;
+					font-size: 26px;
+					line-height: normal;
+				}
+				ul{
+					padding-top: 32px;
+					list-style-type: none;
+					display: flex;
+					flex-direction: column;
+					gap: 32px;
+					padding-left: 22px;
+					li{
+						font-weight: 400;
+						font-size: 20px;
+						line-height: normal;
+						position: relative;
+						z-index: 1;
+						&:before{
+							position: absolute;
+							content: url($imgpathApp+'/neondot.png');
+							left: -20px;
+							top: 0;
+							z-index: 2;
+						}
+						strong{
+							font-weight: 600;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.caseStudies{
+	background-color: #EAF7FF;
+	.container{
+		.partA{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			.title{
+				font-family: Playfair Display;
+				font-weight: 700;
+				font-size: 36px;
+				color: #003E63;
+			}
+		}
+	}
+
+		.case-study-wrapper {
+			margin-top: 40px;
+
+			.case-study-slider {
+				.title{
+					font-family: Playfair Display;
+					font-weight: 700;
+					font-size: 28px;
+					color: #003E63;
+					padding-top: 10px;
+				}
+				.slick-slide {
+				padding: 0 15px; // creates gap
+				img {
+					width: 100%;
+					border-radius: 12px;
+					display: block;
+				}
+				}
+
+				.slick-list {
+				margin: 0 -15px; // fix extra spacing
+				}
+			}
+		}
+}
 .home-project {
 	position: relative;
 	overflow: hidden;

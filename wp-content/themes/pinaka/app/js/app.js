@@ -281,6 +281,56 @@ $(document).ready(function(){
 			prevArrow:'#specialize_sliderLeft',
 			nextArrow:'#specialize_sliderRight',
 		});
+		$('.blueCardSlider').slick({
+			centerMode: true,
+			centerPadding: '420px', // controls half slide visibility
+			slidesToShow: 1,
+			infinite: true,
+			arrows: true,
+			prevArrow:'#bc-l-arrow',
+			nextArrow:'#bc-r-arrow',
+			dots: false,
+			autoplay:true,
+			responsive: [
+			{
+				breakpoint: 1441,
+				settings: {
+				centerPadding: '360px'
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+				centerPadding: '40px'
+				}
+			}
+			]
+		});
+		$('.case-study-slider').slick({
+			centerMode: true,
+			slidesToShow: 2,
+			centerPadding: '10%', // ~10% visibility of left & right slides
+			infinite: true,
+			arrows: false,
+			autoplay:true,
+			dots: false,
+			responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+				slidesToShow: 1,
+				centerPadding: '15%' // adjust for smaller screens
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+				slidesToShow: 1,
+				centerPadding: '10%'
+				}
+			}
+			]
+		});
 
 		//aboutUs bg video
 		$('.play-button, .video-thumbnail').click(function() {

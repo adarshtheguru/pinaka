@@ -93,185 +93,142 @@ get_header();
 		</div> -->
 	</div>
 </section>
-<!-- <section class="padding pinaka-service">
-	<div class="container">
-		<div class="col-12">
-			<h2 class="sec-title text-white text-center mg-bt-20">Services We Provide</h2>
-		</div>
-		<div class="col-12">
-			<div class="pinaka-service-list">
-				<div class="cols">
-					<div class="col" ontouchstart="this.classList.toggle('hover');">
-						<div class="container">
-							<div class="front bg-top">
-								<div class="inner">
-									<p>Event Brand Consulting VS. Event Planning</p>
-								</div>
-							</div>
-							<div class="back">
-								<div class="inner">
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col" ontouchstart="this.classList.toggle('hover');">
-						<div class="container">
-							<div class="front">
-								<div class="inner">
-									<p>How do you align Brand Identity at Events?</p>
-								</div>
-							</div>
-							<div class="back">
-								<div class="inner">
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col" ontouchstart="this.classList.toggle('hover');">
-						<div class="container">
-							<div class="front bg-top">
-								<div class="inner">
-									<p>Long-term partnerships or Project Based?</p>
-								</div>
-							</div>
-							<div class="back">
-								<div class="inner">
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col" ontouchstart="this.classList.toggle('hover');">
-						<div class="container">
-							<div class="front bg-top">
-								<div class="inner">
-									<p>Will you work with my industry?</p>
-								</div>
-							</div>
-							<div class="back">
-								<div class="inner">
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col" ontouchstart="this.classList.toggle('hover');">
-						<div class="container">
-							<div class="front">
-								<div class="inner">
-									<p>How is our confidential information handled?</p>
-								</div>
-							</div>
-							<div class="back">
-								<div class="inner">
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col" ontouchstart="this.classList.toggle('hover');">
-						<div class="container">
-							<div class="front bg-top">
-								<div class="inner">
-									<p>What are your strategies?</p>
-								</div>
-							</div>
-							<div class="back">
-								<div class="inner">
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-
+<section class="padding blueCards">
+	<div class="container text-white">
+		<div class="contentBox">
+			<div class="partA">
+				<h4 class="secPrefix text-white">
+					What we do
+				</h4>
+				<div class="coloredTitle">
+					Our Web <br> Development & <br> UX/UI Design
 				</div>
+			</div>
+			<div class="partB">
+				<div class="secHeading">
+					Transforming a vision into a <br> powerful reality.
+				</div>
+				<p>We deliver an extensive suite of web development and UX/UI design services that ensure your website stands out with striking visuals while operating flawlessly</p>
+			</div>
+		</div>
+		<div class="cardBox">
+			<div class="box">
+				<img src="<?php echo THEMEURL; ?>/app/images/neon1.svg" alt="">
+				<h4 class="title">Custom Web Development Solutions</h4>
+				<p>
+					Our team crafts high-performance, secure, and fully tailored websites that are specifically designed to meet and exceed your business needs
+				</p>
+			</div>
+			<div class="box">
+				<img src="<?php echo THEMEURL; ?>/app/images/neon1.svg" alt="">
+				<h4 class="title">User-Centric UX/UI Design</h4>
+				<p>
+					We prioritize the user in our design process, guaranteeing that every interaction with your website is not only intuitive and effortless but also engaging and enjoyable
+				</p>
+			</div>
+			<div class="box">
+				<img src="<?php echo THEMEURL; ?>/app/images/neon1.svg" alt="">
+				<h4 class="title">Custom Web Development Solutions</h4>
+				<p>
+					Our team crafts high-performance, secure, and fully tailored websites that are specifically designed to meet and exceed your business needs
+				</p>
+			</div>
+			<div class="box">
+				<img src="<?php echo THEMEURL; ?>/app/images/neon1.svg" alt="">
+				<h4 class="title">User-Centric UX/UI Design</h4>
+				<p>
+					We prioritize the user in our design process, guaranteeing that every interaction with your website is not only intuitive and effortless but also engaging and enjoyable
+				</p>
 			</div>
 		</div>
 	</div>
-</section> -->
-
-<section class="padding clients" id="client">
-	<div class="container">
-		<div class="clientCont">
-			<div class="col-5 text-left-xs">
-				<div class="secPrefix">Our Clients</div>
-				<div class="secTitle mg-bt-20">Why customers<br> love partnering<br> with us? </div>
-				<p class="secPara col-10 col-xs-12">Because we pair smart strategy with relentless execution.</p>
-				<a href="javascript:;" class="blue-btn mg-tp-30 col-12">Explore More</a>
+	<div class="blueCardSliderWrapepr pos-rel">
+		<div class="blueCardSlider">
+			<div><img src="<?php echo THEMEURL; ?>/app/images/bc1.jpg" alt="Slide 1" /></div>
+			<div><img src="<?php echo THEMEURL; ?>/app/images/bc2.jpg" alt="Slide 2" /></div>
+			<div><img src="<?php echo THEMEURL; ?>/app/images/bc3.jpg" alt="Slide 3" /></div>
+			<div><img src="<?php echo THEMEURL; ?>/app/images/bc1.jpg" alt="Slide 4" /></div>
+			<div><img src="<?php echo THEMEURL; ?>/app/images/bc2.jpg" alt="Slide 5" /></div>
+		</div>
+		<div class="customArrow">
+			<div id="bc-l-arrow">
+				<img src="<?php echo THEMEURL; ?>/app/images/leftArrow.svg" alt="">
 			</div>
-			<div class="gridBoxs col-7">
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.png" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client2.png" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client3.png" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client4.png" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client5.png" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client6.png" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client7.png" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client8.png" alt="">
-				</div>
+			<div id="bc-r-arrow">
+				<img src="<?php echo THEMEURL; ?>/app/images/rightArrow.svg" alt="">
 			</div>
 		</div>
 	</div>
 </section>
-<section class="padding partners" id="partners">
+<section id="benefits" class="padding benefits">
 	<div class="container">
-		<div class="clientCont">
-			<div class="col-5 text-left-xs">
-				<div class="secPrefix">Our Partners</div>
-				<div class="secTitle mg-bt-20">We simplify the<br> complex </div>
-				<p class="secPara col-10 col-xs-12">guiding you to the best-fit digital solutions without the guesswork.</p>
-				<a href="javascript:;" class="blue-btn mg-tp-30 col-12">Explore More</a>
+		<div class="dataBox">
+			<div class="partA">
+				<div class="secPrefix">Why Choose Us</div>
+				<div class="title">
+					Pinaka for Web Development & UX/UI Design
+				</div>
+				<p>
+					When you choose Pinaka Digital, you’re aligning yourself with a team of seasoned development experts committed to crafting exceptional, high-impact websites. Here’s what distinguishes us from the competition:
+				</p>
+				<a href="javascript:;" class="themeBtn">See All Services</a>
 			</div>
-			<div class="col-1">&nbsp;</div>
-			<div class="gridBoxs col-6">
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Brahmastra.svg" alt="">
+			<div class="partB">
+				<div class="title">
+					Key Benefits
 				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Eskimi.svg" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Facebook.svg" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Google.svg" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Sinch.svg" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Taboola.svg" alt="">
-				</div>
+				<ul>
+					<li>
+						<strong>User-Centered Design Philosophy : </strong>We craft experiences rooted in real user behavior and measurable outcomes
+					</li>
+					<li>
+						<strong>Tailored Development Approach : </strong>Custom web solutions aligned with your brand, goals, and technical needs
+					</li>
+					<li>
+						<strong>Pixel-Perfect UI Execution : </strong>Designs are clean, consistent, and visually polished across all devices and screen sizes
+					</li>
+					<li>
+						<strong>Scalable Tech Stack & Future-Proofing : </strong>Built on modern, scalable frameworks that grow as your business evolves.
+					</li>
+					<li>
+						<strong>SEO & Performance Built In : </strong>Websites are optimized for speed, search visibility, and accessibility from day one.
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
+</section>
+<section id="caseStudies" class="padding caseStudies">
+	<div class="container">
+		<div class="partA">
+			<div class="title">Relevant Case Studies</div>
+			<a href="javascript:;" class="themeBtn">See All CASE STUDIES</a>
+		</div>
+	</div>
+		<div class="case-study-wrapper">
+			<div class="case-study-slider">
+				<div>
+					<img src="<?php echo THEMEURL; ?>/app/images/cs1.jpg" alt="Case 1" />
+					<p class="title">Huntsville Botanical Garden</p>
+				</div>
+				<div>
+					<img src="<?php echo THEMEURL; ?>/app/images/cs2.jpg" alt="Case 1" />
+					<p class="title">Huntsville Botanical Garden</p>
+				</div>
+				<div>
+					<img src="<?php echo THEMEURL; ?>/app/images/cs1.jpg" alt="Case 1" />
+					<p class="title">Huntsville Botanical Garden</p>
+				</div>
+				<div>
+					<img src="<?php echo THEMEURL; ?>/app/images/cs2.jpg" alt="Case 1" />
+					<p class="title">Huntsville Botanical Garden</p>
+				</div>
+				<div>
+					<img src="<?php echo THEMEURL; ?>/app/images/cs1.jpg" alt="Case 1" />
+					<p class="title">Huntsville Botanical Garden</p>
+				</div>
+			</div>
+		</div>
 </section>
 <?php include 'customTemplates/footerGreen.php'; ?>
-<!-- <section class="padding" id="overview">
-						<div class="container">
-												<div class="row">
-																		<div class="col-12 banner_ht">
-																								<p>overview</p>
-																		</div>
-												</div>
-						</div>
-</section> -->
 <?php get_footer(); ?>
