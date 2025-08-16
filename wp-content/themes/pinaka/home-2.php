@@ -63,32 +63,21 @@ get_header();
 		<h3 class="text-anim-5 textAnim parallax-slide" data-speed="0.4"  style="transform: translateX(-100vw);">Transparent, Collaborative Partnerships Transparent, Collaborative Partnerships Transparent, Collaborative Partnerships &nbsp;&nbsp;&nbsp; Transparent, Collaborative Partnerships Transparent, Collaborative Partnerships Transparent, Collaborative Partnerships</h3>
 	</div>
 </section>
-<section>
-	<div class="specialize-slide col-12">
-		<div class="">
-			<div class="col-12">
-				<div class="specialize_slider">
-					<div class="specialize_cont specialise_1">
-						<h2 class="">We Specialize </h2>
-						<h3 class="">in connecting brands<br>with the right audience...</h3>
-					</div>
-					<div class="specialize_cont  specialise_2">
-						<h3 class="text-white text-center">driving long-term <br>loyalty and measurable <br> digital growth.</h3> 
-					</div>
-				</div>
-				<div class="specialiseArrow">
-					<div id="specialize_sliderLeft">
-						<img src="<?php echo THEMEURL; ?>/app/images/special_prev.svg" alt="" class="img-responsive">
-					</div>
-					<div id="specialize_sliderRight">
-						<img src="<?php echo THEMEURL; ?>/app/images/special_next.svg" alt="" class="img-responsive">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<section class="specialize-slide">
+  <div class="specialize_slider">
+    <div class="specialize_cont specialise_1">
+      <h2 class="text-left">We Specialize</h2>
+      <h3>in connecting brands<br>with the right audience...</h3>
+    </div>
+    <div class="specialize_cont specialise_2">
+      <h3 class="text-white text-center">
+        driving long-term <br>loyalty and measurable <br> digital growth.
+      </h3>
+    </div>
+  </div>
 </section>
-<section class="padding scroll_section__wrapper home-project">
+
+<section class="padding scroll_section__wrapper home-project next-section">
 	<div class="section_line_wrap">
 		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 485"  xml:space="preserve">
 			<style type="text/css">

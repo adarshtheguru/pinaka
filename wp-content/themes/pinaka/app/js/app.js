@@ -272,15 +272,15 @@ $(document).ready(function(){
 			autoplay: true,
 			autoplaySpeed: 1,
 		});
-		$('.specialize_slider').slick({
-			slidesToShow:1,
-			arrows:true,
-			dots:false,  
-			infinite: true,
-			speed: 1000, 
-			prevArrow:'#specialize_sliderLeft',
-			nextArrow:'#specialize_sliderRight',
-		});
+		// $('.specialize_slider').slick({
+		// 	slidesToShow:1,
+		// 	arrows:true,
+		// 	dots:false,  
+		// 	infinite: true,
+		// 	speed: 1000, 
+		// 	prevArrow:'#specialize_sliderLeft',
+		// 	nextArrow:'#specialize_sliderRight',
+		// });
 		$('.blueCardSlider').slick({
 			centerMode: true,
 			centerPadding: '420px', // controls half slide visibility
@@ -330,6 +330,28 @@ $(document).ready(function(){
 				}
 			}
 			]
+		});
+
+		//Gsap
+		gsap.registerPlugin(ScrollTrigger);
+
+		let slides = gsap.utils.toArray(".specialize_cont");
+
+		gsap.to(slides, {
+		xPercent: -100 * (slides.length - 1),
+		ease: "none",
+		scrollTrigger: {
+			trigger: ".specialize-slide",
+			pin: true,
+			scrub: 1,
+			snap: {
+			snapTo: 1 / (slides.length - 1), // snap to each slide
+			duration: 0.5,                   // smooth snap duration
+			delay: 0.9,                      // "pause/lock" effect before releasing
+			ease: "power1.inOut"
+			},
+			end: "+=" + (slides.length * 100) + "%",
+		}
 		});
 
 		//aboutUs bg video

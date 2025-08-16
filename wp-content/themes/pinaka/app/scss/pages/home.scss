@@ -145,6 +145,33 @@
 	}
 }
 
+//gsap
+.specialize-slide {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.specialize_slider {
+  display: flex;              /* put slides in a row */
+  width: 100%;                /* adjust to number of slides */
+  height: 100%;
+}
+
+.specialize_cont {
+  flex: 0 0 100%;             /* each slide takes full width */
+  height: 100%;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+//   align-items: center;
+//   justify-content: center;
+  flex-direction: column;
+}
+
+.specialise_1 { background: #111; color: #fff; }
+.specialise_2 { background: #444; color: #fff; }
+
 .sec-title {
 	font-family: 'Playfair Display';
 	font-style: normal;
