@@ -505,9 +505,10 @@ function checkHamburgerActive(){
 }
 
   document.addEventListener("DOMContentLoaded", function () {
-    const menuToggle = document.getElementById("menu-toggle");
-    const mainMenu = document.getElementById("main-menu");
+  const menuToggle = document.getElementById("menu-toggle");
+  const mainMenu = document.getElementById("main-menu");
 
+  if (menuToggle && mainMenu) {
     // Toggle menu on mobile
     menuToggle.addEventListener("click", () => {
       mainMenu.classList.toggle("hidden");
@@ -521,5 +522,6 @@ function checkHamburgerActive(){
           mainMenu.classList.add("hidden");
         }
       });
-    });
-  });
+    }); 
+  }
+});
