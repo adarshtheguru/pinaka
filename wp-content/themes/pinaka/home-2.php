@@ -312,6 +312,55 @@ get_header();
 		</div>
 	</div>
 </section>
+<section id="insights" class="padding insights">
+	<div class="container">
+		<div class="dataBox">
+			<div class="partA">
+				<h4 class="secPrefix">Insights</h4>
+				<h2 class="secTitle">Always ahead of the curve</h2>
+				<p class="secPara">
+					we keep learning, so you keep leading.
+				</p>
+				<a href="javascript:;" class="themeBtn">Explore More</a>
+			</div>
+			<div class="partB">
+				<?php
+				// WP Query to get latest 4 blog posts
+				$args = array(
+					'post_type'      => 'post',
+					'posts_per_page' => 4,
+				);
+				$blog_query = new WP_Query($args);
+
+				if ($blog_query->have_posts()) :
+					while ($blog_query->have_posts()) : $blog_query->the_post();
+						?>
+						<div class="box">
+							<a href="<?php the_permalink(); ?>">
+								<?php if (has_post_thumbnail()) : ?>
+									<?php the_post_thumbnail('medium', array('class' => 'img-full')); ?>
+								<?php else : ?>
+									<img class="img-full" src="<?php echo THEMEURL; ?>/app/images/rectPlace.png" alt="">
+								<?php endif; ?>
+							</a>
+
+							<div class="info">
+								<span><?php echo get_post_type_object(get_post_type())->labels->singular_name; ?> • </span>
+								<span><?php echo get_the_date('M d Y'); ?> • </span>
+								<span><?php echo estimated_reading_time(get_the_content()); ?></span>
+							</div>
+
+							<p class="title"><?php the_title(); ?></p>
+						</div>
+					<?php
+					endwhile;
+					wp_reset_postdata();
+				endif;
+				?>
+			</div>
+		</div>
+	</div>
+</section>
 <?php include 'customTemplates/footerGreen.php'; ?>
 <!-- <section class="padding" id="overview">
 						<div class="container">

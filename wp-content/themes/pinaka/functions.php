@@ -955,3 +955,9 @@ add_action('save_post', 'save_welcome_text_meta_box');
 // foreach ( $menus as $menu ) {
 //     echo $menu->term_id . ' - ' . $menu->name . ' (' . $menu->slug . ')<br>';
 // }
+
+function estimated_reading_time($content) {
+    $word_count = str_word_count(strip_tags($content));
+    $minutes = ceil($word_count / 200); // assuming 200 words/minute
+    return $minutes . ' min read';
+}

@@ -544,6 +544,40 @@
 
 	}
 }
+.insights{
+	.container{
+		.dataBox{
+			display: grid;
+			grid-template-columns: 40% auto;
+			justify-content: space-between;
+			.partA{
+				.themeBtn{
+					margin-top: 100px;
+				}
+			}
+			.partB{
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				gap: 45px 35px;
+				.box{
+					display: flex;
+					flex-direction: column;
+					gap: 10px;
+					.info{
+						color: #4C4C4C;
+						font-size: 12px;
+					}
+					.title{
+						font-weight: 500;
+						font-size: 20px;
+						line-height: 26px;
+						color: #003E63;
+					}
+				}
+			}
+		}
+	}
+}
 
 .project-card-list {
 	display: flex;
