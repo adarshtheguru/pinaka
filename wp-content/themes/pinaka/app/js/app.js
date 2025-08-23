@@ -332,48 +332,56 @@ $(document).ready(function(){
 			]
 		});
 
-		//Gsap
+		// GSAP
 		gsap.registerPlugin(ScrollTrigger);
 
-		let slides = gsap.utils.toArray(".specialize_cont");
+		const slides = gsap.utils.toArray(".specialize_cont");
 
-		gsap.to(slides, {
-		xPercent: -100 * (slides.length - 1),
-		ease: "none",
+		// stack slides on top of each other; first visible
+		gsap.set(slides, { position: "absolute", top: 0, left: 0, width: "100%", height: "100%", autoAlpha: 0 });
+		gsap.set(slides[0], { autoAlpha: 1 });
+
+		// build a timeline that cross-fades each slide while the section is pinned
+		const tl = gsap.timeline({
 		scrollTrigger: {
 			trigger: ".specialize-slide",
+			start: "top top",
+			end: "+=" + (slides.length * 100) + "%", // same scroll distance logic you had
 			pin: true,
-			scrub: 1,
-			snap: {
-			snapTo: 1 / (slides.length - 1), // snap to each slide
-			duration: 0.5,                   // smooth snap duration
-			delay: 0.9,                      // "pause/lock" effect before releasing
-			ease: "power1.inOut"
-			},
-			end: "+=" + (slides.length * 100) + "%",
+			scrub: 1
 		}
+		});
+
+		// for each next slide: fade previous out while fading next in
+		slides.forEach((slide, i) => {
+		if (i === 0) return;
+		tl.to(slides[i - 1], { autoAlpha: 0, duration: 0.5, ease: "none" }, "+=0")
+			.to(slide,        { autoAlpha: 1, duration: 0.5, ease: "none" }, "<");
 		});
 
 		// Get the path
 		const path = document.querySelector(".customThread path");
-		const pathLength = path.getTotalLength();
 
-		// Set initial dash style
-		path.style.strokeDasharray = pathLength;
-		path.style.strokeDashoffset = pathLength;
+		if (path) {
+			const pathLength = path.getTotalLength();
 
-		// Animate on scroll
-		gsap.to(path, {
-			strokeDashoffset: 0,
-			ease: "none",
-			scrollTrigger: {
-				trigger: ".scroll_section__wrapper",
-				start: "top top",       // start animating when section hits top
-				end: "bottom+=400 top", // extend animation (add extra scroll distance)
-				scrub: true,
-				pin: false              // set true if you want to pin section while drawing
-			}
+			// Set initial dash style
+			path.style.strokeDasharray = pathLength;
+			path.style.strokeDashoffset = pathLength;
+
+			// Animate on scroll
+			gsap.to(path, {
+				strokeDashoffset: 0,
+				ease: "none",
+				scrollTrigger: {
+					trigger: ".scroll_section__wrapper",
+					start: "top top",       // start animating when section hits top
+					end: "bottom+=400 top", // extend animation (add extra scroll distance)
+					scrub: true,
+					pin: false              // set true if you want to pin section while drawing
+				}
 			});
+		}
 
 		//aboutUs bg video
 		$('.play-button, .video-thumbnail').click(function() {

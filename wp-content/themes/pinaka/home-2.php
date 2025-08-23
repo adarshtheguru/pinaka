@@ -1,11 +1,7 @@
 <?php /* Template Name: Home New Page */
 get_header();
 ?>
-<section class="section-first bg-cover home-banner hero pos-rel" id="hero">
-	<div class="container">
-		<h1 class="banner-title">Accelerating<br>Ambition Through<br>Smart Digital<br>Execution</h1>
-	</div>
-</section>
+<?php include 'customTemplates/heroSection.php' ?>
 <section class="shapingFuture pos-rel" id="shapingFuture">
 	<div class="container">
 		<div class="shapingFutureCont">

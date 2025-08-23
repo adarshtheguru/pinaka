@@ -1,36 +1,35 @@
-<?php /* Template Name: Service New Page */
+<?php
 get_header();
+
+// Intro
+$intro_a        = get_field('intro_text_a');
+$intro_b        = get_field('intro_text_b');
+
+// Deliver Section
+$deliver_heading = get_field('deliver_heading');
+$deliver_content = get_field('deliver_content');
 ?>
-<section class="section-first bg-cover home-banner hero pos-rel" id="hero">
-	<div class="container">
-		<h1 class="banner-title">Website <br> Design & <br> Development</h1>
-	</div>
-</section>
+<?php include 'customTemplates/heroSection.php' ?>
+
 <section id="staticInfo" class="padding staticInfo">
 	<div class="container">
 		<div class="partA d-flex">
-			When it comes to making an impact today, nothing is more crucial than ensuring your website is exceptional.
+			<?php echo esc_html($intro_a); ?>
 		</div>
 		<div class="partB d-flex">
-			In today's fast-paced digital world, consumers have little tolerance for clunky and frustrating online experiences. They seek information tailored to their needs and preferences, delivered seamlessly and efficiently. Achieving this level of user satisfaction requires intentional design and thoughtful strategy—not just a one-size-fits-all template.
+			<?php echo esc_html($intro_b); ?>
 		</div>
 	</div>
 </section>
 <section id="DeliverResult" class="padding DeliverResult">
 	<div class="container text-white text-center">
 		<div>
-			<h2 class="secHeading">Website Design that <br> Delivers Results</h2>
-			<p>
-				Pinaka builds standout websites that drive growth and maximize conversions.Our research-driven strategy guarantees that every website we create aligns perfectly withyour specific goals. Pinaka websites are not just visually stunning; they are immersive experiences that demand attention. Simply put, our websites are destinations everyone should visit.
-			</p>
-			<p>
-				Our agency could be an ideal partner for you if…
-			</p>
+			<h2 class="secHeading"><?php echo nl2br($deliver_heading); ?></h2>
+			<?php if ($deliver_content): ?>
+				<div class="deliverContent"><?php echo $deliver_content; ?></div>
+			<?php endif; ?>
 		</div>
 	</div>
-</section>
-<section class="padding threadSec">
-	
 </section>
 <section class="padding scroll_section__wrapper service-project">
 	<div class="section_line_wrap">

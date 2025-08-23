@@ -38,42 +38,48 @@ $(document).ready(function(){
       });
 
       const line = document.querySelector('.st0');
-        const length = line.getTotalLength();
 
-        // Setup stroke-dasharray & stroke-dashoffset
-        line.style.strokeDasharray = length;
-        line.style.strokeDashoffset = length;
+      if (line) {
+          const length = line.getTotalLength();
 
-        gsap.to(line, {
-        strokeDashoffset: 0,
-        ease: "none",
-        scrollTrigger: {
-            trigger: ".specialize-slide",
-            start: "75% center", // when element hits the center of viewport
-            end: "+=500", // adjust how long the scroll animation lasts
-            scrub: true, // smooth scrubbing
-            markers: false // remove in production
-        }
-        });
+          // Setup stroke-dasharray & stroke-dashoffset
+          line.style.strokeDasharray = length;
+          line.style.strokeDashoffset = length;
+
+          gsap.to(line, {
+              strokeDashoffset: 0,
+              ease: "none",
+              scrollTrigger: {
+                  trigger: ".specialize-slide",
+                  start: "75% center", // when element hits the center of viewport
+                  end: "+=500",        // adjust how long the scroll animation lasts
+                  scrub: true,         // smooth scrubbing
+                  markers: false       // remove in production
+              }
+          });
+      }
 
         const line2 = document.querySelector('.st2');
-        const length2 = line2.getTotalLength();
 
-        // Setup stroke-dasharray & stroke-dashoffset
-        line2.style.strokeDasharray = length2;
-        line2.style.strokeDashoffset = length2;
+        if (line2) {
+            const length2 = line2.getTotalLength();
 
-        gsap.to(line2, {
-        strokeDashoffset: 0,
-        ease: "none",
-        scrollTrigger: {
-            trigger: ".scroll_card",
-            start: "center center", // when element hits the center of viewport
-            end: "+=300", // adjust how long the scroll animation lasts
-            scrub: true, // smooth scrubbing
-            markers: false // remove in production
+            // Setup stroke-dasharray & stroke-dashoffset
+            line2.style.strokeDasharray = length2;
+            line2.style.strokeDashoffset = length2;
+
+            gsap.to(line2, {
+                strokeDashoffset: 0,
+                ease: "none",
+                scrollTrigger: {
+                    trigger: ".scroll_card",
+                    start: "center center", // when element hits the center of viewport
+                    end: "+=300",           // adjust how long the scroll animation lasts
+                    scrub: true,            // smooth scrubbing
+                    markers: false          // remove in production
+                }
+            });
         }
-        });
 
 
         

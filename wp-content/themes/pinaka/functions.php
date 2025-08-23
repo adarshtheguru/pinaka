@@ -961,3 +961,36 @@ function estimated_reading_time($content) {
     $minutes = ceil($word_count / 200); // assuming 200 words/minute
     return $minutes . ' min read';
 }
+
+add_filter('use_block_editor_for_post', '__return_false');
+
+//CPT define
+
+function register_services_cpt() {
+    $labels = [
+        'name'               => 'Services',
+        'singular_name'      => 'Service',
+        'menu_name'          => 'Services',
+        'add_new'            => 'Add New',
+        'add_new_item'       => 'Add New Service',
+        'edit_item'          => 'Edit Service',
+        'new_item'           => 'New Service',
+        'view_item'          => 'View Service',
+        'all_items'          => 'All Services',
+        'search_items'       => 'Search Services',
+        'not_found'          => 'No services found',
+        'not_found_in_trash' => 'No services found in Trash',
+    ];
+
+    $args = [
+        'labels'             => $labels,
+        'public'             => true,
+        'has_archive'        => true,
+        'rewrite'            => ['slug' => 'services'],
+        'supports'           => ['title', 'editor', 'thumbnail', 'excerpt'],
+        'show_in_rest'       => true, // Enables Gutenberg/Block editor
+    ];
+
+    register_post_type('service', $args);
+}
+add_action('init', 'register_services_cpt');

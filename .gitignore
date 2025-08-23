@@ -14,7 +14,8 @@ wp-config.php
 
 # Ignore all plugins except custom ones
 /wp-content/plugins/*
-!/wp-content/plugins/your-custom-plugin/
+!/wp-content/plugins/advanced-custom-fields/
+!/wp-content/plugins/site-field-manager/
 
 # Ignore uploads, but keep custom media or specific files (optional)
 /wp-content/uploads/*

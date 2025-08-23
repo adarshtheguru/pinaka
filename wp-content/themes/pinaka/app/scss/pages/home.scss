@@ -1,9 +1,40 @@
 .hero {
 	height: 100vh;
-	background-color: #ffd338;
-	background-image: url(../../app/images/home-banner.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	position: relative;
+	overflow: hidden;
+
+	// Background media (video or image)
+	.hero-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		z-index: 0;
+		img, video{
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	// Gradient overlay
+	&::before {
+		position: absolute;
+		content: '';
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(279.52deg, #FDC500 2.43%, #FDC500 42.22%, #FD52ED 97.57%);
+		opacity: 0.9;
+		z-index: 1;
+	}
+
+	.container {
+		position: relative;
+		z-index: 2;
+	}
 
 	.banner-title {
 		font-family: "Playfair Display", serif;
@@ -13,6 +44,7 @@
 		font-size: 110px;
 		line-height: 112px;
 		color: #151515;
+		width: 70%;
 	}
 }
 
@@ -172,6 +204,9 @@
 .specialise_1 { background: #111; color: #fff; }
 .specialise_2 { background: #444; color: #fff; }
 
+.specialize-slide { position: relative; }
+.specialize_slider { position: relative; height: 100vh; overflow: hidden; }
+
 .sec-title {
 	font-family: 'Playfair Display';
 	font-style: normal;
@@ -208,6 +243,10 @@
 }
 .DeliverResult{
 	background-color: #003E63;
+	.secHeading{
+		width: 70%;
+		margin: 0 auto;
+	}
 	.container{
 		>div{
 			width: 80%;
