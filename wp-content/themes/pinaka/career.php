@@ -5,29 +5,7 @@
 get_header();
 ?>
 <main class="career">
-    <section class="section-first bg-cover home-banner hero pos-rel" id="hero">
-        <div class="container">
-            <div class="bannerCont">
-                <div class="content">
-                    <div class="mainTitle">Where Creative Talent Builds the Future of Marketing</div>
-                    <p class="para">Join our team of forward thinkers and creators who aim to make a change</p>
-                    <div class="ctas">
-                        <a href="javascript:;" class="themeBtn">POSITION OPEN HERE</a>
-                        <a href="javascript:;" class="blankBtn">OUR SOCIAL MEDIA</a>
-                    </div>
-                </div>
-                <!-- <div class="imgBox">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/bannerImg.png" alt="">
-                </div> -->
-            </div>
-        </div>
-        <div class="scrollDownWrapper">
-            <div class="pos-rel">
-                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/scrollPatch.svg" alt="">
-                <img src="<?php echo THEMEURL; ?>/app/images/arrowBot.svg" alt="" class="sdArrow img-responsive">
-            </div>
-        </div>		
-    </section>
+    <?php include 'customTemplates/heroSection.php' ?>
     <section class="padding careerOv" id="careerOv">
         <div class="container">
             <div class="text-center">

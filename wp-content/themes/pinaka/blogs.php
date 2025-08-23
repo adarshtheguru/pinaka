@@ -5,6 +5,7 @@ Template Name: Blog Listing
 get_header(); ?>
 
 <main class="blogs" id="blogs">
+    <?php include 'customTemplates/heroSection.php' ?>
     <section class="padding caseOverview" id="caseOverview">
         <div class="watermark">
             <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/placeholderVector.png" alt="">

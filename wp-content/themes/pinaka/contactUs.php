@@ -5,6 +5,7 @@
 get_header();
 ?>
 <main class="contactUs" id="contactUs">
+    <?php include 'customTemplates/heroSection.php' ?>
     <section class="padding contactUsOv" id="contactUsOv">
 		<div class="watermark">
             <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/placeholderVector.png" alt="">

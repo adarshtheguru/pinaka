@@ -5,6 +5,7 @@
 get_header();
 ?>
 <main class="clients">
+    <?php include 'customTemplates/heroSection.php' ?>
         <section class="padding clientOverview" id="clientOverview">
             <div class="watermark">
                 <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/placeHolderVector.png" alt="">

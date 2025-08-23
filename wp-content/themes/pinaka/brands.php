@@ -5,7 +5,7 @@
 get_header();
 ?>
 
-<section class="padding brandHero h100 basicBg" id="brandHero">
+<!-- <section class="padding brandHero h100 basicBg" id="brandHero">
     <div class="container">
 		<div class="bannerCont">
 			<div class="content">
@@ -23,7 +23,10 @@ get_header();
 			<img src="<?php echo THEMEURL; ?>/app/images/arrowBot.svg" alt="" class="sdArrow img-responsive">
 		</div>
 	</div>	
-</section>
+</section> -->
+
+
+<?php include 'customTemplates/heroSection.php' ?>
 
 <section class="padding branding" id="branding">
     <div class="container">

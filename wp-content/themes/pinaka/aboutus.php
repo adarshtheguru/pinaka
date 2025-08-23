@@ -6,27 +6,7 @@ get_header();
 ?>
 
 <main class="aboutUs">
-    <section class="section-first bg-cover home-banner hero pos-rel" id="hero">
-        <div class="bannerCont dynamicPadLeft">
-                <div class="content">
-                    <div class="mainTitle">Your trusted partner for digital innovation and transformation.</div>
-                    <p class="para">We architect game-changing strategies that command attention, drive impact, and accelerate unstoppable growth.</p>
-                    <div class="ctas">
-                        <a href="javascript:;" class="themeBtn">Explore</a>
-                        <a href="javascript:;" class="themeBtn">GET IN TOUCH</a>
-                    </div>
-                </div>
-                <!-- <div class="imgBox">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/aboutUsBanner.png" alt="">
-                </div> -->
-        </div>
-        <div class="scrollDownWrapper">
-            <div class="pos-rel">
-                <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/scrollPatch.svg" alt="">
-                <img src="<?php echo THEMEURL; ?>/app/images/arrowBot.svg" alt="" class="sdArrow img-responsive">
-            </div>
-        </div>		
-    </section>
+    <?php include 'customTemplates/heroSection.php' ?>
     <section class="padding aboutUsOverview pos-rel" id="aboutUsOverview">
         <div class="container">
             <div class="secPrefix">About Us</div>

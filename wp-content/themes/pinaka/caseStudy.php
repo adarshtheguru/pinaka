@@ -5,6 +5,7 @@
 get_header();
 ?>
 <main class="caseStudy" id="caseStudy">
+    <?php include 'customTemplates/heroSection.php' ?>
     <section class="padding caseOverview" id="caseOverview">
 		<div class="watermark">
             <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/placeholderVector.png" alt="">

@@ -10,6 +10,7 @@ if (have_posts()) :
         $reading_time = ceil(str_word_count(strip_tags(get_the_content())) / 200); // Approx. 200 wpm
         ?>
 <main class="single" id="single">
+    <?php include 'customTemplates/heroSection.php' ?>
     <section class="padding singleOverview" id="singleOverview">
         <div class="container">
             <div class="secPrefix">
