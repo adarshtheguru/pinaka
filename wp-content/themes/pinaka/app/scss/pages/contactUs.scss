@@ -1,6 +1,6 @@
 .contactUs{
     .hero{
-        height: 60vh;
+        height: 80vh;
     }
     .contactUsOv{
         position: relative;
@@ -17,7 +17,7 @@
             z-index: 1;
         }
         &.padding{
-            padding-top: 150px;
+            padding-top: 50px;
             // padding-bottom: 150px;
             @media ($max992) {
                 padding-top: 70px;

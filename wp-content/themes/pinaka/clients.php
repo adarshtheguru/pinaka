@@ -11,7 +11,7 @@ get_header();
                 <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/placeHolderVector.png" alt="">
             </div>
             <div class="container">
-                <div class="secPrefix">Clients</div>
+                <!-- <div class="secPrefix">Clients</div> -->
                 <div class="caseBox">
                     <div class="partA">
                         <div class="secTitle">Helping Brands Dream Big and Deliver Bigger</div>

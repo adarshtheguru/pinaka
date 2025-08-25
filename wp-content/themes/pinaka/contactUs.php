@@ -11,7 +11,7 @@ get_header();
             <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/placeholderVector.png" alt="">
         </div>
         <div class="container">
-            <div class="secPrefix">Contact Us</div>
+            <!-- <div class="secPrefix">Contact Us</div> -->
             <div class="caseBox">
                 <div class="partA">
                     <div class="secTitle">Join our Journey</div>
@@ -21,7 +21,7 @@ get_header();
                 </div>
                 <div class="partB">
                     <?php include 'customTemplates/contactUsForm.php'; ?>
-                    <div class="adBox">
+                    <div class="adBox" style="display:block;">
                         <div class="layer layerA">
                             <div class="title">Address</div>
                             <p class="address">
@@ -59,7 +59,7 @@ get_header();
                 </div>
                 <div class="partC">
                     <div class="iframeWrapper">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7214.0620868262795!2d82.97667569499265!3d25.30316106057141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e32084887c951%3A0x7ed689a4580f9ecd!2sMahmoorganj%2C%20Varanasi%2C%20Uttar%20Pradesh%20221010!5e0!3m2!1sen!2sin!4v1745123819381!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.0068674524355!2d73.84283719999999!3d18.528591799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfadcc441c05%3A0x16792491fd7455ab!2sPinaka%20Digital%20Technologies!5e0!3m2!1sen!2sin!4v1756153682505!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
