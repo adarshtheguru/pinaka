@@ -198,8 +198,6 @@ $deliver_content = get_field('deliver_content');
 			</div>
 		<?php endif; ?>
 	</div>
-</section>
-
 	<div class="blueCardSliderWrapepr pos-rel">
 		<div class="blueCardSlider">
 			<div><img src="<?php echo THEMEURL; ?>/app/images/bc1.jpg" alt="Slide 1" /></div>
