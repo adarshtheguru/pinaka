@@ -95,7 +95,7 @@ $deliver_content = get_field('deliver_content');
 		</div> -->
 	</div>
 </section>
-<section class="padding blueCards">
+<!-- <section class="padding blueCards">
 	<div class="container text-white">
 		<div class="contentBox">
 			<div class="partA">
@@ -143,7 +143,63 @@ $deliver_content = get_field('deliver_content');
 				</p>
 			</div>
 		</div>
+	</div> -->
+	<section class="padding blueCards">
+	<div class="container text-white">
+		<div class="contentBox">
+			<div class="partA">
+				<?php if (get_field('prefix_title')): ?>
+					<h4 class="secPrefix text-white">
+						<?php the_field('prefix_title'); ?>
+					</h4>
+				<?php endif; ?>
+
+				<?php if (get_field('main_title')): ?>
+					<div class="coloredTitle">
+						<?php the_field('main_title'); ?>
+					</div>
+				<?php endif; ?>
+			</div>
+
+			<div class="partB">
+				<?php if (get_field('sub_title')): ?>
+					<div class="secHeading">
+						<?php the_field('sub_title'); ?>
+					</div>
+				<?php endif; ?>
+
+				<?php if (get_field('description')): ?>
+					<p><?php the_field('description'); ?></p>
+				<?php endif; ?>
+			</div>
+		</div>
+
+		<?php if (have_rows('cards')): ?>
+			<div class="cardBox">
+				<?php while (have_rows('cards')): the_row(); 
+					$icon = get_sub_field('icon');
+					$title = get_sub_field('title');
+					$desc = get_sub_field('description');
+				?>
+					<div class="box">
+						<?php if ($icon): ?>
+							<img src="<?php echo esc_url($icon['url']); ?>" alt="<?php echo esc_attr($icon['alt']); ?>">
+						<?php endif; ?>
+
+						<?php if ($title): ?>
+							<h4 class="title"><?php echo esc_html($title); ?></h4>
+						<?php endif; ?>
+
+						<?php if ($desc): ?>
+							<p><?php echo esc_html($desc); ?></p>
+						<?php endif; ?>
+					</div>
+				<?php endwhile; ?>
+			</div>
+		<?php endif; ?>
 	</div>
+</section>
+
 	<div class="blueCardSliderWrapepr pos-rel">
 		<div class="blueCardSlider">
 			<div><img src="<?php echo THEMEURL; ?>/app/images/bc1.jpg" alt="Slide 1" /></div>
