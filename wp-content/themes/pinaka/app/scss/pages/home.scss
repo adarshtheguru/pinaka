@@ -27,7 +27,7 @@
 		width: 100%;
 		height: 100%;
 		background: linear-gradient(279.52deg, #FDC500 2.43%, #FDC500 42.22%, #FD52ED 97.57%);
-		opacity: 0.9;
+		opacity: 0.75;
 		z-index: 1;
 	}
 
@@ -37,19 +37,20 @@
 	}
 
 	.banner-title {
-		font-family: "Playfair Display", serif;
+		font-family: "Sora", sans-serif;
 		position: absolute;
 		bottom: 0;
 		font-weight: 900;
-		font-size: 110px;
-		line-height: 112px;
+		font-size: 88px;
+		line-height: 98px;
 		color: #151515;
-		width: 70%;
+		width: 85%;
 	}
 }
 
 .shapingFuture {
-	background-color: #EAF7FF;
+	/*background-color: #EAF7FF;*/
+	background-color: #fff;
 
 	.future_swiper_wrapper {
 		margin-top: 20px;
@@ -67,7 +68,7 @@
 			gap: 10px;
 
 			.number {
-				font-family: 'Urbanist';
+				font-family: "Sora", sans-serif;
 				font-weight: 800;
 				font-size: 92px;
 				line-height: 102px;
@@ -79,7 +80,7 @@
 			}
 
 			.para {
-				font-family: 'Inter';
+				font-family: "Poppins", sans-serif;
 				font-weight: 300;
 				font-size: 36px;
 				line-height: 52px;
@@ -90,10 +91,11 @@
 }
 
 .textAnim {
-	font-family: 'Inter';
+	/*font-family: "Poppins", sans-serif;*/
+	font-family: "Sora", sans-serif;
 	font-style: normal;
 	font-weight: 300;
-	color: rgba(22, 22, 22, 0.05);
+	color: rgba(22, 22, 22, 0.2);
 	white-space: nowrap;
 
 	&.text-anim-1 {
@@ -147,7 +149,7 @@
 	position: relative;
 
 	h2 {
-		font-family: 'Inter';
+		font-family: "Poppins", sans-serif;
 		font-style: normal;
 		font-weight: 300;
 		font-size: 48px;
@@ -156,7 +158,7 @@
 	}
 
 	h3 {
-		font-family: 'Playfair Display';
+		font-family: "Sora", sans-serif;
 		font-style: normal;
 		font-weight: 900;
 		font-size: 82px;
@@ -208,7 +210,7 @@
 .specialize_slider { position: relative; height: 100vh; overflow: hidden; }
 
 .sec-title {
-	font-family: 'Playfair Display';
+	font-family: "Sora", sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 36px;
@@ -252,7 +254,7 @@
 			width: 80%;
 			margin: 0 auto;
 			.secHeading{
-				font-family: Playfair Display;
+				font-family: "Sora", sans-serif;
 				font-weight: 900;
 				font-size: 64px;
 				line-height: 72px;
@@ -297,7 +299,7 @@
 		padding-bottom: 20px;
 	}
 	.secPara {
-		font-family: 'Inter';
+		font-family: "Poppins", sans-serif;
 		font-style: normal;
 		font-weight: 300;
 		font-size: 24px;
@@ -378,14 +380,14 @@
 					margin: 0 auto;
 				}
 				.title{
-					font-family: Playfair Display;
+					font-family: "Sora", sans-serif;
 					font-weight: 700;
 					font-size: 26px;
 					line-height: normal;
-					padding: 0 100px;
+					padding: 0 15px;
 				}
 				p{
-					padding: 0 50px;
+					padding: 0 10px;
 					font-weight: 400;
 					font-size: 18px;
 					line-height: normal;
@@ -456,7 +458,7 @@
 				padding: 32px 48px;
 				color: #fff;
 				.title{
-					font-family: Playfair Display;
+					font-family: "Sora", sans-serif;
 					font-weight: 700;
 					font-size: 26px;
 					line-height: normal;
@@ -470,7 +472,7 @@
 					padding-left: 22px;
 					li{
 						font-weight: 400;
-						font-size: 20px;
+						font-size: 18px;
 						line-height: normal;
 						position: relative;
 						z-index: 1;
@@ -498,8 +500,8 @@
 			justify-content: space-between;
 			align-items: center;
 			.title{
-				font-family: Playfair Display;
-				font-weight: 700;
+				font-family: "Sora", sans-serif;
+				font-weight: 500;
 				font-size: 36px;
 				color: #003E63;
 			}
@@ -511,9 +513,9 @@
 
 			.case-study-slider {
 				.title{
-					font-family: Playfair Display;
-					font-weight: 700;
-					font-size: 28px;
+					font-family: "Sora", sans-serif;
+					font-weight: 500;
+					font-size: 24px;
 					color: #003E63;
 					padding-top: 10px;
 				}
@@ -559,11 +561,11 @@
 	
 	
 	p {
-		font-family: 'Inter';
+		font-family: "Poppins", sans-serif;
 		font-style: normal;
 		font-weight: 200;
-		font-size: 28px;
-		line-height: 34px;
+		font-size: 22px;
+		line-height: 32px;
 		color: #161616;
 	}
 	
@@ -590,7 +592,7 @@
 	}
 	.customThread path {
 		stroke: #003E63;
-		stroke-width: 2;
+		stroke-width: 1.5;
 		fill: none;
 	}
 }
@@ -640,8 +642,9 @@
 	}
 
 	.project-card-info {
+
 		h3 {
-			font-family: 'Playfair Display';
+			font-family: "Sora", sans-serif;
 			font-style: normal;
 			font-weight: 700;
 			font-size: 28px;
@@ -651,13 +654,15 @@
 		}
 
 		p {
-			font-family: 'Inter';
+			font-family: "Poppins", sans-serif;
 			font-style: normal;
 			font-weight: 300;
 			font-size: 16px;
 			line-height: 19px;
 			color: #161616;
 			margin-top: 10px;
+			position: relative;
+		z-index: 3;
 		}
 
 	}
@@ -672,7 +677,7 @@
 	width: 196px;
 	height: 44px;
 	border: 1px solid #003E63;
-	font-family: 'Inter';
+	font-family: "Poppins", sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 14px;
@@ -805,36 +810,36 @@
 	.container .back {
 		-webkit-transform: rotateY(180deg);
 		transform: rotateY(180deg);
-		-webkit-transform-style: preserve-3d;
-		transform-style: preserve-3d;
+/*		-webkit-transform-style: preserve-3d;
+		transform-style: preserve-3d;*/
 	}
 
 	.container .front {
 		-webkit-transform: rotateY(0deg);
 		transform: rotateY(0deg);
-		-webkit-transform-style: preserve-3d;
-		transform-style: preserve-3d;
+/*		-webkit-transform-style: preserve-3d;
+		transform-style: preserve-3d;*/
 	}
 
 	.container:hover .back {
 		-webkit-transform: rotateY(0deg);
 		transform: rotateY(0deg);
-		-webkit-transform-style: preserve-3d;
-		transform-style: preserve-3d;
+/*		-webkit-transform-style: preserve-3d;
+		transform-style: preserve-3d;*/
 	}
 
 	.container:hover .front {
 		-webkit-transform: rotateY(-180deg);
 		transform: rotateY(-180deg);
-		-webkit-transform-style: preserve-3d;
-		transform-style: preserve-3d;
+/*		-webkit-transform-style: preserve-3d;
+		transform-style: preserve-3d;*/
 	}
 
 
 	.front {
 		.inner {
 			p {
-				font-family: 'Inter';
+				font-family: "Sora", sans-serif;
 				font-style: normal;
 				font-weight: 700;
 				font-size: 32px;
@@ -850,7 +855,7 @@
 		.inner {
 			span {
 				color: rgba(255, 255, 255, 0.7);
-				font-family: 'Montserrat';
+				font-family: "Poppins", sans-serif;
 				font-weight: 300;
 			}
 		}
@@ -895,16 +900,16 @@
 
 }
 .secPrefix{
-font-family: 'Playfair Display';
+font-family: "Sora", sans-serif;
 font-style: normal;
-font-weight: 700;
+font-weight: 500;
 font-size: 16px;
 line-height: 21px;
 color: #003E63;
 margin-bottom: 10px;
 }
 .secTitle{
-font-family: 'Inter';
+font-family: "Poppins", sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 48px;
@@ -912,7 +917,7 @@ line-height: 52px;
 color: #161616;
 }
 .secPara{
-font-family: 'Inter';
+font-family: "Poppins", sans-serif;
 font-style: normal;
 font-weight: 300;
 font-size: 18px;

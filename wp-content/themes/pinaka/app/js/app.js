@@ -360,28 +360,28 @@ $(document).ready(function(){
 		});
 
 		// Get the path
-		const path = document.querySelector(".customThread path");
+const path = document.querySelector(".customThread path");
 
-		if (path) {
-			const pathLength = path.getTotalLength();
+if (path) {
+  const pathLength = path.getTotalLength();
 
-			// Set initial dash style
-			path.style.strokeDasharray = pathLength;
-			path.style.strokeDashoffset = pathLength;
+  // Setup stroke
+  path.style.strokeDasharray = pathLength;
+  path.style.strokeDashoffset = pathLength;
+  path.style.fill = "none"; // ensure no fill
 
-			// Animate on scroll
-			gsap.to(path, {
-				strokeDashoffset: 0,
-				ease: "none",
-				scrollTrigger: {
-					trigger: ".scroll_section__wrapper",
-					start: "top top",       // start animating when section hits top
-					end: "bottom+=400 top", // extend animation (add extra scroll distance)
-					scrub: true,
-					pin: false              // set true if you want to pin section while drawing
-				}
-			});
-		}
+  gsap.to(path, {
+    strokeDashoffset: 0,
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".scroll_section__wrapper",
+      start: "top top",
+      end: "bottom+=900",
+      scrub: true,
+      pin: false
+    }
+  });
+}
 
 		//aboutUs bg video
 		$('.play-button, .video-thumbnail').click(function() {

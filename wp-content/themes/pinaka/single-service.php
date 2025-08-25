@@ -61,7 +61,7 @@ $deliver_content = get_field('deliver_content');
 			</div>
 		</div>
 		<div class="project-card-list col-12">
-			<div class="col-5">
+			<div class="col-6">
 				<div class="project-card-info">
 					<img class="revealOnScroll img-responsive pd-rt-30" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/tablets.png">
 					<h3 class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">You prioritize security and seek seamless, worry-free maintenance for peace of mind</h3>
@@ -123,23 +123,23 @@ $deliver_content = get_field('deliver_content');
 			</div>
 			<div class="box">
 				<img src="<?php echo THEMEURL; ?>/app/images/neon1.svg" alt="">
-				<h4 class="title">User-Centric UX/UI Design</h4>
+				<h4 class="title">User-Centric UX/UI Design</h4>
 				<p>
 					We prioritize the user in our design process, guaranteeing that every interaction with your website is not only intuitive and effortless but also engaging and enjoyable
 				</p>
 			</div>
 			<div class="box">
 				<img src="<?php echo THEMEURL; ?>/app/images/neon1.svg" alt="">
-				<h4 class="title">Custom Web Development Solutions</h4>
+				<h4 class="title">Mobile-First and Responsive Design</h4>
 				<p>
-					Our team crafts high-performance, secure, and fully tailored websites that are specifically designed to meet and exceed your business needs
+					Our websites are meticulously optimized for all devices, providing a seamless and consistent experience whether you're on a desktop, tablet, or mobile device
 				</p>
 			</div>
 			<div class="box">
 				<img src="<?php echo THEMEURL; ?>/app/images/neon1.svg" alt="">
-				<h4 class="title">User-Centric UX/UI Design</h4>
+				<h4 class="title">SEO and Performance-Optimized</h4>
 				<p>
-					We prioritize the user in our design process, guaranteeing that every interaction with your website is not only intuitive and effortless but also engaging and enjoyable
+					Every website we build is crafted with SEO best practices as a fundamental focus, ensuring robust organic traffic and superior performance that elevate your online presence
 				</p>
 			</div>
 		</div>
