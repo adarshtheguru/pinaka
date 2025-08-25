@@ -220,15 +220,15 @@ $deliver_content = get_field('deliver_content');
     <div class="container">
         <div class="dataBox">
             <div class="partA">
-                <?php if ($sec_prefix = get_field('sec_prefix')) : ?>
+                <?php if ($sec_prefix = get_field('why_choose_us_sec_prefix')) : ?>
                     <div class="secPrefix"><?php echo esc_html($sec_prefix); ?></div>
                 <?php endif; ?>
 
-                <?php if ($title = get_field('title')) : ?>
+                <?php if ($title = get_field('why_choose_us_title')) : ?>
                     <div class="title"><?php echo esc_html($title); ?></div>
                 <?php endif; ?>
 
-                <?php if ($description = get_field('description')) : ?>
+                <?php if ($description = get_field('why_choose_us_desciption')) : ?>
                     <p><?php echo esc_html($description); ?></p>
                 <?php endif; ?>
 
