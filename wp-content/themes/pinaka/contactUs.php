@@ -21,7 +21,7 @@ get_header();
                 </div>
                 <div class="partB">
                     <?php include 'customTemplates/contactUsForm.php'; ?>
-                    <div class="adBox" style="display:block;">
+                    <div class="adBox" style="display:block!important;">
                         <div class="layer layerA">
                             <div class="title">Address</div>
                             <p class="address">
