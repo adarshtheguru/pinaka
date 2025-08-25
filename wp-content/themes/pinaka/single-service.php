@@ -217,43 +217,54 @@ $deliver_content = get_field('deliver_content');
 	</div>
 </section>
 <section id="benefits" class="padding benefits">
-	<div class="container">
-		<div class="dataBox">
-			<div class="partA">
-				<div class="secPrefix">Why Choose Us</div>
-				<div class="title">
-					Pinaka for Web Development & UX/UI Design
-				</div>
-				<p>
-					When you choose Pinaka Digital, you’re aligning yourself with a team of seasoned development experts committed to crafting exceptional, high-impact websites. Here’s what distinguishes us from the competition:
-				</p>
-				<a href="javascript:;" class="themeBtn">See All Services</a>
-			</div>
-			<div class="partB">
-				<div class="title">
-					Key Benefits
-				</div>
-				<ul>
-					<li>
-						<strong>User-Centered Design Philosophy : </strong>We craft experiences rooted in real user behavior and measurable outcomes
-					</li>
-					<li>
-						<strong>Tailored Development Approach : </strong>Custom web solutions aligned with your brand, goals, and technical needs
-					</li>
-					<li>
-						<strong>Pixel-Perfect UI Execution : </strong>Designs are clean, consistent, and visually polished across all devices and screen sizes
-					</li>
-					<li>
-						<strong>Scalable Tech Stack & Future-Proofing : </strong>Built on modern, scalable frameworks that grow as your business evolves.
-					</li>
-					<li>
-						<strong>SEO & Performance Built In : </strong>Websites are optimized for speed, search visibility, and accessibility from day one.
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="dataBox">
+            <div class="partA">
+                <?php if ($sec_prefix = get_field('sec_prefix')) : ?>
+                    <div class="secPrefix"><?php echo esc_html($sec_prefix); ?></div>
+                <?php endif; ?>
+
+                <?php if ($title = get_field('title')) : ?>
+                    <div class="title"><?php echo esc_html($title); ?></div>
+                <?php endif; ?>
+
+                <?php if ($description = get_field('description')) : ?>
+                    <p><?php echo esc_html($description); ?></p>
+                <?php endif; ?>
+
+                <?php if ($btn_text = get_field('button_text')) : 
+                    $btn_link = get_field('button_link'); ?>
+                    <a href="<?php echo esc_url($btn_link ?: 'javascript:;'); ?>" class="themeBtn">
+                        <?php echo esc_html($btn_text); ?>
+                    </a>
+                <?php endif; ?>
+            </div>
+
+            <div class="partB">
+                <?php if ($right_title = get_field('right_title')) : ?>
+                    <div class="title"><?php echo esc_html($right_title); ?></div>
+                <?php endif; ?>
+
+                <?php if (have_rows('benefits_list')) : ?>
+                    <ul>
+                        <?php while (have_rows('benefits_list')) : the_row(); ?>
+                            <li>
+                                <?php if ($benefit_title = get_sub_field('benefit_title')) : ?>
+                                    <strong><?php echo esc_html($benefit_title); ?> : </strong>
+                                <?php endif; ?>
+
+                                <?php if ($benefit_desc = get_sub_field('benefit_desc')) : ?>
+                                    <?php echo esc_html($benefit_desc); ?>
+                                <?php endif; ?>
+                            </li>
+                        <?php endwhile; ?>
+                    </ul>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
 </section>
+
 <section id="caseStudies" class="padding caseStudies">
 	<div class="container">
 		<div class="partA">
