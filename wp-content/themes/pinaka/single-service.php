@@ -174,9 +174,9 @@ $deliver_content = get_field('deliver_content');
 			</div>
 		</div>
 
-		<?php if (have_rows('cards')): ?>
+		<?php if (have_rows('what_we_do_service')): ?>
 			<div class="cardBox">
-				<?php while (have_rows('cards')): the_row(); 
+				<?php while (have_rows('what_we_do_service')): the_row(); 
 					$icon = get_sub_field('icon');
 					$title = get_sub_field('title');
 					$desc = get_sub_field('description');
