@@ -95,56 +95,7 @@ $deliver_content = get_field('deliver_content');
 		</div> -->
 	</div>
 </section>
-<!-- <section class="padding blueCards">
-	<div class="container text-white">
-		<div class="contentBox">
-			<div class="partA">
-				<h4 class="secPrefix text-white">
-					What we do
-				</h4>
-				<div class="coloredTitle">
-					Our Web <br> Development & <br> UX/UI Design
-				</div>
-			</div>
-			<div class="partB">
-				<div class="secHeading">
-					Transforming a vision into a <br> powerful reality.
-				</div>
-				<p>We deliver an extensive suite of web development and UX/UI design services that ensure your website stands out with striking visuals while operating flawlessly</p>
-			</div>
-		</div>
-		<div class="cardBox">
-			<div class="box">
-				<img src="<?php echo THEMEURL; ?>/app/images/neon1.svg" alt="">
-				<h4 class="title">Custom Web Development Solutions</h4>
-				<p>
-					Our team crafts high-performance, secure, and fully tailored websites that are specifically designed to meet and exceed your business needs
-				</p>
-			</div>
-			<div class="box">
-				<img src="<?php echo THEMEURL; ?>/app/images/neon1.svg" alt="">
-				<h4 class="title">User-Centric UX/UI Design</h4>
-				<p>
-					We prioritize the user in our design process, guaranteeing that every interaction with your website is not only intuitive and effortless but also engaging and enjoyable
-				</p>
-			</div>
-			<div class="box">
-				<img src="<?php echo THEMEURL; ?>/app/images/neon1.svg" alt="">
-				<h4 class="title">Mobile-First and Responsive Design</h4>
-				<p>
-					Our websites are meticulously optimized for all devices, providing a seamless and consistent experience whether you're on a desktop, tablet, or mobile device
-				</p>
-			</div>
-			<div class="box">
-				<img src="<?php echo THEMEURL; ?>/app/images/neon1.svg" alt="">
-				<h4 class="title">SEO and Performance-Optimized</h4>
-				<p>
-					Every website we build is crafted with SEO best practices as a fundamental focus, ensuring robust organic traffic and superior performance that elevate your online presence
-				</p>
-			</div>
-		</div>
-	</div> -->
-	<section class="padding blueCards">
+<section class="padding blueCards">
 	<div class="container text-white">
 		<div class="contentBox">
 			<div class="partA">

@@ -126,7 +126,7 @@ get_header();
 	</div>
 </section>
 <section class="padding pinaka-service">
-	<div class="container">
+	<div class="">
 		<div class="col-12">
 			<h2 class="sec-title text-white text-center mg-bt-20">Services We Provide</h2>
 		</div>
@@ -135,7 +135,7 @@ get_header();
 				<div class="cols">
 					<div class="col" ontouchstart="this.classList.toggle('hover');">
 						<div class="container">
-							<div class="front bg-top">
+							<div class="front bg-top bg-img">
 								<div class="inner">
 									<p>Event Brand Consulting VS. Event Planning</p>
 								</div>
@@ -163,7 +163,7 @@ get_header();
 					</div>
 					<div class="col" ontouchstart="this.classList.toggle('hover');">
 						<div class="container">
-							<div class="front bg-top">
+							<div class="front bg-top bg-img bg-img-2">
 								<div class="inner">
 									<p>Long-term partnerships or Project Based?</p>
 								</div>
@@ -191,7 +191,7 @@ get_header();
 					</div>
 					<div class="col" ontouchstart="this.classList.toggle('hover');">
 						<div class="container">
-							<div class="front">
+							<div class="front bg-img bg-img-3">
 								<div class="inner">
 									<p>How is our confidential information handled?</p>
 								</div>
