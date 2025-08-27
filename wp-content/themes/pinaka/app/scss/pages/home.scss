@@ -138,7 +138,7 @@
 	}
 
 	.specialise_2 {
-		background-image: url("../../app/images/home-banner.svg");
+		// background-image: url("../../app/images/home-banner.svg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		padding: 250px 150px;
@@ -204,7 +204,34 @@
 }
 
 .specialise_1 { background: #111; color: #fff; }
-.specialise_2 { background: #444; color: #fff; }
+.specialise_2 { background: #444; color: #fff; 
+  overflow: hidden;
+position: relative;
+margin-left: -1px;}
+
+
+.specialise_2::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(279.52deg, #FDC500 2.43%, #FDC500 42.22%, #FD52ED 97.57%);
+  opacity: 0;
+  z-index: 0;
+}
+
+.specialise_2 > * {
+  position: relative;
+  z-index: 1;
+}
+.specialise_2.gradient-bg {
+  background: linear-gradient(279.52deg, #FDC500 2.43%, #FDC500 42.22%, #FD52ED 97.57%);
+}
+.specialise_2 {
+  --gradOpacity: 0;
+}
+.specialise_2::after {
+  opacity: var(--gradOpacity);
+}
 
 .specialize-slide { position: relative; }
 .specialize_slider { position: relative; height: 100vh; overflow: hidden; }

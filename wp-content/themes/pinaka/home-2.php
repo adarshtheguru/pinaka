@@ -346,13 +346,4 @@ get_header();
 	</div>
 </section>
 <?php include 'customTemplates/footerGreen.php'; ?>
-<!-- <section class="padding" id="overview">
-						<div class="container">
-												<div class="row">
-																		<div class="col-12 banner_ht">
-																								<p>overview</p>
-																		</div>
-												</div>
-						</div>
-</section> -->
 <?php get_footer(); ?>

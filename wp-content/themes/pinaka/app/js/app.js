@@ -332,31 +332,69 @@ $(document).ready(function(){
 			]
 		});
 
-		// GSAP
 		gsap.registerPlugin(ScrollTrigger);
 
 		const slides = gsap.utils.toArray(".specialize_cont");
+		if (!slides.length) return;
 
-		// stack slides on top of each other; first visible
-		gsap.set(slides, { position: "absolute", top: 0, left: 0, width: "100%", height: "100%", autoAlpha: 0 });
-		gsap.set(slides[0], { autoAlpha: 1 });
+		// capture original background colors
+		slides.forEach((s, i) => {
+		s.dataset.origBg = window.getComputedStyle(s).backgroundColor;
+		});
+		const firstBg = slides[0].dataset.origBg;
 
-		// build a timeline that cross-fades each slide while the section is pinned
+		// initial positioning (stacked) — NO width change
+		gsap.set(slides, {
+		position: "absolute",
+		top: 0,
+		left: 0,
+		width: "100%",
+		height: "100%"
+		});
+
+		// stack order: later slides on top so they slide over previous ones
+		gsap.set(slides, { zIndex: i => slides.length - i });
+
+		// start positions: first at 0, others just off to the right
+		gsap.set(slides[0], { x: "0%" });
+		slides.slice(1).forEach(s => gsap.set(s, { x: "100%" }));
+
+		// while pinned, force all non-first slides to use first slide bg
+		slides.slice(1).forEach(s => gsap.set(s, { backgroundColor: firstBg }));
+
+		// build timeline with ScrollTrigger that pins the section
 		const tl = gsap.timeline({
 		scrollTrigger: {
 			trigger: ".specialize-slide",
 			start: "top top",
-			end: "+=" + (slides.length * 100) + "%", // same scroll distance logic you had
+			end: "+=" + (slides.length * 100) + "%", // same approach as you had
 			pin: true,
-			scrub: 1
+			scrub: 0.6,
+			anticipatePin: 1,
+			onLeave: () => {
+				const last = slides[slides.length - 1];
+				gsap.to(last, { 
+				duration: 1.5, 
+				ease: "power2.out", 
+				"--gradOpacity": 1 
+				});
+			},
+			onEnterBack: () => {
+				const last = slides[slides.length - 1];
+				gsap.to(last, { 
+				duration: 1.0, 
+				ease: "power2.out", 
+				"--gradOpacity": 0 
+				});
+			}
 		}
 		});
 
-		// for each next slide: fade previous out while fading next in
+		// create sliding transitions: previous slides move left, next slides move in from right
 		slides.forEach((slide, i) => {
 		if (i === 0) return;
-		tl.to(slides[i - 1], { autoAlpha: 0, duration: 0.5, ease: "none" }, "+=0")
-			.to(slide,        { autoAlpha: 1, duration: 0.5, ease: "none" }, "<");
+		tl.to(slides[i - 1], { x: "-100%", duration: 1, ease: "power1.inOut" }, "+=0")
+			.to(slide, { x: "0%", duration: 1, ease: "power1.inOut" }, "<");
 		});
 
 		// Get the path
