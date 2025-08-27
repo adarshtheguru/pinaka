@@ -408,33 +408,69 @@ $(document).ready(function(){
 		}
 
 		// path animation
-		const path = document.querySelector(".customThread path");
-if (path) {
-  const pathLength = path.getTotalLength(); // ~7000
-  const minOffset = 3607; // your stop point
+		function animateThread(selector, triggerClass, minOffset = 0) {
+		const path = document.querySelector(`${selector} path`);
+		if (path) {
+			const pathLength = path.getTotalLength();
 
-  // Setup stroke
-  path.style.strokeDasharray = pathLength;
-  path.style.strokeDashoffset = pathLength;
-  path.style.fill = "none";
+			// Setup stroke
+			path.style.strokeDasharray = pathLength;
+			path.style.strokeDashoffset = pathLength;
+			path.style.fill = "none";
 
-  let tween = gsap.to(path, {
-    strokeDashoffset: 0, // full range
-    ease: "none",
-    scrollTrigger: {
-      trigger: ".scroll_section__wrapper",
-      start: "top top",
-      end: "bottom top",
-      scrub: true,
-      onUpdate: () => {
-        let current = parseFloat(path.style.strokeDashoffset);
-        if (current < minOffset) {
-          path.style.strokeDashoffset = minOffset; // clamp here
-        }
-      }
-    }
-  });
-}
+			gsap.to(path, {
+			strokeDashoffset: 0, // full scroll range
+			ease: "none",
+			scrollTrigger: {
+				trigger: triggerClass,
+				start: "top top",
+				end: "bottom top",
+				scrub: true,
+				onUpdate: () => {
+				const current = parseFloat(path.style.strokeDashoffset);
+				// clamp if needed
+				if (current < minOffset) {
+					path.style.strokeDashoffset = minOffset;
+				}
+				}
+			}
+			});
+		}
+		}
+
+		// animate each thread
+		animateThread(".customThread", ".scroll_section__wrapper", 3607);   // stops at 3607
+
+		function animateThreadSmall(selector, triggerClass, minOffset = 0, scrollRange = "+=500") {
+		const path = document.querySelector(`${selector} path`);
+		if (path) {
+			const pathLength = path.getTotalLength();
+
+			path.style.strokeDasharray = pathLength;
+			path.style.strokeDashoffset = pathLength;
+			path.style.fill = "none";
+
+			gsap.to(path, {
+			strokeDashoffset: 0,
+			ease: "none",
+			scrollTrigger: {
+				trigger: triggerClass,
+				start: "top center",
+				end: scrollRange,   // << shorter scroll = faster animation
+				scrub: true,
+				onUpdate: () => {
+				const current = parseFloat(path.style.strokeDashoffset);
+				if (current < minOffset) {
+					path.style.strokeDashoffset = minOffset;
+				}
+				}
+			}
+			});
+		}
+		}
+
+		animateThreadSmall(".topThread", ".topThreadList", 0, "+=500");
+		animateThreadSmall(".bottomThread", ".bottomThreadList", 0, "+=500");
 
 		//aboutUs bg video
 		$('.play-button, .video-thumbnail').click(function() {

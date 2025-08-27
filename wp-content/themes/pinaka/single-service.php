@@ -9,7 +9,8 @@ $intro_b        = get_field('intro_text_b');
 $deliver_heading = get_field('deliver_heading');
 $deliver_content = get_field('deliver_content');
 ?>
-<?php include 'customTemplates/heroSection.php' ?>
+<main class="servicePage">
+	<?php include 'customTemplates/heroSection.php' ?>
 
 <section id="staticInfo" class="padding staticInfo">
 	<div class="container">
@@ -33,9 +34,6 @@ $deliver_content = get_field('deliver_content');
 </section>
 <section class="padding scroll_section__wrapper service-project">
 	<div class="container pos-rel">
-		<svg class="customThread" width="723" height="1522" viewBox="0 0 723 1522" fill="none" xmlns="http://www.w3.org/2000/svg">
-		<path d="M0.500244 1521.5C0.500244 1521.78 0.724243 1522 1.00024 1522C1.27625 1522 1.50024 1521.78 1.50024 1521.5H0.500244ZM721.5 0.5C721.224 0.500153 721 0.723952 721 1V113.51L721.001 113.521C721.486 125.424 720.914 140.664 717.096 152.942C715.187 159.08 712.478 164.441 708.718 168.279C704.97 172.105 700.162 174.434 693.995 174.5H42.0208C33.9392 174.171 23.8411 175.083 15.6204 178.98C7.36835 182.893 0.99823 189.829 0.501221 201.479L0.500244 201.489V631.5C0.500244 631.638 0.556885 631.763 0.647705 631.854V674.479C0.161682 686.422 0.728088 701.797 4.59692 714.239C6.5318 720.462 9.30408 725.987 13.2161 729.979C17.1402 733.985 22.197 736.431 28.6418 736.5H680.668C688.671 736.175 698.585 737.084 706.599 740.884C714.457 744.61 720.479 751.103 721.121 761.999L721.148 762.521V1100.65C721.057 1100.74 721 1100.86 721 1101V1213.51L721.001 1213.52C721.486 1225.42 720.914 1240.66 717.096 1252.94C715.187 1259.08 712.478 1264.44 708.718 1268.28C704.97 1272.1 700.162 1274.43 693.995 1274.5H42.0208C33.9392 1274.17 23.8411 1275.08 15.6204 1278.98C7.36835 1282.89 0.99823 1289.83 0.501221 1301.48L0.500244 1301.49V1521.5C0.503113 1521.5 0.539673 1521.5 1.00024 1521.5C1.45868 1521.5 1.49713 1521.5 1.50024 1521.5V1301.52L1.52661 1301C2.16913 1290.1 8.19092 1283.61 16.0491 1279.88C24.0632 1276.08 33.9772 1275.17 41.9797 1275.5H694.006C700.451 1275.43 705.508 1272.98 709.432 1268.98C713.344 1264.99 716.116 1259.46 718.051 1253.24C721.92 1240.8 722.486 1225.42 722 1213.48V1102.85C722.091 1102.76 722.148 1102.64 722.148 1102.5V762.489L722.147 762.479C721.65 750.829 715.28 743.893 707.028 739.98C698.807 736.082 688.709 735.171 680.627 735.5H28.6526C22.4861 735.434 17.6782 733.105 13.9299 729.279C10.1696 725.441 7.46051 720.08 5.552 713.942C1.73395 701.664 1.16229 686.424 1.64673 674.521L1.64771 674.51V562C1.64771 561.861 1.59131 561.736 1.50024 561.646V201.521L1.52661 200.999C2.16913 190.103 8.19092 183.61 16.0491 179.884C24.0632 176.084 33.9771 175.175 41.9797 175.5H694.006C700.451 175.431 705.508 172.985 709.432 168.979C713.344 164.987 716.116 159.462 718.051 153.239C721.92 140.797 722.486 125.422 722 113.479V1C722 0.723918 721.776 0.500098 721.5 0.5Z" fill="none" stroke="#003E63" stroke-width="2" />
-		</svg>
 		<div class="col-12">
 			<div class="col-5">
 				<h2 class="sec-title">Websites are the undeniable MVP of your marketing strategy, and they must be done right.</h2>
@@ -45,7 +43,12 @@ $deliver_content = get_field('deliver_content');
 				</p>
 			</div>
 		</div>
-		<div class="project-card-list justify-end col-12">
+		<div class="project-card-list topThreadList justify-end col-12 pos-rel">
+
+		<svg class="topThread" width="723" height="292" viewBox="0 0 723 292" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M1.49996 0.5V113C0.529451 136.845 3.77695 174.229 29 174.5H681C697.084 173.846 721.025 178.139 722 201C722 208.6 722 257.5 722 291" stroke="#003E63" stroke-linecap="round"/>
+		</svg>
+
 			<div class="col-7">
 				<div class="project-card-info">
 					<img src="<?php echo THEMEURL; ?>/app/images/computer.png" class="revealOnScroll img-responsive" data-animation="fadeInUp" data-timeout="200">
@@ -55,7 +58,12 @@ $deliver_content = get_field('deliver_content');
 				</div>
 			</div>
 		</div>
-		<div class="project-card-list col-12">
+		<div class="project-card-list bottomThreadList col-12 pos-rel">
+
+			<svg class="bottomThread" width="723" height="432" viewBox="0 0 723 432" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M721.5 1V283.5C722.471 307.345 719.223 344.729 694 345H42.0002C25.9158 344.346 1.9755 348.639 1.00024 371.5C1.00024 379.1 1.00024 398 1.00024 431.5" stroke="#003E63" stroke-linecap="round"/>
+			</svg>
+
 			<div class="col-6">
 				<div class="project-card-info">
 					<img class="revealOnScroll img-responsive pd-rt-30" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/tablets.png">
@@ -244,4 +252,5 @@ $deliver_content = get_field('deliver_content');
 		</div>
 </section>
 <?php include 'customTemplates/footerGreen.php'; ?>
+</main>
 <?php get_footer(); ?>
