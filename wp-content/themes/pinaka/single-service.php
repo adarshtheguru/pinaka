@@ -9,7 +9,8 @@ $intro_b        = get_field('intro_text_b');
 $deliver_heading = get_field('deliver_heading');
 $deliver_content = get_field('deliver_content');
 ?>
-<?php include 'customTemplates/heroSection.php' ?>
+<main class="servicePage">
+	<?php include 'customTemplates/heroSection.php' ?>
 
 <section id="staticInfo" class="padding staticInfo">
 	<div class="container">
@@ -22,7 +23,7 @@ $deliver_content = get_field('deliver_content');
 	</div>
 </section>
 <section id="DeliverResult" class="padding DeliverResult">
-	<div class="container text-white text-center">
+	<div class="container text-center">
 		<div>
 			<h2 class="secHeading"><?php echo nl2br($deliver_heading); ?></h2>
 			<?php if ($deliver_content): ?>
@@ -32,15 +33,7 @@ $deliver_content = get_field('deliver_content');
 	</div>
 </section>
 <section class="padding scroll_section__wrapper service-project">
-	<div class="section_line_wrap">
-		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 485"  xml:space="preserve">
-			<style type="text/css">
-				.st0{fill:none;stroke:#666560;stroke-width:2;stroke-miterlimit:10;}
-			</style>
-			<polyline class="st0" points="97.5,0 97.5,476 0.5,476 " fill="transparent"></polyline>
-			</svg>
-	</div>
-	<div class="container">
+	<div class="container pos-rel">
 		<div class="col-12">
 			<div class="col-5">
 				<h2 class="sec-title">Websites are the undeniable MVP of your marketing strategy, and they must be done right.</h2>
@@ -50,7 +43,12 @@ $deliver_content = get_field('deliver_content');
 				</p>
 			</div>
 		</div>
-		<div class="project-card-list justify-end col-12">
+		<div class="project-card-list topThreadList justify-end col-12 pos-rel">
+
+		<svg class="topThread" width="723" height="292" viewBox="0 0 723 292" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M1.49996 0.5V113C0.529451 136.845 3.77695 174.229 29 174.5H681C697.084 173.846 721.025 178.139 722 201C722 208.6 722 257.5 722 291" stroke="#003E63" stroke-linecap="round"/>
+		</svg>
+
 			<div class="col-7">
 				<div class="project-card-info">
 					<img src="<?php echo THEMEURL; ?>/app/images/computer.png" class="revealOnScroll img-responsive" data-animation="fadeInUp" data-timeout="200">
@@ -60,7 +58,12 @@ $deliver_content = get_field('deliver_content');
 				</div>
 			</div>
 		</div>
-		<div class="project-card-list col-12">
+		<div class="project-card-list bottomThreadList col-12 pos-rel">
+
+			<svg class="bottomThread" width="723" height="432" viewBox="0 0 723 432" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M721.5 1V283.5C722.471 307.345 719.223 344.729 694 345H42.0002C25.9158 344.346 1.9755 348.639 1.00024 371.5C1.00024 379.1 1.00024 398 1.00024 431.5" stroke="#003E63" stroke-linecap="round"/>
+			</svg>
+
 			<div class="col-6">
 				<div class="project-card-info">
 					<img class="revealOnScroll img-responsive pd-rt-30" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/tablets.png">
@@ -249,4 +252,5 @@ $deliver_content = get_field('deliver_content');
 		</div>
 </section>
 <?php include 'customTemplates/footerGreen.php'; ?>
+</main>
 <?php get_footer(); ?>

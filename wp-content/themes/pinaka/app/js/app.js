@@ -346,94 +346,145 @@ $(document).ready(function(){
 			]
 		});
 
+		//gsap
 		gsap.registerPlugin(ScrollTrigger);
 
+		// slides logic
 		const slides = gsap.utils.toArray(".specialize_cont");
-		if (!slides.length) return;
-
+		if (slides.length) {
 		// capture original background colors
-		slides.forEach((s, i) => {
-		s.dataset.origBg = window.getComputedStyle(s).backgroundColor;
+		slides.forEach((s) => {
+			s.dataset.origBg = window.getComputedStyle(s).backgroundColor;
 		});
 		const firstBg = slides[0].dataset.origBg;
 
-		// initial positioning (stacked) — NO width change
+		// initial positioning (stacked)
 		gsap.set(slides, {
-		position: "absolute",
-		top: 0,
-		left: 0,
-		width: "100%",
-		height: "100%"
+			position: "absolute",
+			top: 0,
+			left: 0,
+			width: "100%",
+			height: "100%"
 		});
 
-		// stack order: later slides on top so they slide over previous ones
+		// stack order
 		gsap.set(slides, { zIndex: i => slides.length - i });
 
-		// start positions: first at 0, others just off to the right
+		// start positions
 		gsap.set(slides[0], { x: "0%" });
 		slides.slice(1).forEach(s => gsap.set(s, { x: "100%" }));
 
-		// while pinned, force all non-first slides to use first slide bg
+		// force bg color
 		slides.slice(1).forEach(s => gsap.set(s, { backgroundColor: firstBg }));
 
-		// build timeline with ScrollTrigger that pins the section
+		// build timeline
 		const tl = gsap.timeline({
-		scrollTrigger: {
+			scrollTrigger: {
 			trigger: ".specialize-slide",
 			start: "top top",
-			end: "+=" + (slides.length * 100) + "%", // same approach as you had
+			end: "+=" + (slides.length * 100) + "%",
 			pin: true,
 			scrub: 0.6,
 			anticipatePin: 1,
 			onLeave: () => {
 				const last = slides[slides.length - 1];
-				gsap.to(last, { 
-				duration: 1.5, 
-				ease: "power2.out", 
-				"--gradOpacity": 1 
-				});
+				gsap.to(last, { duration: 1.5, ease: "power2.out", "--gradOpacity": 1 });
 			},
 			onEnterBack: () => {
 				const last = slides[slides.length - 1];
-				gsap.to(last, { 
-				duration: 1.0, 
-				ease: "power2.out", 
-				"--gradOpacity": 0 
-				});
+				gsap.to(last, { duration: 1.0, ease: "power2.out", "--gradOpacity": 0 });
 			}
-		}
+			}
 		});
 
-		// create sliding transitions: previous slides move left, next slides move in from right
+		// slide transitions
 		slides.forEach((slide, i) => {
-		if (i === 0) return;
-		tl.to(slides[i - 1], { x: "-100%", duration: 1, ease: "power1.inOut" }, "+=0")
+			if (i === 0) return;
+			tl.to(slides[i - 1], { x: "-100%", duration: 1, ease: "power1.inOut" }, "+=0")
 			.to(slide, { x: "0%", duration: 1, ease: "power1.inOut" }, "<");
 		});
+		}
 
-		// Get the path
-const path = document.querySelector(".customThread path");
+		// service section bg effect
+		if (document.querySelector("#DeliverResult")) {
+			gsap.to("#DeliverResult", {
+				backgroundColor: "#003E63", // final color
+				color: "#ffffff", // final text color
+				ease: "none",
+				scrollTrigger: {
+				trigger: "#DeliverResult",
+				start: "top top",
+				end: "+=100%",
+				scrub: true,
+				pin: true
+				}
+			});
+		}
 
-if (path) {
-  const pathLength = path.getTotalLength();
+		// path animation
+		function animateThread(selector, triggerClass, minOffset = 0) {
+		const path = document.querySelector(`${selector} path`);
+		if (path) {
+			const pathLength = path.getTotalLength();
 
-  // Setup stroke
-  path.style.strokeDasharray = pathLength;
-  path.style.strokeDashoffset = pathLength;
-  path.style.fill = "none"; // ensure no fill
+			// Setup stroke
+			path.style.strokeDasharray = pathLength;
+			path.style.strokeDashoffset = pathLength;
+			path.style.fill = "none";
 
-  gsap.to(path, {
-    strokeDashoffset: 0,
-    ease: "none",
-    scrollTrigger: {
-      trigger: ".scroll_section__wrapper",
-      start: "top top",
-      end: "bottom+=900",
-      scrub: true,
-      pin: false
-    }
-  });
-}
+			gsap.to(path, {
+			strokeDashoffset: 0, // full scroll range
+			ease: "none",
+			scrollTrigger: {
+				trigger: triggerClass,
+				start: "top top",
+				end: "bottom top",
+				scrub: true,
+				onUpdate: () => {
+				const current = parseFloat(path.style.strokeDashoffset);
+				// clamp if needed
+				if (current < minOffset) {
+					path.style.strokeDashoffset = minOffset;
+				}
+				}
+			}
+			});
+		}
+		}
+
+		// animate each thread
+		animateThread(".customThread", ".scroll_section__wrapper", 3607);   // stops at 3607
+
+		function animateThreadSmall(selector, triggerClass, minOffset = 0, scrollRange = "+=500") {
+		const path = document.querySelector(`${selector} path`);
+		if (path) {
+			const pathLength = path.getTotalLength();
+
+			path.style.strokeDasharray = pathLength;
+			path.style.strokeDashoffset = pathLength;
+			path.style.fill = "none";
+
+			gsap.to(path, {
+			strokeDashoffset: 0,
+			ease: "none",
+			scrollTrigger: {
+				trigger: triggerClass,
+				start: "top center",
+				end: scrollRange,   // << shorter scroll = faster animation
+				scrub: true,
+				onUpdate: () => {
+				const current = parseFloat(path.style.strokeDashoffset);
+				if (current < minOffset) {
+					path.style.strokeDashoffset = minOffset;
+				}
+				}
+			}
+			});
+		}
+		}
+
+		animateThreadSmall(".topThread", ".topThreadList", 0, "+=500");
+		animateThreadSmall(".bottomThread", ".bottomThreadList", 0, "+=500");
 
 		//aboutUs bg video
 		$('.play-button, .video-thumbnail').click(function() {

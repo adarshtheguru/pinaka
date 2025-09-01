@@ -270,30 +270,40 @@ margin-left: -1px;}
 		}
 	}
 }
-.DeliverResult{
-	background-color: #003E63;
-	.secHeading{
-		width: 70%;
-		margin: 0 auto;
-	}
-	.container{
-		>div{
-			width: 80%;
-			margin: 0 auto;
-			.secHeading{
-				font-family: "Sora", sans-serif;
-				font-weight: 900;
-				font-size: 64px;
-				line-height: 72px;
-				padding-bottom: 55px;
-			}
-			p{
-				&:last-of-type{
-					padding-top: 50px;
-				}
-			}
-		}
-	}
+.DeliverResult {
+  background-color: #ffffff; // start white
+  color: #000000; // start black
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .secHeading {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .container {
+    > div {
+      width: 80%;
+      margin: 0 auto;
+
+      .secHeading {
+        font-family: "Sora", sans-serif;
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 72px;
+        padding-bottom: 55px;
+      }
+
+      p {
+        &:last-of-type {
+          padding-top: 50px;
+        }
+      }
+    }
+  }
 }
 .service-project {
 	background-color: #EAF7FF;
@@ -671,6 +681,18 @@ margin-left: -1px;}
 	&.justify-end {
 		justify-content: flex-end;
 	}
+		.topThread{
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			bottom: 25%;
+		}
+		.bottomThread{
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			top: 20%;
+		}
 
 	.project-card-info {
 
@@ -698,7 +720,10 @@ margin-left: -1px;}
 
 	}
 }
-
+//service page
+.servicePage .project-card-list .project-card-info img{
+	margin-bottom: 180px;
+}
 .white-btn,
 .blue-btn {
 	display: flex;
