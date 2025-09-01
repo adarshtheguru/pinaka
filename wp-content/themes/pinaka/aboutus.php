@@ -55,7 +55,7 @@ get_header();
             
         </div>
 </section>
-    <section class="padding pinakaJourney" id="pinakaJourney">
+<!--     <section class="padding pinakaJourney" id="pinakaJourney">
         <div class="container">
             <div class="text-center">
                 <div class="secTitle">
@@ -68,7 +68,7 @@ get_header();
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 <!--     <section class="backgroundVideo" id="backgroundVideo">
         <div class="video-wrapper">
@@ -152,7 +152,7 @@ get_header();
             </div>
         </div>
     </section>
-
+<!-- 
     <section class="padding awards" id="awards">
         <div class="container">
             <div class="secPrefix">Awards & Recognition </div>
@@ -226,7 +226,106 @@ get_header();
             </div>
         </div>
     </section>
+ -->
+    <section class="padding awards" id="awards">
+        <div class="container">
+            <div class="col-6">
+                <img src="<?php echo THEMEURL; ?>/app/images/our-culture.png" class="img-responsive">
+            </div>
+            <div class="col-1">&nbsp;</div>
+            <div class="col-5">
+                <div class="secPrefix">Awards & Recognition </div>
+                    <div class="secTitle">Lorem Ipsum is simply dummy text.</div>
+                    <p class="para mg-tp-30">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy.<br><br>
 
+Sure, Our expertise lies in crafting bespoke, customized website designs that are strategically aligned with your organization’s growth objectives, particularly in the real estate sector. Whether your goal is to amplify brand recognition, generate high-quality leads, attract potential customers and partners, or recruit top talent.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="padding bg-blue about-client" id="client">
+    <div class="container">
+        <div class="clientCont">
+            <div class="col-5 text-left-xs">
+                <div class="secPrefix text-white">Our Clients</div>
+                <div class="secTitle mg-bt-20 text-white">Grow your inner circle. </div>
+            </div>
+            <div class="gridBox col-7 about-client-slider">
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client1.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client2.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client3.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client4.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client5.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client6.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client7.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client8.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client9.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client10.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client11.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client12.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client13.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client14.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client15.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client16.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client17.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client18.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client19.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client20.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client21.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client22.png" alt="">
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client23.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     <section class="padding whitePanel" id="whitePanel">
         <div class="container">
             <div class="panelBox">

@@ -170,6 +170,20 @@ $(document).ready(function(){
 			fade: true,
   cssEase: 'linear'
 		});
+
+		$('.about-client-slider').slick({
+			slidesToShow: 3,      // 3 slides per row
+		  slidesToScroll: 1,    // scroll 3 at a time
+		  rows: 3, 
+			arrows:false,
+			dots:false,
+			autoplay: true,
+		  autoplaySpeed: 3000,
+		  infinite: true,
+		  vertical: true
+		});
+
+		
 		
 		$('.testSlider').slick({
 			slidesToShow: 3,

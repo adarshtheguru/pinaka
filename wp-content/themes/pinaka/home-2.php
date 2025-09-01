@@ -125,19 +125,19 @@ get_header();
 		</div>
 	</div>
 </section>
-<section class="padding pinaka-service">
+<section class="pinaka-service">
 	<div class="">
 		<div class="col-12">
-			<h2 class="sec-title text-white text-center mg-bt-20">Services We Provide</h2>
+			<h2 class="sec-title text-center mg-bt-20">Services We Provide</h2>
 		</div>
 		<div class="col-12">
 			<div class="pinaka-service-list">
 				<div class="cols">
 					<div class="col" ontouchstart="this.classList.toggle('hover');">
 						<div class="container">
-							<div class="front bg-top bg-img">
+							<div class="front bg-top">
 								<div class="inner">
-									<p>Event Brand Consulting VS. Event Planning</p>
+									<p>Media Strategy</p>
 								</div>
 							</div>
 							<div class="back">
@@ -149,9 +149,23 @@ get_header();
 					</div>
 					<div class="col" ontouchstart="this.classList.toggle('hover');">
 						<div class="container">
-							<div class="front">
+							<div class="front bg-img">
 								<div class="inner">
-									<p>How do you align Brand Identity at Events?</p>
+									<p>Digital & Social Advertising</p>
+								</div>
+							</div>
+							<div class="back">
+								<div class="inner">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col" ontouchstart="this.classList.toggle('hover');">
+						<div class="container">
+							<div class="front bg-top">
+								<div class="inner">
+									<p>New Age Organic Search</p>
 								</div>
 							</div>
 							<div class="back">
@@ -165,7 +179,35 @@ get_header();
 						<div class="container">
 							<div class="front bg-top bg-img bg-img-2">
 								<div class="inner">
-									<p>Long-term partnerships or Project Based?</p>
+									<p>Social Media & Content Management</p>
+								</div>
+							</div>
+							<div class="back">
+								<div class="inner">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col" ontouchstart="this.classList.toggle('hover');">
+						<div class="container">
+							<div class="front">
+								<div class="inner">
+									<p>Online Reputation Management</p>
+								</div>
+							</div>
+							<div class="back">
+								<div class="inner">
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col" ontouchstart="this.classList.toggle('hover');">
+						<div class="container">
+							<div class="front bg-top bg-img bg-img-3">
+								<div class="inner">
+									<p>Public Relations & Influencer</p>
 								</div>
 							</div>
 							<div class="back">
@@ -179,7 +221,7 @@ get_header();
 						<div class="container">
 							<div class="front bg-top">
 								<div class="inner">
-									<p>Will you work with my industry?</p>
+									<p>Website Development & UI Design</p>
 								</div>
 							</div>
 							<div class="back">
@@ -191,9 +233,9 @@ get_header();
 					</div>
 					<div class="col" ontouchstart="this.classList.toggle('hover');">
 						<div class="container">
-							<div class="front bg-img bg-img-3">
+							<div class="front bg-top bg-img bg-img-3">
 								<div class="inner">
-									<p>How is our confidential information handled?</p>
+									<p>Graphin Designs & Motion Graphics</p>
 								</div>
 							</div>
 							<div class="back">
@@ -207,7 +249,7 @@ get_header();
 						<div class="container">
 							<div class="front bg-top">
 								<div class="inner">
-									<p>What are your strategies?</p>
+									<p>Brand Guidelines & Design</p>
 								</div>
 							</div>
 							<div class="back">
@@ -236,7 +278,7 @@ get_header();
 			</div>
 			<div class="gridBoxs col-7">
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.png" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client1.png" alt="">
 				</div>
 				<div class="box">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client2.png" alt="">
@@ -259,6 +301,51 @@ get_header();
 				<div class="box">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client8.png" alt="">
 				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client9.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client10.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client11.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client12.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client13.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client14.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client15.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client16.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client17.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client18.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client19.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client20.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client21.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client22.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client23.png" alt="">
+				</div>
 			</div>
 		</div>
 	</div>
@@ -272,40 +359,134 @@ get_header();
 				<p class="secPara col-10 col-xs-12">guiding you to the best-fit digital solutions without the guesswork.</p>
 				<a href="javascript:;" class="blue-btn mg-tp-30 col-12">Explore More</a>
 			</div>
-			<div class="col-1">&nbsp;</div>
-			<div class="gridBoxs col-6">
+			<!-- <div class="col-1">&nbsp;</div> -->
+			<div class="gridBoxs col-7">
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Brahmastra.svg" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-1.png" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Eskimi.svg" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-2.png" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Facebook.svg" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-3.png" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Google.svg" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-4.png" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Sinch.svg" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-5.png" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Taboola.svg" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-6.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-7.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-8.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-9.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-10.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-11.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-13.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-14.png" alt="">
 				</div>
 			</div>
 		</div>
 	</div>
+</section>
+<section class="padding testimonials">
+		<div class="container">
+			<div class="col-12">
+				<div class="col-4">
+					<div class="secPrefix">Client Testimonials</div>
+					<p class="secPara col-10 col-xs-12">The landmark campaigns in Hall of Fame</p>
+				</div>
+				<div class="col-7">
+					<div class="secTitle mg-bt-20">How pinaka digital technologies has helped brands thrive</div>
+				</div>
+			</div>
+			<div class="col-12">
+				<div class="testimonial-grid">
+					<div class="testi-card">
+						<iframe width="100%" height="260" src="https://www.youtube.com/embed/bbOm_o7jS4k" title="Client Testimonial - KBD Group" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<h2 class="sec-title">KBD Group</h2>
+						<div class="card-intact">
+							<div class="inner">
+								<div class="number">10x</div>
+								<div class="intact-title">Leads Growth</div>
+							</div>
+							<div class="inner">
+								<div class="number">30%</div>
+								<div class="intact-title">Site Visit Growth</div>
+							</div>
+						</div>
+						<div class="testi-review">“Pinaka team is awesome to work with”</div>
+						<div class="">
+							<a href="javascript:;" class="know-more">Know More</a>
+						</div>
+					</div>
+					<div class="testi-card">
+						<iframe width="100%" height="260" src="https://www.youtube.com/embed/gqcSAxuPRvw" title="Client Testimonial - Pride World City" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<h2 class="sec-title">Pride World City</h2>
+						<div class="card-intact">
+							<div class="inner">
+								<div class="number">5x</div>
+								<div class="intact-title">Leads Growth</div>
+							</div>
+							<div class="inner">
+								<div class="number">20%</div>
+								<div class="intact-title">Site Visit Growth</div>
+							</div>
+						</div>
+						<div class="testi-review">“Working with the Pinaka team is absolutely a wonderful experience”
+						</div>
+						<div class="">
+							<a href="javascript:;" class="know-more">Know More</a>
+						</div>
+					</div>
+					<div class="testi-card">
+						<iframe width="100%" height="260" src="https://www.youtube.com/embed/qaKBMPuHVug" title="Client Testimonial - Ceratec Group" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						
+						<h2 class="sec-title">Ceratec Group</h2>
+						<div class="card-intact">
+							<div class="inner">
+								<div class="number">15x</div>
+								<div class="intact-title">Leads Growth</div>
+							</div>
+							<div class="inner">
+								<div class="number">12%</div>
+								<div class="intact-title">Site Visit Growth</div>
+							</div>
+						</div>
+						<div class="testi-review">“Their expertise & collaborative spirit make project a success story”</div>
+						<div class="">
+							<a href="javascript:;" class="know-more">Know More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 </section>
 <section id="insights" class="padding insights">
 	<div class="container">
 		<div class="dataBox">
 			<div class="partA">
 				<h4 class="secPrefix">Insights</h4>
-				<h2 class="secTitle">Always ahead of the curve</h2>
-				<p class="secPara">
+				<h2 class="secTitle text-white">Always ahead of the curve</h2>
+				<p class="secPara text-white">
 					we keep learning, so you keep leading.
 				</p>
-				<a href="javascript:;" class="themeBtn">Explore More</a>
+				<a href="javascript:;" class="themeBtn border-white">Explore More</a>
 			</div>
 			<div class="partB">
 				<?php
@@ -329,12 +510,12 @@ get_header();
 							</a>
 
 							<div class="info">
-								<span><?php echo get_post_type_object(get_post_type())->labels->singular_name; ?> • </span>
-								<span><?php echo get_the_date('M d Y'); ?> • </span>
-								<span><?php echo estimated_reading_time(get_the_content()); ?></span>
+								<!-- <span class="text-white"><?php echo get_post_type_object(get_post_type())->labels->singular_name; ?> • </span> -->
+								<span class="text-white"><?php echo get_the_date('M d Y'); ?> • </span>
+								<span class="text-white"><?php echo estimated_reading_time(get_the_content()); ?></span>
 							</div>
 
-							<p class="title"><?php the_title(); ?></p>
+							<p class="title text-white"> <?php echo mb_strimwidth( get_the_title(), 0, 60, '...' ); ?></p>
 						</div>
 					<?php
 					endwhile;

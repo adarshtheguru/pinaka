@@ -17,155 +17,53 @@
             z-index: 1;
         }
         &.padding{
-            padding-top: 150px;
+            padding-top: 50px;
             // padding-bottom: 150px;
             @media ($max992) {
                 padding-top: 70px;
             }
         }
         .caseBox{
-            .partA{
-                margin-top: 25px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: 0 40px;
-                @media ($max992) {
-                    flex-direction: column;
-                    gap: 15px 0;
-                }
-                @media ($max640) {
-                    margin-top: 5px;
-                }
-                .para{
-                    font-weight: 400;
-                    font-size: 20px;
-                    line-height: 100%;
-                    color: #161616;
-                    padding-left: 50px;
-                    @media ($max992) {
-                        padding-left: 0px;
+            .blogGridBox{
+                margin: 10px 0 50px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+                .box{
+                    .blog-info{
+                        background-color: #003E63;
+                        padding: 25px;
                     }
-                    @media ($max640) {
-                        font-size: 16px;
+                    .dates{
+                        font-weight: 600;
+                        font-size: 12px;
+                        text-transform: capitalize;
+                        color: #EAF7FF;
+                        padding-bottom: 10px;
+                    }
+                    .abstract{
+                        color: #EAF7FF;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 26px;
+                        padding-bottom: 10px;
+                        height: 65px;
+                        overflow: hidden;
+                    }
+                    .small-desc{
+                        color: #EAF7FF;
+                        height: 80px;
+                    }
+                    .read-more{
+                        color: rgba(234,247,255,0.5);
+                        font-weight: 700;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        margin-top: 20px;
                     }
                 }
             }
-            .partB{
-                .custom-tabs {
-                margin: 0 auto;
-                margin-top: 30px;
-              
-                .tab-titles {
-                  display: flex;
-                  border-bottom: 1px solid #535353;
-                  width: 70%;
-                  gap: 0 15px;
-                //   margin: 0 auto;
-                    font-size:15px;
-                    @media ($max992) {
-                        flex-direction: row;
-                        border-bottom: 0px;
-                        overflow-x: auto;
-                        overflow-y: hidden;
-                    }
-                  .tab-title {
-                    flex: 1;
-                    text-align: center;
-                    cursor: pointer;
-                    padding: 10px 7px;
-                    transition: all 0.3s ease;
-                    color: #161616;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin-bottom:-1px;
-                    background: #EAEAEA;
-                  border-bottom: 1px solid #535353;
-                    &.active {
-                    background: linear-gradient(270deg, #FDC500 0%, #FFA4F6 100%);
-                    //   font-weight: 600;
-                    }
-                    @media ($max992) {
-                        flex: none;
-                        padding: 10px 15px;
-                    }
-                  }
-                }
-              
-                .tab-content-wrapper {
-                  padding: 20px 0;
-                  padding-top: 30px;
-                    @media ($max640) {
-                       padding: 10px 0; 
-                    }
-                  .tab-content {
-                    display: none;
-                    .blogGridBox{
-                        margin: 70px 0 50px;
-                        display: grid;
-                        grid-template-columns: repeat(6,1fr);
-                        gap: 75px 45px;
-                        @media ($max992) {
-                            margin: 30px 0;
-                            gap: 45px 30px;
-                        }
-                        @media ($max640) {
-                            grid-template-columns: auto;
-                            gap: 10px 0;
-                        }
-                        .box{
-                            // &:nth-of-type(1),
-                            // &:nth-of-type(2),
-                            // &:nth-of-type(3) {
-                            //     grid-column: span 2;
-                            //     @media ($max992) {
-                            //         grid-column: span 3;
-                            //     }
-                            // }
-                            // &:nth-of-type(4),
-                            // &:nth-of-type(5) {
-                            //     grid-column: span 2;
-                            //     @media ($max992) {
-                            //         grid-column: span 3;
-                            //     }
-                            // }
-                            display: none;
-                            grid-column: span 2;
-                                @media ($max992) {
-                                    grid-column: span 3;
-                                }
-                            >img{
-                                border-radius: 6px;
-                                padding-bottom: 20px;
-                            }
-                            .dates{
-                                font-weight: 600;
-                                font-size: 12px;
-                                text-transform: capitalize;
-                                color: #4C4C4C;
-                                padding-bottom: 10px;
-                            }
-                            .abstract{
-                                color: #161616;
-                                font-weight: 600;
-                                font-size: 20px;
-                                line-height: 26px;
-                                padding-bottom: 10px;
-                            }
-                        }
-                    }
-              
-                    &.active {
-                      display: block;
-                    }
-                  }
-                }
-              }
-            }
+
         }
-    }
-    .wantResult{
-        background: radial-gradient(116.19% 210.15% at 36.27% 57.58%, #89E8CD 0%, #87E4CB 14%, #83D8C6 28%, #7BC4BE 42%, #71A8B3 56%, #6384A5 70%, #535893 84%, #40257F 98%, #3D1D7C 100%);
     }
 }

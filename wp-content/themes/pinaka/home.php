@@ -394,22 +394,43 @@ get_header();
 			</div>
 			<div class="partnerLogoWrapper">
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Brahmastra.svg" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-1.png" alt="">
 				</div>
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Eskimi.svg" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-2.png" alt="">
 				</div>
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Facebook.svg" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-3.png" alt="">
 				</div>
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Google.svg" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-4.png" alt="">
 				</div>
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Sinch.svg" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-5.png" alt="">
 				</div>
 				<div class="logo">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/Taboola.svg" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-6.png" alt="">
+				</div>
+				<div class="logo">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-7.png" alt="">
+				</div>
+				<div class="logo">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-8.png" alt="">
+				</div>
+				<div class="logo">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-9.png" alt="">
+				</div>
+				<div class="logo">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-10.png" alt="">
+				</div>
+				<div class="logo">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-11.png" alt="">
+				</div>
+				<div class="logo">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-13.png" alt="">
+				</div>
+				<div class="logo">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-14.png" alt="">
 				</div>
 			</div>
 		</div>
