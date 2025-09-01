@@ -142,7 +142,8 @@ get_header();
 							</div>
 							<div class="back">
 								<div class="inner">
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+									<p>Event and Brand Consulting involves developing a consistent brand identity and strategy for events. In event planning, it means ensuring your events reflect and enhance your brand. Whether it be making sure you attend the right events, creating your own, or getting your brand messaging streamlined at these events</p>
+									<a href="javascript:;" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
