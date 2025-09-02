@@ -22,7 +22,7 @@ get_header(); ?>
                             while ($all_posts->have_posts()): $all_posts->the_post(); ?>
                             <div class="box">
                                 <?php if (has_post_thumbnail()) : ?>
-                                    <?php the_post_thumbnail('medium', array('class' => 'img-full')); ?>
+                                    <?php the_post_thumbnail('full', array('class' => 'img-full')); ?>
                                 <?php else : ?>
                                     <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/rectPlace.png" alt="">
                                 <?php endif; ?>
