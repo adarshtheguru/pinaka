@@ -504,7 +504,7 @@ get_header();
 						<div class="box">
 							<a href="<?php the_permalink(); ?>">
 								<?php if (has_post_thumbnail()) : ?>
-									<?php the_post_thumbnail('medium', array('class' => 'img-full')); ?>
+									<?php the_post_thumbnail('full', array('class' => 'img-full')); ?>
 								<?php else : ?>
 									<img class="img-full" src="<?php echo THEMEURL; ?>/app/images/rectPlace.png" alt="">
 								<?php endif; ?>
