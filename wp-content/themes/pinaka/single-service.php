@@ -32,14 +32,14 @@ $deliver_content = get_field('deliver_content');
 		</div>
 	</div>
 </section>
-<!-- <section class="padding scroll_section__wrapper service-project">
+<section class="padding scroll_section__wrapper service-project">
 	<div class="container pos-rel">
 		<div class="col-12">
 			<div class="col-5">
-				<h2 class="sec-title">Websites are the undeniable MVP of your marketing strategy, and they must be done right.</h2>
-				<p class="secPara">A website is the cornerstone of an effective marketing strategy for destinations, attractions, or places. It showcases your offerings and captures the essence of the experiences you provide.</p>
+				<h2 class="sec-title"><?php the_field('left_section_title'); ?></h2>
+				<p class="secPara"><?php the_field('left_section_subtitle'); ?></p>
 				<p>
-					All roads should lead to your website. A well-crafted site is essential for showcasing your unique value proposition and offerings while creating a seamless conversion experience. It connects potential customers to everything you provide, highlighting your value effectively.
+					<?php the_field('left_section_description'); ?>
 				</p>
 			</div>
 		</div>
@@ -51,10 +51,11 @@ $deliver_content = get_field('deliver_content');
 
 			<div class="col-7">
 				<div class="project-card-info">
-					<img src="<?php echo THEMEURL; ?>/app/images/computer.png" class="revealOnScroll img-responsive" data-animation="fadeInUp" data-timeout="200">
-					<h3 class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">You Need Tailored, More Customized Solutions</h3>
-					<p class="revealOnScroll secPara" data-animation="fadeInUp" data-timeout="200">Looking for a fast, high-quality website to elevate your new brand or campaign?</p>
-					<p>Sure, Our expertise lies in crafting bespoke, customized website designs that are strategically aligned with your organization’s growth objectives, particularly in the real estate sector. Whether your goal is to amplify brand recognition, generate high-quality leads, attract potential customers and partners, or recruit top talent, we are dedicated to building a website that seamlessly merges aesthetics with functionality. Let us help you create an online presence that captivates visitors and drives your success</p>
+					<?php $left_img = get_field('left_section_image'); ?>
+					<img src="<?php echo esc_url($left_img['url']); ?>" class="revealOnScroll img-responsive" data-animation="fadeInUp" data-timeout="200" alt="<?php echo esc_attr($left_img['alt']); ?>">
+					<h3 class="revealOnScroll" data-animation="fadeInUp" data-timeout="200"><?php the_field('right_section_title'); ?></h3>
+					<p class="revealOnScroll secPara" data-animation="fadeInUp" data-timeout="200"><?php the_field('right_section_subtitle'); ?></p>
+					<p><?php the_field('right_section_description'); ?></p>
 				</div>
 			</div>
 		</div>
@@ -66,19 +67,21 @@ $deliver_content = get_field('deliver_content');
 
 			<div class="col-6">
 				<div class="project-card-info">
-					<img class="revealOnScroll img-responsive pd-rt-30" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/tablets.png">
-					<h3 class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">You prioritize security and seek seamless, worry-free maintenance for peace of mind</h3>
-					<p class="revealOnScroll secPara" data-animation="fadeInUp" data-timeout="200">Is website security non-negotiable for you? Do you require your website design to be effortlessly updatable?</p>
+					<?php $right_img = get_field('right_section_image'); ?>
+					<img class="revealOnScroll img-responsive pd-rt-30" data-animation="fadeInUp" data-timeout="200" src="<?php echo esc_url($right_img['url']); ?>" alt="<?php echo esc_attr($right_img['alt']); ?>">
+					<h3 class="revealOnScroll" data-animation="fadeInUp" data-timeout="200"><?php the_field('last_section_title'); ?></h3>
+					<p class="revealOnScroll secPara" data-animation="fadeInUp" data-timeout="200"><?php the_field('last_section_subtitle'); ?></p>
 					<p>
-						If that’s the case, and you’re tired of unresponsive website vendors who take weeks to make simple updates, Pinaka is the solution you need. We are recognized for our exceptional security track record, systematic upgrades, and lightning-fast responses to updates, edits, and support requests
+						<?php the_field('last_section_description'); ?>
 					</p>
 				</div>
 			</div>
 		</div>
+		<?php $last_img = get_field('last_card_image'); ?>
 		<div class="project-card-list scroll_card justify-end col-12">
 			<div class="col-7">
 				<div class="project-card-info">
-					<img class="revealOnScroll img-responsive" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/laptop.png">
+					<img class="revealOnScroll img-responsive" data-animation="fadeInUp" data-timeout="200" src="<?php echo esc_url($last_img['url']); ?>" alt="<?php echo esc_attr($last_img['alt']); ?>">
 				</div>
 			</div>
 		</div>
@@ -93,64 +96,6 @@ $deliver_content = get_field('deliver_content');
 				</svg>
 			</div>
 		</div>
-	</div>
-</section> -->
-<section class="padding scroll_section__wrapper service-project">
-	<div class="container pos-rel">
-
-		<div class="col-12">
-			<div class="col-5">
-				<h2 class="sec-title"><?php the_field('section_title'); ?></h2>
-				<div class="secPara"><?php the_field('section_description'); ?></div>
-			</div>
-		</div>
-
-		<?php if( have_rows('project_cards') ): ?>
-			<?php while( have_rows('project_cards') ): the_row(); 
-				$image = get_sub_field('card_image');
-				$title = get_sub_field('card_title');
-				$subtitle = get_sub_field('card_subtitle');
-				$desc = get_sub_field('card_description');
-				$svg_type = get_sub_field('svg_type');
-			?>
-
-			<div class="project-card-list <?php echo ($svg_type == 'top') ? 'topThreadList justify-end' : (($svg_type == 'bottom') ? 'bottomThreadList' : 'scroll_card justify-end'); ?> col-12 pos-rel">
-
-				<?php if($svg_type == 'top'): ?>
-					<svg class="topThread" width="723" height="292" viewBox="0 0 723 292" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M1.49996 0.5V113C0.529451 136.845 3.77695 174.229 29 174.5H681C697.084 173.846 721.025 178.139 722 201C722 208.6 722 257.5 722 291" stroke="#003E63" stroke-linecap="round"/>
-					</svg>
-				<?php elseif($svg_type == 'bottom'): ?>
-					<svg class="bottomThread" width="723" height="432" viewBox="0 0 723 432" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M721.5 1V283.5C722.471 307.345 719.223 344.729 694 345H42.0002C25.9158 344.346 1.9755 348.639 1.00024 371.5C1.00024 379.1 1.00024 398 1.00024 431.5" stroke="#003E63" stroke-linecap="round"/>
-					</svg>
-				<?php endif; ?>
-
-				<div class="<?php echo ($svg_type == 'top') ? 'col-7' : 'col-6'; ?>">
-					<div class="project-card-info">
-						<?php if($image): ?>
-							<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="revealOnScroll img-responsive">
-						<?php endif; ?>
-						<?php if($title): ?><h3 class="revealOnScroll"><?php echo $title; ?></h3><?php endif; ?>
-						<?php if($subtitle): ?><p class="revealOnScroll secPara"><?php echo $subtitle; ?></p><?php endif; ?>
-						<?php if($desc): ?><p><?php echo $desc; ?></p><?php endif; ?>
-					</div>
-				</div>
-			</div>
-			<?php endwhile; ?>
-		<?php endif; ?>
-
-		<?php $last_img = get_field('last_card_image'); ?>
-		<?php if($last_img): ?>
-			<div class="project-card-list scroll_card justify-end col-12">
-				<div class="col-7">
-					<div class="project-card-info">
-						<img src="<?php echo esc_url($last_img['url']); ?>" alt="<?php echo esc_attr($last_img['alt']); ?>" class="revealOnScroll img-responsive">
-					</div>
-				</div>
-			</div>
-		<?php endif; ?>
-
 	</div>
 </section>
 
