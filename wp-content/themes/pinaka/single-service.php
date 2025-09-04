@@ -32,7 +32,7 @@ $deliver_content = get_field('deliver_content');
 		</div>
 	</div>
 </section>
-<section class="padding scroll_section__wrapper service-project">
+<!-- <section class="padding scroll_section__wrapper service-project">
 	<div class="container pos-rel">
 		<div class="col-12">
 			<div class="col-5">
@@ -79,13 +79,10 @@ $deliver_content = get_field('deliver_content');
 			<div class="col-7">
 				<div class="project-card-info">
 					<img class="revealOnScroll img-responsive" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/laptop.png">
-					<!-- <h3 class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Huntsville Botanical Garden</h3>
-					<p class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Campaigns, Digital Advertising, Social Advertising</p>
-					<a href="javascript:;" class="white-btn revealOnScroll" data-animation="fadeInUp" data-timeout="200">See the case study</a> -->
 				</div>
 			</div>
 		</div>
-		<!-- <div class="col-12 section_wrap_btm">
+		<div class="col-12 section_wrap_btm">
 
 			<div class="section_line_wrap_btm">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 485" style="enable-background:new 0 0 100 485;" xml:space="preserve">
@@ -95,9 +92,68 @@ $deliver_content = get_field('deliver_content');
 					<polyline class="st2" points="97.5,0 97.5,476 0.5,476 " fill="transparent"></polyline>
 				</svg>
 			</div>
-		</div> -->
+		</div>
+	</div>
+</section> -->
+<section class="padding scroll_section__wrapper service-project">
+	<div class="container pos-rel">
+
+		<div class="col-12">
+			<div class="col-5">
+				<h2 class="sec-title"><?php the_field('section_title'); ?></h2>
+				<div class="secPara"><?php the_field('section_description'); ?></div>
+			</div>
+		</div>
+
+		<?php if( have_rows('project_cards') ): ?>
+			<?php while( have_rows('project_cards') ): the_row(); 
+				$image = get_sub_field('card_image');
+				$title = get_sub_field('card_title');
+				$subtitle = get_sub_field('card_subtitle');
+				$desc = get_sub_field('card_description');
+				$svg_type = get_sub_field('svg_type');
+			?>
+
+			<div class="project-card-list <?php echo ($svg_type == 'top') ? 'topThreadList justify-end' : (($svg_type == 'bottom') ? 'bottomThreadList' : 'scroll_card justify-end'); ?> col-12 pos-rel">
+
+				<?php if($svg_type == 'top'): ?>
+					<svg class="topThread" width="723" height="292" viewBox="0 0 723 292" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M1.49996 0.5V113C0.529451 136.845 3.77695 174.229 29 174.5H681C697.084 173.846 721.025 178.139 722 201C722 208.6 722 257.5 722 291" stroke="#003E63" stroke-linecap="round"/>
+					</svg>
+				<?php elseif($svg_type == 'bottom'): ?>
+					<svg class="bottomThread" width="723" height="432" viewBox="0 0 723 432" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M721.5 1V283.5C722.471 307.345 719.223 344.729 694 345H42.0002C25.9158 344.346 1.9755 348.639 1.00024 371.5C1.00024 379.1 1.00024 398 1.00024 431.5" stroke="#003E63" stroke-linecap="round"/>
+					</svg>
+				<?php endif; ?>
+
+				<div class="<?php echo ($svg_type == 'top') ? 'col-7' : 'col-6'; ?>">
+					<div class="project-card-info">
+						<?php if($image): ?>
+							<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="revealOnScroll img-responsive">
+						<?php endif; ?>
+						<?php if($title): ?><h3 class="revealOnScroll"><?php echo $title; ?></h3><?php endif; ?>
+						<?php if($subtitle): ?><p class="revealOnScroll secPara"><?php echo $subtitle; ?></p><?php endif; ?>
+						<?php if($desc): ?><p><?php echo $desc; ?></p><?php endif; ?>
+					</div>
+				</div>
+			</div>
+			<?php endwhile; ?>
+		<?php endif; ?>
+
+		<?php $last_img = get_field('last_card_image'); ?>
+		<?php if($last_img): ?>
+			<div class="project-card-list scroll_card justify-end col-12">
+				<div class="col-7">
+					<div class="project-card-info">
+						<img src="<?php echo esc_url($last_img['url']); ?>" alt="<?php echo esc_attr($last_img['alt']); ?>" class="revealOnScroll img-responsive">
+					</div>
+				</div>
+			</div>
+		<?php endif; ?>
+
 	</div>
 </section>
+
 <section class="padding blueCards">
 	<div class="container text-white">
 		<div class="contentBox">
