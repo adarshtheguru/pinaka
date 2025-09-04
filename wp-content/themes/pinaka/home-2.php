@@ -89,8 +89,8 @@ get_header();
 		<div class="project-card-list justify-end col-12">
 			<div class="col-5">
 				<div class="project-card-info">
-					<img src="<?php echo THEMEURL; ?>/app/images/project-1.jpg" class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">
-					<h3 class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Huntsville Botanical Garden</h3>
+					<img src="<?php echo THEMEURL; ?>/app/images/goyal-properties.png" class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">
+					<h3 class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Goyal Properties</h3>
 					<p class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Campaigns, Digital Advertising, Social Advertising</p>
 					<a href="javascript:;" class="white-btn revealOnScroll" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
@@ -99,8 +99,8 @@ get_header();
 		<div class="project-card-list col-12">
 			<div class="col-5">
 				<div class="project-card-info">
-					<img class="revealOnScroll" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/project-1.jpg">
-					<h3 class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Huntsville Botanical Garden</h3>
+					<img class="revealOnScroll" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/pwc.png">
+					<h3 class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Pride World City</h3>
 					<p class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Campaigns, Digital Advertising, Social Advertising</p>
 					<a href="javascript:;" class="white-btn revealOnScroll" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
@@ -109,8 +109,8 @@ get_header();
 		<div class="project-card-list scroll_card justify-end col-12">
 			<div class="col-5">
 				<div class="project-card-info">
-					<img class="revealOnScroll" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/project-1.jpg">
-					<h3 class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Huntsville Botanical Garden</h3>
+					<img class="revealOnScroll" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/shubh-vedha.png">
+					<h3 class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Shubh Vedha</h3>
 					<p class="revealOnScroll" data-animation="fadeInUp" data-timeout="200">Campaigns, Digital Advertising, Social Advertising</p>
 					<a href="javascript:;" class="white-btn revealOnScroll" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
