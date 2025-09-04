@@ -153,7 +153,24 @@ $deliver_content = get_field('deliver_content');
 			</div>
 		<?php endif; ?>
 	</div>
-<div class="blueCardSliderWrapepr pos-rel">
+	<!-- <div class="blueCardSliderWrapepr pos-rel">
+		<div class="blueCardSlider">
+			<div><img src="<?php echo THEMEURL; ?>/app/images/bc1.jpg" alt="Slide 1" /></div>
+			<div><img src="<?php echo THEMEURL; ?>/app/images/bc2.jpg" alt="Slide 2" /></div>
+			<div><img src="<?php echo THEMEURL; ?>/app/images/bc3.jpg" alt="Slide 3" /></div>
+			<div><img src="<?php echo THEMEURL; ?>/app/images/bc1.jpg" alt="Slide 4" /></div>
+			<div><img src="<?php echo THEMEURL; ?>/app/images/bc2.jpg" alt="Slide 5" /></div>
+		</div>
+		<div class="customArrow">
+			<div id="bc-l-arrow">
+				<img src="<?php echo THEMEURL; ?>/app/images/leftArrow.svg" alt="">
+			</div>
+			<div id="bc-r-arrow">
+				<img src="<?php echo THEMEURL; ?>/app/images/rightArrow.svg" alt="">
+			</div>
+		</div>
+	</div> -->
+	<div class="blueCardSliderWrapepr pos-rel">
     <div class="blueCardSlider">
         <?php 
         $slides = get_field('blue_card_slider'); 

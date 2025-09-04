@@ -234,7 +234,7 @@ get_header();
 					</div>
 					<div class="col" ontouchstart="this.classList.toggle('hover');">
 						<div class="container">
-							<div class="front bg-top bg-img bg-img-3">
+							<div class="front bg-top bg-img bg-img-4">
 								<div class="inner">
 									<p>Graphin Designs & Motion Graphics</p>
 								</div>

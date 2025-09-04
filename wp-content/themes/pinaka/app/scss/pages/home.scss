@@ -788,13 +788,16 @@ margin-left: -1px;}
 		}
 		&.bg-img{
 			/*background: linear-gradient(-26.43deg, rgba(253,197,0,0.8) 9.51%, rgba(253,82,237,0.8) 90.49%), url(../images/bc1.jpg);*/
-			background: linear-gradient(-26.43deg, rgba(0,0,0,0.2) 9.51%, rgba(0,0,0,0.8) 90.49%), url(../images/pr.png) center/cover no-repeat;
+			background: linear-gradient(-26.43deg, rgba(0,0,0,0.2) 9.51%, rgba(0,0,0,0.8) 90.49%), url(../images/digital-advertising.png) center/cover no-repeat;
 		}
 		&.bg-img-2{
-			background: linear-gradient(-26.43deg, rgba(0,0,0,0.2) 9.51%, rgba(0,0,0,0.8) 90.49%), url(../images/seo.png) center/cover no-repeat;
+			background: linear-gradient(-26.43deg, rgba(0,0,0,0.2) 9.51%, rgba(0,0,0,0.8) 90.49%), url(../images/social-media-content.png) center/cover no-repeat;
 		}
 		&.bg-img-3{
-			background: linear-gradient(-26.43deg, rgba(0,0,0,0.2) 9.51%, rgba(0,0,0,0.8) 90.49%), url(../images/smm.png) center/cover no-repeat;
+			background: linear-gradient(-26.43deg, rgba(0,0,0,0.2) 9.51%, rgba(0,0,0,0.8) 90.49%), url(../images/public-relation.png) center/cover no-repeat;
+		}
+		&.bg-img-4{
+			background: linear-gradient(-26.43deg, rgba(0,0,0,0.2) 9.51%, rgba(0,0,0,0.8) 90.49%), url(../images/graphic-design.png) center/cover no-repeat;
 		}
 		
 	}
