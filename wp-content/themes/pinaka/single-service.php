@@ -85,7 +85,7 @@ $deliver_content = get_field('deliver_content');
 				</div>
 			</div>
 		</div>
-		<div class="col-12 section_wrap_btm">
+<!-- 		<div class="col-12 section_wrap_btm">
 
 			<div class="section_line_wrap_btm">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 485" style="enable-background:new 0 0 100 485;" xml:space="preserve">
@@ -96,7 +96,7 @@ $deliver_content = get_field('deliver_content');
 				</svg>
 			</div>
 		</div>
-	</div>
+ -->	</div>
 </section>
 
 <section class="padding blueCards">
