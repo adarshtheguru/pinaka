@@ -92,7 +92,7 @@ $deliver_content = get_field('deliver_content');
 		<?php $last_img = get_field('last_card_image'); ?>
 		<div class="project-card-list scroll_card justify-end col-12">
 			<div class="col-7">
-				<div class="project-card-info">
+				<div class="project-card-info pos-rel">
 					<img class="revealOnScroll img-responsive" data-animation="fadeInUp" data-timeout="200" src="<?php echo esc_url($last_img['url']); ?>" alt="<?php echo esc_attr($last_img['alt']); ?>">
 				</div>
 			</div>

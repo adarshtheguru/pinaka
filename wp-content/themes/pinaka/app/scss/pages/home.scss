@@ -1122,7 +1122,8 @@ color: #161616;
 	}
 }
 .project-card-list{
-	.project-card-info:after {
+	.project-card-info:before {
+		content: '';
 	    position: absolute;
 	    top: 0;
 	    width: 30%;
