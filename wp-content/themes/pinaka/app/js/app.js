@@ -485,6 +485,7 @@ $(document).ready(function(){
 
 		animateThreadSmall(".topThread", ".topThreadList", 0, "+=500");
 		animateThreadSmall(".bottomThread", ".bottomThreadList", 0, "+=500");
+		animateThreadSmall(".topCenterThread", ".service-project", 0, "+=500");
 
 		//aboutUs bg video
 		$('.play-button, .video-thumbnail').click(function() {

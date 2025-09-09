@@ -32,7 +32,12 @@ $deliver_content = get_field('deliver_content');
 		</div>
 	</div>
 </section>
-<section class="padding scroll_section__wrapper service-project">
+<section class="padding scroll_section__wrapper service-project pos-rel">
+
+	<svg class="topCenterThread" width="188" height="204" viewBox="0 0 188 204" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M187.5 1V203.5H1" stroke="#003E63" stroke-linecap="round"/>
+	</svg>
+
 	<div class="container pos-rel">
 		<div class="col-12">
 			<div class="col-5">
@@ -48,7 +53,6 @@ $deliver_content = get_field('deliver_content');
 		<!-- <svg class="topThread" width="723" height="292" viewBox="0 0 723 292" fill="none" xmlns="http://www.w3.org/2000/svg">
 		<path d="M1.49996 0.5V113C0.529451 136.845 3.77695 174.229 29 174.5H681C697.084 173.846 721.025 178.139 722 201C722 208.6 722 257.5 722 291" stroke="#003E63" stroke-linecap="round"/>
 		</svg> -->
-
 
 		<svg class="topThread" width="418" height="404" viewBox="0 0 418 404" fill="none" xmlns="http://www.w3.org/2000/svg">
 		<path d="M1 1V403.5H417.5" stroke="#003E63" stroke-linecap="round"/>
@@ -71,10 +75,9 @@ $deliver_content = get_field('deliver_content');
 			<path d="M721.5 1V283.5C722.471 307.345 719.223 344.729 694 345H42.0002C25.9158 344.346 1.9755 348.639 1.00024 371.5C1.00024 379.1 1.00024 398 1.00024 431.5" stroke="#003E63" stroke-linecap="round"/>
 			</svg> -->
 
-
-<svg class="bottomThread" width="418" height="574" viewBox="0 0 418 574" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M417.5 1V573.5H1" stroke="#003E63" stroke-linecap="round"/>
-</svg>
+			<svg class="bottomThread" width="418" height="574" viewBox="0 0 418 574" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M417.5 1V573.5H1" stroke="#003E63" stroke-linecap="round"/>
+			</svg>
 
 
 			<div class="col-6">
