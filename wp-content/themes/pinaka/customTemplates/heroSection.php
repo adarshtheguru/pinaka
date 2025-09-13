@@ -47,7 +47,7 @@ $video_file_mobile  = get_field('banner_video_upload_mobile');
 
     <div class="container">
         <?php if ($title): ?>
-            <h1 class="banner-title"><?= nl2br(esc_html($title)); ?></h1>
+            <h1 class="banner-title"><?= wp_kses_post($title); ?></h1>
         <?php endif; ?>
     </div>
 </section>
