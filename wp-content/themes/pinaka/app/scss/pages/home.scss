@@ -70,9 +70,8 @@
       display: flex !important;
       flex-direction: row;
       justify-content: center;
-      align-items: center;
       padding: 10px 24px;
-      gap: 10px;
+      gap: 20px;
 
       .number {
         font-family: "Sora", sans-serif;
@@ -84,14 +83,22 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-fill-color: transparent;
+		@media ($max1440) {
+			font-size: 82px;
+			line-height: 96px;
+		}
       }
 
       .para {
         font-family: "Poppins", sans-serif;
         font-weight: 300;
-        font-size: 36px;
-        line-height: 52px;
+        font-size: 32px;
+        line-height: 48px;
         color: #161616;
+		@media ($max1440) {
+			font-size: 28px;
+			line-height: 36px;
+		}
       }
     }
   }
@@ -204,7 +211,7 @@
   width: 80%;
   margin: 0 auto;
   //   align-items: center;
-  //   justify-content: center;
+    justify-content: center;
   flex-direction: column;
 }
 

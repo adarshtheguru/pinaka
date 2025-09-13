@@ -389,30 +389,34 @@ $(document).ready(function () {
 		// build timeline
 		const tl = gsap.timeline({
 			scrollTrigger: {
-				trigger: ".specialize-slide",
-				start: "top top",
-				end: "+=" + (slides.length * 100) + "%",
-				pin: true,
-				scrub: 0.6,
-				anticipatePin: 1,
-				onLeave: () => {
-					const last = slides[slides.length - 1];
-					gsap.to(last, { duration: 1.5, ease: "power2.out", "--gradOpacity": 1 });
-				},
-				onEnterBack: () => {
-					const last = slides[slides.length - 1];
-					gsap.to(last, { duration: 1.0, ease: "power2.out", "--gradOpacity": 0 });
-				}
+			trigger: ".specialize-slide",
+			start: "top top",
+			end: "+=" + (slides.length * 100) + "%",
+			pin: true,
+			scrub: 0.6,
+			anticipatePin: 1,
+			// remove onLeave/onEnterBack, handled inside timeline now
 			}
-		});
+					});
 
-		// slide transitions
-		slides.forEach((slide, i) => {
+			// slide transitions
+			slides.forEach((slide, i) => {
 			if (i === 0) return;
+
+			// slide out previous
 			tl.to(slides[i - 1], { x: "-100%", duration: 1, ease: "power1.inOut" }, "+=0")
-				.to(slide, { x: "0%", duration: 1, ease: "power1.inOut" }, "<");
-		});
-	}
+			.to(slide, { x: "0%", duration: 1, ease: "power1.inOut" }, "<");
+
+			// if this is specialise_2, fade in gradient a bit slower & after slide has started
+			if (slide.classList.contains("specialise_2")) {
+				tl.to(slide, {
+					"--gradOpacity": 1,
+					duration: 2,            // slower fade
+					ease: "power2.out"
+				}, "<0.4");               // start 40% *after* slide transition begins
+			}
+			});
+		}
 
 	// service section bg effect
 	if (document.querySelector("#DeliverResult")) {
@@ -502,7 +506,7 @@ $(document).ready(function () {
 	animateThreadSmall(".topCenterThread", ".threadSection", 0, "+=500");
 
 	// another example
-	animateThreadSmall(".animatedThread", ".strategy", 0, "+=500", 0);
+	animateThreadSmall(".animatedThread", ".strategy", 0, "+=500", +100);
 
 	//aboutUs bg video
 	$('.play-button, .video-thumbnail').click(function () {
