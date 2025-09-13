@@ -162,6 +162,15 @@ class ServiceFields extends FieldGroup
                 'name' => 'deliver_content',
                 'type' => 'wysiwyg',
             ],
+            [
+                'key'           => $this->fkey('redirect_link'),
+                'label'         => 'Select Page/Post to Redirect CTA',
+                'name'          => 'deliver_link',
+                'type'          => 'post_object',
+                'post_type'     => ['post', 'page'], // fetch posts & pages
+                'return_format' => 'url',            // so get_field returns the link
+                'ui'            => 1,                // nice dropdown UI
+            ],
         ];
     }
 }

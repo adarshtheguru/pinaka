@@ -346,6 +346,15 @@ $(document).ready(function () {
 		]
 	});
 
+	//Light Gallery
+
+	// init lightgallery on slick slides
+    lightGallery(document.querySelector('.case-study-slider'), {
+        selector: 'a',
+        plugins: [lgZoom, lgThumbnail],
+        speed: 500,
+    });
+
 	//gsap
 	gsap.registerPlugin(ScrollTrigger);
 
@@ -455,38 +464,45 @@ $(document).ready(function () {
 	// animate each thread
 	animateThread(".customThread", ".scroll_section__wrapper", 3607);   // stops at 3607
 
-	function animateThreadSmall(selector, triggerClass, minOffset = 0, scrollRange = "+=500") {
-		const path = document.querySelector(`${selector} path`);
-		if (path) {
-			const pathLength = path.getTotalLength();
+	function animateThreadSmall(selector, triggerClass, minOffset = 0, scrollRange = "+=500", offset = 0) {
+  const path = document.querySelector(`${selector} path`);
+  if (path) {
+    const pathLength = path.getTotalLength();
 
-			path.style.strokeDasharray = pathLength;
-			path.style.strokeDashoffset = pathLength;
-			path.style.fill = "none";
+    path.style.strokeDasharray = pathLength;
+    path.style.strokeDashoffset = pathLength;
+    path.style.fill = "none";
 
-			gsap.to(path, {
-				strokeDashoffset: 0,
-				ease: "none",
-				scrollTrigger: {
-					trigger: triggerClass,
-					start: "top center",
-					end: scrollRange,   // << shorter scroll = faster animation
-					scrub: true,
-					onUpdate: () => {
-						const current = parseFloat(path.style.strokeDashoffset);
-						if (current < minOffset) {
-							path.style.strokeDashoffset = minOffset;
-						}
-					}
-				}
-			});
-		}
-	}
+    gsap.to(path, {
+      strokeDashoffset: 0,
+      ease: "none",
+      scrollTrigger: {
+        trigger: triggerClass,
+        start: `top+=${offset} center`,   // 👈 apply offset
+        end: scrollRange,
+        scrub: true,
+        onUpdate: () => {
+          const current = parseFloat(path.style.strokeDashoffset);
+          if (current < minOffset) {
+            path.style.strokeDashoffset = minOffset;
+          }
+        }
+      }
+    });
+  }
+}
 
-	animateThreadSmall(".topThread", ".topThreadList", 0, "+=500");
-	animateThreadSmall(".bottomThread", ".bottomThreadList", 0, "+=500");
-	animateThreadSmall(".topCenterThread", ".service-project", 0, "+=500");
-	animateThreadSmall(".animatedThread", ".strategy", 0, "+=500");
+	// start a bit earlier (before section hits center)
+	animateThreadSmall(".topThread", ".topThreadList", 0, "+=500", -150);
+
+	// start later (after section is already past)
+	animateThreadSmall(".bottomThread", ".bottomThreadList", 0, "+=500", -150);
+
+	// default (no offset)
+	animateThreadSmall(".topCenterThread", ".threadSection", 0, "+=500");
+
+	// another example
+	animateThreadSmall(".animatedThread", ".strategy", 0, "+=500", 0);
 
 	//aboutUs bg video
 	$('.play-button, .video-thumbnail').click(function () {

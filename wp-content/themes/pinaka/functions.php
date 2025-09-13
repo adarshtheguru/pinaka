@@ -1031,3 +1031,16 @@ add_filter('upload_mimes', function($mimes) {
     }
     return $mimes;
 });
+
+function theme_enqueue_lightgallery() {
+    // LightGallery CSS
+    wp_enqueue_style( 'lightgallery-css', 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css' );
+
+    // LightGallery JS
+    wp_enqueue_script( 'lightgallery-js', 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.umd.min.js', array('jquery'), null, true );
+
+    // Plugins (zoom, thumbnail, fullscreen etc.)
+    wp_enqueue_script( 'lightgallery-plugins', 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/thumbnail/lg-thumbnail.umd.min.js', array('lightgallery-js'), null, true );
+    wp_enqueue_script( 'lightgallery-zoom', 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/zoom/lg-zoom.umd.min.js', array('lightgallery-js'), null, true );
+}
+add_action( 'wp_enqueue_scripts', 'theme_enqueue_lightgallery' );

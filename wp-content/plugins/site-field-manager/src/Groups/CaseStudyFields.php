@@ -392,6 +392,16 @@ class CaseStudyFields extends FieldGroup
                 'name'  => 'takeaway_desc',
                 'type'  => 'textarea',
             ],
+            /**
+             * Thumbnail on Service Page
+             */
+            [
+                'key'   => $this->fkey('service_thumbnail_image'),
+                'label' => 'Service Thumbnail Image',
+                'name'  => 'service_thumbnail_image',
+                'type'  => 'image',
+                'return_format' => 'id',
+            ],
         ];
     }
 }
