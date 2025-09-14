@@ -1,7 +1,4 @@
 <?php
-/**
- * Template Name: Case Study
- */
 get_header();
 ?>
 <main class="caseStudy" id="caseStudy">

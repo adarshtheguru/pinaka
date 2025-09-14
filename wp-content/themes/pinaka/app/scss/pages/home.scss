@@ -1134,6 +1134,48 @@
     }
   }
 }
+
+// .clientCont .clientCont .gridBoxs {
+//   display: flex;
+//   flex-direction: column;
+//   gap: 20px;
+
+//   .rowBox {
+//     display: flex;
+//     gap: 20px;
+//     overflow: hidden; // ensures sliding stays inside
+//     white-space: nowrap;
+
+//     .box {
+//       flex: 0 0 auto;
+//       img {
+//         display: block;
+//         max-width: 100px; // adjust size
+//       }
+//     }
+//   }
+
+//   // Keyframes
+//   @keyframes slide-left {
+//     0%   { transform: translateX(0); }
+//     100% { transform: translateX(-50%); }
+//   }
+
+//   @keyframes slide-right {
+//     0%   { transform: translateX(0); }
+//     100% { transform: translateX(50%); }
+//   }
+
+//   // Even rows → move left
+//   .rowBox:nth-child(even) {
+//     animation: slide-left 20s linear infinite alternate;
+//   }
+
+//   // Odd rows → move right
+//   .rowBox:nth-child(odd) {
+//     animation: slide-right 20s linear infinite alternate;
+//   }
+// }
 .about-client {
   .clientCont .gridBox {
     .slick-slide {
