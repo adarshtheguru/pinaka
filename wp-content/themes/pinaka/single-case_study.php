@@ -195,7 +195,7 @@ if ($strategy) {
                             <?php if (!empty($listing['listing'])): ?>
                                 <div class="box">
                                     <img src="<?php echo esc_url(THEMEURL . '/app/images/neondot.png'); ?>" alt="">
-                                    <p><?= esc_html($listing['listing']); ?></p>
+                                    <p><?= wp_kses_post($listing['listing']); ?></p>
                                 </div>
                             <?php endif; ?>
                         <?php endforeach; ?>
@@ -235,7 +235,7 @@ if ($strategy) {
                             <?php endif; ?>
 
                             <?php if ($boxDesc = get_sub_field('box_desc')): ?>
-                                <p><?= esc_html($boxDesc); ?></p>
+                                <p><?= wp_kses_post($boxDesc); ?></p>
                             <?php endif; ?>
                         </div>
                     <?php endwhile; ?>
