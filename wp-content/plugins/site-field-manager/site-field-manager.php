@@ -9,6 +9,7 @@
 namespace Site\Fields;
 use Site\Fields\Groups\PageHeroFields;
 use Site\Fields\Groups\ServiceFields;
+use Site\Fields\Groups\CaseStudyFields;
 
 if (!defined('ABSPATH')) exit;
 
@@ -25,12 +26,14 @@ require_once __DIR__ . '/src/FieldGroup.php';
 require_once __DIR__ . '/src/Registrar.php';
 require_once __DIR__ . '/src/Groups/PageHeroFields.php';
 require_once __DIR__ . '/src/Groups/ServiceFields.php';
+require_once __DIR__ . '/src/Groups/CaseStudyFields.php';
 
 // Register on ACF init
 add_action('acf/init', function () {
     $groups = [
         new PageHeroFields(),
         new ServiceFields(),
+        new CaseStudyFields(),
         // new \Site\Fields\Groups\PostSeoFields(),
     ];
 

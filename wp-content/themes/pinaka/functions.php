@@ -994,3 +994,53 @@ function register_services_cpt() {
     register_post_type('service', $args);
 }
 add_action('init', 'register_services_cpt');
+
+function register_case_study_cpt() {
+    $labels = [
+        'name'               => 'Case Studies',
+        'singular_name'      => 'Case Study',
+        'menu_name'          => 'Case Studies',
+        'add_new'            => 'Add New',
+        'add_new_item'       => 'Add New Case Study',
+        'edit_item'          => 'Edit Case Study',
+        'new_item'           => 'New Case Study',
+        'view_item'          => 'View Case Study',
+        'all_items'          => 'All Case Studies',
+        'search_items'       => 'Search Case Studies',
+        'not_found'          => 'No case studies found',
+        'not_found_in_trash' => 'No case studies found in Trash',
+    ];
+
+    $args = [
+        'labels'             => $labels,
+        'public'             => true,
+        'has_archive'        => true,
+        'rewrite'            => ['slug' => 'case-studies'],
+        'supports'           => ['title', 'editor', 'thumbnail', 'excerpt'],
+        'show_in_rest'       => true, // Gutenberg + REST API support
+    ];
+
+    register_post_type('case_study', $args);
+}
+add_action('init', 'register_case_study_cpt');
+
+add_filter('upload_mimes', function($mimes) {
+    // Allow SVG only for admin & specific roles
+    if ( current_user_can('administrator') || current_user_can('custom_role') ) {
+        $mimes['svg'] = 'image/svg+xml';
+    }
+    return $mimes;
+});
+
+function theme_enqueue_lightgallery() {
+    // LightGallery CSS
+    wp_enqueue_style( 'lightgallery-css', 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css' );
+
+    // LightGallery JS
+    wp_enqueue_script( 'lightgallery-js', 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.umd.min.js', array('jquery'), null, true );
+
+    // Plugins (zoom, thumbnail, fullscreen etc.)
+    wp_enqueue_script( 'lightgallery-plugins', 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/thumbnail/lg-thumbnail.umd.min.js', array('lightgallery-js'), null, true );
+    wp_enqueue_script( 'lightgallery-zoom', 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/zoom/lg-zoom.umd.min.js', array('lightgallery-js'), null, true );
+}
+add_action( 'wp_enqueue_scripts', 'theme_enqueue_lightgallery' );
