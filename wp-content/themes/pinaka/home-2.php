@@ -12,11 +12,11 @@ get_header();
 				</div>
 				<div class="stats">
 					<div class="number">100+</div>
-					<p class="para">Successful clients reaching new heights with<br> powerful digital strategies.</p>
+					<p class="para">Successful clients reaching new heights <br>with powerful digital strategies.</p>
 				</div>
 				<div class="stats">
 					<div class="number">99.90%</div>
-					<p class="para">Uptime for seamless digital solutions, ensuring<br> reliability and performance.</p>
+					<p class="para">Uptime for seamless digital solutions, <br>ensuring reliability and performance.</p>
 				</div>
 			</div>
 		</div>

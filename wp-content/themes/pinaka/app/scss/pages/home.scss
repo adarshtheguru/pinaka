@@ -28,7 +28,7 @@
 		width: 100%;
 		height: 100%;
 		background: linear-gradient(279.52deg, #FDC500 2.43%, #FDC500 42.22%, #FD52ED 97.57%);
-		opacity: 0.75;
+		opacity: 0.55;
 		z-index: 1;
 	}
 
@@ -44,7 +44,7 @@
 		font-weight: 900;
 		font-size: 88px;
 		line-height: 98px;
-		color: #151515;
+		color: #ffffff;
 		width: 85%;
 	}
 }
@@ -142,7 +142,7 @@
 		// background-image: url("../../app/images/home-banner.svg");
 		background-size: cover;
 		background-repeat: no-repeat;
-		padding: 140px 150px;
+		padding: 140px 140px;
 	}
 }
 
@@ -202,6 +202,7 @@
 //   align-items: center;
 //   justify-content: center;
   flex-direction: column;
+  justify-content: center;
 }
 
 .specialise_1 { background: #111; color: #fff; }

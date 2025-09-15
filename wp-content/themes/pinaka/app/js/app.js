@@ -372,7 +372,7 @@ $(document).ready(function(){
 
 		// start positions
 		gsap.set(slides[0], { x: "0%" });
-		slides.slice(1).forEach(s => gsap.set(s, { x: "100%" }));
+		slides.slice(1).forEach(s => gsap.set(s, { x: "70%" }));
 
 		// force bg color
 		slides.slice(1).forEach(s => gsap.set(s, { backgroundColor: firstBg }));
