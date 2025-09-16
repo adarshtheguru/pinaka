@@ -81,15 +81,15 @@ get_header();
 		</svg>
 
 		<div class="col-12">
-			<div class="col-5">
+			<div class="col-5 col-xs-12 col-md-12">
 				<h2 class="sec-title">Featured Projects</h2>
 				<p>From regional businesses seeking national recognition to enterprises gearing up for expansion, we build digital strategies that scale with your ambitions.</p>
 			</div>
 		</div>
 		<div class="project-card-list justify-end col-12">
-			<div class="col-5">
+			<div class="col-5 col-xs-12 col-md-12">
 				<div class="project-card-info">
-					<img src="<?php echo THEMEURL; ?>/app/images/goyal-properties.png" class="rOSOff" data-animation="fadeInUp" data-timeout="200">
+					<img src="<?php echo THEMEURL; ?>/app/images/goyal-properties.png" class="rOSOff img-responsive" data-animation="fadeInUp" data-timeout="200">
 					<h3 class="rOSOff" data-animation="fadeInUp" data-timeout="200">Goyal Properties</h3>
 					<p class="rOSOff" data-animation="fadeInUp" data-timeout="200">Campaigns, Digital Advertising, Social Advertising</p>
 					<a href="javascript:;" class="white-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
@@ -97,9 +97,9 @@ get_header();
 			</div>
 		</div>
 		<div class="project-card-list col-12">
-			<div class="col-5">
+			<div class="col-5 col-xs-12 col-md-12">
 				<div class="project-card-info">
-					<img class="rOSOff" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/pwc.png">
+					<img class="rOSOff img-responsive" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/pwc.png">
 					<h3 class="rOSOff" data-animation="fadeInUp" data-timeout="200">Pride World City</h3>
 					<p class="rOSOff" data-animation="fadeInUp" data-timeout="200">Campaigns, Digital Advertising, Social Advertising</p>
 					<a href="javascript:;" class="white-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
@@ -107,9 +107,9 @@ get_header();
 			</div>
 		</div>
 		<div class="project-card-list scroll_card justify-end col-12">
-			<div class="col-5">
+			<div class="col-5 col-xs-12 col-md-12">
 				<div class="project-card-info">
-					<img class="rOSOff" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/shubh-vedha.png">
+					<img class="rOSOff img-responsive" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/shubh-vedha.png">
 					<h3 class="rOSOff" data-animation="fadeInUp" data-timeout="200">Shubh Vedha</h3>
 					<p class="rOSOff" data-animation="fadeInUp" data-timeout="200">Campaigns, Digital Advertising, Social Advertising</p>
 					<a href="javascript:;" class="white-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
@@ -118,7 +118,7 @@ get_header();
 		</div>
 		<div class="col-12 section_wrap_btm">
 			
-			<div class="col-5">
+			<div class="col-5 col-xs-12 col-md-12">
 				<p>From regional businesses seeking national recognition to enterprises gearing up for expansion, we build digital strategies that scale with your ambitions.</p>
 				<a href="javascript:;" class="blue-btn">Explore More</a>
 			</div>
@@ -271,13 +271,13 @@ get_header();
 <section class="padding clients" id="client">
 	<div class="container">
 		<div class="clientCont">
-			<div class="col-5 text-left-xs">
+			<div class="col-5 text-left-xs col-md-12">
 				<div class="secPrefix">Our Clients</div>
 				<div class="secTitle mg-bt-20">Why customers<br> love partnering<br> with us? </div>
 				<p class="secPara col-10 col-xs-12">Because we pair smart strategy with relentless execution.</p>
 				<a href="javascript:;" class="blue-btn mg-tp-30 col-12">Explore More</a>
 			</div>
-			<div class="gridBoxs col-7">
+			<div class="gridBoxs col-7 col-md-12">
 				<div class="box">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client1.png" alt="">
 				</div>
@@ -354,14 +354,14 @@ get_header();
 <section class="padding partners" id="partners">
 	<div class="container">
 		<div class="clientCont">
-			<div class="col-5 text-left-xs">
+			<div class="col-5 text-left-xs col-md-12">
 				<div class="secPrefix">Our Partners</div>
 				<div class="secTitle mg-bt-20">We simplify the<br> complex </div>
 				<p class="secPara col-10 col-xs-12">guiding you to the best-fit digital solutions without the guesswork.</p>
 				<a href="javascript:;" class="blue-btn mg-tp-30 col-12">Explore More</a>
 			</div>
 			<!-- <div class="col-1">&nbsp;</div> -->
-			<div class="gridBoxs col-7">
+			<div class="gridBoxs col-7 col-md-12">
 				<div class="box">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-1.png" alt="">
 				</div>
@@ -408,11 +408,11 @@ get_header();
 <section class="padding testimonials">
 		<div class="container">
 			<div class="col-12">
-				<div class="col-4">
+				<div class="col-4  col-md-12">
 					<div class="secPrefix">Client Testimonials</div>
 					<p class="secPara col-10 col-xs-12">The landmark campaigns in Hall of Fame</p>
 				</div>
-				<div class="col-7">
+				<div class="col-7  col-md-12">
 					<div class="secTitle mg-bt-20">How pinaka digital technologies has helped brands thrive</div>
 				</div>
 			</div>

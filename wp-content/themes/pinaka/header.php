@@ -56,7 +56,12 @@ if ($menu_items) {
 								data-event-name="Logo"></a>
 					</div>
 					<div class="col-10 col-xs-3 pull-right">
-						<div class="pull-right menu-icon-mobile">
+						<div class="pull-right menu-icon-mobile hidden-xs">
+							<span class="bar1"></span>
+							<span class="bar2"></span>
+							<span class="bar3"></span>
+						</div>
+						<div class="hamburger visible-xs pull-right">
 							<span class="bar1"></span>
 							<span class="bar2"></span>
 							<span class="bar3"></span>
@@ -71,11 +76,7 @@ if ($menu_items) {
 									    'container_class'=> 'main-nav flex space-x-6',
 									));
 									?> -->
-									<div class="hamburger">
-										<span class="bar1"></span>
-										<span class="bar2"></span>
-										<span class="bar3"></span>
-									</div>
+									
 							</div>
 
 						</div>

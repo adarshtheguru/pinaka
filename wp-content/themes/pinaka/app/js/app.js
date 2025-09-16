@@ -10,6 +10,7 @@ $(document).ready(function () {
 	// requestAnimationFrame(raf)
 	// //smooth scroll
 
+	
 	var d = new Date();
 	$('.copyrightYear').html(d.getFullYear());
 
@@ -45,17 +46,26 @@ $(document).ready(function () {
 
 
 
-	// if (winWD > 992) {
-	// 	$(".enq_click, .frmclose").click(function() {
-	// 		if ($(".form-container").is(':visible')) {
-	// 			$(".form-container").slideUp();
-	// 		} else {
-	// 			$(".form-container").slideToggle();
-	// 		}
-	// 		$(".form-container, .frmclose").toggleClass("show");
-	// 	});
-
-	// }
+	if (winWD < 992) {
+		// $(".enq_click, .frmclose").click(function() {
+		// 	if ($(".form-container").is(':visible')) {
+		// 		$(".form-container").slideUp();
+		// 	} else {
+		// 		$(".form-container").slideToggle();
+		// 	}
+		// 	$(".form-container, .frmclose").toggleClass("show");
+		// });
+			$('.pinaka-service-list .cols').slick({
+		slidesToShow: 1,      // 3 slides per row
+		slidesToScroll: 1,    // scroll 3 at a time
+		rows: 1,
+		arrows: true,
+		dots: false,
+		autoplay: false,
+		autoplaySpeed: 3000,
+		infinite: true
+	});
+	}
 
 	$(".menu-icon-mobile").on("click", function () {
 		$(".nav-links").slideToggle();
@@ -182,6 +192,8 @@ $(document).ready(function () {
 		infinite: true,
 		vertical: true
 	});
+
+
 
 
 
