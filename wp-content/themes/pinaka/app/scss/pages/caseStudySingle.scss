@@ -51,10 +51,11 @@
       padding: 90px 0;
     }
     .contBox {
-      display: grid;
+      display: flex;
       grid-template-columns: repeat(2, 1fr);
       gap: 58px;
       .box {
+        flex: 1;
         padding: 32px;
         border: 1px solid #eaf7ff4d;
         border-radius: 18px;
