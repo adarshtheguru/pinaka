@@ -456,11 +456,11 @@ $('.clientSlider6').slick({
 	//Light Gallery
 
 	// init lightgallery on slick slides
-    lightGallery(document.querySelector('.case-study-slider'), {
-        selector: 'a',
-        plugins: [lgZoom, lgThumbnail],
-        speed: 500,
-    });
+    // lightGallery(document.querySelector('.case-study-slider'), {
+    //     selector: 'a',
+    //     plugins: [lgZoom, lgThumbnail],
+    //     speed: 500,
+    // });
 
 	//gsap
 	gsap.registerPlugin(ScrollTrigger);
