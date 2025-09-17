@@ -233,7 +233,6 @@ if ($query->have_posts()) : ?>
         </div>
 
         <div class="case-study-wrapper">
-            <h2><?php echo ucfirst($service_slug); ?> Case Studies</h2>
             <div class="case-study-slider">
                 <?php while ($query->have_posts()) : $query->the_post();
                     $image_id  = get_field('service_thumbnail_image', get_the_ID());
