@@ -379,6 +379,7 @@
       display: grid;
       grid-template-columns: 40% auto;
 	  position: relative;
+        gap: 60px;
 	  &.first{
 		.topThread {
 			position: absolute;
@@ -397,16 +398,16 @@
 		}
         .data {
           order: 2;
-          right: 70px;
+          right: 0px;
         }
         .imgWrapper {
-          padding-top: 230px;
+          padding-top: 180px;
         }
       }
       &.last {
         .imgWrapper {
-          padding-top: 230px;
-          right: 50px;
+          padding-top: 180px;
+          right: 0px;
         }
       }
       .data {

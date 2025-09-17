@@ -212,11 +212,12 @@
         }
     }
     .dataBox{
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        display: flex;
+        /*grid-template-columns: repeat(5, 1fr);*/
         .box{
             border: 1px solid #EAF7FF4D;
             padding: 12px 20px;
+            flex: 1;
             &:first-of-type{
                 border-radius: 12px 0 0 12px;
             }

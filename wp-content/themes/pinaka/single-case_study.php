@@ -246,10 +246,12 @@ if ($strategy) {
     <section class="padding takeaways" id="takeaways">
         <div class="container">
             <div class="contBox text-center">
-                <h2 class="secTitle">Key Takeaway</h2>
-                <p>
-                    Casa Carnival became more than just a property showcase—it turned into an experience. Through the right blend of performance marketing, creative storytelling and data-driven targeting, Pinaka Digital Technologies helped Pride World City connect with homebuyers in a way that was fresh, exciting and conversion-focused.
-                </p>
+                <?php if ($takeawayTitle = get_field('takeaway_title')): ?>
+                    <h2 class="secTitle"><?= esc_html($takeawayTitle); ?></h2>
+                <?php endif; ?>
+                <?php if ($takeawayDesc = get_field('takeaway_desc')): ?>
+                    <p><?= esc_html($takeawayDesc); ?></p>
+                <?php endif; ?>
             </div>
         </div>
     </section>
