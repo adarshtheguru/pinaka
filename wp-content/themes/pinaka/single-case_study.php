@@ -250,7 +250,7 @@ if ($strategy) {
                     <h2 class="secTitle"><?= esc_html($takeawayTitle); ?></h2>
                 <?php endif; ?>
                 <?php if ($takeawayDesc = get_field('takeaway_desc')): ?>
-                    <p><?= esc_html($takeawayDesc); ?></p>
+                    <p><?= wp_kses_post($takeawayDesc); ?></p>
                 <?php endif; ?>
             </div>
         </div>
