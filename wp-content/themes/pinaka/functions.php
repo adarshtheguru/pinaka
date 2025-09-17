@@ -1024,6 +1024,37 @@ function register_case_study_cpt() {
 }
 add_action('init', 'register_case_study_cpt');
 
+// Register Case Study Category taxonomy
+function register_case_study_taxonomy() {
+    $labels = [
+        'name'              => 'Case Study Categories',
+        'singular_name'     => 'Case Study Category',
+        'search_items'      => 'Search Categories',
+        'all_items'         => 'All Categories',
+        'parent_item'       => 'Parent Category',
+        'parent_item_colon' => 'Parent Category:',
+        'edit_item'         => 'Edit Category',
+        'update_item'       => 'Update Category',
+        'add_new_item'      => 'Add New Category',
+        'new_item_name'     => 'New Category Name',
+        'menu_name'         => 'Case Study Categories',
+    ];
+
+    $args = [
+        'hierarchical'      => true,  // works like normal categories (not tags)
+        'labels'            => $labels,
+        'show_ui'           => true,
+        'show_admin_column' => true,
+        'query_var'         => true,
+        'rewrite'           => ['slug' => 'case-study-category'],
+        'show_in_rest'      => true, // for Gutenberg + REST API
+    ];
+
+    register_taxonomy('case_study_category', ['case_study'], $args);
+}
+add_action('init', 'register_case_study_taxonomy');
+
+
 add_filter('upload_mimes', function($mimes) {
     // Allow SVG only for admin & specific roles
     if ( current_user_can('administrator') || current_user_can('custom_role') ) {
