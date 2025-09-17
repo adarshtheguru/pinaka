@@ -171,7 +171,7 @@ if ($strategy) {
                             <?php endif; ?>
 
                             <?php if (have_rows('images')): ?>
-                                <div class="imgCont slider-<?php echo $i; ?>">
+                                <div class="imgCont campaign-slider-<?php echo $i; ?>">
                                     <?php while (have_rows('images')): the_row(); ?>
                                         <?php
                                         $image_id = get_sub_field('image');
@@ -275,31 +275,4 @@ if ($strategy) {
     </section>
     <?php include 'customTemplates/footerGreen.php'; ?>
 </main>
-<script>
-    jQuery(document).ready(function ($) {
-    <?php if (have_rows('campaigns')): ?>
-        <?php $i = 0; while (have_rows('campaigns')): the_row(); $i++; ?>
-            $('.slider-<?php echo $i; ?>').slick({
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                arrows: true,
-                prevArrow: $('.prev-<?php echo $i; ?>'),
-                nextArrow: $('.next-<?php echo $i; ?>'),
-                dots: false,
-                infinite: true,
-                responsive: [
-                    {
-                        breakpoint: 1024,
-                        settings: { slidesToShow: 2 }
-                    },
-                    {
-                        breakpoint: 768,
-                        settings: { slidesToShow: 1 }
-                    }
-                ]
-            });
-        <?php endwhile; ?>
-    <?php endif; ?>
-});
-</script>
 <?php get_footer(); ?>

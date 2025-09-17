@@ -454,6 +454,45 @@ $('.clientSlider6').slick({
 	});
 
 	//Light Gallery
+    $('.campaign-slider-1').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: false,
+      infinite: true,
+      prevArrow: $('.prev-1'),
+      nextArrow: $('.next-1'),
+      responsive: [
+          {
+              breakpoint: 1024,
+              settings: { slidesToShow: 2 }
+          },
+          {
+              breakpoint: 768,
+              settings: { slidesToShow: 1 }
+          }
+      ]
+    });
+
+    $('.campaign-slider-2').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: false,
+      infinite: true,
+      prevArrow: $('.prev-1'),
+      nextArrow: $('.next-1'),
+      responsive: [
+          {
+              breakpoint: 1024,
+              settings: { slidesToShow: 2 }
+          },
+          {
+              breakpoint: 768,
+              settings: { slidesToShow: 1 }
+          }
+      ]
+    });
 
 	// init lightgallery on slick slides
     // lightGallery(document.querySelector('.case-study-slider'), {
