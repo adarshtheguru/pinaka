@@ -162,9 +162,8 @@ if ($strategy) {
             <div class="contBox">
                 <?php if (have_rows('campaigns')): ?>
                     <?php $i = 0; ?>
-                    <?php while (have_rows('campaigns')): the_row();
-                        $i++; ?>
-                        <div class="campaignWrapper">
+                    <?php while (have_rows('campaigns')): the_row(); $i++; ?>
+                        <div class="campaignWrapper campaign-<?php echo $i; ?>">
                             <?php if ($campaignTitle = get_sub_field('title')): ?>
                                 <p class="text-center prefix <?php if ($i === 2) echo 'text-white'; ?>">
                                     <?= esc_html($campaignTitle); ?>
@@ -172,7 +171,7 @@ if ($strategy) {
                             <?php endif; ?>
 
                             <?php if (have_rows('images')): ?>
-                                <div class="imgCont">
+                                <div class="imgCont slider-<?php echo $i; ?>">
                                     <?php while (have_rows('images')): the_row(); ?>
                                         <?php
                                         $image_id = get_sub_field('image');
@@ -186,11 +185,22 @@ if ($strategy) {
                                         <?php endif; ?>
                                     <?php endwhile; ?>
                                 </div>
+
+                                <!-- Custom Arrows -->
+                                <div class="customArrow">
+                                    <div class="prev-<?php echo $i; ?>" >
+                                        <img src="<?php echo THEMEURL; ?>/app/images/leftArrow.svg" alt="Left">
+                                    </div>
+                                    <div class="next-<?php echo $i; ?>">
+                                        <img src="<?php echo THEMEURL; ?>/app/images/rightArrow.svg" alt="Right">
+                                    </div>
+                                </div>
                             <?php endif; ?>
                         </div>
                     <?php endwhile; ?>
                 <?php endif; ?>
             </div>
+
         </div>
     </section>
     <section class="padding execution" id="execution">
@@ -265,5 +275,31 @@ if ($strategy) {
     </section>
     <?php include 'customTemplates/footerGreen.php'; ?>
 </main>
-
+<script>
+    jQuery(document).ready(function ($) {
+    <?php if (have_rows('campaigns')): ?>
+        <?php $i = 0; while (have_rows('campaigns')): the_row(); $i++; ?>
+            $('.slider-<?php echo $i; ?>').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                arrows: true,
+                prevArrow: $('.prev-<?php echo $i; ?>'),
+                nextArrow: $('.next-<?php echo $i; ?>'),
+                dots: false,
+                infinite: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: { slidesToShow: 2 }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: { slidesToShow: 1 }
+                    }
+                ]
+            });
+        <?php endwhile; ?>
+    <?php endif; ?>
+});
+</script>
 <?php get_footer(); ?>

@@ -778,8 +778,9 @@ footer {
 					}
 				}
 				.footerNavs{
-					display: grid;
-					grid-template-columns: repeat(3, 1fr);
+					display: flex;
+
+					/*grid-template-columns: repeat(3, 1fr);*/
 					gap: 0 45px;
 					@media ($max640) {
 						grid-template-columns: auto;
@@ -788,6 +789,7 @@ footer {
 					.cols{
 						display: flex;
 						flex-direction: column;
+						flex: 0 0 34%;
 						gap: 15px 0;
 						&.ql{
 							.navLinks{
@@ -809,12 +811,15 @@ footer {
 							}
 						}
 						&.socials{
+							flex: 0 0 16%;
 							.navLinks{
 								display: flex;
+								flex-direction: column;
 								gap: 20px;
 							}
 						}
 						&.address{
+							flex: 0 0 50%;
 							p{
 								font-size: 14px;
 							}
