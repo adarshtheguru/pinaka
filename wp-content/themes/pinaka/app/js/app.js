@@ -55,16 +55,44 @@ $(document).ready(function () {
 		// 	}
 		// 	$(".form-container, .frmclose").toggleClass("show");
 		// });
-			$('.pinaka-service-list .cols').slick({
-		slidesToShow: 1,      // 3 slides per row
-		slidesToScroll: 1,    // scroll 3 at a time
-		rows: 1,
-		arrows: true,
-		dots: false,
-		autoplay: false,
-		autoplaySpeed: 3000,
-		infinite: true
-	});
+		$('.pinaka-service-list .cols').slick({
+			slidesToShow: 1,      // 3 slides per row
+			slidesToScroll: 1,    // scroll 3 at a time
+			rows: 1,
+			arrows: true,
+			dots: false,
+			autoplay: false,
+			autoplaySpeed: 3000,
+			infinite: true,
+			prevArrow: '#serviceLeft',
+		  nextArrow: '#serviceRight',
+		});
+		$('.testimonial-grid').slick({
+			slidesToShow: 1,      // 3 slides per row
+			slidesToScroll: 1,    // scroll 3 at a time
+			rows: 1,
+			arrows: true,
+			dots: false,
+			autoplay: false,
+			autoplaySpeed: 3000,
+			infinite: true,
+			prevArrow: '#testLeft',
+		nextArrow: '#testRight',
+		});
+
+		$('.insights .partB').slick({
+			slidesToShow: 1,      // 3 slides per row
+			slidesToScroll: 1,    // scroll 3 at a time
+			rows: 1,
+			arrows: true,
+			dots: false,
+			autoplay: false,
+			autoplaySpeed: 3000,
+			infinite: true,
+			prevArrow: '#blogLeft',
+		nextArrow: '#blogRight',
+		});
+			
 	}
 
 	$(".menu-icon-mobile").on("click", function () {
@@ -181,21 +209,88 @@ $(document).ready(function () {
 		cssEase: 'linear'
 	});
 
-	$('.about-client-slider').slick({
-		slidesToShow: 3,      // 3 slides per row
-		slidesToScroll: 1,    // scroll 3 at a time
-		rows: 3,
-		arrows: false,
-		dots: false,
-		autoplay: true,
-		autoplaySpeed: 3000,
-		infinite: true,
-		vertical: true
-	});
+$('.clientSlider').slick({
+    vertical: true,          // Vertical scroll
+    slidesToShow: 4,        // Show all logos in one column first
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0,        // Continuous
+    speed: 3000,             // Smooth animation
+    cssEase: 'linear',       // Linear effect
+    infinite: true,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false
+  });
 
+$('.clientSlider2').slick({
+    vertical: true,          // Vertical scroll
+    slidesToShow: 4,        // Show all logos in one column first
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0,        // Continuous
+    speed: 4000,             // Smooth animation
+    cssEase: 'linear',       // Linear effect
+    infinite: true,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false
+  });
 
+$('.clientSlider3').slick({
+    vertical: true,          // Vertical scroll
+    slidesToShow: 4,        // Show all logos in one column first
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0,        // Continuous
+    speed: 3000,             // Smooth animation
+    cssEase: 'linear',       // Linear effect
+    infinite: true,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false
+  });
+$('.clientSlider4').slick({
+    vertical: true,          // Vertical scroll
+    slidesToShow: 2,        // Show all logos in one column first
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0,        // Continuous
+    speed: 3000,             // Smooth animation
+    cssEase: 'linear',       // Linear effect
+    infinite: true,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false
+  });
 
+$('.clientSlider5').slick({
+    vertical: true,          // Vertical scroll
+    slidesToShow: 2,        // Show all logos in one column first
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0,        // Continuous
+    speed: 4000,             // Smooth animation
+    cssEase: 'linear',       // Linear effect
+    infinite: true,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false
+  });
 
+$('.clientSlider6').slick({
+    vertical: true,          // Vertical scroll
+    slidesToShow: 2,        // Show all logos in one column first
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0,        // Continuous
+    speed: 3000,             // Smooth animation
+    cssEase: 'linear',       // Linear effect
+    infinite: true,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false
+  });
 
 	$('.testSlider').slick({
 		slidesToShow: 3,

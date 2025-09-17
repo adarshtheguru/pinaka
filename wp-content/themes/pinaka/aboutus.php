@@ -252,75 +252,81 @@ Sure, Our expertise lies in crafting bespoke, customized website designs that ar
                 <div class="secPrefix text-white">Our Clients</div>
                 <div class="secTitle mg-bt-20 text-white">Grow your inner circle. </div>
             </div>
-            <div class="gridBox col-7 about-client-slider">
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client1.png" alt="">
+            <div class="gridBoxs col-7">
+                <div class="clientSlider4 col-4">
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client1.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client2.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client3.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client4.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client5.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client6.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client7.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client8.png" alt="">
+                    </div>
                 </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client2.png" alt="">
+                <div class="clientSlider5 col-4">
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client9.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client10.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client11.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client12.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client13.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client14.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client15.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client16.png" alt="">
+                    </div>
                 </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client3.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client4.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client5.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client6.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client7.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client8.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client9.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client10.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client11.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client12.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client13.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client14.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client15.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client16.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client17.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client18.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client19.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client20.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client21.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client22.png" alt="">
-                </div>
-                <div class="box">
-                    <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client23.png" alt="">
+                <div class="clientSlider6 col-4">
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client17.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client18.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client19.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client20.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client21.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client22.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client23.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
