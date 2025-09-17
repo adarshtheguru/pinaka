@@ -163,14 +163,21 @@
     }
     .contBox {
       margin-top: -150px;
-      display: grid;
+      display: block;
       gap: 60px;
       .campaignWrapper {
+        .customArrow{
+          margin: 30px 0 20px;
+        }
         .imgCont {
           padding-top: 34px;
-          display: flex;
+          display: block;
           gap: 23px;
           justify-content: center;
+          .imgBox{
+            padding: 0 12px 0;
+            cursor: pointer;
+          }
         }
       }
     }

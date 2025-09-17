@@ -480,8 +480,8 @@ $('.clientSlider6').slick({
       arrows: true,
       dots: false,
       infinite: true,
-      prevArrow: $('.prev-1'),
-      nextArrow: $('.next-1'),
+      prevArrow: $('.prev-2'),
+      nextArrow: $('.next-2'),
       responsive: [
           {
               breakpoint: 1024,
@@ -495,11 +495,16 @@ $('.clientSlider6').slick({
     });
 
 	// init lightgallery on slick slides
-    // lightGallery(document.querySelector('.case-study-slider'), {
-    //     selector: 'a',
-    //     plugins: [lgZoom, lgThumbnail],
-    //     speed: 500,
-    // });
+    lightGallery(document.querySelector('.campaign-slider-1'), {
+        selector: 'img',
+        plugins: [lgZoom],
+        speed: 500,
+    });
+    lightGallery(document.querySelector('.campaign-slider-2'), {
+        selector: 'img',
+        plugins: [lgZoom],
+        speed: 500,
+    });
 
 	//gsap
 	gsap.registerPlugin(ScrollTrigger);
