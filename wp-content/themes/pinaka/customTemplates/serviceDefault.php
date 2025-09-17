@@ -213,34 +213,43 @@
 		</div>
 	</div>
 	<div class="case-study-wrapper">
-		<div class="case-study-slider">
-			<?php
-			$args = [
-			'post_type'      => 'case_study', // Your CPT slug
-			'posts_per_page' => -1,            // Limit to 4, change if needed
-			'post_status'    => 'publish',
-			];
-			$query = new WP_Query($args);
-			if ($query->have_posts()) :
-			while ($query->have_posts()) : $query->the_post();
-			$image_id = get_field('service_thumbnail_image',get_the_ID());
-								$image_url = wp_get_attachment_image_url($image_id, 'full');
-			?>
-			<div>
-				<?php if ($image_url): ?>
-				<a href="<?php echo esc_url($image_url); ?>" data-lg-size="1600-1067">
-					<img src="<?php echo esc_url($image_url); ?>" alt="<?php the_title_attribute(); ?>" />
-				</a>
-				<?php endif; ?>
-				<p class="title"><?php the_title(); ?></p>
-			</div>
-			<?php
-			endwhile;
-			wp_reset_postdata();
-			else :
-			echo '<p>No case studies found.</p>';
-			endif;
-			?>
-		</div>
-	</div>
+        <h2><?php echo ucfirst($service_slug); ?> Case Studies</h2>
+        <div class="case-study-slider">
+            <?php
+            $args = [
+                'post_type'      => 'case_study',
+                'posts_per_page' => -1,
+                'post_status'    => 'publish',
+                'tax_query'      => [
+                    [
+                        'taxonomy' => 'case_study_category',
+                        'field'    => 'slug',
+                        'terms'    => $service_slug, // match service slug to category slug
+                    ],
+                ],
+            ];
+            $query = new WP_Query($args);
+
+            if ($query->have_posts()) :
+                while ($query->have_posts()) : $query->the_post();
+                    $image_id  = get_field('service_thumbnail_image', get_the_ID());
+                    $image_url = wp_get_attachment_image_url($image_id, 'full');
+            ?>
+                <div class="case-study-item">
+                    <a href="<?php the_permalink(); ?>">
+                        <?php if ($image_url): ?>
+                            <img src="<?php echo esc_url($image_url); ?>" alt="<?php the_title_attribute(); ?>" />
+                        <?php endif; ?>
+                        <p class="title"><?php the_title(); ?></p>
+                    </a>
+                </div>
+            <?php
+                endwhile;
+                wp_reset_postdata();
+            else :
+                echo '<p>No case studies found for this service.</p>';
+            endif;
+            ?>
+        </div>
+    </div>
 </section>

@@ -10,6 +10,7 @@ $deliver_heading = get_field('deliver_heading');
 $deliver_content = get_field('deliver_content');
 
 $slug = get_post_field('post_name', get_post());
+$service_slug = get_post_field('post_name', get_the_ID());
 ?>
 <main class="servicePage">
 	<?php include 'customTemplates/heroSection.php' ?>
