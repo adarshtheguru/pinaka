@@ -263,7 +263,7 @@ get_header();
 
 
 				</div>
-				<div class="customArrow">
+				<div class="customArrow visible-md">
 					<div id="serviceLeft">
 						<img src="<?php echo THEMEURL; ?>/app/images/next.svg" alt="" class="img-responsive">
 					</div>
