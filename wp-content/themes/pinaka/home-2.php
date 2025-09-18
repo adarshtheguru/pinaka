@@ -489,7 +489,7 @@ get_header();
 						</div>
 					</div>
 				</div>
-				<div class="customArrow">
+				<div class="customArrow visible-md">
 					<div id="testLeft">
 						<img src="<?php echo THEMEURL; ?>/app/images/next.svg" alt="" class="img-responsive">
 					</div>
@@ -546,7 +546,7 @@ get_header();
 				endif;
 				?>
 			</div>
-			<div class="customArrow">
+			<div class="customArrow visible-md">
 				<div id="blogLeft">
 					<img src="<?php echo THEMEURL; ?>/app/images/next-wht.svg" alt="" class="img-responsive">
 				</div>
