@@ -3,7 +3,7 @@ jQuery(document).ready(function ($) {
         var category = $(this).val();
 
         $.ajax({
-            url: caseStudyAjax.ajaxurl, // ✅ using localized ajaxurl
+            url: caseStudyAjax.ajaxurl, // localized from functions.php
             type: 'POST',
             data: {
                 action: 'filter_case_studies',
