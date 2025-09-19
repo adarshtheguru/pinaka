@@ -35,11 +35,13 @@ get_header();
                         if ($query->have_posts()) :
                         while ($query->have_posts()) : $query->the_post();
                         // Featured Image
-                        if (has_post_thumbnail()) {
-                        $image_url = get_the_post_thumbnail_url(get_the_ID(), 'medium_large');
-                        } else {
-                        $image_url = THEMEURL . '/app/images/rectPlace.png'; // fallback
-                        }
+                        // if (has_post_thumbnail()) {
+                        // $image_url = get_the_post_thumbnail_url(get_the_ID(), 'medium_large');
+                        // } else {
+                        // $image_url = THEMEURL . '/app/images/rectPlace.png'; // fallback
+                        // }
+                        $image_id  = get_field('service_thumbnail_image', get_the_ID());
+                        $image_url = wp_get_attachment_image_url($image_id, 'full'); ?>
                         // Excerpt / custom field
                         $excerpt = get_the_excerpt();
                         ?>
