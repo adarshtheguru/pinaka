@@ -902,7 +902,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		});
 	}
 });
-console.log(caseStudyAjax.ajaxurl); // should print admin-ajax.php URL
+// console.log(caseStudyAjax.ajaxurl); // should print admin-ajax.php URL
 
 jQuery(document).ready(function ($) {
     $('#caseStudyFilter').on('change', function () {
