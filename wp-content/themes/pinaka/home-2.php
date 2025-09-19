@@ -410,10 +410,7 @@ get_header();
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-11.png" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-13.png" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-14.png" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-12.png" alt="">
 				</div>
 			</div>
 		</div>
