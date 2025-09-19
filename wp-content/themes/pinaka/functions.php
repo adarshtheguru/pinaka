@@ -1075,3 +1075,11 @@ function theme_enqueue_lightgallery() {
     wp_enqueue_script( 'lightgallery-zoom', 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/zoom/lg-zoom.umd.min.js', array('lightgallery-js'), null, true );
 }
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_lightgallery' );
+
+// AJAX filter
+function filter_case_studies() {
+    get_template_part('customTemplates/case-study-grid');
+    wp_die();
+}
+add_action('wp_ajax_filter_case_studies', 'filter_case_studies');
+add_action('wp_ajax_nopriv_filter_case_studies', 'filter_case_studies');

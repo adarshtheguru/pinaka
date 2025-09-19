@@ -1,0 +1,49 @@
+<?php
+$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+$cat   = isset($_POST['category']) ? sanitize_text_field($_POST['category']) : '';
+
+$args = [
+    'post_type'      => 'case_study',
+    'posts_per_page' => 6,
+    'paged'          => $paged,
+    'post_status'    => 'publish',
+];
+
+if (!empty($cat)) {
+    $args['tax_query'] = [
+        [
+            'taxonomy' => 'case_study_category',
+            'field'    => 'slug',
+            'terms'    => $cat,
+        ]
+    ];
+}
+
+$query = new WP_Query($args);
+
+if ($query->have_posts()) :
+    echo '<div class="caseGridBox">';
+    while ($query->have_posts()) : $query->the_post();
+        $image_id  = get_field('service_thumbnail_image', get_the_ID());
+        $image_url = wp_get_attachment_image_url($image_id, 'full');
+        $excerpt   = get_the_excerpt();
+        ?>
+        <div class="box">
+            <a href="<?php the_permalink(); ?>">
+                <img src="<?php echo esc_url($image_url ?: THEMEURL.'/app/images/rectPlace.png'); ?>" alt="<?php the_title_attribute(); ?>" class="img-full">
+            </a>
+            <div class="case-study-info">
+                <p class="case-title"><?php the_title(); ?></p>
+                <p class="abstract"><?php echo wp_trim_words($excerpt, 20, '...'); ?></p>
+                <a href="<?php the_permalink(); ?>" class="read-more">
+                    Read More <img src="<?php echo THEMEURL; ?>/app/images/blog-arrow.svg" alt="">
+                </a>
+            </div>
+        </div>
+        <?php
+    endwhile;
+    echo '</div>';
+    wp_reset_postdata();
+else :
+    echo '<p>No case studies found.</p>';
+endif;
