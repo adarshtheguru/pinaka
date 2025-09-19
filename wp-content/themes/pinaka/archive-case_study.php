@@ -43,7 +43,7 @@ get_header();
                         // Excerpt / custom field
                         $excerpt = get_the_excerpt();
                         $image_id  = get_field('service_thumbnail_image', get_the_ID());
-                    $image_url = wp_get_attachment_image_url($image_id, 'full'); ?>
+                    $image_url = wp_get_attachment_image_url($image_id, 'full');
                         ?>
                         <div class="box">
                             <a href="<?php the_permalink(); ?>">
