@@ -1087,15 +1087,15 @@ add_action('wp_ajax_nopriv_filter_case_studies', 'filter_case_studies');
 function my_theme_scripts() {
     // Enqueue caseStudy JS
     wp_enqueue_script(
-        'casestudy-js',
-        get_template_directory_uri() . '/app/js/casestudy.js',
+        'app-js',
+        get_template_directory_uri() . '/app/js/app.js',
         ['jquery'],
         null,
         true
     );
 
     // Pass ajaxurl to both
-    wp_localize_script('casestudy-js', 'caseStudyAjax', [
+    wp_localize_script('app-js', 'caseStudyAjax', [
         'ajaxurl' => admin_url('admin-ajax.php'),
     ]);
 }
