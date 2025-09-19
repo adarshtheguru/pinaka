@@ -1085,12 +1085,18 @@ add_action('wp_ajax_filter_case_studies', 'filter_case_studies');
 add_action('wp_ajax_nopriv_filter_case_studies', 'filter_case_studies');
 
 function my_theme_scripts() {
-    wp_enqueue_script('app-js', get_template_directory_uri() . '/app/js/app.js', ['jquery'], null, true);
+    wp_enqueue_script('app-js',
+    get_template_directory_uri() . '/app/js/app.js',
+    array('jquery'),
+    null,
+    true
+ 	);
 
     // Pass ajaxurl to JS
-    wp_localize_script('app-js', 'caseStudyAjax', [
-        'ajaxurl' => admin_url('admin-ajax.php')
-    ]);
+    wp_localize_script('app-js', 'caseStudyAjax', array(
+    'ajaxurl' => admin_url('admin-ajax.php'),
+    'nonce'   => wp_create_nonce('casestudy_nonce')
+));
 }
 add_action('wp_enqueue_scripts', 'my_theme_scripts');
 
