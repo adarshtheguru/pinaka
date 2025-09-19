@@ -89,8 +89,8 @@ get_header();
 		<div class="project-card-list justify-end col-12">
 			<div class="col-5 col-xs-12 col-md-12">
 				<div class="project-card-info">
-					<img src="<?php echo THEMEURL; ?>/app/images/goyal-properties-home.png" class="rOSOff img-responsive" data-animation="fadeInUp" data-timeout="200">
-					<h3 class="rOSOff" data-animation="fadeInUp" data-timeout="200">Goyal Properties</h3>
+					<img class="rOSOff img-responsive" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/shubh-vedha-home.png">
+					<h3 class="rOSOff" data-animation="fadeInUp" data-timeout="200">Shubh Vedha</h3>
 					<p class="rOSOff" data-animation="fadeInUp" data-timeout="200">Campaigns, Digital Advertising, Social Advertising</p>
 					<a href="javascript:;" class="white-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
@@ -109,8 +109,8 @@ get_header();
 		<div class="project-card-list scroll_card justify-end col-12">
 			<div class="col-5 col-xs-12 col-md-12">
 				<div class="project-card-info">
-					<img class="rOSOff img-responsive" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/shubh-vedha-home.png">
-					<h3 class="rOSOff" data-animation="fadeInUp" data-timeout="200">Shubh Vedha</h3>
+					<img src="<?php echo THEMEURL; ?>/app/images/goyal-properties-home.png" class="rOSOff img-responsive" data-animation="fadeInUp" data-timeout="200">
+					<h3 class="rOSOff" data-animation="fadeInUp" data-timeout="200">Goyal Properties</h3>
 					<p class="rOSOff" data-animation="fadeInUp" data-timeout="200">Campaigns, Digital Advertising, Social Advertising</p>
 					<a href="javascript:;" class="white-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>

@@ -142,9 +142,9 @@ if ($menu_items) {
                             <div class="numbers">
                                 <div><img width="20" src="<?php echo THEMEURL; ?>/app/images/indiaFlag.png" alt="" class="flag">&nbsp;&nbsp;<a href="tel:+917498044954" class="phone">91-7498044954</a></div>
                             </div>
-                            <div class="numbers">
+                            <!-- <div class="numbers">
                                 <div><img width="20" src="<?php echo THEMEURL; ?>/app/images/usaFlag.png" alt="" class="flag">&nbsp;&nbsp;<a href="tel:+13202896184" class="phone">1-3202896184</a></div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="layer layerC">
                             <div class="title">Email</div>

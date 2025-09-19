@@ -72,20 +72,16 @@
 						<div class="title">Socials</div>
 						<div class="navLinks">
 							<a href="https://www.facebook.com/PinakaDigitalTechnologies">
-								<!-- <img src="<?php echo THEMEURL; ?>/app/images/fb-white.svg"> -->
-								Facebook
+								<img src="<?php echo THEMEURL; ?>/app/images/fb-white.svg">
 							</a>
 							<a href="https://www.instagram.com/pinaka_digital_technologies">
-								<!-- <img src="<?php echo THEMEURL; ?>/app/images/insta-white.svg"> -->
-								Instagram
+								<img src="<?php echo THEMEURL; ?>/app/images/insta-white.svg">
 							</a>
 							<a href="https://www.linkedin.com/company/pinakadigitaltechnologies">
-								<!-- <img src="<?php echo THEMEURL; ?>/app/images/li-white.svg"> -->
-								Linkedin
+								<img src="<?php echo THEMEURL; ?>/app/images/li-white.svg">
 							</a>
 							<a href="https://twitter.com/_pinakadigital">
-								<!-- <img src="<?php echo THEMEURL; ?>/app/images/twitterblue-white.svg"> -->
-								Twitter
+								<img src="<?php echo THEMEURL; ?>/app/images/twitterblue-white.svg">
 							</a>
 						</div>
 					</div>
