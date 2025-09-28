@@ -30,6 +30,9 @@
                 grid-template-columns: 1fr 1fr;
                 gap: 20px;
                 .box{
+                    img{
+                        aspect-ratio: 4/2;
+                    }
                     .blog-info{
                         background-color: #003E63;
                         padding: 25px;
