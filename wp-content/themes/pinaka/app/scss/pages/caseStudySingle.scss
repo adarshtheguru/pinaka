@@ -54,6 +54,9 @@
       display: flex;
       grid-template-columns: repeat(2, 1fr);
       gap: 58px;
+      @media ($max992) {
+        flex-direction: column;
+      }
       .box {
         flex: 1;
         padding: 32px;

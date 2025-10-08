@@ -7,28 +7,28 @@ get_header();
 <main class="clients">
     <?php include 'customTemplates/heroSection.php' ?>
         <section class="padding clientOverview" id="clientOverview">
-            <div class="watermark">
+            <!-- <div class="watermark">
                 <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/placeHolderVector.png" alt="">
-            </div>
+            </div> -->
             <div class="container">
                 <!-- <div class="secPrefix">Clients</div> -->
                 <div class="caseBox">
-                    <div class="partA">
+                    <!-- <div class="partA">
                         <div class="secTitle">Helping Brands Dream Big and Deliver Bigger</div>
                         <p class="para">
                             Empowering ambitious brands with marketing strategies that drive growth, visibility, and long-term success<br>
                             <a href="javascript:;" class="inner-link"><span>See Our Success Stories <img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg"><span></a>
                         </p>
-                    </div>
+                    </div> -->
                     <div class="partB">
-                        <div class="head">
+                        <!-- <div class="head">
                             <div class="title">Our Clients</div>
                             <div class="dropdown">
                                 <select name="chooseIndustry" id="chooseIndustry">
                                     <option value="">Choose industry</option>
                                 </select>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="gridBox">
                             <div class="box">
                                 <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.png" alt="">
@@ -79,14 +79,14 @@ get_header();
                                 <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client16.png" alt="">
                             </div>
                         </div>
-                        <div class="text-center">
+                        <!-- <div class="text-center">
                             <a href="javascript:;" class="blankBtn gridLoadBtn">LOAD MORE</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </section>
-        <section class="padding buisSol" id="buisSol">
+        <!-- <section class="padding buisSol" id="buisSol">
             <div class="container">
                 <div class="text-center secTitle">Solutions that Think Ahead</div>
                 <div class="buisSolBox">
@@ -144,7 +144,7 @@ get_header();
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 </main>
 <?php include 'customTemplates/footerGreen.php'; ?>
 <?php get_footer(); ?>

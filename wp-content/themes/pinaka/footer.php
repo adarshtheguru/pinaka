@@ -17,8 +17,11 @@
 		<div class="footerWrapper">
 			<div class="partA">
 				<div class="content">
-					<div class="title">Stay Ahead in Real Estate Marketing</div>
-					<p class="para">Sign up for our newsletter to receive the latest insights, tips, and industry news directly to your inbox.</p>
+					<div class="logo">
+						<img src="<?php echo THEMEURL; ?>/app/images/pinakaWhite.svg" alt="" class="img-responsive">
+					</div>
+					<!-- <div class="title">Stay Ahead in Real Estate Marketing</div> -->
+					<!-- <p class="para">Sign up for our newsletter to receive the latest insights, tips, and industry news directly to your inbox.</p> -->
 				</div>
 				<div class="mailBox">
 					<?php include 'customTemplates/subscribeMailForm.php'; ?>
@@ -26,21 +29,21 @@
 			</div>
 			<div class="partB">
 				<div class="companyInfo">
-					<div class="logo">
-						<img src="<?php echo THEMEURL; ?>/app/images/pinakaWhite.svg" alt="" class="img-responsive">
-					</div>
-					<p class="address">
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					
+					<div class="title">Address</div>
+					<p class="mg-tp-10">
+						202, 2nd Floor, Vishnu Darshan Apartments, Fergusson College Rd, Rage Path, Model Colony, Shivajinagar, Pune, Maharashtra 411005
 					</p>
-					<!-- <div class="mail">
+					<div class="title mg-tp-30">Contact Us</div>
+					<div class="mail mg-tp-10">
 						<div class="arrow">
-							<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/whiteArrow.svg" alt="">
+							<img width="20" src="<?php echo THEMEURL; ?>/app/images/indiaFlag.png" alt="" class="flag">
 						</div>
 						<a href="tel:+917498044954">+91-7498044954</a>
-					</div> -->
+					</div>
 					<div class="mail">
 						<div class="arrow">
-							<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/whiteArrow.svg" alt="">
+							<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/msg.svg" alt="">
 						</div>
 						<a href="mailto:sales@pinaka.digital">sales@pinaka.digital</a>
 					</div>
@@ -57,7 +60,7 @@
 							<a href="javascript:;">Contact Us</a>
 						</div>
 					</div>
-					<!-- <div class=" cols">
+					<div class=" cols">
 						<div class="title">Services</div>
 						<div class="navLinks">
 							<a href="javascript:;">Brand Management</a>
@@ -67,29 +70,23 @@
 							<a href="javascript:;">Search Engine Optimization</a>
 							<a href="javascript:;">Online Reputation Management</a>
 						</div>
-					</div> -->
+					</div>
 					<div class="socials cols">
-						<div class="title">Socials</div>
+						<div class="title">Follow us on</div>
 						<div class="navLinks">
 							<a href="https://www.facebook.com/PinakaDigitalTechnologies">
-								<img src="<?php echo THEMEURL; ?>/app/images/fb-white.svg">
+								<img src="<?php echo THEMEURL; ?>/app/images/circle-fb.svg">
 							</a>
 							<a href="https://www.instagram.com/pinaka_digital_technologies">
-								<img src="<?php echo THEMEURL; ?>/app/images/insta-white.svg">
+								<img src="<?php echo THEMEURL; ?>/app/images/circle-ig.svg">
 							</a>
 							<a href="https://www.linkedin.com/company/pinakadigitaltechnologies">
-								<img src="<?php echo THEMEURL; ?>/app/images/li-white.svg">
+								<img src="<?php echo THEMEURL; ?>/app/images/circle-in.svg">
 							</a>
-							<a href="https://twitter.com/_pinakadigital">
+							<!-- <a href="https://twitter.com/_pinakadigital">
 								<img src="<?php echo THEMEURL; ?>/app/images/twitterblue-white.svg">
-							</a>
+							</a> -->
 						</div>
-					</div>
-					<div class="address cols">
-						<div class="title">Address</div>
-						<p>
-							202, 2nd Floor, Vishnu Darshan Apartments, Fergusson College Rd, Rage Path, Model Colony, Shivajinagar, Pune, Maharashtra 411005
-						</p>
 					</div>
 				</div>
 			</div>

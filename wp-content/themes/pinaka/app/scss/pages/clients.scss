@@ -77,9 +77,9 @@
                 }
             }
             .partB{
-                margin-top: 225px;
+                /*margin-top: 225px;*/
                 @media ($max640) {
-                    margin-top: 150px;
+                    /*margin-top: 150px;*/
                 }
                 .head{
                     display: flex;
@@ -109,7 +109,7 @@
                     grid-template-columns: repeat(4, 1fr);
                     padding-bottom: 60px;
                     @media ($max992) {
-                        grid-template-columns: repeat(3, 1fr);
+                        grid-template-columns: repeat(4, 1fr);
                     }
                     @media ($max640) {
                         grid-template-columns: auto;

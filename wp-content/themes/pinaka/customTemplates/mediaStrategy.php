@@ -96,11 +96,11 @@
 		</div>
 		<div class="blueCardSliderWrapepr pos-rel">
 			<div class="blueCardSlider">
-				<div><img src="<?php echo THEMEURL; ?>/app/images/bc1.jpg" alt="Slide 1" /></div>
-				<div><img src="<?php echo THEMEURL; ?>/app/images/bc2.jpg" alt="Slide 2" /></div>
-				<div><img src="<?php echo THEMEURL; ?>/app/images/bc3.jpg" alt="Slide 3" /></div>
-				<div><img src="<?php echo THEMEURL; ?>/app/images/bc1.jpg" alt="Slide 4" /></div>
-				<div><img src="<?php echo THEMEURL; ?>/app/images/bc2.jpg" alt="Slide 5" /></div>
+				<div><img src="<?php echo THEMEURL; ?>/app/images/top-funnel-1.webp" alt="Slide 1" /></div>
+				<div><img src="<?php echo THEMEURL; ?>/app/images/top-funnel-2.jpg" alt="Slide 2" /></div>
+				<div><img src="<?php echo THEMEURL; ?>/app/images/top-funnel-3.webp" alt="Slide 3" /></div>
+				<div><img src="<?php echo THEMEURL; ?>/app/images/top-funnel-4.jpg" alt="Slide 4" /></div>
+				<div><img src="<?php echo THEMEURL; ?>/app/images/top-funnel-5.jpg" alt="Slide 5" /></div>
 			</div>
 			<div class="customArrow">
 				<div id="bc-l-arrow">
@@ -234,11 +234,11 @@
 		</div>
 		<div class="blueCardSliderWrapepr pos-rel">
 			<div class="blueCardSlider">
-				<div><img src="<?php echo THEMEURL; ?>/app/images/bc1.jpg" alt="Slide 1" /></div>
-				<div><img src="<?php echo THEMEURL; ?>/app/images/bc2.jpg" alt="Slide 2" /></div>
-				<div><img src="<?php echo THEMEURL; ?>/app/images/bc3.jpg" alt="Slide 3" /></div>
-				<div><img src="<?php echo THEMEURL; ?>/app/images/bc1.jpg" alt="Slide 4" /></div>
-				<div><img src="<?php echo THEMEURL; ?>/app/images/bc2.jpg" alt="Slide 5" /></div>
+				<div><img src="<?php echo THEMEURL; ?>/app/images/bottom-funnel-1.webp" alt="Slide 1" /></div>
+				<div><img src="<?php echo THEMEURL; ?>/app/images/bottom-funnel-2.webp" alt="Slide 2" /></div>
+				<div><img src="<?php echo THEMEURL; ?>/app/images/bottom-funnel-3.jpg" alt="Slide 3" /></div>
+				<div><img src="<?php echo THEMEURL; ?>/app/images/bottom-funnel-4.jpg" alt="Slide 4" /></div>
+				<div><img src="<?php echo THEMEURL; ?>/app/images/bottom-funnel-5.jpg" alt="Slide 5" /></div>
 			</div>
 			<div class="customArrow">
 				<div id="bc-l-arrow">

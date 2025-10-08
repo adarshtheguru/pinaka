@@ -120,6 +120,9 @@
 .media-stats{
   display: flex;
   text-align: center;
+  @media ($max992) {
+    flex-direction: column;
+  }
   .numbers{
     flex: 1;
     display: flex;

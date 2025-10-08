@@ -53,9 +53,9 @@
     color: unset;
   }
   .navBox {
-    padding: 0 15px;
+    padding: 0 0px 0 15px;
     display: grid;
-    grid-template-columns: 60% auto;
+    grid-template-columns: 30% auto;
     .linkBox {
       padding: 42px 0;
       .hamMenuA {
@@ -96,11 +96,64 @@
       }
     }
     .addressBox {
-      padding-top: 22px;
+      padding-top: 42px;
       padding-bottom: 42px;
-      padding-left: 50px;
+      padding-left: 30px;
       border-left: 1px solid #dadbda;
-      .layer {
+      .service-list{
+        .title{
+          font-size: 32px;
+          line-height: 46px;
+          color: #2B2C2B;
+        }
+        .service-list-menu{
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 30px;
+          margin-top: 30px;
+          .service-menu-wrap{
+            .title{
+              font-size: 20px;
+              line-height: 29px;
+              background: linear-gradient(90deg, #003E63 0%, #0D669C 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              text-fill-color: transparent;
+              margin-bottom: 5px;
+            }
+            ul{
+              li{
+                padding-left: 10px;
+                padding-top: 10px;
+                a{
+                  font-size: 16px;
+                  line-height: 23px;
+                  color: #2B2C2B;
+                  svg{
+                    transform: rotate(-45deg);
+                    transition: all 0.2s ease-in-out;
+                    margin-right: 5px;
+                    path{
+                      fill:#000000;
+                    }
+                  }
+                  &:hover{
+                    svg{
+                      transform: rotate(0deg);
+                      path{
+                        fill:#0D669C;
+                      }
+                    }
+                    color: #0D669C;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      /*.layer {
         padding: 20px 0;
         border-bottom: 1px solid #DADBDA;
         &:last-of-type {
@@ -155,7 +208,7 @@
             gap: 0 20px;
           }
         }
-      }
+      }*/
     }
   }
 }

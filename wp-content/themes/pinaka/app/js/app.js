@@ -730,7 +730,7 @@ $('.clientSlider6').slick({
 		});
 	}
 
-	loadMoreHandler('.gridBox', '.gridLoadBtn', 8, 6);
+	// loadMoreHandler('.gridBox', '.gridLoadBtn', 8, 6);
 	loadMoreHandler('.caseGridBox', '.caseLoadBtn', 6, 4);
 	loadMoreHandler('.blogGridBox', '.blogLoadBtn', 6, 4);
 

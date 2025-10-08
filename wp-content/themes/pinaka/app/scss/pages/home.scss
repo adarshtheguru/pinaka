@@ -556,6 +556,9 @@
       grid-template-columns: 40% auto;
       justify-content: space-between;
       align-items: start;
+      @media ($max992) {
+      grid-template-columns: auto;
+      }
       .partA {
         .coloredTitle {
           background: linear-gradient(
@@ -656,6 +659,9 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 70px;
+      @media ($max992) {
+      grid-template-columns: auto;
+      }
       .partA {
         .secPrefix {
           padding-bottom: 16px;
