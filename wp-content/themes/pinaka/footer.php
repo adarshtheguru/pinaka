@@ -52,23 +52,26 @@
 					<div class="ql cols">
 						<div class="title">Quick Links</div>
 						<div class="navLinks">
-							<a href="javascript:;">About Us</a>
-							<a href="javascript:;">Clients</a>
-							<a href="javascript:;">Services</a>
-							<a href="javascript:;">Media Center</a>
-							<a href="javascript:;">Casestudy</a>
-							<a href="javascript:;">Contact Us</a>
+							<a href="<?php echo site_url('/about-us'); ?>">About Us</a>
+							<a href="<?php echo site_url('/clients'); ?>">Clients</a>
+							<a href="<?php echo site_url('/service'); ?>">Services</a>
+							<a href="<?php echo site_url('/blogs'); ?>">Insights</a>
+							<a href="<?php echo site_url('/career'); ?>">career</a>
+							<a href="<?php echo site_url('/case-study'); ?>">Casestudy</a>
+							<a href="<?php echo site_url('/contact-us'); ?>">Contact Us</a>
 						</div>
 					</div>
 					<div class=" cols">
 						<div class="title">Services</div>
 						<div class="navLinks">
-							<a href="javascript:;">Brand Management</a>
-							<a href="javascript:;">Website Development</a>
-							<a href="javascript:;">Performance Marketing</a>
-							<a href="javascript:;">Social Media Management</a>
-							<a href="javascript:;">Search Engine Optimization</a>
-							<a href="javascript:;">Online Reputation Management</a>
+							<a href="<?php echo site_url('/services/media-strategy'); ?>">Media Strategy</a>
+							<a href="<?php echo site_url('/services/graphic-designs-motion-graphic'); ?>">Graphic Designs & Motion Graphics</a>
+							<a href="<?php echo site_url('/services/website-design-development'); ?>">Website Development</a>
+							<a href="<?php echo site_url('/services/public-relations-influencer/'); ?>">Public Relations & Influencer</a>
+							<a href="<?php echo site_url('/services/digital-social-advertising'); ?>">Digital & Social Advertising</a>
+							<a href="<?php echo site_url('/services/new-age-organic-search'); ?>">Search Engine Optimization</a>
+							<a href="<?php echo site_url('/services/online-reputation-management'); ?>">Online Reputation Management</a>
+							<a href="<?php echo site_url('/services/social-media-managment'); ?>">Social Media Managment</a>
 						</div>
 					</div>
 					<div class="socials cols">
