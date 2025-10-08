@@ -383,6 +383,10 @@
       grid-template-columns: 40% auto;
 	  position: relative;
         gap: 60px;
+        @media ($max992) {
+           grid-template-columns: auto;
+           gap: 0;
+        }
 	  &.first{
 		.topThread {
 			position: absolute;
@@ -393,6 +397,10 @@
 	  }
       &.second {
         grid-template-columns: auto 40%;
+        @media ($max992) {
+           grid-template-columns: auto;
+           gap: 0;
+        }
 		.bottomThread {
 			position: absolute;
 			left: 62%;
@@ -402,15 +410,24 @@
         .data {
           order: 2;
           right: 0px;
+           @media ($max992) {
+            order: 0;
+           }
         }
         .imgWrapper {
           padding-top: 180px;
+           @media ($max992) {
+            padding-top: 0;
+           }
         }
       }
       &.last {
         .imgWrapper {
           padding-top: 180px;
           right: 0px;
+           @media ($max992) {
+            padding-top: 0;
+           }
         }
       }
       .data {
@@ -456,19 +473,28 @@
   .secHeading {
     width: 70%;
     margin: 0 auto;
+    @media ($max992) {
+      width: 100%;
+    }
   }
 
   .container {
     > div {
       width: 80%;
       margin: 0 auto;
-
+      @media ($max992) {
+        width: 100%;
+      }
       .secHeading {
         font-family: "Sora", sans-serif;
         font-weight: 900;
         font-size: 64px;
         line-height: 72px;
         padding-bottom: 55px;
+         @media ($max992) {
+          font-size: 30px;
+          line-height: 40px;
+        }
       }
 
       p {
@@ -598,6 +624,10 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 75px 58px;
+      @media ($max992) {
+        grid-template-columns: repeat(1, 1fr);
+      gap: 10px 58px;
+      }
       .box {
         background-color: #0a3459;
         padding: 32px 90px 48px;
@@ -606,6 +636,9 @@
         flex-direction: column;
         gap: 32px 0;
         border-radius: 18px;
+        @media ($max992) {
+          padding: 30px 15px;
+        }
         img {
           margin: 0 auto;
         }
