@@ -740,10 +740,10 @@ $('.clientSlider6').slick({
 
 		if ($(this).hasClass('active')) {
 			$("header").addClass('headerBg');
-			$('.hamburgerMenu').stop(true, true).slideDown(300);
+			$('.hamburgerMenu').slideDown(300);
 		} else {
 			$("header").removeClass('headerBg');
-			$('.hamburgerMenu').stop(true, true).slideUp(300);
+			$('.hamburgerMenu').slideUp(300);
 		}
 	});
 
@@ -872,14 +872,14 @@ $(window).on('scroll', function () {
 	}
 });
 
-function checkHamburgerActive() {
-	// Close hamburger menu if open
-	if ($('.hamburger').hasClass('active')) {
-		$('.hamburger').removeClass('active');
-		$('header').removeClass('headerBg');
-		// $('.hamburgerMenu').stop(true, true).slideUp(300);
-	}
-}
+// function checkHamburgerActive() {
+// 	// Close hamburger menu if open
+// 	if ($('.hamburger').hasClass('active')) {
+// 		// $('.hamburger').removeClass('active');
+// 		// $('header').removeClass('headerBg');
+// 		// $('.hamburgerMenu').stop(true, true).slideUp(300);
+// 	}
+// }
 
 document.addEventListener("DOMContentLoaded", function () {
 	const menuToggle = document.getElementById("menu-toggle");

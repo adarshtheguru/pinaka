@@ -46,6 +46,10 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   display: none;
   margin-top: -5px;
+  @media ($max992) {
+    height: 100vh;
+    overflow: auto;
+  }
   ul {
     list-style-type: none;
   }
