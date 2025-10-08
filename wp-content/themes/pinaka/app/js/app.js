@@ -746,6 +746,9 @@ $('.clientSlider6').slick({
 			$('.hamburgerMenu').slideUp(300);
 		}
 	});
+	document.querySelector('.hamburger').addEventListener('click', function() {
+  document.body.classList.toggle('menu-open');
+});
 
 	//hamburger sub menus
 	$(".hasSubMenu > a").click(function (e) {
@@ -827,7 +830,7 @@ $('.clientSlider6').slick({
 	//popup form
 	$('.enq_click').on('click', function () {
 		$('#popupOverlay').fadeIn();
-		checkHamburgerActive();
+		// checkHamburgerActive();
 	});
 
 	$('#closePopupBtn').on('click', function () {
@@ -865,7 +868,7 @@ $(window).on('scroll', function () {
 	let currentScrollTop = $(this).scrollTop();
 
 	if (Math.abs(currentScrollTop - lastScrollTop) >= 50) {
-		checkHamburgerActive();
+		// checkHamburgerActive();
 
 		// Update the last scroll position
 		lastScrollTop = currentScrollTop;
