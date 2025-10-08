@@ -877,7 +877,7 @@ function checkHamburgerActive() {
 	if ($('.hamburger').hasClass('active')) {
 		$('.hamburger').removeClass('active');
 		$('header').removeClass('headerBg');
-		$('.hamburgerMenu').stop(true, true).slideUp(300);
+		// $('.hamburgerMenu').stop(true, true).slideUp(300);
 	}
 }
 

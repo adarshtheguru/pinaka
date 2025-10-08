@@ -348,6 +348,9 @@
       line-height: normal;
       margin: 0 auto;
       text-align: center;
+      @media ($max992) {
+        width: 100%;
+      }
     }
     .partA {
       font-weight: 300;

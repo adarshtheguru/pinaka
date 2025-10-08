@@ -56,6 +56,9 @@
     padding: 0 0px 0 15px;
     display: grid;
     grid-template-columns: 30% auto;
+    @media ($max992) {
+      grid-template-columns: auto;
+    }
     .linkBox {
       padding: 42px 0;
       .hamMenuA {
@@ -100,6 +103,13 @@
       padding-bottom: 42px;
       padding-left: 30px;
       border-left: 1px solid #dadbda;
+@media ($max992) {
+          padding-top: 42px;
+    padding-bottom: 42px;
+    padding-left: 0;
+    border-left: 0px solid #dadbda;
+    border-top: 1px solid #dadbda;
+  }
       .service-list{
         .title{
           font-size: 32px;
@@ -111,6 +121,9 @@
           grid-template-columns: repeat(3, 1fr);
           gap: 30px;
           margin-top: 30px;
+          @media ($max992) {
+            grid-template-columns: repeat(1, 1fr);
+          }
           .service-menu-wrap{
             .title{
               font-size: 20px;
