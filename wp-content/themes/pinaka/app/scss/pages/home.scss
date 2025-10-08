@@ -378,6 +378,9 @@
     display: flex;
     flex-direction: column;
     gap: 185px;
+     @media ($max992) {
+      gap: 60px;
+     }
     .contRow {
       display: grid;
       grid-template-columns: 40% auto;
@@ -417,7 +420,7 @@
         .imgWrapper {
           padding-top: 180px;
            @media ($max992) {
-            padding-top: 0;
+            padding-top: 30px;
            }
         }
       }
@@ -426,7 +429,7 @@
           padding-top: 180px;
           right: 0px;
            @media ($max992) {
-            padding-top: 0;
+            padding-top: 30px;
            }
         }
       }
@@ -440,11 +443,15 @@
           font-family: $playfair;
           line-height: 42px;
           font-size: 32px;
+          @media ($max992) {
+            font-size: 30px;
+            line-height: 40px;
+          }
         }
         .secPara {
           font-weight: 300;
           font-size: 24px;
-		  font-family: $inter;
+		      font-family: $inter;
           line-height: normal;
         }
         .desc {
