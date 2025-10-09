@@ -19,14 +19,14 @@ get_header();
 							<img src="<?php echo THEMEURL; ?>/app/images/media-strategy.png">
 							<div class="services-title">
 								<h4>Media Strategy</h4>
-								<a href="javascript:;"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
+								<a href="<?php echo site_url('/services/media-strategy'); ?>"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
 							</div>
 						</div>
 						<div class="services-item">
 							<img src="<?php echo THEMEURL; ?>/app/images/dsm.png">
 							<div class="services-title">
 								<h4>Digital Social Marketing</h4>
-								<a href="javascript:;"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
+								<a href="<?php echo site_url('/services/digital-social-advertising'); ?>"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
 							</div>
 						</div>
 					</div>
@@ -44,14 +44,14 @@ get_header();
 							<img src="<?php echo THEMEURL; ?>/app/images/organic-marketing.png">
 							<div class="services-title">
 								<h4>Organic Search</h4>
-								<a href="javascript:;"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
+								<a href="<?php echo site_url('/services/new-age-organic-search'); ?>"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
 							</div>
 						</div>
 						<div class="services-item">
 							<img src="<?php echo THEMEURL; ?>/app/images/SMM.png">
 							<div class="services-title">
 								<h4>Social Media Marketing</h4>
-								<a href="javascript:;"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
+								<a href="<?php echo site_url('/services/social-media-managment'); ?>"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
 							</div>
 						</div>
 					</div>
@@ -69,14 +69,14 @@ get_header();
 							<img src="<?php echo THEMEURL; ?>/app/images/WD.png">
 							<div class="services-title">
 								<h4>Website Development</h4>
-								<a href="javascript:;"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
+								<a href="<?php echo site_url('/services/website-design-development'); ?>"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
 							</div>
 						</div>
 						<div class="services-item">
 							<img src="<?php echo THEMEURL; ?>/app/images/UX-UI.png">
 							<div class="services-title">
 								<h4>UX/UI Designs</h4>
-								<a href="javascript:;"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
+								<a href="<?php echo site_url('/services/website-design-development'); ?>"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
 							</div>
 						</div>
 					</div>
@@ -94,7 +94,7 @@ get_header();
 							<img src="<?php echo THEMEURL; ?>/app/images/PR-Service.png">
 							<div class="services-title">
 								<h4>Public Relations & Influencer</h4>
-								<a href="javascript:;"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
+								<a href="<?php echo site_url('/services/public-relations-influencer'); ?>"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
 							</div>
 						</div>
 					</div>
@@ -112,14 +112,14 @@ get_header();
 							<img src="<?php echo THEMEURL; ?>/app/images/Branding.png">
 							<div class="services-title">
 								<h4>Branding</h4>
-								<a href="javascript:;"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
+								<a href="https://houseofhues.co" target="_blank"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
 							</div>
 						</div>
 						<div class="services-item">
 							<img src="<?php echo THEMEURL; ?>/app/images/Graphic-Design.png">
 							<div class="services-title">
 								<h4>Graphic & Motion Design</h4>
-								<a href="javascript:;"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
+								<a href="<?php echo site_url('/services/graphic-designs-motion-graphic'); ?>"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
 							</div>
 						</div>
 					</div>
