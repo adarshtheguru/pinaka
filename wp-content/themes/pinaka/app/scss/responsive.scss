@@ -72,6 +72,9 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 	.visible-md {
 		display: block !important;
 	}
+	.customArrow.visible-md{
+		display: flex!important;
+	}
 	.text-left-xs{
 		text-align: left;
 	}

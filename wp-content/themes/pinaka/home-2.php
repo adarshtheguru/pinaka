@@ -92,7 +92,7 @@ get_header();
 					<img class="rOSOff img-responsive" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/shubh-vedha-home.png">
 					<h3 class="rOSOff" data-animation="fadeInUp" data-timeout="200">Shubh Vedha</h3>
 					<p class="rOSOff" data-animation="fadeInUp" data-timeout="200">Campaigns, Digital Advertising, Social Advertising</p>
-					<a href="javascript:;" class="white-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
+					<a href="<?php echo site_url('/case-studies/shubh-veda'); ?>" class="white-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
 			</div>
 		</div>
@@ -102,7 +102,7 @@ get_header();
 					<img class="rOSOff img-responsive" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/pwc-home.png">
 					<h3 class="rOSOff" data-animation="fadeInUp" data-timeout="200">Pride World City</h3>
 					<p class="rOSOff" data-animation="fadeInUp" data-timeout="200">Campaigns, Digital Advertising, Social Advertising</p>
-					<a href="javascript:;" class="white-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
+					<a href="<?php echo site_url('/case-studies/pride-world-city'); ?>" class="white-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
 			</div>
 		</div>
@@ -111,8 +111,8 @@ get_header();
 				<div class="project-card-info">
 					<img src="<?php echo THEMEURL; ?>/app/images/goyal-properties-home.png" class="rOSOff img-responsive" data-animation="fadeInUp" data-timeout="200">
 					<h3 class="rOSOff" data-animation="fadeInUp" data-timeout="200">Goyal Properties</h3>
-					<p class="rOSOff" data-animation="fadeInUp" data-timeout="200">Campaigns, Digital Advertising, Social Advertising</p>
-					<a href="javascript:;" class="white-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
+					<p class="rOSOff" data-animation="fadeInUp" data-timeout="200">Campaigns, Website, SEO</p>
+					<a href="<?php echo site_url('/case-studies/goyal-properties'); ?>" class="white-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
 			</div>
 		</div>
@@ -120,7 +120,7 @@ get_header();
 			
 			<div class="col-5 col-xs-12 col-md-12">
 				<p>From regional businesses seeking national recognition to enterprises gearing up for expansion, we build digital strategies that scale with your ambitions.</p>
-				<a href="javascript:;" class="blue-btn">Explore More</a>
+				<a href="<?php echo site_url('/our-works'); ?>" class="blue-btn">Explore More</a>
 			</div>
 		</div>
 	</div>
@@ -143,7 +143,7 @@ get_header();
 							<div class="back">
 								<div class="inner">
 									<p>Event and Brand Consulting involves developing a consistent brand identity and strategy for events. In event planning, it means ensuring your events reflect and enhance your brand. Whether it be making sure you attend the right events, creating your own, or getting your brand messaging streamlined at these events</p>
-									<a href="javascript:;" class="readmore">Read More</a>
+									<a href="<?php echo site_url('/https://floracity.co.in/pinaka/services/media-strategy/'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -158,6 +158,7 @@ get_header();
 							<div class="back">
 								<div class="inner">
 									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+									<a href="<?php echo site_url('/https://floracity.co.in/pinaka/services/digital-social-advertising'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -172,6 +173,7 @@ get_header();
 							<div class="back">
 								<div class="inner">
 									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+									<a href="<?php echo site_url('/https://floracity.co.in/pinaka/services/new-age-organic-search'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -186,6 +188,7 @@ get_header();
 							<div class="back">
 								<div class="inner">
 									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+									<a href="<?php echo site_url('/https://floracity.co.in/pinaka/services/social-media-managment'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -200,6 +203,7 @@ get_header();
 							<div class="back">
 								<div class="inner">
 									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+									<a href="<?php echo site_url('/https://floracity.co.in/pinaka/services/online-reputation-management'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -214,6 +218,7 @@ get_header();
 							<div class="back">
 								<div class="inner">
 									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+									<a href="<?php echo site_url('/https://floracity.co.in/pinaka/services/public-relations-influencer'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -228,6 +233,7 @@ get_header();
 							<div class="back">
 								<div class="inner">
 									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+									<a href="<?php echo site_url('/https://floracity.co.in/pinaka/services/website-design-development'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -242,6 +248,7 @@ get_header();
 							<div class="back">
 								<div class="inner">
 									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+									<a href="<?php echo site_url('/https://floracity.co.in/pinaka/services/graphic-designs-motion-graphics'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -256,6 +263,7 @@ get_header();
 							<div class="back">
 								<div class="inner">
 									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+									<a href="https://houseofhues.co/" target="_blank" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -283,7 +291,7 @@ get_header();
 				<div class="secPrefix">Our Clients</div>
 				<div class="secTitle mg-bt-20">Why customers<br> love partnering<br> with us? </div>
 				<p class="secPara col-10 col-xs-12">Because we pair smart strategy with relentless execution.</p>
-				<a href="javascript:;" class="blue-btn mg-tp-30 col-12">Explore More</a>
+				<a href="<?php echo site_url('/clients'); ?>" class="blue-btn mg-tp-30 col-12">Explore More</a>
 			</div>
 			<div class="gridBoxs col-7 col-md-12">
 				<div class="clientSlider col-4">
@@ -486,7 +494,7 @@ get_header();
 						</div>
 					</div>
 				</div>
-				<div class="customArrow visible-md">
+				<div class="customArrow visible-md mg-tp-30">
 					<div id="testLeft">
 						<img src="<?php echo THEMEURL; ?>/app/images/next.svg" alt="" class="img-responsive">
 					</div>
@@ -506,7 +514,7 @@ get_header();
 				<p class="secPara text-white">
 					we keep learning, so you keep leading.
 				</p>
-				<a href="javascript:;" class="themeBtn border-white">Explore More</a>
+				<a href="<?php echo site_url('/blogs'); ?>" class="themeBtn border-white">Explore More</a>
 			</div>
 			<div class="partB">
 				<?php
@@ -531,7 +539,7 @@ get_header();
 
 							<div class="info">
 								<!-- <span class="text-white"><?php echo get_post_type_object(get_post_type())->labels->singular_name; ?> • </span> -->
-								<span class="text-white"><?php echo get_the_date('M d Y'); ?> • </span>
+								<span class="text-white mg-tp-10"><?php echo get_the_date('M d Y'); ?> • </span>
 								<span class="text-white"><?php echo estimated_reading_time(get_the_content()); ?></span>
 							</div>
 
@@ -543,7 +551,7 @@ get_header();
 				endif;
 				?>
 			</div>
-			<div class="customArrow visible-md">
+			<div class="customArrow visible-md mg-tp-30">
 				<div id="blogLeft">
 					<img src="<?php echo THEMEURL; ?>/app/images/next-wht.svg" alt="" class="img-responsive">
 				</div>
