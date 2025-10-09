@@ -129,7 +129,7 @@ if ($menu_items) {
 					</div>
 					<div class="addressBox">
 						<div class="service-list">
-							<h2 class="title">Services</h2>
+							<h2 class="title"><a href="<?php echo site_url('/service'); ?>">Services</a></h2>
 							<div class="service-list-menu">
 								<div class="service-menu-wrap">
 									<h3 class="title">Performance</h3>
