@@ -16,7 +16,7 @@ get_header();
                <div class="partA">
     <div class="secTitle">I want to see...</div>
     <p class="para">
-        <select id="caseStudyFilter">
+        <!-- <select id="caseStudyFilter">
             <option value="">All</option>
             <?php
             $terms = get_terms([
@@ -29,7 +29,7 @@ get_header();
                 }
             }
             ?>
-        </select>
+        </select> -->
     </p>
 </div>
 
