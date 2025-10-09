@@ -514,7 +514,7 @@ get_header();
 				<p class="secPara text-white">
 					we keep learning, so you keep leading.
 				</p>
-				<a href="<?php echo site_url('/blogs'); ?>" class="themeBtn border-white">Explore More</a>
+				<a href="<?php echo site_url('/insights'); ?>" class="themeBtn border-white">Explore More</a>
 			</div>
 			<div class="partB">
 				<?php
