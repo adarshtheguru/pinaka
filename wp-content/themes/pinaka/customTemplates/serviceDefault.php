@@ -8,7 +8,7 @@
 		</div>
 	</div>
 </section>
-<section id="DeliverResult" class="padding DeliverResult  scroll-animate slide-in-up delay-1">
+<section id="DeliverResult" class="padding DeliverResult">
 	<div class="container text-center">
 		<div>
 			<h2 class="secHeading"><?php echo nl2br($deliver_heading); ?></h2>
