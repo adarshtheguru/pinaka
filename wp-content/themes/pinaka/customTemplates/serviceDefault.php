@@ -25,7 +25,7 @@
 	<div class="container">
 		<div class="contData">
 			<div class="contRow first">
-				<div class="data">
+				<div class="data scroll-animate fade-in">
 					<h2 class="sec-title"><?php the_field('left_section_title'); ?></h2>
 					<p class="secPara"><?php the_field('left_section_subtitle'); ?></p>
 					<p class="desc">
@@ -41,7 +41,7 @@
 				</svg>
 			</div>
 			<div class="contRow second topThreadList">
-				<div class="data">
+				<div class="data scroll-animate fade-in">
 					<h2 class="sec-title"><?php the_field('right_section_title'); ?></h2>
 					<p class="secPara"><?php the_field('right_section_subtitle'); ?></p>
 					<p class="desc">
@@ -57,7 +57,7 @@
 				</svg>
 			</div>
 			<div class="contRow last bottomThreadList">
-				<div class="data">
+				<div class="data scroll-animate fade-in">
 					<h2 class="sec-title"><?php the_field('last_section_title'); ?></h2>
 					<p class="secPara"><?php the_field('last_section_subtitle'); ?></p>
 					<p class="desc">
@@ -75,7 +75,7 @@
 <section class="padding blueCards">
 	<div class="container text-white">
 		<div class="contentBox">
-			<div class="partA">
+			<div class="partA  scroll-animate slide-in-up">
 				<?php if (get_field('prefix_title')): ?>
 				<h4 class="secPrefix text-white text-bolder">
 				<?php the_field('prefix_title'); ?>
@@ -87,7 +87,7 @@
 				</div>
 				<?php endif; ?>
 			</div>
-			<div class="partB">
+			<div class="partB  scroll-animate fade-in delay-1">
 				<?php if (get_field('sub_title')): ?>
 				<div class="secHeading text-bolder">
 					<?php the_field('sub_title'); ?>
@@ -100,12 +100,12 @@
 		</div>
 		<?php if (have_rows('what_we_do_service')): ?>
 		<div class="cardBox">
-			<?php while (have_rows('what_we_do_service')): the_row();
+			<?php $count=1; while (have_rows('what_we_do_service')): the_row();
 				$icon = get_sub_field('icon');
 				$title = get_sub_field('title');
 				$desc = get_sub_field('description');
 			?>
-			<div class="box">
+			<div class="box scroll-animate fade-in delay-<?php echo $count; ?>">
 				<?php if ($icon): ?>
 				<img src="<?php echo esc_url($icon['url']); ?>" alt="<?php echo esc_attr($icon['alt']); ?>">
 				<?php endif; ?>
@@ -116,7 +116,7 @@
 				<p><?php echo esc_html($desc); ?></p>
 				<?php endif; ?>
 			</div>
-			<?php endwhile; ?>
+			<?php $count=$count+1; endwhile; ?>
 		</div>
 		<?php endif; ?>
 	</div>
@@ -137,7 +137,7 @@
 			</div>
 		</div>
 	</div> -->
-	<div class="blueCardSliderWrapepr pos-rel">
+	<div class="blueCardSliderWrapepr pos-rel scroll-animate fade-in">
 		<div class="blueCardSlider">
 			<?php
 			$slides = get_field('blue_card_slider');
@@ -166,7 +166,7 @@
 <section id="benefits" class="padding benefits">
 	<div class="container">
 		<div class="dataBox">
-			<div class="partA">
+			<div class="partA scroll-animate fade-in delay-1">
 				<?php if ($sec_prefix = get_field('why_choose_us_sec_prefix')) : ?>
 				<div class="secPrefix"><?php echo esc_html($sec_prefix); ?></div>
 				<?php endif; ?>
@@ -183,7 +183,7 @@
 				</a>
 				<?php endif; ?>
 			</div>
-			<div class="partB">
+			<div class="partB scroll-animate fade-in delay-2">
 				<?php if ($right_title = get_field('right_title')) : ?>
 				<div class="title"><?php echo esc_html($right_title); ?></div>
 				<?php endif; ?>
@@ -226,13 +226,13 @@ $query = new WP_Query($args);
 if ($query->have_posts()) : ?>
     <section id="caseStudies" class="padding caseStudies">
         <div class="container">
-            <div class="partA">
+            <div class="partA scroll-animate fade-in">
                 <div class="title">Relevant Case Studies</div>
                 <a href="<?php echo get_post_type_archive_link('case_study'); ?>" class="themeBtn">See All CASE STUDIES</a>
             </div>
         </div>
 
-        <div class="case-study-wrapper">
+        <div class="case-study-wrapper scroll-animate fade-in">
             <div class="case-study-slider">
                 <?php while ($query->have_posts()) : $query->the_post();
                     $image_id  = get_field('service_thumbnail_image', get_the_ID());
