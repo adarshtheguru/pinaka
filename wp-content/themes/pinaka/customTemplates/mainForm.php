@@ -1,4 +1,4 @@
-<div class="mainForm">
+<div class="mainForm  scroll-animate clip-reveal dealy-1">
                 <form id="formA">
                     <input type="hidden" name="formType" value="mainForm">
                     <div class="formRow">

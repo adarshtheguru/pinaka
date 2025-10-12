@@ -8,7 +8,7 @@ get_header();
     <?php include 'customTemplates/heroSection.php' ?>
     <section class="padding careerOv" id="careerOv">
         <div class="container">
-            <div class="text-center">
+            <div class="text-center  scroll-animate fade-in delay-1">
                 <div class="secTitle">Be a part of a moment where we aim to build for the future</div>
                 <p class="para">
                     Make your place in building a future for tomorrow
@@ -16,28 +16,28 @@ get_header();
             </div>
             <div class="ovBox">
                 <div class="box boxa">
-                    <img src="<?php echo THEMEURL; ?>/app/images/careerSample.png" alt="" class="img-full">
+                    <img src="<?php echo THEMEURL; ?>/app/images/careerSample.png" alt="" class="img-full scroll-animate clip-reveal delay-2">
                 </div>
                 <div class="box boxb">
-                    <img src="<?php echo THEMEURL; ?>/app/images/c2.png" alt="" class="img-full">
+                    <img src="<?php echo THEMEURL; ?>/app/images/c2.png" alt="" class="img-full scroll-animate clip-reveal delay-2">
                 </div>
                 <div class="box boxc">
-                    <img src="<?php echo THEMEURL; ?>/app/images/careerSample.png" alt="" class="img-full">
+                    <img src="<?php echo THEMEURL; ?>/app/images/careerSample.png" alt="" class="img-full scroll-animate clip-reveal delay-2">
                 </div>
                 <div class="box boxd">
-                    <img src="<?php echo THEMEURL; ?>/app/images/careerSample.png" alt="" class="img-full">
+                    <img src="<?php echo THEMEURL; ?>/app/images/careerSample.png" alt="" class="img-full scroll-animate clip-reveal delay-2">
                 </div>
                 <div class="box boxe">
-                    <img src="<?php echo THEMEURL; ?>/app/images/c3.png" alt="" class="img-full">
+                    <img src="<?php echo THEMEURL; ?>/app/images/c3.png" alt="" class="img-full scroll-animate clip-reveal delay-2">
                 </div>
                 <div class="box boxf">
-                    <img src="<?php echo THEMEURL; ?>/app/images/c4.png" alt="" class="img-full">
+                    <img src="<?php echo THEMEURL; ?>/app/images/c4.png" alt="" class="img-full scroll-animate clip-reveal delay-2">
                 </div>
             </div>
         </div>
     </section>
     <section class="padding openings" id="openings">
-        <div class="container">
+        <div class="container  scroll-animate slide-in-up delay-2">
             <div class="secPrefix">Openings</div>
             <div class="secTitle">For Talent that Thinks Sideways</div>
             <p class="secPara">
@@ -111,11 +111,11 @@ get_header();
     </section>
     <section class="padding advantages" id="advantages">
         <div class="container">
-            <div class="text-center">
+            <div class="text-center  scroll-animate slide-in-up delay-2">
                 <div class="secPrefix">Our Advantages</div>
                 <div class="secTitle">Why Work With Us?</div>
             </div>
-            <div class="advantagesBox">
+            <div class="advantagesBox   scroll-animate fade-in delay-4">
                 <div class="box">
                     <div class="image">
                         <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/whiteCircle.png" alt="">

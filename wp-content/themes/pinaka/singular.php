@@ -94,7 +94,7 @@ $reading_time = ceil(str_word_count(strip_tags(get_the_content())) / 200); // Ap
     </section>
     <section class="padding wantResult" id="wantResult">
         <div class="container">
-            <div class="text-center">
+            <div class="text-center scroll-animate fade-in">
                 <div class="secTitle">Want results that stand out?</div>
                 <div class="secTitle">Tell us more about yourself, and we’ll do the rest</div>
             </div>

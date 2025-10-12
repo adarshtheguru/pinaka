@@ -22,11 +22,11 @@ get_header(); ?>
                             while ($all_posts->have_posts()): $all_posts->the_post(); ?>
                             <div class="box">
                                 <?php if (has_post_thumbnail()) : ?>
-                                    <?php the_post_thumbnail('full', array('class' => 'img-full')); ?>
+                                    <?php the_post_thumbnail('full', array('class' => 'img-full scroll-animate clip-reveal delay-2')); ?>
                                 <?php else : ?>
-                                    <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/rectPlace.png" alt="">
+                                    <img class="img-full scroll-animate clip-reveal delay-2" src="<?php echo THEMEURL; ?>/app/images/rectPlace.png" alt="">
                                 <?php endif; ?>
-                                <div class="blog-info">
+                                <div class="blog-info  scroll-animate fade-in delay-2">
                                     <p class="abstract"><?php echo mb_strimwidth(get_the_title(), 0 , 90, '...' ); ?></p>
                                     <div class="dates"><?php echo get_the_date('M j, Y'); ?>  • <?php echo estimated_reading_time(get_the_content()); ?></div>
                                     <p class="small-desc"><?php echo mb_strimwidth(get_the_excerpt(), 0, 100, '...' ); ?></p>
@@ -48,7 +48,7 @@ get_header(); ?>
     </section>
     <section class="padding wantResult bg-blue" id="wantResult">
         <div class="container">
-            <div class="text-center">
+            <div class="text-center  scroll-animate fade-in">
                 <div class="secTitle text-white">Make your Results Unforgettable</div>
                 <div class="secTitle text-white">Tell us more about yourself, and we’ll do the rest</div>
             </div>

@@ -904,6 +904,42 @@ document.addEventListener("DOMContentLoaded", function () {
 			});
 		});
 	}
+	//Animation
+	 const animatedItems = document.querySelectorAll('.scroll-animate');
+
+    const onScroll = () => {
+        animatedItems.forEach(item => {
+            const rect = item.getBoundingClientRect();
+            const windowHeight = window.innerHeight;
+
+            if (rect.top <= windowHeight - 100) {
+                item.classList.add('animate');
+            }
+        });
+    };
+
+    window.addEventListener('scroll', onScroll);
+    window.addEventListener('load', onScroll);
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const animatedElements = document.querySelectorAll(".scroll-animate");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("animate");
+                entry.target.classList.remove("animate-out");
+            } else {
+                entry.target.classList.remove("animate");
+                entry.target.classList.add("animate-out");
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    animatedElements.forEach(el => observer.observe(el));
 });
 
 jQuery(document).ready(function ($) {

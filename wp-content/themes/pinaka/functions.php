@@ -1076,6 +1076,18 @@ function theme_enqueue_lightgallery() {
 }
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_lightgallery' );
 
+function enqueue_aos_assets() {
+  // AOS CSS
+  wp_enqueue_style('aos-css', 'https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css');
+  
+  // AOS JS
+  wp_enqueue_script('aos-js', 'https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js', array('jquery'), null, true);
+
+  // Initialize AOS
+  wp_add_inline_script('aos-js', 'AOS.init({ once: false, duration: 800, easing: "ease-in-out" });');
+}
+add_action('wp_enqueue_scripts', 'enqueue_aos_assets');
+
 // AJAX filter
 function filter_case_studies() {
     get_template_part('customTemplates/case-study-grid');

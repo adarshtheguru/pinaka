@@ -13,13 +13,13 @@ get_header();
         <div class="container">
             <!-- <div class="secPrefix">Contact Us</div> -->
             <div class="caseBox">
-                <div class="partA">
+                <div class="partA  scroll-animate fade-in delay-1">
                     <div class="secTitle">Join our Journey</div>
                     <p class="para">
                         Partner with us to blend creative thinking and smart strategy for results that truly stand out.
                     </p>
                 </div>
-                <div class="partB">
+                <div class="partB  scroll-animate slide-in-up delay-2">
                     <?php include 'customTemplates/contactUsForm.php'; ?>
                     <div class="adBox" style="display:block!important;">
                         <div class="layer layerA">
@@ -58,7 +58,7 @@ get_header();
                     </div>
                 </div>
                 <div class="partC">
-                    <div class="iframeWrapper">
+                    <div class="iframeWrapper  scroll-animate clip-reveal">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.0068674524355!2d73.84283719999999!3d18.528591799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfadcc441c05%3A0x16792491fd7455ab!2sPinaka%20Digital%20Technologies!5e0!3m2!1sen!2sin!4v1756153682505!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>

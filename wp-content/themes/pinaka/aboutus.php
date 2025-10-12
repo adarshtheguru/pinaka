@@ -9,15 +9,15 @@ get_header();
     <?php include 'customTemplates/heroSection.php' ?>
     <section class="padding aboutUsOverview pos-rel" id="aboutUsOverview">
         <div class="container">
-            <div class="secPrefix">About Us</div>
-            <div class="secTitle">
+            <div class="secPrefix  scroll-animate fade-in">About Us</div>
+            <div class="secTitle  scroll-animate fade-in">
             Pinaka isn’t just a digital marketing agency—it’s a catalyst for brands that dare to lead. With strategy, creativity, and data-driven precision, we craft campaigns that spark engagement, maximize ROI, and build lasting Impact. We don’t follow trends—we set them, shaping brand legacies.
             </div>
-            <p class="para">
+            <p class="para  scroll-animate fade-in">
             In a world where attention is fleeting, we create connections that last. At Pinaka Digital Technologies, we don’t just market—we tell stories, spark emotions, and turn strategies into success. By blending creativity with tech, we craft campaigns that speak to hearts and drive real results. This is where your brand transforms into impact.
             </p>
             <div class="circleBox pos-rel hidden-xs">
-                <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/abtCircle.svg" alt="">
+                <img class="img-full  scroll-animate clip-reveal" src="<?php echo THEMEURL; ?>/app/images/abtCircle.svg" alt="">
                 <div class="floatingTxt vision">
                     <div class="title">Vision</div>
                     <p class="para">
@@ -33,7 +33,7 @@ get_header();
             </div>
             <div class="circleBoxMob visible-xs">
                 <div class="first">
-                    <img src="<?php echo THEMEURL; ?>/app/images/firstCirc.svg" alt="">
+                    <img class="scroll-animate clip-reveal" src="<?php echo THEMEURL; ?>/app/images/firstCirc.svg" alt="">
                     <div class="textBox">
                         <div class="title">Vision</div>
                         <p class="para">
@@ -42,8 +42,8 @@ get_header();
                     </div>
                 </div>
                 <div class="second pos-rel">
-                    <img src="<?php echo THEMEURL; ?>/app/images/pShape.svg" alt="" class="Pshape">
-                    <img src="<?php echo THEMEURL; ?>/app/images/secondCirc.svg" alt="">
+                    <img src="<?php echo THEMEURL; ?>/app/images/pShape.svg" alt="" class="Pshape scroll-animate clip-reveal">
+                    <img src="<?php echo THEMEURL; ?>/app/images/secondCirc.svg" alt="" class="scroll-animate clip-reveal">
                     <div class="textBox">
                         <div class="title">Mission</div>
                         <p class="para">
@@ -88,7 +88,7 @@ get_header();
 
     <section class="padding ourTeam" id="ourTeam">
         <div class="container">
-            <div class="text-center">
+            <div class="text-center scroll-animate fade-in">
                 <div class="secPrefix">Our Team</div>
                 <div class="secTitle">
                     Lorem Ipsum is simply dummytext of the typesetting industry.
@@ -97,7 +97,7 @@ get_header();
             <div class="ownerCards">
                 <div class="card">
                     <div class="img">
-                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/kailash.jpg" alt="">
+                        <img class="img-full scroll-animate clip-reveal" src="<?php echo THEMEURL; ?>/app/images/kailash.jpg" alt="">
                         <div class="profile-info info1">
                             <img src="<?php echo THEMEURL; ?>/app/images/quote-white.svg">
                             <p>With a background in ad tech and serving top-tier companies, our goal is to provide cutting-edge, tech-driven ad services. We aim to help clients not only meet their ROI targets but also stay ahead in the competitive landscape.</p>
@@ -115,7 +115,7 @@ get_header();
                 </div>
                 <div class="card">
                     <div class="img">
-                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/vijay.jpg" alt="">
+                        <img class="img-full scroll-animate clip-reveal" src="<?php echo THEMEURL; ?>/app/images/vijay.jpg" alt="">
                         <div class="profile-info info2">
                             <img src="<?php echo THEMEURL; ?>/app/images/quote-white.svg">
                             <p>At Pinaka, our essence lies in achieving client triumphs through united efforts. Guided by a culture of transparency, we cultivate an environment where client success takes center stage.</p>
@@ -133,7 +133,7 @@ get_header();
                 </div>
                 <div class="card">
                     <div class="img">
-                        <img class="img-full" src="<?php echo THEMEURL; ?>/app/images/Amit.jpg" alt="">
+                        <img class="img-full scroll-animate clip-reveal" src="<?php echo THEMEURL; ?>/app/images/Amit.jpg" alt="">
                         <div class="profile-info info3">
                             <img src="<?php echo THEMEURL; ?>/app/images/quote-white.svg">
                             <p>By fostering transparency and collaboration, we ensure that every client achieves their full potential with Pinaka Digital Technologies.</p>
@@ -230,10 +230,10 @@ get_header();
     <section class="padding awards" id="awards">
         <div class="container">
             <div class="col-6">
-                <img src="<?php echo THEMEURL; ?>/app/images/our-culture.png" class="img-responsive">
+                <img src="<?php echo THEMEURL; ?>/app/images/our-culture.png" class="img-responsive  scroll-animate clip-reveal">
             </div>
             <div class="col-1">&nbsp;</div>
-            <div class="col-5">
+            <div class="col-5  scroll-animate fade-in">
                 <div class="secPrefix">Awards & Recognition </div>
                     <div class="secTitle">Lorem Ipsum is simply dummy text.</div>
                     <p class="para mg-tp-30">
@@ -248,7 +248,7 @@ Sure, Our expertise lies in crafting bespoke, customized website designs that ar
     <section class="padding bg-blue about-client" id="client">
     <div class="container">
         <div class="clientCont">
-            <div class="col-5 text-left-xs">
+            <div class="col-5 text-left-xs scroll-animate fade-in">
                 <div class="secPrefix text-white">Our Clients</div>
                 <div class="secTitle mg-bt-20 text-white">Grow your inner circle. </div>
             </div>
@@ -335,28 +335,28 @@ Sure, Our expertise lies in crafting bespoke, customized website designs that ar
     <section class="padding whitePanel" id="whitePanel">
         <div class="container">
             <div class="panelBox">
-                <div class="box">
+                <div class="box scroll-animate fade-in delay-2">
                     <div class="icon">
                         <img src="<?php echo THEMEURL; ?>/app/images/handshake.svg" alt="">
                     </div>
                     <p class="text">Let's Build Something Extraordinary Together</p>
                     <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg" alt=""></span> </a>
                 </div>
-                <div class="box">
+                <div class="box scroll-animate fade-in delay-3">
                     <div class="icon">
                         <img src="<?php echo THEMEURL; ?>/app/images/stocks.svg" alt="">
                     </div>
                     <p class="text">See How We Drive Results</p>
                     <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg" alt=""></span> </a>
                 </div>
-                <div class="box">
+                <div class="box scroll-animate fade-in delay-4">
                     <div class="icon">
                         <img src="<?php echo THEMEURL; ?>/app/images/bulb.svg" alt="">
                     </div>
                     <p class="text">Join the Leading Edge of Marketing Innovation</p>
                     <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg" alt=""></span> </a>
                 </div>
-                <div class="box">
+                <div class="box scroll-animate fade-in delay-5">
                     <div class="icon">
                         <img src="<?php echo THEMEURL; ?>/app/images/arrows.svg" alt="">
                     </div>

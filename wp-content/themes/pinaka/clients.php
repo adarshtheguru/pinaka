@@ -29,7 +29,7 @@ get_header();
                                 </select>
                             </div>
                         </div> -->
-                        <div class="gridBox">
+                        <div class="gridBox  scroll-animate clip-reveal delay-2">
                             <div class="box">
                                 <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.png" alt="">
                             </div>

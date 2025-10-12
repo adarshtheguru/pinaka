@@ -6,7 +6,7 @@
 </style>
 <section id="staticInfo" class="padding staticInfo">
 	<div class="container">
-		<h2 class="secPrefix text-center">Media Strategy</h2>
+		<h2 class="secPrefix text-center  scroll-animate slide-in-up">Media Strategy</h2>
 		<div class="mg-tp-30">
 			<div class="partA d-flex text-bold">
 				<?php echo esc_html($intro_a); ?>
@@ -18,15 +18,15 @@
 			</div>
 		</div>
 		<div class="media-stats mg-tp-30">
-			<div class="numbers">
+			<div class="numbers scroll-animate slide-in-up delay-1">
 				<h3>500+</h3>
 				<p>Projects Successfully Launched</p>
 			</div>
-			<div class="numbers">
+			<div class="numbers scroll-animate slide-in-up delay-2">
 				<h3>10,000+</h3>
 				<p>Successful Campaigns</p>
 			</div>
-			<div class="numbers">
+			<div class="numbers scroll-animate slide-in-up delay-3">
 				<h3>₹100+ Cr</h3>
 				<p>Media Spends Managed</p>
 			</div>
@@ -36,10 +36,10 @@
                     <source src="https://floracity.co.in/pinaka/wp-content/uploads/2025/08/watermarked_preview-2.mp4" type="video/mp4">
             </video>
 		</div>
-		<div class="mg-tp-40">
+		<div class="mg-tp-40  scroll-animate slide-in-up delay-1">
 			<p class="partB d-flex text-justify">At Pinaka Digital Technologies, we believe performance campaigns can’t rely only on last-click conversions. With rising customer acquisition costs and changing consumer behavior, the key to success lies in a holistic full-funnel strategy. <br> <br>We structure every campaign across Awareness (Top Funnel), Consideration (Mid Funnel), and Conversion (Bottom Funnel) to ensure both short-term wins and long-term sustainable growth.</p>
 		</div>
-		<div class="mg-tp-40 text-center">
+		<div class="mg-tp-40 text-center  scroll-animate slide-in-up delay-1">
 			<a href="javascript:;" class="themeBtn">Contact Us</a>
 		</div>
 	</div>
@@ -49,18 +49,18 @@
 		<div class="container text-white">
 			<div class="contentBox">
 				<div class="partA">
-					<h4 class="secPrefix text-white text-bolder">
+					<h4 class="secPrefix text-white text-bolder  scroll-animate fade-in">
 					Top Funnel <br><small>(Awareness & Reach)</small>
 					</h4>
 				</div>
-				<div class="partB">
+				<div class="partB  scroll-animate fade-in delay-1">
 					<p>Our Objective to Build awareness,<br class="hidden-xs"> seed trust, and generate demand for<br class="hidden-xs"> tomorrow’s buyers.</p>
 				</div>
 			</div>
 		</div>
 		<div class="container">
 			<div class="contBox mg-tp-40">
-				<div class="box">
+				<div class="box  scroll-animate slide-in-up delay-1">
 					<div class="title">What We Do</div>
 					<div class="listingGroup">
 						<ul>
@@ -71,7 +71,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="box">
+				<div class="box scroll-animate slide-in-up delay-2">
 					<div class="title">Why It Matters</div>
 					<div class="listingGroup">
 						<ul>
@@ -81,7 +81,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="box">
+				<div class="box scroll-animate slide-in-up delay-3">
 					<div class="title">Metrics We Track</div>
 					<div class="listingGroup">
 						<ul>
@@ -94,7 +94,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="blueCardSliderWrapepr pos-rel">
+		<div class="blueCardSliderWrapepr pos-rel  scroll-animate slide-in-up">
 			<div class="blueCardSlider">
 				<div><img src="<?php echo THEMEURL; ?>/app/images/top-funnel-1.webp" alt="Slide 1" /></div>
 				<div><img src="<?php echo THEMEURL; ?>/app/images/top-funnel-2.jpg" alt="Slide 2" /></div>
@@ -118,18 +118,18 @@
 		<div class="container text-white">
 			<div class="contentBox">
 				<div class="partA">
-					<h4 class="secPrefix text-bolder">
+					<h4 class="secPrefix text-bolder  scroll-animate fade-in">
 					Mid Funnel <br><small>(Consideration & Engagement)</small>
 					</h4>
 				</div>
-				<div class="partB">
+				<div class="partB  scroll-animate fade-in delay-1">
 					<p>Our Objective to Move prospects from <br class="hidden-xs">awareness to active interest by driving <br class="hidden-xs">engagement and evaluation.</p>
 				</div>
 			</div>
 		</div>
 		<div class="container">
 			<div class="contBox mg-tp-40">
-				<div class="box">
+				<div class="box scroll-animate slide-in-up delay-1">
 					<div class="title">What We Do</div>
 					<div class="listingGroup">
 						<ul>
@@ -140,7 +140,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="box">
+				<div class="box scroll-animate slide-in-up delay-2">
 					<div class="title">Why It Matters</div>
 					<div class="listingGroup">
 						<ul>
@@ -150,7 +150,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="box">
+				<div class="box scroll-animate slide-in-up delay-3">
 					<div class="title">Metrics We Track</div>
 					<div class="listingGroup">
 						<ul>
@@ -163,7 +163,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="blueCardSliderWrapepr pos-rel">
+		<div class="blueCardSliderWrapepr pos-rel  scroll-animate fade-in">
 			<div class="blueCardSlider">
 				<div><img src="<?php echo THEMEURL; ?>/app/images/bc1.jpg" alt="Slide 1" /></div>
 				<div><img src="<?php echo THEMEURL; ?>/app/images/bc2.jpg" alt="Slide 2" /></div>
@@ -187,18 +187,18 @@
 		<div class="container text-white">
 			<div class="contentBox">
 				<div class="partA">
-					<h4 class="secPrefix text-white text-bolder">
+					<h4 class="secPrefix text-white text-bolder  scroll-animate fade-in">
 					Bottom Funnel <br><small>(Conversion & Retention)</small>
 					</h4>
 				</div>
-				<div class="partB">
+				<div class="partB  scroll-animate fade-in">
 					<p>Our Objective to Drive high-intent users to <br class="hidden-xs">purchase and maximize lifetime value.</p>
 				</div>
 			</div>
 		</div>
 		<div class="container">
 			<div class="contBox mg-tp-40">
-				<div class="box">
+				<div class="box scroll-animate slide-in-up delay-1">
 					<div class="title">What We Do</div>
 					<div class="listingGroup">
 						<ul>
@@ -209,7 +209,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="box">
+				<div class="box scroll-animate slide-in-up delay-2">
 					<div class="title">Why It Matters</div>
 					<div class="listingGroup">
 						<ul>
@@ -219,7 +219,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="box">
+				<div class="box scroll-animate slide-in-up delay-3">
 					<div class="title">Metrics We Track</div>
 					<div class="listingGroup">
 						<ul>
@@ -232,7 +232,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="blueCardSliderWrapepr pos-rel">
+		<div class="blueCardSliderWrapepr pos-rel  scroll-animate fade-in">
 			<div class="blueCardSlider">
 				<div><img src="<?php echo THEMEURL; ?>/app/images/bottom-funnel-1.webp" alt="Slide 1" /></div>
 				<div><img src="<?php echo THEMEURL; ?>/app/images/bottom-funnel-2.webp" alt="Slide 2" /></div>
@@ -251,7 +251,7 @@
 		</div>
 	</section>
 </main>
-<section id="benefits" class="padding benefits">
+<section id="benefits" class="padding benefits  scroll-animate fade-in">
 	<div class="container">
 		<div class="dataBox">
 			<div class="partA">
