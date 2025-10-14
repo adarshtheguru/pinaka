@@ -8,7 +8,7 @@
             <p class="para">Reach Out for a Demo or Request a Tailored Quote</p>
             <div class="ctas">
                 <a href="javascript:;" class="themeBtn">Get a Quote</a>
-                <a href="javascript:;" class="blankBtn">Contact Us</a>
+                <a href="<?php echo site_url('/contact-us'); ?>" class="blankBtn">Contact Us</a>
             </div>
         </div>
     </div>
