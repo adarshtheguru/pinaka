@@ -29,20 +29,20 @@ get_header();
                                 Fergusson College Rd, Rge Path, Model Colony,
                                 Shivajinagar, Pune, Maharashtra 411005
                             </p>
-                            <a href="javascript:;" class="goldenLink">get Directions</a> &nbsp;<img src="<?php echo THEMEURL; ?>/app/images/goldenArrow.svg" alt="">
+                            <a href="google.com/maps/dir//Pinaka+Digital+Technologies+-+Digital+Marketing+%26+SEO+Agency+in+Pune+Office-+202,+2nd+Floor,+Vishnu+Darshan+Apartments+Fergusson+College+Rd,+Rage+Path,+Model+Colony,+Shivajinagar+Pune,+Maharashtra+411016/@18.5285918,73.8428372,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3bc2bfadcc441c05:0x16792491fd7455ab" target="_blank" class="goldenLink">get Directions</a> &nbsp;<img src="<?php echo THEMEURL; ?>/app/images/goldenArrow.svg" alt="">
                         </div>
                         <div class="layer layerB">
                             <div class="title">Phone</div>
                             <div class="numbers">
                                 <div><img width="20" src="<?php echo THEMEURL; ?>/app/images/indiaFlag.png" alt="" class="flag">&nbsp;&nbsp;<a href="tel:+917498044954" class="phone">91-7498044954</a></div>
                             </div>
-                            <div class="numbers">
+                            <!-- <div class="numbers">
                                 <div><img width="20" src="<?php echo THEMEURL; ?>/app/images/usaFlag.png" alt="" class="flag">&nbsp;&nbsp;<a href="tel:+13202896184" class="phone">1-3202896184</a></div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="layer layerC">
                             <div class="title">Email</div>
-                            <a href="mailto:testtt" class="address">
+                            <a href="mailto:sales@pinaka.digital" class="address">
                                 sales@pinaka.digital
                             </a>
                         </div>
