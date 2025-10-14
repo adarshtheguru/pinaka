@@ -51,7 +51,7 @@ if ($menu_items) {
 			<div class="row">
 				<div id="comp-logo">
 					<div class="pull-left col-2 col-xs-9 brand-logo">
-						<a href="javascript:;" class="goto-home"><img src="<?php echo THEMEURL; ?>/app/images/logo.svg"
+						<a href="<?php echo site_url('/'); ?>" class="goto-home"><img src="<?php echo THEMEURL; ?>/app/images/logo.svg"
 								class="img-responsive" data-event-category="Header" data-event-action="Click"
 								data-event-name="Logo"></a>
 					</div>
