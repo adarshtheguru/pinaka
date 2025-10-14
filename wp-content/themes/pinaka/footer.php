@@ -53,11 +53,11 @@
 						<div class="title">Quick Links</div>
 						<div class="navLinks">
 							<a href="<?php echo site_url('/about-us'); ?>">About Us</a>
-							<a href="<?php echo site_url('/clients'); ?>">Clients</a>
 							<a href="<?php echo site_url('/service'); ?>">Services</a>
-							<a href="<?php echo site_url('/blogs'); ?>">Insights</a>
-							<a href="<?php echo site_url('/career'); ?>">career</a>
-							<a href="<?php echo site_url('/case-study'); ?>">Casestudy</a>
+							<a href="<?php echo site_url('/our-works'); ?>">Our Works</a>
+							<a href="<?php echo site_url('/insights'); ?>">Insights</a>
+							<a href="<?php echo site_url('/clients'); ?>">Clients</a>
+							<a href="<?php echo site_url('/career'); ?>">Career</a>
 							<a href="<?php echo site_url('/contact-us'); ?>">Contact Us</a>
 						</div>
 					</div>
