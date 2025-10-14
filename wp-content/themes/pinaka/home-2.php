@@ -112,8 +112,15 @@ get_header();
 							</div>
 							<div class="back">
 								<div class="inner">
-									<p>Event and Brand Consulting involves developing a consistent brand identity and strategy for events. In event planning, it means ensuring your events reflect and enhance your brand. Whether it be making sure you attend the right events, creating your own, or getting your brand messaging streamlined at these events</p>
-									<a href="<?php echo site_url('/https://floracity.co.in/pinaka/services/media-strategy/'); ?>" class="readmore">Read More</a>
+									<p>Maximize your impact through data-driven and smart channel planning.</p>
+									<ul>
+										<li>Integrated Media Planning</li>
+										<li>Audience Insights & Targeting</li>
+										<li>Campaign Optimization</li>
+										<li>Cross-Channel Coordination</li>
+										<li>Performance Reporting & Analysis</li>
+									</ul>
+									<a href="<?php echo site_url('/services/media-strategy/'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -127,8 +134,15 @@ get_header();
 							</div>
 							<div class="back">
 								<div class="inner">
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-									<a href="<?php echo site_url('/https://floracity.co.in/pinaka/services/digital-social-advertising'); ?>" class="readmore">Read More</a>
+									<p>Amplify your brand’s reach with campaigns that connect, convert, and create impact.</p>
+									<ul>
+										<li>Targeted Ad Strategy</li>
+										<li>Social Media Advertising</li>
+										<li>Google & Display Ads</li>
+										<li>Creative Ad Design & Copywriting</li>
+										<li>Performance Tracking & Optimization</li>
+									</ul>
+									<a href="<?php echo site_url('/services/digital-social-advertising'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -142,8 +156,16 @@ get_header();
 							</div>
 							<div class="back">
 								<div class="inner">
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-									<a href="<?php echo site_url('/https://floracity.co.in/pinaka/services/new-age-organic-search'); ?>" class="readmore">Read More</a>
+									<p>Stay on top of search results and ahead of your competition.</p>
+									<ul>
+										<li>On-Page SEO</li>
+										<li>Off-Page SEO</li>
+										<li>Technical SEO Audits</li>
+										<li>Keyword Research and Optimization</li>
+										<li>Local SEO Strategies</li>
+										<li>AI-Driven Optimization</li>
+									</ul>
+									<a href="<?php echo site_url('/services/new-age-organic-search'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -157,8 +179,13 @@ get_header();
 							</div>
 							<div class="back">
 								<div class="inner">
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-									<a href="<?php echo site_url('/https://floracity.co.in/pinaka/services/social-media-managment'); ?>" class="readmore">Read More</a>
+									<p>Build meaningful connections through storytelling that inspires, informs, and converts.</p>
+									<ul>
+										<li>Strategic Content Planning</li>
+										<li>Social Media Management</li>
+										<li>Creative Content Production</li>
+									</ul>
+									<a href="<?php echo site_url('/services/social-media-managment'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -172,8 +199,15 @@ get_header();
 							</div>
 							<div class="back">
 								<div class="inner">
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-									<a href="<?php echo site_url('/https://floracity.co.in/pinaka/services/online-reputation-management'); ?>" class="readmore">Read More</a>
+									<p>Protect, enhance, and sustain your brand’s credibility in the digital world.</p>
+									<ul>
+										<li>Brand Monitoring & Analysis</li>
+										<li>Crisis Management & Response</li>
+										<li>Review & Feedback Management</li>
+										<li>Search Reputation Optimization</li>
+										<li>Brand Advocacy Development</li>
+									</ul>
+									<a href="<?php echo site_url('/services/online-reputation-management'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -187,8 +221,13 @@ get_header();
 							</div>
 							<div class="back">
 								<div class="inner">
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-									<a href="<?php echo site_url('/https://floracity.co.in/pinaka/services/public-relations-influencer'); ?>" class="readmore">Read More</a>
+									<p>Shape perceptions, spark conversations, and build credibility through authentic connections.</p>
+									<ul>
+										<li>Strategic PR Campaigns</li>
+										<li>Media Outreach & Press Relations</li>
+										<li>Influencer Partnerships</li>
+									</ul>
+									<a href="<?php echo site_url('/services/public-relations-influencer'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -202,8 +241,16 @@ get_header();
 							</div>
 							<div class="back">
 								<div class="inner">
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-									<a href="<?php echo site_url('/https://floracity.co.in/pinaka/services/website-design-development'); ?>" class="readmore">Read More</a>
+									<p>Create digital experiences that captivate and convert.</p>
+									<ul>
+										<li>Create digital experiences that captivate and convert.</li>
+										<li>Custom Website Design</li>
+										<li>Responsive Website Development</li>
+										<li>E-Commerce Development</li>
+										<li>UI/UX Design</li>
+										<li>Website Maintenance and Support</li>
+									</ul>
+									<a href="<?php echo site_url('/services/website-design-development'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -217,8 +264,15 @@ get_header();
 							</div>
 							<div class="back">
 								<div class="inner">
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-									<a href="<?php echo site_url('/https://floracity.co.in/pinaka/services/graphic-designs-motion-graphics'); ?>" class="readmore">Read More</a>
+									<p>Bring your brand to life with visuals that captivate, communicate, and inspire action.</p>
+									<ul>
+										<li>Creative Visual Design</li>
+										<li>Brand Collateral & Marketing Assets</li>
+										<li>Motion Graphics & Animation</li>
+										<li>Social Media Visuals</li>
+										<li>Video Editing & Visual Storytelling</li>
+									</ul>
+									<a href="<?php echo site_url('/services/graphic-designs-motion-graphics'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -232,7 +286,14 @@ get_header();
 							</div>
 							<div class="back">
 								<div class="inner">
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+									<p>Create a cohesive visual and verbal identity that defines your brand across every touchpoint.</p>
+									<ul>
+										<li>Comprehensive Brand Manuals</li>
+										<li>Visual Identity Systems</li>
+										<li>Tone of Voice & Messaging Framework</li>
+										<li>Digital & Print Applications</li>
+										<li>Brand Evolution & Consistency Audits</li>
+									</ul>
 									<a href="https://houseofhues.co/" target="_blank" class="readmore">Read More</a>
 								</div>
 							</div>

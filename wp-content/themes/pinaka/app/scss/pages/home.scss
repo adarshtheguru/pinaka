@@ -1118,12 +1118,18 @@
     .inner {
       padding: 1rem;
       text-align: left;
-      p {
+      p, ul {
         font-weight: 400;
         font-size: 16px;
         line-height: 29px;
         color: #fff;
         margin-bottom: 30px;
+      }
+      p{
+        margin-bottom: 10px;
+      }
+      ul{
+        padding-left: 20px;
       }
       .readmore {
         padding: 6px 20px;
