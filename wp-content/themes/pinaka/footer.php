@@ -18,12 +18,13 @@
 			<div class="partA">
 				<div class="content">
 					<div class="logo">
-						<img src="<?php echo THEMEURL; ?>/app/images/pinakaWhite.svg" alt="" class="img-responsive">
+						<img src="<?php echo THEMEURL; ?>/app/images/pinakaWhite.svg" alt="" class="img-responsive footer-logo">
 					</div>
 					<!-- <div class="title">Stay Ahead in Real Estate Marketing</div> -->
 					<!-- <p class="para">Sign up for our newsletter to receive the latest insights, tips, and industry news directly to your inbox.</p> -->
 				</div>
 				<div class="mailBox">
+					<p class="para">Sign up for our newsletter to receive the latest insights, tips,<br> and industry news directly to your inbox.</p><br>
 					<?php include 'customTemplates/subscribeMailForm.php'; ?>
 				</div>
 			</div>
@@ -65,13 +66,14 @@
 						<div class="title">Services</div>
 						<div class="navLinks">
 							<a href="<?php echo site_url('/services/media-strategy'); ?>">Media Strategy</a>
-							<a href="<?php echo site_url('/services/graphic-designs-motion-graphic'); ?>">Graphic Designs & Motion Graphics</a>
-							<a href="<?php echo site_url('/services/website-design-development'); ?>">Website Development</a>
-							<a href="<?php echo site_url('/services/public-relations-influencer/'); ?>">Public Relations & Influencer</a>
-							<a href="<?php echo site_url('/services/digital-social-advertising'); ?>">Digital & Social Advertising</a>
-							<a href="<?php echo site_url('/services/new-age-organic-search'); ?>">Search Engine Optimization</a>
-							<a href="<?php echo site_url('/services/online-reputation-management'); ?>">Online Reputation Management</a>
-							<a href="<?php echo site_url('/services/social-media-managment'); ?>">Social Media Managment</a>
+							<a href="<?php echo site_url('/services/digital-social-advertising'); ?>">Growth Marketing</a>
+							<a href="<?php echo site_url('/services/new-age-organic-search'); ?>">Organic Search</a>
+							<a href="<?php echo site_url('/services/social-media-managment'); ?>">Social Media Management</a>
+							<a href="<?php echo site_url('/services/online-reputation-management'); ?>">Reputation Management</a>
+							<a href="<?php echo site_url('/services/public-relations-influencer/'); ?>">PR & Influencer</a>
+							<a href="<?php echo site_url('/services/website-design-development'); ?>">Web Development</a>
+							<a href="<?php echo site_url('/services/graphic-designs-motion-graphic'); ?>">Creative & Visual Motion</a>
+							<a href="https://houseofhues.co/" target="_blank">Brand & Design</a>
 						</div>
 					</div>
 					<div class="socials cols">

@@ -52,7 +52,7 @@ get_header();
                                 <a href="https://www.facebook.com/PinakaDigitalTechnologies"> <img src="<?php echo THEMEURL; ?>/app/images/fb.svg" alt=""></a>
                                 <a href="https://www.linkedin.com/company/pinakadigitaltechnologies"> <img src="<?php echo THEMEURL; ?>/app/images/li.svg" alt=""></a>
                                 <a href="https://www.instagram.com/pinaka_digital_technologies"> <img src="<?php echo THEMEURL; ?>/app/images/insta.svg" alt=""></a>
-                                <a href="https://twitter.com/_pinakadigital"> <img src="<?php echo THEMEURL; ?>/app/images/twitterblue.svg" alt=""></a>
+                                <!-- <a href="https://twitter.com/_pinakadigital"> <img src="<?php echo THEMEURL; ?>/app/images/twitterblue.svg" alt=""></a> -->
                             </div>
                         </div>
                     </div>

@@ -59,37 +59,37 @@ get_header();
 		<div class="project-card-list justify-end col-12">
 			<div class="col-5 col-xs-12 col-md-12">
 				<div class="project-card-info">
-					<img class="rOSOff img-responsive" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/shubh-vedha-home.png">
+					<img class="rOSOff img-responsive br-12" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/shubh-vedha-home.png">
 					<h3 class="rOSOff scroll-animate fade-in">Shubh Vedha</h3>
 					<p class="rOSOff scroll-animate fade-in">Campaigns, Digital Advertising, Social Advertising</p>
-					<a href="<?php echo site_url('/case-studies/shubh-veda'); ?>" class="white-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
+					<a href="<?php echo site_url('/case-studies/shubh-veda'); ?>" class="blue-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
 			</div>
 		</div>
 		<div class="project-card-list col-12">
 			<div class="col-5 col-xs-12 col-md-12">
 				<div class="project-card-info">
-					<img class="rOSOff img-responsive" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/pwc-home.png">
+					<img class="rOSOff img-responsive br-12" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/pwc-home.png">
 					<h3 class="rOSOff scroll-animate fade-in">Pride World City</h3>
 					<p class="rOSOff scroll-animate fade-in">Campaigns, Digital Advertising, Social Advertising</p>
-					<a href="<?php echo site_url('/case-studies/pride-world-city'); ?>" class="white-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
+					<a href="<?php echo site_url('/case-studies/pride-world-city'); ?>" class="blue-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
 			</div>
 		</div>
 		<div class="project-card-list scroll_card justify-end col-12">
 			<div class="col-5 col-xs-12 col-md-12">
 				<div class="project-card-info">
-					<img src="<?php echo THEMEURL; ?>/app/images/goyal-properties-home.png" class="rOSOff img-responsive" data-animation="fadeInUp" data-timeout="200">
+					<img src="<?php echo THEMEURL; ?>/app/images/goyal-properties-home.png" class="rOSOff br-12 img-responsive" data-animation="fadeInUp" data-timeout="200">
 					<h3 class="rOSOff  scroll-animate fade-in">Goyal Properties</h3>
 					<p class="rOSOff  scroll-animate fade-in">Campaigns, Website, SEO</p>
-					<a href="<?php echo site_url('/case-studies/goyal-properties'); ?>" class="white-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
+					<a href="<?php echo site_url('/case-studies/goyal-properties'); ?>" class="blue-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
 			</div>
 		</div>
 		<div class="col-12 section_wrap_btm">
 			
 			<div class="col-5 col-xs-12 col-md-12  scroll-animate fade-in">
-				<p>From regional businesses seeking national recognition to enterprises gearing up for expansion, we build digital strategies that scale with your ambitions.</p>
+				<p>Each project stands as a testament to our strategic approach and measurable outcomes. We combine data-driven insights with creative execution to deliver solutions that drive growth, efficiency, and long-term value. Our work isn’t just about achieving goals — it’s about exceeding them, helping businesses strengthen their market presence and scale with confidence.</p>
 				<a href="<?php echo site_url('/our-works'); ?>" class="blue-btn">Explore More</a>
 			</div>
 		</div>
@@ -129,7 +129,7 @@ get_header();
 						<div class="container">
 							<div class="front bg-img">
 								<div class="inner">
-									<p>Digital & Social Advertising</p>
+									<p>Growth Marketing</p>
 								</div>
 							</div>
 							<div class="back">
@@ -151,7 +151,7 @@ get_header();
 						<div class="container">
 							<div class="front bg-top">
 								<div class="inner">
-									<p>New Age Organic Search</p>
+									<p>Organic Search</p>
 								</div>
 							</div>
 							<div class="back">
@@ -174,7 +174,7 @@ get_header();
 						<div class="container">
 							<div class="front bg-top bg-img bg-img-2">
 								<div class="inner">
-									<p>Social Media & Content Management</p>
+									<p>Social Media Management</p>
 								</div>
 							</div>
 							<div class="back">
@@ -194,7 +194,7 @@ get_header();
 						<div class="container">
 							<div class="front">
 								<div class="inner">
-									<p>Online Reputation Management</p>
+									<p>Reputation Management</p>
 								</div>
 							</div>
 							<div class="back">
@@ -216,7 +216,7 @@ get_header();
 						<div class="container">
 							<div class="front bg-top bg-img bg-img-3">
 								<div class="inner">
-									<p>Public Relations & Influencer</p>
+									<p>PR & Influencer</p>
 								</div>
 							</div>
 							<div class="back">
@@ -236,7 +236,7 @@ get_header();
 						<div class="container">
 							<div class="front bg-top">
 								<div class="inner">
-									<p>Website Development & UI Design</p>
+									<p>Web Development</p>
 								</div>
 							</div>
 							<div class="back">
@@ -259,7 +259,7 @@ get_header();
 						<div class="container">
 							<div class="front bg-top bg-img bg-img-4">
 								<div class="inner">
-									<p>Graphin Designs & Motion Graphics</p>
+									<p>Creative & Visual Motion</p>
 								</div>
 							</div>
 							<div class="back">
@@ -281,7 +281,7 @@ get_header();
 						<div class="container">
 							<div class="front bg-top">
 								<div class="inner">
-									<p>Brand Guidelines & Design</p>
+									<p>Brand & Design</p>
 								</div>
 							</div>
 							<div class="back">
@@ -411,7 +411,7 @@ get_header();
 				<div class="secPrefix">Our Partners</div>
 				<div class="secTitle mg-bt-20">We simplify the<br> complex </div>
 				<p class="secPara col-10 col-xs-12">guiding you to the best-fit digital solutions without the guesswork.</p>
-				<a href="javascript:;" class="blue-btn mg-tp-30 col-12">Explore More</a>
+				<!-- <a href="javascript:;" class="blue-btn mg-tp-30 col-12">Explore More</a> -->
 			</div>
 			<!-- <div class="col-1">&nbsp;</div> -->
 			<div class="gridBoxs col-7 col-md-12 scroll-animate slide-in-up">
@@ -419,37 +419,37 @@ get_header();
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-1.png" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-2.png" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-3.png" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-4.png" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-5.png" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-6.png" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-7.png" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-8.png" alt="">
-				</div>
-				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-9.png" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-12.png" alt="">
 				</div>
 				<div class="box">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-10.png" alt="">
 				</div>
 				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-8.png" alt="">
+				</div>
+				<div class="box">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-11.png" alt="">
 				</div>
 				<div class="box">
-					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-12.png" alt="">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-9.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-7.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-3.png" alt="">
+				</div>
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-5.png" alt="">
+				</div>				
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-2.png" alt="">
+				</div>				
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-4.png" alt="">
+				</div>				
+				<div class="box">
+					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-6.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -458,12 +458,12 @@ get_header();
 <section class="padding testimonials">
 		<div class="container">
 			<div class="col-12">
-				<div class="col-4  col-md-12">
+				<div class="col-5  col-md-12">
 					<div class="secPrefix scroll-animate slide-in-up delay-2">Client Testimonials</div>
 					<p class="secPara col-10 col-xs-12  scroll-animate slide-in-up delay-3">The landmark campaigns in Hall of Fame</p>
 				</div>
 				<div class="col-7  col-md-12">
-					<div class="secTitle mg-bt-20  scroll-animate slide-in-up delay-4">How pinaka digital technologies has helped brands thrive</div>
+					<div class="secTitle mg-bt-20  scroll-animate slide-in-up delay-4">How Pinaka Digital Technologies has helped brands thrive</div>
 				</div>
 			</div>
 			<div class="col-12 fade-in scroll-animate">
@@ -564,7 +564,7 @@ get_header();
 								<?php if (has_post_thumbnail()) : ?>
 									<?php the_post_thumbnail('full', array('class' => 'img-full scroll-animate clip-reveal')); ?>
 								<?php else : ?>
-									<img class="img-full scroll-animate clip-reveal" src="<?php echo THEMEURL; ?>/app/images/rectPlace.png" alt="">
+									<img class="img-full scroll-animate clip-reveal br-12" src="<?php echo THEMEURL; ?>/app/images/rectPlace.png" alt="">
 								<?php endif; ?>
 							</a>
 

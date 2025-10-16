@@ -138,7 +138,7 @@
 		</div>
 	</div> -->
 	<div class="blueCardSliderWrapepr pos-rel scroll-animate fade-in">
-		<div class="blueCardSlider">
+		<div class="blueCardSlider blueCardSlider-1">
 			<?php
 			$slides = get_field('blue_card_slider');
 			if ($slides):
@@ -154,10 +154,10 @@
 			?>
 		</div>
 		<div class="customArrow">
-			<div id="bc-l-arrow">
+			<div id="bc-l-arrow1">
 				<img src="<?php echo THEMEURL; ?>/app/images/leftArrow.svg" alt="Left">
 			</div>
-			<div id="bc-r-arrow">
+			<div id="bc-r-arrow1">
 				<img src="<?php echo THEMEURL; ?>/app/images/rightArrow.svg" alt="Right">
 			</div>
 		</div>

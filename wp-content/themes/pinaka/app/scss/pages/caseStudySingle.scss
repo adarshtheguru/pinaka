@@ -43,6 +43,9 @@
       grid-template-columns: 30% auto;
       gap: 75px;
       align-items: center;
+      @media ($max992) {
+        grid-template-columns:  auto;
+      }
     }
   }
   .blueBox {
@@ -114,6 +117,9 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 65px;
+      @media ($max992) {
+        grid-template-columns:  auto;
+      }
       .left {
         .secTitle {
           padding: 23px 0;
@@ -195,12 +201,23 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 27px;
         padding: 32px 0 70px;
+        @media ($max992) {
+        grid-template-columns:  auto;
+        padding: 32px 0 30px;
+      }
         .box{
             border: 1px solid #003E631A;
             padding: 32px 16px;
             min-height: 200px;
+             @media ($max992) {
+              min-height: auto;
+              padding: 15px 16px;
+             }
             >img{
                 padding-bottom: 24px;
+                @media ($max992) {
+                  padding-bottom: 10px;
+                }
             }
         }
     }
@@ -214,6 +231,10 @@
         padding-bottom: 50px;
         align-items: center;
         color: #fff;
+        @media ($max992) {
+          flex-direction: column;
+          padding-right: 20px;
+        }
         .secTitle{
             padding-bottom: 0;
         }
@@ -224,6 +245,9 @@
     .dataBox{
         display: flex;
         /*grid-template-columns: repeat(5, 1fr);*/
+        @media ($max992) {
+          flex-direction: column;
+        }
         .box{
             border: 1px solid #EAF7FF4D;
             padding: 12px 20px;

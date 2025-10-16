@@ -91,7 +91,7 @@ get_header();
             <div class="text-center scroll-animate fade-in">
                 <div class="secPrefix">Our Team</div>
                 <div class="secTitle">
-                    Lorem Ipsum is simply dummytext of the typesetting industry.
+                    Experts who turn ideas into impact.
                 </div>
             </div>
             <div class="ownerCards">
@@ -229,17 +229,17 @@ get_header();
  -->
     <section class="padding awards" id="awards">
         <div class="container">
-            <div class="col-6">
+            <div class="col-6 col-xs-12">
                 <img src="<?php echo THEMEURL; ?>/app/images/our-culture.png" class="img-responsive  scroll-animate clip-reveal">
             </div>
-            <div class="col-1">&nbsp;</div>
-            <div class="col-5  scroll-animate fade-in">
+            <div class="col-1 col-xs-12">&nbsp;</div>
+            <div class="col-5 col-xs-12 scroll-animate fade-in">
                 <div class="secPrefix">Awards & Recognition </div>
-                    <div class="secTitle">Lorem Ipsum is simply dummy text.</div>
+                    <div class="secTitle">Behind every great brand is a team that brings vision to life.</div>
                     <p class="para mg-tp-30">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the is simply dummy.<br><br>
-
-Sure, Our expertise lies in crafting bespoke, customized website designs that are strategically aligned with your organization’s growth objectives, particularly in the real estate sector. Whether your goal is to amplify brand recognition, generate high-quality leads, attract potential customers and partners, or recruit top talent.
+                       At the heart of our success lies a passionate team of strategists, designers, developers, and storytellers — each dedicated to crafting experiences that inspire and deliver results. We don’t just create; we collaborate, innovate, and push boundaries to help brands thrive in a competitive digital world.<br>
+Our expertise lies in building bespoke strategies and creative solutions tailored to each client’s goals. Whether it’s designing captivating websites, shaping compelling brand identities, or driving engagement through impactful marketing campaigns, our team works with precision, purpose, and passion.<br>
+Together, we turn ideas into measurable success — helping businesses amplify their presence, connect with their audiences, and achieve sustainable growth.
                     </p>
                 </div>
             </div>
@@ -248,11 +248,11 @@ Sure, Our expertise lies in crafting bespoke, customized website designs that ar
     <section class="padding bg-blue about-client" id="client">
     <div class="container">
         <div class="clientCont">
-            <div class="col-5 text-left-xs scroll-animate fade-in">
+            <div class="col-5 col-xs-12 text-left-xs scroll-animate fade-in">
                 <div class="secPrefix text-white">Our Clients</div>
                 <div class="secTitle mg-bt-20 text-white">Grow your inner circle. </div>
             </div>
-            <div class="gridBoxs col-7">
+            <div class="gridBoxs col-7 col-xs-12">
                 <div class="clientSlider4 col-4">
                     <div class="box">
                         <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client1.png" alt="">
@@ -337,32 +337,34 @@ Sure, Our expertise lies in crafting bespoke, customized website designs that ar
             <div class="panelBox">
                 <div class="box scroll-animate fade-in delay-2">
                     <div class="icon">
-                        <img src="<?php echo THEMEURL; ?>/app/images/handshake.svg" alt="">
+                        <img src="<?php echo THEMEURL; ?>/app/images/arrows.svg" alt="">
                     </div>
-                    <p class="text">Let's Build Something Extraordinary Together</p>
-                    <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg" alt=""></span> </a>
+                    <p class="text">Take the First Step Toward Better Marketing</p>
+                    <a href="<?php echo site_url('/service'); ?>" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg" alt=""></span> </a>
                 </div>
                 <div class="box scroll-animate fade-in delay-3">
                     <div class="icon">
                         <img src="<?php echo THEMEURL; ?>/app/images/stocks.svg" alt="">
                     </div>
                     <p class="text">See How We Drive Results</p>
-                    <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg" alt=""></span> </a>
+                    <a href="<?php echo site_url('/our-works'); ?>" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg" alt=""></span> </a>
                 </div>
                 <div class="box scroll-animate fade-in delay-4">
+                    <div class="icon">
+                        <img src="<?php echo THEMEURL; ?>/app/images/handshake.svg" alt="">
+                    </div>
+                    <p class="text">Let's Build Something Extraordinary Together</p>
+                    <a href="<?php echo site_url('/contact-us'); ?>" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg" alt=""></span> </a>
+                </div>
+                
+                <div class="box scroll-animate fade-in delay-5">
                     <div class="icon">
                         <img src="<?php echo THEMEURL; ?>/app/images/bulb.svg" alt="">
                     </div>
                     <p class="text">Join the Leading Edge of Marketing Innovation</p>
-                    <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg" alt=""></span> </a>
+                    <a href="<?php echo site_url('/career'); ?>" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg" alt=""></span> </a>
                 </div>
-                <div class="box scroll-animate fade-in delay-5">
-                    <div class="icon">
-                        <img src="<?php echo THEMEURL; ?>/app/images/arrows.svg" alt="">
-                    </div>
-                    <p class="text">Take the First Step Toward Better Marketing</p>
-                    <a href="javascript:;" class="anchor"><span>Start the Conversation</span><span><img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg" alt=""></span> </a>
-                </div>
+                
             </div>
         </div>
     </section>

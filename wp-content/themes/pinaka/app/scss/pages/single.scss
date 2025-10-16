@@ -132,7 +132,12 @@
       font-weight: 700;
       font-size: 52px;
       line-height: 56px;
-      color: #003E63;
+      /*color: #003E63;*/
+      background: linear-gradient(318.01deg, #ffdc61 3.07%, #ffdc61 46.32%, #ff6ef1 96.93%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
     }
     p{
       font-weight: 400;

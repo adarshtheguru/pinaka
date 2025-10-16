@@ -402,14 +402,14 @@ $('.clientSlider6').slick({
 	// 	prevArrow:'#specialize_sliderLeft',
 	// 	nextArrow:'#specialize_sliderRight',
 	// });
-	$('.blueCardSlider').slick({
+	$('.blueCardSlider-1').slick({
 		centerMode: true,
 		centerPadding: '420px', // controls half slide visibility
-		slidesToShow: 1,
+		slidesToShow: 2,
 		infinite: true,
 		arrows: true,
-		prevArrow: '#bc-l-arrow',
-		nextArrow: '#bc-r-arrow',
+		prevArrow: '#bc-l-arrow1',
+		nextArrow: '#bc-r-arrow1',
 		dots: false,
 		autoplay: true,
 		responsive: [
@@ -422,7 +422,60 @@ $('.clientSlider6').slick({
 			{
 				breakpoint: 480,
 				settings: {
-					centerPadding: '40px'
+					centerPadding: '40px',
+					slidesToShow: 1
+				}
+			}
+		]
+	});
+	$('.blueCardSlider-2').slick({
+		centerMode: true,
+		centerPadding: '420px', // controls half slide visibility
+		slidesToShow: 2,
+		infinite: true,
+		arrows: true,
+		prevArrow: '#bc-l-arrow2',
+		nextArrow: '#bc-r-arrow2',
+		dots: false,
+		autoplay: false,
+		responsive: [
+			{
+				breakpoint: 1441,
+				settings: {
+					centerPadding: '360px'
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					centerPadding: '40px',
+					slidesToShow: 1
+				}
+			}
+		]
+	});
+	$('.blueCardSlider-3').slick({
+		centerMode: true,
+		centerPadding: '420px', // controls half slide visibility
+		slidesToShow: 2,
+		infinite: true,
+		arrows: true,
+		prevArrow: '#bc-l-arrow3',
+		nextArrow: '#bc-r-arrow3',
+		dots: false,
+		autoplay: true,
+		responsive: [
+			{
+				breakpoint: 1441,
+				settings: {
+					centerPadding: '360px'
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					centerPadding: '40px',
+					slidesToShow: 1
 				}
 			}
 		]

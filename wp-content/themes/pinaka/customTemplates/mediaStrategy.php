@@ -40,7 +40,7 @@
 			<p class="partB d-flex text-justify">At Pinaka Digital Technologies, we believe performance campaigns can’t rely only on last-click conversions. With rising customer acquisition costs and changing consumer behavior, the key to success lies in a holistic full-funnel strategy. <br> <br>We structure every campaign across Awareness (Top Funnel), Consideration (Mid Funnel), and Conversion (Bottom Funnel) to ensure both short-term wins and long-term sustainable growth.</p>
 		</div>
 		<div class="mg-tp-40 text-center  scroll-animate slide-in-up delay-1">
-			<a href="javascript:;" class="themeBtn">Contact Us</a>
+			<a href="<?php echo site_url('/contact-us'); ?>" class="themeBtn">Contact Us</a>
 		</div>
 	</div>
 </section>
@@ -95,7 +95,7 @@
 			</div>
 		</div>
 		<div class="blueCardSliderWrapepr pos-rel  scroll-animate slide-in-up">
-			<div class="blueCardSlider">
+			<div class="blueCardSlider blueCardSlider-1">
 				<div><img src="<?php echo THEMEURL; ?>/app/images/top-funnel-1.webp" alt="Slide 1" /></div>
 				<div><img src="<?php echo THEMEURL; ?>/app/images/top-funnel-2.jpg" alt="Slide 2" /></div>
 				<div><img src="<?php echo THEMEURL; ?>/app/images/top-funnel-3.webp" alt="Slide 3" /></div>
@@ -103,10 +103,10 @@
 				<div><img src="<?php echo THEMEURL; ?>/app/images/top-funnel-5.jpg" alt="Slide 5" /></div>
 			</div>
 			<div class="customArrow">
-				<div id="bc-l-arrow">
+				<div id="bc-l-arrow1">
 					<img src="<?php echo THEMEURL; ?>/app/images/leftArrow.svg" alt="">
 				</div>
-				<div id="bc-r-arrow">
+				<div id="bc-r-arrow1">
 					<img src="<?php echo THEMEURL; ?>/app/images/rightArrow.svg" alt="">
 				</div>
 			</div>
@@ -164,18 +164,16 @@
 			</div>
 		</div>
 		<div class="blueCardSliderWrapepr pos-rel  scroll-animate fade-in">
-			<div class="blueCardSlider">
-				<div><img src="<?php echo THEMEURL; ?>/app/images/bc1.jpg" alt="Slide 1" /></div>
-				<div><img src="<?php echo THEMEURL; ?>/app/images/bc2.jpg" alt="Slide 2" /></div>
-				<div><img src="<?php echo THEMEURL; ?>/app/images/bc3.jpg" alt="Slide 3" /></div>
-				<div><img src="<?php echo THEMEURL; ?>/app/images/bc1.jpg" alt="Slide 4" /></div>
-				<div><img src="<?php echo THEMEURL; ?>/app/images/bc2.jpg" alt="Slide 5" /></div>
+			<div class="blueCardSlider blueCardSlider-2">
+				<div><iframe width="315" height="450" src="https://www.youtube.com/embed/FQaM-qSPyrs" title="Aeterna reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+				<div><iframe width="315" height="450" src="https://www.youtube.com/embed/y8ScPuco2q0" title="Aeterna reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+				<div><iframe width="315" height="450" src="https://www.youtube.com/embed/e5MtjmE-y8M" title="Aeterna reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 			</div>
 			<div class="customArrow">
-				<div id="bc-l-arrow">
+				<div id="bc-l-arrow2">
 					<img src="<?php echo THEMEURL; ?>/app/images/leftVector.svg" alt="">
 				</div>
-				<div id="bc-r-arrow">
+				<div id="bc-r-arrow2">
 					<img src="<?php echo THEMEURL; ?>/app/images/rightVector.svg" alt="">
 				</div>
 			</div>
@@ -233,7 +231,7 @@
 			</div>
 		</div>
 		<div class="blueCardSliderWrapepr pos-rel  scroll-animate fade-in">
-			<div class="blueCardSlider">
+			<div class="blueCardSlider blueCardSlider-3">
 				<div><img src="<?php echo THEMEURL; ?>/app/images/bottom-funnel-1.webp" alt="Slide 1" /></div>
 				<div><img src="<?php echo THEMEURL; ?>/app/images/bottom-funnel-2.webp" alt="Slide 2" /></div>
 				<div><img src="<?php echo THEMEURL; ?>/app/images/bottom-funnel-3.jpg" alt="Slide 3" /></div>
@@ -241,10 +239,10 @@
 				<div><img src="<?php echo THEMEURL; ?>/app/images/bottom-funnel-5.jpg" alt="Slide 5" /></div>
 			</div>
 			<div class="customArrow">
-				<div id="bc-l-arrow">
+				<div id="bc-l-arrow3">
 					<img src="<?php echo THEMEURL; ?>/app/images/leftArrow.svg" alt="">
 				</div>
-				<div id="bc-r-arrow">
+				<div id="bc-r-arrow3">
 					<img src="<?php echo THEMEURL; ?>/app/images/rightArrow.svg" alt="">
 				</div>
 			</div>
