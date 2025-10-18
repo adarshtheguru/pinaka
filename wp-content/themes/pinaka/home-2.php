@@ -327,77 +327,77 @@ get_header();
 			<div class="gridBoxs col-7 col-md-12">
 				<div class="clientSlider col-4">
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client1.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client1.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client2.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client2.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client3.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client3.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client4.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client4.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client5.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client5.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client6.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client6.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client7.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client7.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client8.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client8.png" alt="">
 					</div>
 				</div>
 				<div class="clientSlider2 col-4">
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client9.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client9.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client10.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client10.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client11.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client11.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client12.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client12.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client13.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client13.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client14.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client14.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client15.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client15.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client16.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client16.png" alt="">
 					</div>
 				</div>
 				<div class="clientSlider3 col-4">
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client17.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client17.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client18.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client18.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client19.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client19.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client20.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client20.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client21.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client21.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client22.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client22.png" alt="">
 					</div>
 					<div class="box">
-						<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client23.png" alt="">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client23.png" alt="">
 					</div>
 				</div>
 			</div>
@@ -415,40 +415,40 @@ get_header();
 			</div>
 			<!-- <div class="col-1">&nbsp;</div> -->
 			<div class="gridBoxs col-7 col-md-12 scroll-animate slide-in-up">
-				<div class="box">
+				<div class="box zoomCard">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-1.png" alt="">
 				</div>
-				<div class="box">
+				<div class="box zoomCard">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-12.png" alt="">
 				</div>
-				<div class="box">
+				<div class="box zoomCard">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-10.png" alt="">
 				</div>
-				<div class="box">
+				<div class="box zoomCard">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-8.png" alt="">
 				</div>
-				<div class="box">
+				<div class="box zoomCard">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-11.png" alt="">
 				</div>
-				<div class="box">
+				<div class="box zoomCard">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-9.png" alt="">
 				</div>
-				<div class="box">
+				<div class="box zoomCard">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-7.png" alt="">
 				</div>
-				<div class="box">
+				<div class="box zoomCard">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-3.png" alt="">
 				</div>
-				<div class="box">
+				<div class="box zoomCard">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-5.png" alt="">
 				</div>				
-				<div class="box">
+				<div class="box zoomCard">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-2.png" alt="">
 				</div>				
-				<div class="box">
+				<div class="box zoomCard">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-4.png" alt="">
 				</div>				
-				<div class="box">
+				<div class="box zoomCard">
 					<img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/partner-logo-6.png" alt="">
 				</div>
 			</div>

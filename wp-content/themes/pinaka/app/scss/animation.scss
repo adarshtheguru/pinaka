@@ -96,3 +96,31 @@
 .scroll-animate.delay-10 {
     transition-delay: 2.2s;
 }
+
+
+img, .zoomCard {
+  transition: transform 0.3s ease, filter 0.3s ease;
+  overflow: hidden;
+  display: inline-block; /* or block depending on your layout */
+  &:hover {
+        transform: scale(1.05);
+        filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.05));
+    }
+}
+
+.btn-3d, .themeBtn, .blankBtn {
+  transition: transform 0.25s ease, filter 0.25s ease, box-shadow 0.25s ease;
+//   filter: drop-shadow(0 4px 0 rgba(0, 0, 0, 0.25));
+
+  &:hover {
+    transform: translateX(-4px) translateY(-4px);
+    // filter: drop-shadow(0 8px 4px rgba(0, 0, 0, 0.15));
+    box-shadow: 5px 5px rgba(22, 22, 22, 0.95);
+  }
+
+  &:active {
+    transform: translateX(0) translateY(0);
+    box-shadow: 5px 5px rgba(22, 22, 22, 0.95);
+    // filter: drop-shadow(0 4px 0 rgba(0, 0, 0, 0.15));
+  }
+}
