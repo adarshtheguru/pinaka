@@ -33,7 +33,7 @@
 		</div>
 		<div class="video mg-tp-40">
 			<video class="hero-bg" width="100%" autoplay muted loop controls playsinline>
-                    <source src="https://floracity.co.in/pinaka/wp-content/uploads/2025/08/watermarked_preview-2.mp4" type="video/mp4">
+                    <source src="<?php echo THEMEURL; ?>/app/images/media-strategy-page.mp4" type="video/mp4">
             </video>
 		</div>
 		<div class="mg-tp-40  scroll-animate slide-in-up delay-1">
