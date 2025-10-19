@@ -37,7 +37,8 @@ get_header(); ?>
                                 <div class="blog-info scroll-animate fade-in delay-2">
                                     <p class="abstract"><?php echo mb_strimwidth(get_the_title(), 0, 90, '...'); ?></p>
                                     <div class="dates">
-                                        <?php echo get_the_date('M j, Y'); ?> • <?php echo estimated_reading_time(get_the_content()); ?>
+                                        <?php echo get_the_date('M j, Y'); ?> 
+                                        <!-- • <?php echo estimated_reading_time(get_the_content()); ?> -->
                                     </div>
                                     <p class="small-desc"><?php echo mb_strimwidth(get_the_excerpt(), 0, 100, '...'); ?></p>
                                     <a href="<?php the_permalink(); ?>" class="read-more">

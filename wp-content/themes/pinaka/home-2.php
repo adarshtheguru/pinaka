@@ -571,7 +571,7 @@ get_header();
 							<div class="info">
 								<!-- <span class="text-white"><?php echo get_post_type_object(get_post_type())->labels->singular_name; ?> • </span> -->
 								<span class="text-white mg-tp-10"><?php echo get_the_date('M d Y'); ?> • </span>
-								<span class="text-white"><?php echo estimated_reading_time(get_the_content()); ?></span>
+								<!-- <span class="text-white"><?php echo estimated_reading_time(get_the_content()); ?></span> -->
 							</div>
 
 							<p class="title text-white"> <?php echo mb_strimwidth( get_the_title(), 0, 60, '...' ); ?></p>
