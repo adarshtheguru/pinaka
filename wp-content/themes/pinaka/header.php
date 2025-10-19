@@ -56,11 +56,6 @@ if ($menu_items) {
 								data-event-name="Logo"></a>
 					</div>
 					<div class="col-10 col-xs-3 pull-right">
-						<!-- <div class="pull-right menu-icon-mobile hidden-xs">
-							<span class="bar1"></span>
-							<span class="bar2"></span>
-							<span class="bar3"></span>
-						</div> -->
 						<div class="hamburger pull-right">
 							<span class="bar1"></span>
 							<span class="bar2"></span>
@@ -89,28 +84,6 @@ if ($menu_items) {
 				<div class="navBox">
 					<div class="linkBox">
 						<ul class="hamMenuA">
-							<!-- <li>
-								<a href="javascript:;">Home</a>
-							</li>
-							<li class="hasSubMenu">
-								<a href="javascript:;">Services</a>
-								<ul class="hamMenuB">
-									<li>
-										<a href="javascript:;">Service A</a>
-									</li>
-								</ul>
-							</li>
-							<li class="hasSubMenu">
-								<a href="javascript:;">About Us</a>
-								<ul class="hamMenuB">
-									<li>
-										<a href="javascript:;">About Us 1</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="javascript:;">Case Study</a>
-							</li> -->
 							<ul class="hamMenuA">
 							<?php foreach ($menu_tree as $item): ?>
 								<li class="<?php echo !empty($item['children']) ? 'hasSubMenu' : ''; ?>">
@@ -260,39 +233,6 @@ Digital Social Marketing</a>
 								</div>
 							</div>
 						</div>
-						<!-- <div class="layer layerA">
-                            <div class="title">Address</div>
-                            <p class="address">
-                                202, Vishnu Darshan Apartments,
-                                Fergusson College Rd, Rge Path, Model Colony,
-                                Shivajinagar, Pune, Maharashtra 411005
-                            </p>
-                            <a href="javascript:;" class="goldenLink">get Directions</a> &nbsp;<img src="<?php echo THEMEURL; ?>/app/images/goldenArrow.svg" alt="">
-                        </div>
-                        <div class="layer layerB">
-                            <div class="title">Phone</div>
-                            <div class="numbers">
-                                <div><img width="20" src="<?php echo THEMEURL; ?>/app/images/indiaFlag.png" alt="" class="flag">&nbsp;&nbsp;<a href="tel:+917498044954" class="phone">91-7498044954</a></div>
-                            </div>
-                            <div class="numbers">
-                                <div><img width="20" src="<?php echo THEMEURL; ?>/app/images/usaFlag.png" alt="" class="flag">&nbsp;&nbsp;<a href="tel:+13202896184" class="phone">1-3202896184</a></div>
-                            </div>
-                        </div>
-                        <div class="layer layerC">
-                            <div class="title">Email</div>
-                            <a href="mailto:testtt" class="address">
-                                sales@pinaka.digital
-                            </a>
-                        </div>
-                        <div class="layer layerD">
-                            <div class="title">Social with us</div>
-                            <div class="icons">
-                                <a href="javascript:;"> <img src="<?php echo THEMEURL; ?>/app/images/fb-b.svg" alt=""></a>
-                                <a href="javascript:;"> <img src="<?php echo THEMEURL; ?>/app/images/linkedin-b.svg" alt=""></a>
-                                <a href="javascript:;"> <img src="<?php echo THEMEURL; ?>/app/images/insta-b.svg" alt=""></a>
-                                <a href="javascript:;"> <img src="<?php echo THEMEURL; ?>/app/images/twitter-b.svg" alt=""></a>
-                            </div>
-                        </div> -->
 					</div>
 				</div>
 			</div>

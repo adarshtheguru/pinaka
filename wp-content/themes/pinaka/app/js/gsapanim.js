@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
-    const lenis = new Lenis({
+    if (window.innerWidth > 992){
+      const lenis = new Lenis({
     	duration: 1,
     	easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // https://www.desmos.com/calculator/brs54l4xou
     	direction: 'vertical', // vertical, horizontal
@@ -22,6 +23,7 @@ $(document).ready(function(){
     	// ScrollTrigger.update();
     	requestAnimationFrame(raf);
       }
+    }
 
       requestAnimationFrame(raf);
     gsap.registerPlugin(ScrollTrigger);
