@@ -89,7 +89,7 @@ get_header();
 		<div class="col-12 section_wrap_btm">
 			
 			<div class="col-5 col-xs-12 col-md-12  scroll-animate fade-in">
-				<p>Each project stands as a testament to our strategic approach and measurable outcomes. We combine data-driven insights with creative execution to deliver solutions that drive growth, efficiency, and long-term value. Our work isn’t just about achieving goals — it’s about exceeding them, helping businesses strengthen their market presence and scale with confidence.</p>
+				<p>Each project reflects our commitment to strategy, precision, and measurable growth. We deliver solutions that strengthen brands, drive performance, and create lasting business impact.</p>
 				<a href="<?php echo site_url('/our-works'); ?>" class="blue-btn">Explore More</a>
 			</div>
 		</div>
