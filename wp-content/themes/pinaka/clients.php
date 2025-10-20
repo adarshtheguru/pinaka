@@ -13,23 +13,53 @@ get_header();
             <div class="container">
                 <!-- <div class="secPrefix">Clients</div> -->
                 <div class="caseBox">
-                    <!-- <div class="partA">
-                        <div class="secTitle">Helping Brands Dream Big and Deliver Bigger</div>
-                        <p class="para">
-                            Empowering ambitious brands with marketing strategies that drive growth, visibility, and long-term success<br>
-                            <a href="javascript:;" class="inner-link"><span>See Our Success Stories <img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg"><span></a>
-                        </p>
-                    </div> -->
+                    
                     <div class="partB">
-                        <!-- <div class="head">
-                            <div class="title">Our Clients</div>
-                            <div class="dropdown">
-                                <select name="chooseIndustry" id="chooseIndustry">
-                                    <option value="">Choose industry</option>
-                                </select>
-                            </div>
-                        </div> -->
-                        <div class="gridBox  scroll-animate clip-reveal delay-2">
+                        <?php if ( have_rows('logo_categories') ) : ?>
+<section class="logo-section">
+  <div class="container">
+    
+    <!-- Category Tabs -->
+    <ul class="logo-tabs">
+      <?php 
+      $tab_index = 0;
+      while ( have_rows('logo_categories') ) : the_row(); 
+        $category_name = get_sub_field('category_name');
+      ?>
+        <li class="logo-tab <?php echo $tab_index === 0 ? 'active' : ''; ?>" data-tab="tab-<?php echo $tab_index; ?>">
+          <?php echo esc_html($category_name); ?>
+        </li>
+      <?php $tab_index++; endwhile; ?>
+    </ul>
+
+    <!-- Logo Listings -->
+    <div class="logo-tab-content-wrapper">
+      <?php 
+      $tab_index = 0;
+      while ( have_rows('logo_categories') ) : the_row(); ?>
+        <div class="logo-tab-content <?php echo $tab_index === 0 ? 'active' : ''; ?>" id="tab-<?php echo $tab_index; ?>">
+          <div class="logo-grid">
+            <?php if ( have_rows('logos') ) : ?>
+              <?php while ( have_rows('logos') ) : the_row(); 
+                $image = get_sub_field('logo_image');
+              ?>
+                <div class="logo-item">
+                    <?php if ( $image ) : ?>
+                      <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($name ?: $image['alt']); ?>" />
+                    <?php endif; ?>
+                </div>
+              <?php endwhile; ?>
+            <?php endif; ?>
+          </div>
+        </div>
+      <?php $tab_index++; endwhile; ?>
+    </div>
+
+  </div>
+</section>
+<?php endif; ?>
+
+                        <!-- <div class="gridBox  scroll-animate clip-reveal delay-2">
                             <div class="box">
                                 <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/shapoorji.png" alt="">
                             </div>
@@ -78,7 +108,7 @@ get_header();
                             <div class="box">
                                 <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client16.png" alt="">
                             </div>
-                        </div>
+                        </div> -->
                         <!-- <div class="text-center">
                             <a href="javascript:;" class="blankBtn gridLoadBtn">LOAD MORE</a>
                         </div> -->

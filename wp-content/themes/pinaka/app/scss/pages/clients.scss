@@ -205,3 +205,49 @@
         }
     }
 }
+
+.logo-tabs {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.logo-tab {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.logo-tab.active {
+  background: #000;
+  color: #fff;
+}
+
+.logo-tab-content {
+  display: none;
+}
+
+.logo-tab-content.active {
+  display: block;
+}
+
+.logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.logo-item img {
+  max-width: 120px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.logo-item img:hover {
+  transform: scale(1.05);
+}
