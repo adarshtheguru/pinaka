@@ -77,13 +77,13 @@ get_header();
 				
 				<h3>Understanding Delays and Additional Costs:</h3>
 				<ul>
-					<li><b>Unavoidable Delays:</b><p> If Pinaka is unable to deliver agreed-upon services due to circumstances beyond our control (“Force Majeure”), the original deadlines will be extended accordingly. Examples of Force Majeure include delays or subpar work from the client, natural disasters, changes in laws, or labor disruptions (lockouts).</p></li>
-					<li><b>Client Responsibility</b><p>: Any additional expenses Pinaka incurs due to these unforeseen events will be the client’s responsibility.</p></li>
+					<li><b>Unavoidable Delays:</b><span> If Pinaka is unable to deliver agreed-upon services due to circumstances beyond our control (“Force Majeure”), the original deadlines will be extended accordingly. Examples of Force Majeure include delays or subpar work from the client, natural disasters, changes in laws, or labor disruptions (lockouts).</span></li>
+					<li><b>Client Responsibility:</b><span> Any additional expenses Pinaka incurs due to these unforeseen events will be the client’s responsibility.</span></li>
 					<li><b>Changes in Project Scope:</b>
 						<ul>
-							<li><b>Quality &amp; Quantity</b><p>: Any modifications to the project scope, including alterations to the client’s initial requirements or approved specifications (Change Requests), must be confirmed in writing.</p></li>
-							<li><b>Adjustments &amp; Compensation</b><p>: Changes in scope will necessitate adjustments to deadlines and compensation.</p></li>
-							<li><b>Additional Services</b><p>: Unless otherwise agreed upon, Pinaka will only provide additional services upon receiving advanced written confirmation of payment.</p></li>
+							<li><b>Quality &amp; Quantity</b><span>: Any modifications to the project scope, including alterations to the client’s initial requirements or approved specifications (Change Requests), must be confirmed in writing.</span></li>
+							<li><b>Adjustments &amp; Compensation</b><span>: Changes in scope will necessitate adjustments to deadlines and compensation.</span></li>
+							<li><b>Additional Services</b><span>: Unless otherwise agreed upon, Pinaka will only provide additional services upon receiving advanced written confirmation of payment.</span></li>
 						</ul>
 					</li>
 				</ul>
