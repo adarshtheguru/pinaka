@@ -53,20 +53,20 @@ get_header();
 				<h2>Settlement:</h2>
 				<h3>Governing Law and Jurisdiction:</h3>
 				<p>These Terms of Use are governed by and construed in accordance with the laws of India. You agree that any legal action or proceeding arising out of or relating to these Terms of Use shall be brought exclusively in the courts located in Pune, Maharashtra, India.</p>
-				<h3>Severability</h3><p>:</p>
+				<h3>Severability:</h3>
 				<p>If any provision of these Terms of Use is held to be invalid, unlawful, or unenforceable, such provision shall be struck and the remaining provisions shall remain in full force and effect.</p>
 				<h2>Terms of Service: Pinaka Digital Marketing Services</h2>
 				<h3>Validity:</h3>
 				<p>These Terms of Service (“TOS”) govern the consulting, creative, and product services provided by Pinaka (“we” or “us”) in the field of advertising and digital marketing (“Services”) to you, the client (“you”).</p>
-				<b>Application</b><p>:</p>
+				<b>Application:</b>
 				<p>These TOS apply to all current and future Services provided by Pinaka to you, regardless of whether they are explicitly referenced in a separate contract (“Contract”). Any terms and conditions you provide will only be valid if Pinaka explicitly agrees to them in writing.</p>
 				<h3>Collaboration for Project Success Clear Communication and Responsibilities:</h3>
 				<p>To ensure a smooth project flow, both Pinaka and the Client agree to the following collaborative efforts:</p>
 				<ul>
-					<li><b>Client-Provided Materials</b><p>: The Client will promptly deliver all documents, information, and data necessary for Pinaka to execute the agreed-upon services in the format requested by Pinaka.</p></li>
-					<li><b>Design Services</b><p>: If Pinaka is creating or adapting designs for the Client, the Client will provide a detailed requirements document outlining their specific needs. This document will become binding upon Pinaka’s written approval. Pinaka can offer assistance in developing this document for an additional fee.</p></li>
-					<li><b>Client Cooperation</b><p>: The Client will actively support Pinaka’s delivery of services and take all reasonable steps to achieve project goals, even if those steps fall outside of Pinaka’s direct obligations. Additionally, the Client will maintain backup copies of all data provided to Pinaka to ensure data recovery in case of loss or damage. All support, services, and products provided by the Client will be free of charge to Pinaka.</p></li>
-					<li><b>Points of Contact:</b><p> Each party will designate a qualified point of contact (POC) with the authority to provide essential information for project execution and to make or initiate necessary decisions. This ensures clear communication and efficient problem-solving throughout the project.</p></li>
+					<li><b>Client-Provided Materials</b><span>: The Client will promptly deliver all documents, information, and data necessary for Pinaka to execute the agreed-upon services in the format requested by Pinaka.</span></li>
+					<li><b>Design Services</b><span>: If Pinaka is creating or adapting designs for the Client, the Client will provide a detailed requirements document outlining their specific needs. This document will become binding upon Pinaka’s written approval. Pinaka can offer assistance in developing this document for an additional fee.</span></li>
+					<li><b>Client Cooperation</b><span>: The Client will actively support Pinaka’s delivery of services and take all reasonable steps to achieve project goals, even if those steps fall outside of Pinaka’s direct obligations. Additionally, the Client will maintain backup copies of all data provided to Pinaka to ensure data recovery in case of loss or damage. All support, services, and products provided by the Client will be free of charge to Pinaka.</span></li>
+					<li><b>Points of Contact:</b><span> Each party will designate a qualified point of contact (POC) with the authority to provide essential information for project execution and to make or initiate necessary decisions. This ensures clear communication and efficient problem-solving throughout the project.</span></li>
 				</ul>
 				<p>By working together in this manner, Pinaka and the Client can achieve optimal project results.</p>
 				<ul>
