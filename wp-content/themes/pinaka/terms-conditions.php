@@ -9,7 +9,7 @@ get_header();
 	<section class="padding aboutUsOverview pos-rel" id="aboutUsOverview">
 		<div class="container">
 			<div class="secPrefix scroll-animate fade-in">Terms & Conditions</div>
-			<div class="scroll-animate fade-in">
+			<div class="">
 				<h2>Pinaka Terms of Use </h2>
 				<p>This user agreement is an electronic record created in accordance with the Information Technology Act, 2000 (the “Act”) and any applicable rules thereunder, including amendments related to electronic records as defined in various statutes by the Information Technology (Amendment) Act, 2008. This agreement is generated electronically and does not require physical signatures.</p>
 				<p>Please take the time to carefully review these terms of use. By accessing and using the Pinaka website, you are agreeing to be bound by these terms. We recommend reviewing these terms periodically as your continued use of the website after any changes are posted will be considered your acceptance of those changes. Pinaka reserves the right to modify these terms of use at any time, and any such modifications will be posted on this page.</p>
