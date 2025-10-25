@@ -50,6 +50,95 @@ get_header();
 				<p>All content on the Pinaka website, including text, graphics, logos, icons, images, audio clips, downloads, data compilations, and software, is the exclusive property of Pinaka and is protected by Indian copyright law. This includes the way all this content is arranged on our website.</p>
 				<p>Using any of Pinaka’s website content without permission is strictly prohibited.</p>
 				<p>If you have any questions or comments regarding our copyright statement, please don’t hesitate to contact us.</p>
+				<h2>Settlement:</h2>
+				<h3>Governing Law and Jurisdiction:</h3>
+				<p>These Terms of Use are governed by and construed in accordance with the laws of India. You agree that any legal action or proceeding arising out of or relating to these Terms of Use shall be brought exclusively in the courts located in Pune, Maharashtra, India.</p>
+				<h3>Severability</h3><p>:</p>
+				<p>If any provision of these Terms of Use is held to be invalid, unlawful, or unenforceable, such provision shall be struck and the remaining provisions shall remain in full force and effect.</p>
+				<h2>Terms of Service: Pinaka Digital Marketing Services</h2>
+				<h3>Validity:</h3>
+				<p>These Terms of Service (“TOS”) govern the consulting, creative, and product services provided by Pinaka (“we” or “us”) in the field of advertising and digital marketing (“Services”) to you, the client (“you”).</p>
+				<b>Application</b><p>:</p>
+				<p>These TOS apply to all current and future Services provided by Pinaka to you, regardless of whether they are explicitly referenced in a separate contract (“Contract”). Any terms and conditions you provide will only be valid if Pinaka explicitly agrees to them in writing.</p>
+				<h3>Collaboration for Project Success Clear Communication and Responsibilities:</h3>
+				<p>To ensure a smooth project flow, both Pinaka and the Client agree to the following collaborative efforts:</p>
+				<ul>
+					<li><b>Client-Provided Materials</b><p>: The Client will promptly deliver all documents, information, and data necessary for Pinaka to execute the agreed-upon services in the format requested by Pinaka.</p></li>
+					<li><b>Design Services</b><p>: If Pinaka is creating or adapting designs for the Client, the Client will provide a detailed requirements document outlining their specific needs. This document will become binding upon Pinaka’s written approval. Pinaka can offer assistance in developing this document for an additional fee.</p></li>
+					<li><b>Client Cooperation</b><p>: The Client will actively support Pinaka’s delivery of services and take all reasonable steps to achieve project goals, even if those steps fall outside of Pinaka’s direct obligations. Additionally, the Client will maintain backup copies of all data provided to Pinaka to ensure data recovery in case of loss or damage. All support, services, and products provided by the Client will be free of charge to Pinaka.</p></li>
+					<li><b>Points of Contact:</b><p> Each party will designate a qualified point of contact (POC) with the authority to provide essential information for project execution and to make or initiate necessary decisions. This ensures clear communication and efficient problem-solving throughout the project.</p></li>
+				</ul>
+				<p>By working together in this manner, Pinaka and the Client can achieve optimal project results.</p>
+				<ul>
+					<li><b>Project Scope and Delivery</b></li>
+				</ul>
+				<p>Pinaka will outline the project timeline and specific services included in a formal contract.  We typically deliver our services from our own offices. However, if necessary, Pinaka can perform certain activities on-site at the client’s location. In such cases, the client is responsible for providing a well-equipped workspace for our team to ensure efficient project execution.</p>
+				<h2>Changes in Deadlines and Scope of Services</h2>
+				
+				<h3>Understanding Delays and Additional Costs:</h3>
+				<ul>
+					<li><b>Unavoidable Delays:</b><p> If Pinaka is unable to deliver agreed-upon services due to circumstances beyond our control (“Force Majeure”), the original deadlines will be extended accordingly. Examples of Force Majeure include delays or subpar work from the client, natural disasters, changes in laws, or labor disruptions (lockouts).</p></li>
+					<li><b>Client Responsibility</b><p>: Any additional expenses Pinaka incurs due to these unforeseen events will be the client’s responsibility.</p></li>
+					<li><b>Changes in Project Scope:</b>
+						<ul>
+							<li><b>Quality &amp; Quantity</b><p>: Any modifications to the project scope, including alterations to the client’s initial requirements or approved specifications (Change Requests), must be confirmed in writing.</p></li>
+							<li><b>Adjustments &amp; Compensation</b><p>: Changes in scope will necessitate adjustments to deadlines and compensation.</p></li>
+							<li><b>Additional Services</b><p>: Unless otherwise agreed upon, Pinaka will only provide additional services upon receiving advanced written confirmation of payment.</p></li>
+						</ul>
+					</li>
+				</ul>
+				
+				<h2>Pinaka Remuneration and Ownership</h2>
+				<h3>Payment Terms:</h3>
+				<ul>
+					<li><p>Unless otherwise specified in the contract, Pinaka will calculate fees based on project rates or hourly rates as outlined in the agreement. Payments are due at the end of each month following Pinaka’s submission of service reports.</p></li>
+					<li><p>For fixed-price projects, Pinaka reserves the right to request a 50% upfront payment. Payment milestones linked to service delivery progress can be established within the contract. Regardless of the pricing model, all Pinaka rates are exclusive of GST and any other applicable taxes, which will be charged separately.</p></li>
+				</ul>
+				<ul>
+					<li><p>Payments must be made in full within 15 days of the invoice date. If a client’s payment is overdue by more than 15 days, Pinaka has the right to:</p></li>
+				</ul>
+				<p>Immediately cease all service delivery without prior notification.</p>
+				<p>Demand immediate payment for all services already rendered, regardless of any previously agreed-upon payment schedules.</p>
+				<h3>Travel Expenses:</h3>
+				<p>Travel time for Pinaka employees is considered working time. Additionally, clients are responsible for reimbursing travel costs at actual rates incurred. For car travel, the standard mileage reimbursement rate (based on government taxi rates or established private cab/taxi services) will be applied. Other incidental expenses, such as phone charges, will be billed as incurred.</p>
+				<h3>Right to Offset and Ownership:</h3>
+				<p>Clients are not entitled to withhold or offset payments due to warranty claims or other disputes unless such claims are approved in writing by Pinaka or established by a court order. Pinaka retains ownership of all delivered services and products until full payment is received, including interest and any applicable fees. Clients cannot utilize Pinaka’s deliverables until all outstanding balances are settled.</p>
+				<h3>Taxes and Duties:</h3>
+				<p>The client is responsible for all fees, taxes, and duties arising from this contract, including legal transaction fees, resource purchase fees, or withholding taxes. If Pinaka incurs any such charges, the client agrees to fully indemnify Pinaka for these expenses.</p>
+				<h2>Pinaka’s Rights and Confidentiality</h2>
+				<h2>Ownership of Results:</h2>
+				<p>Unless explicitly agreed upon otherwise, the Client possesses no rights to the deliverables produced by Pinaka beyond those specifically outlined in this Section. This includes, but is not limited to, refraining from modifying, creating derivative works from, distributing, publicly performing, publicly displaying, or sublicensing the results.</p>
+				<h3>Third-Party Services:</h3>
+				<p>In situations where Pinaka’s service delivery involves the inclusion of services provided by third parties, the specific terms and conditions (particularly licensing terms) of the respective vendor will take precedence.</p>
+				<h3>Confidentiality:</h3>
+				<p>Both Pinaka and the Client acknowledge the obligation to maintain confidentiality regarding any information, documents, or data disclosed during the course of the project and marked as “Confidential.” This obligation does not apply to information or data that is already considered public knowledge (general state of the art) at the time of disclosure or becomes public knowledge through no fault of the receiving party. The confidentiality obligation remains in effect even after the termination of the agreement.</p>
+				<h3>Pinaka Acceptance and Warranty</h3>
+				</ul>
+				<ul>
+					<li><p>Creative Services (hereafter “Deliverables”) created or adapted by Pinaka will undergo an immediate client approval process upon completion. If any flaws are identified during this review, Pinaka will rectify them at no additional cost within a reasonable timeframe. The revised Deliverables will then be resubmitted for approval. Should the client fail to initiate the approval process for any reason other than a significant issue that severely hinders the usability of the Deliverables, acceptance will be deemed automatic four weeks after initial delivery.</p></li>
+					<li><p>Changes requested within the service period, following acceptance of the Deliverables, will be implemented by Pinaka at no additional cost within a reasonable timeframe. The client is responsible for providing all necessary documents, information, and data for these changes upon Pinaka’s request.</p></li>
+					<li><p>Pinaka warrants the creative scope originally outlined by the client. Any extensions to the creative scope will be covered under an additional warranty agreement. This warranty excludes Deliverables modified by the client without prior Pinaka consent, even if the issue arises in an unmodified section of the Deliverable.</p></li>
+					<li><p>The warranty provisions outlined in Section 7 apply equally to services and deliverables provided by Pinaka. However, in cases where services involve third-party vendors, the specific warranty terms and conditions of those vendors will take precedence.</p></li>
+					<li><p>The client acknowledges that any warranty or guarantee claims beyond those explicitly stated in these terms of service are excluded, regardless of the legal basis on which they are presented.</p></li>
+				</ul>
+				<h3>Pinaka’s Liability Limitations</h3>
+				</ul>
+				<ul>
+					<li><p>To the fullest extent permitted by law, Pinaka will not be held responsible for any indirect damages, loss of information or data, business interruptions, lost profits, or other consequential damages.</p></li>
+					<li><p>In addition to those expressly stated in these Terms of Service, any warranties or damage claims from the client beyond what’s explicitly mentioned, regardless of legal grounds (including but not limited to consulting advice, deliverables provided, technology products, or creative service implementation), are excluded.</p></li>
+					<li><p>Exceptions exist for mandatory legal liability, such as situations where the client can demonstrably prove intentional harm or gross negligence on Pinaka’s part.</p></li>
+				</ul>
+				<h3>Place of legal jurisdiction and arbitration</h3>
+				<ul>
+					<li><p>All Disputes Arising Out From a Contract, Including or Related to It, Including Those Arising From or Concerning Its Interpretation, Invalidity, Performance or Termination, As Well As the Disputes for Filling Gaps in a Contract or Its Adaptation to Newly Established Facts, Shall be Settled By an Amicable Effort of Both Parties. If an Attempt at Settlement Has Failed, the Dispute Shall be Finally Referred for Resolution to Court of Arbitration in Compliance with The Indian Arbitration and Conciliation Act 2019.</p></li>
+					<li><p>The Place of Arbitration Shall be Pune, Maharashtra, India. The Procedural Law of This Seat Shall Apply Where the Rules Are Silent. The Arbitral Award Shall be Substantiated in Writing and Arbitration Procedure Shall be Conducted in the English Language.</p></li>
+				</ul>
+				<h3>Terms of Contract</h3>
+				<ul>
+					<li><p>Pinaka will provide consulting and creative services for the duration of the project as agreed upon with the client, or for the term specified in the contract.</p></li>
+					<li><p>For ongoing services outlined in this contract, either Pinaka or the client may terminate the agreement with written notification sent via registered mail providing one month’s notice.</p></li>
+					<li><p>In the event of termination, any services not yet accepted by the client will be considered completed and compensated for according to the terms and conditions established within this contract.</p></li>
+				</ul>
 			</div>
 		</div>
 	</section>

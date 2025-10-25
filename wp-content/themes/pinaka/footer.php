@@ -100,7 +100,7 @@
 					© 2025 Pinaka Digital Technologies
 				</div>
 				<div class="pagesInfo">
-					<a href="<?php echo site_url('privacy-policy'); ?>">Privacy Policy</a> | <a href="javascript:;">Terms & Conditions</a> | <a href="javascript:;">Refund Policy</a>
+					<a href="<?php echo site_url('privacy-policy'); ?>">Privacy Policy</a> | <a href="<?php echo site_url('terms-conditions'); ?>">Terms & Conditions</a> | <a href="javascript:;">Refund Policy</a>
 				</div>
 			</div>
 		</div>
