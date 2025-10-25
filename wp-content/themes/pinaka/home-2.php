@@ -90,7 +90,7 @@ get_header();
 			
 			<div class="col-5 col-xs-12 col-md-12  scroll-animate fade-in">
 				<p>Each project reflects our commitment to strategy, precision, and measurable growth. We deliver solutions that strengthen brands, drive performance, and create lasting business impact.</p>
-				<a href="<?php echo site_url('/our-works'); ?>" class="blue-btn">Explore More</a>
+				<a href="<?php echo site_url('/our-works'); ?>" class="blue-btn rOSOff">Explore More</a>
 			</div>
 		</div>
 	</div>
@@ -120,7 +120,7 @@ get_header();
 										<li>Cross-Channel Coordination</li>
 										<li>Performance Reporting & Analysis</li>
 									</ul>
-									<a href="<?php echo site_url('/services/media-strategy/'); ?>" class="readmore">Read More</a>
+									<a href="<?php echo site_url('/services/media-strategy/'); ?>" class="readmore"><span>Read More</span></a>
 								</div>
 							</div>
 						</div>
@@ -322,7 +322,7 @@ get_header();
 				<div class="secPrefix">Our Clients</div>
 				<div class="secTitle mg-bt-20">Why customers<br> love partnering<br> with us? </div>
 				<p class="secPara col-10 col-xs-12">Because we pair smart strategy with relentless execution.</p>
-				<a href="<?php echo site_url('/clients'); ?>" class="blue-btn mg-tp-30 col-12">Explore More</a>
+				<a href="<?php echo site_url('/clients'); ?>" class="blue-btn mg-tp-30 col-12 rOSOff">Explore More</a>
 			</div>
 			<div class="gridBoxs col-7 col-md-12">
 				<div class="clientSlider col-4">
@@ -545,7 +545,7 @@ get_header();
 				<p class="secPara text-white">
 					we keep learning, so you keep leading.
 				</p>
-				<a href="<?php echo site_url('/insights'); ?>" class="themeBtn border-white">Explore More</a>
+				<a href="<?php echo site_url('/insights'); ?>" class="themeBtn border-white rOSOff">Explore More</a>
 			</div>
 			<div class="partB">
 				<?php
