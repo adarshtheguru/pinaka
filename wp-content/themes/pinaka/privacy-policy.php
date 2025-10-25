@@ -4,7 +4,7 @@
 */
 get_header();
 ?>
-<main class="aboutUs">
+<main class="aboutUs privacy-page">
 	<?php include 'customTemplates/heroSection.php' ?>
 	<section class="padding aboutUsOverview pos-rel" id="aboutUsOverview">
 		<div class="container">
