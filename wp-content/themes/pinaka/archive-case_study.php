@@ -37,9 +37,9 @@ get_header();
     <div id="caseStudyResults">
         <?php get_template_part('customTemplates/case-study-grid'); ?>
     </div>
-    <div class="text-center">
+    <!-- <div class="text-center">
         <a href="javascript:;" class="blankBtn caseLoadBtn" id="caseLoadBtn">LOAD MORE</a>
-    </div>
+    </div> -->
 </div>
 
             </div>

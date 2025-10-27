@@ -4,7 +4,7 @@ $cat   = isset($_POST['category']) ? sanitize_text_field($_POST['category']) : '
 
 $args = [
     'post_type'      => 'case_study',
-    'posts_per_page' => 6,
+    'posts_per_page' => 10,
     'paged'          => $paged,
     'post_status'    => 'publish',
 ];
