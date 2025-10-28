@@ -798,6 +798,9 @@ footer {
 						grid-template-columns: auto;
 						gap: 35px 0;
 						flex-direction: column;
+						.ql.cols{
+							margin-top: 30px;
+						}
 					}
 					.cols{
 						display: flex;

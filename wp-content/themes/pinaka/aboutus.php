@@ -248,12 +248,12 @@ Together, we turn ideas into measurable success — helping businesses amplify t
     <section class="padding bg-blue about-client" id="client">
     <div class="container">
         <div class="clientCont">
-            <div class="col-5 col-xs-12 text-left-xs scroll-animate fade-in">
+            <div class="col-12 col-xs-12 text-left-xs scroll-animate fade-in">
                 <div class="secPrefix text-white">Our Clients</div>
                 <div class="secTitle mg-bt-20 text-white">Grow your inner circle. </div>
             </div>
-            <div class="gridBoxs col-7 col-xs-12">
-                <div class="clientSlider4 col-4">
+            <div class="gridBoxs col-12 col-xs-12">
+                <div class="clientSlider4 col-12">
                     <div class="box">
                         <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client1.png" alt="">
                     </div>
@@ -278,8 +278,6 @@ Together, we turn ideas into measurable success — helping businesses amplify t
                     <div class="box">
                         <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client8.png" alt="">
                     </div>
-                </div>
-                <div class="clientSlider5 col-4">
                     <div class="box">
                         <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client9.png" alt="">
                     </div>
@@ -304,8 +302,6 @@ Together, we turn ideas into measurable success — helping businesses amplify t
                     <div class="box">
                         <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client16.png" alt="">
                     </div>
-                </div>
-                <div class="clientSlider6 col-4">
                     <div class="box">
                         <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client17.png" alt="">
                     </div>

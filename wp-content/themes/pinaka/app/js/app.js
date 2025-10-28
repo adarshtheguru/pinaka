@@ -210,87 +210,88 @@ $(document).ready(function () {
 	});
 
 $('.clientSlider').slick({
-    vertical: true,          // Vertical scroll
-    slidesToShow: 4,        // Show all logos in one column first
+    // vertical: true,          // Vertical scroll
+    slidesToShow: 3,        // Show all logos in one column first
     slidesToScroll: 1,
+    rows: 4,
     autoplay: true,
-    autoplaySpeed: 0,        // Continuous
+    // autoplaySpeed: 0,        // Continuous
     speed: 3000,             // Smooth animation
-    cssEase: 'linear',       // Linear effect
+    // cssEase: 'linear',       // Linear effect
     infinite: true,
     arrows: false,
     dots: false,
     pauseOnHover: false
   });
 
-$('.clientSlider2').slick({
-    vertical: true,          // Vertical scroll
-    slidesToShow: 4,        // Show all logos in one column first
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 0,        // Continuous
-    speed: 4000,             // Smooth animation
-    cssEase: 'linear',       // Linear effect
-    infinite: true,
-    arrows: false,
-    dots: false,
-    pauseOnHover: false
-  });
+// $('.clientSlider2').slick({
+//     vertical: true,          // Vertical scroll
+//     slidesToShow: 4,        // Show all logos in one column first
+//     slidesToScroll: 1,
+//     autoplay: true,
+//     autoplaySpeed: 0,        // Continuous
+//     speed: 4000,             // Smooth animation
+//     cssEase: 'linear',       // Linear effect
+//     infinite: true,
+//     arrows: false,
+//     dots: false,
+//     pauseOnHover: false
+//   });
 
-$('.clientSlider3').slick({
-    vertical: true,          // Vertical scroll
-    slidesToShow: 4,        // Show all logos in one column first
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 0,        // Continuous
-    speed: 3000,             // Smooth animation
-    cssEase: 'linear',       // Linear effect
-    infinite: true,
-    arrows: false,
-    dots: false,
-    pauseOnHover: false
-  });
+// $('.clientSlider3').slick({
+//     vertical: true,          // Vertical scroll
+//     slidesToShow: 4,        // Show all logos in one column first
+//     slidesToScroll: 1,
+//     autoplay: true,
+//     autoplaySpeed: 0,        // Continuous
+//     speed: 3000,             // Smooth animation
+//     cssEase: 'linear',       // Linear effect
+//     infinite: true,
+//     arrows: false,
+//     dots: false,
+//     pauseOnHover: false
+//   });
 $('.clientSlider4').slick({
-    vertical: true,          // Vertical scroll
-    slidesToShow: 2,        // Show all logos in one column first
-    slidesToScroll: 1,
+    slidesToShow: 5,      // 3 slides per row
+	slidesToScroll: 1,    // scroll 3 at a time
+	rows: 4,
     autoplay: true,
-    autoplaySpeed: 0,        // Continuous
+    // autoplaySpeed: 0,        // Continuous
     speed: 3000,             // Smooth animation
-    cssEase: 'linear',       // Linear effect
+    // cssEase: 'linear',       // Linear effect
     infinite: true,
     arrows: false,
     dots: false,
     pauseOnHover: false
   });
 
-$('.clientSlider5').slick({
-    vertical: true,          // Vertical scroll
-    slidesToShow: 2,        // Show all logos in one column first
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 0,        // Continuous
-    speed: 4000,             // Smooth animation
-    cssEase: 'linear',       // Linear effect
-    infinite: true,
-    arrows: false,
-    dots: false,
-    pauseOnHover: false
-  });
+// $('.clientSlider5').slick({
+//     vertical: true,          // Vertical scroll
+//     slidesToShow: 2,        // Show all logos in one column first
+//     slidesToScroll: 1,
+//     autoplay: true,
+//     autoplaySpeed: 0,        // Continuous
+//     speed: 4000,             // Smooth animation
+//     cssEase: 'linear',       // Linear effect
+//     infinite: true,
+//     arrows: false,
+//     dots: false,
+//     pauseOnHover: false
+//   });
 
-$('.clientSlider6').slick({
-    vertical: true,          // Vertical scroll
-    slidesToShow: 2,        // Show all logos in one column first
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 0,        // Continuous
-    speed: 3000,             // Smooth animation
-    cssEase: 'linear',       // Linear effect
-    infinite: true,
-    arrows: false,
-    dots: false,
-    pauseOnHover: false
-  });
+// $('.clientSlider6').slick({
+//     vertical: true,          // Vertical scroll
+//     slidesToShow: 2,        // Show all logos in one column first
+//     slidesToScroll: 1,
+//     autoplay: true,
+//     autoplaySpeed: 0,        // Continuous
+//     speed: 3000,             // Smooth animation
+//     cssEase: 'linear',       // Linear effect
+//     infinite: true,
+//     arrows: false,
+//     dots: false,
+//     pauseOnHover: false
+//   });
 
 	$('.testSlider').slick({
 		slidesToShow: 3,
@@ -784,7 +785,7 @@ $('.clientSlider6').slick({
 	}
 
 	// loadMoreHandler('.gridBox', '.gridLoadBtn', 8, 6);
-	loadMoreHandler('.caseGridBox', '.caseLoadBtn', 6, 4);
+	loadMoreHandler('.caseGridBox', '.caseLoadBtn', 10, 4);
 	loadMoreHandler('.blogGridBox', '.blogLoadBtn', 6, 4);
 
 	//hamburger

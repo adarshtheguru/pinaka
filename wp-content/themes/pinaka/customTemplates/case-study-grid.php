@@ -27,14 +27,18 @@ if ($query->have_posts()) :
         $image_id  = get_field('service_thumbnail_image', get_the_ID());
         $image_url = wp_get_attachment_image_url($image_id, 'full');
         $excerpt   = get_the_excerpt();
+        $terms     = get_the_terms(get_the_ID(), 'case_study_category');
         ?>
         <div class="box">
             <a href="<?php the_permalink(); ?>">
-                <img src="<?php echo esc_url($image_url ?: THEMEURL.'/app/images/rectPlace.png'); ?>" alt="<?php the_title_attribute(); ?>" class="img-full">
+                <img src="<?php echo esc_url($image_url ?: THEMEURL.'/app/images/rectPlace.png'); ?>" alt="<?php the_title_attribute(); ?>" class="img-full case-img">
             </a>
             <div class="case-study-info">
+                <?php if ($terms && !is_wp_error($terms)) : ?>
+                    <p class="case-category"><?php echo esc_html($terms[0]->name); ?></p>
+                <?php endif; ?>
                 <p class="case-title"><?php the_title(); ?></p>
-                <p class="abstract"><?php echo wp_trim_words($excerpt, 20, '...'); ?></p>
+                <p class="abstract"><?php echo wp_trim_words($excerpt, 15, '...'); ?></p>
                 <a href="<?php the_permalink(); ?>" class="read-more">
                     Read More <img src="<?php echo THEMEURL; ?>/app/images/blog-arrow.svg" alt="">
                 </a>
@@ -43,7 +47,16 @@ if ($query->have_posts()) :
         <?php
     endwhile;
     echo '</div>';
+
+    echo '<div class="pagination text-center">';
+    echo paginate_links([
+        'total'   => $query->max_num_pages,
+        'current' => $paged,
+    ]);
+    echo '</div>';
+
     wp_reset_postdata();
 else :
     echo '<p>No case studies found.</p>';
 endif;
+?>

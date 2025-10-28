@@ -62,7 +62,12 @@
                         grid-template-columns: auto;
                         gap: 10px 0;
                     }
-                        .box{
+                    .box{
+                        overflow: hidden;
+                        .case-img{
+                            height: 290px;
+                            object-fit: cover;
+                        }
                     .case-study-info{
                         background-color: #003E63;
                         padding: 25px;
@@ -72,6 +77,11 @@
                                 text-transform: capitalize;
                                 color: #4C4C4C;
                                 padding-bottom: 10px;
+                            }
+                            .case-category{
+                                color: #fff;
+                                font-size: 14px;
+                                margin-bottom: 10px;
                             }
                             .case-title{
                                 color: #EAF7FF;

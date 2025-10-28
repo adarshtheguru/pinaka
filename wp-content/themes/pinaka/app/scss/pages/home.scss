@@ -936,6 +936,9 @@
             font-size: 20px;
             line-height: 26px;
             color: #003e63;
+            @media ($max640) {
+              font-size: 16px;
+            }
           }
         }
       }
@@ -1344,7 +1347,7 @@
 }
 .clients{
   .gridBoxs{
-    display: flex;
+    /*display: flex;*/
     @media ($max640){
       margin-top: 40px;
     }
@@ -1355,7 +1358,7 @@
 }
 .about-client {
   .gridBoxs {
-    display: flex;
+    /*display: flex;*/
     gap: 20px;
     .slick-slide {
       .box {
@@ -1385,8 +1388,8 @@
   line-height: 52px;
   color: #161616;
   @media ($max640){
-     font-size: 34px;
-  line-height: 46px;
+     font-size: 22px!important;
+  line-height: 28px;
   }
 }
 .secPara {
@@ -1396,6 +1399,10 @@
   font-size: 18px;
   line-height: 22px;
   color: #161616;
+  @media ($max640){
+     font-size: 16px!important;
+  line-height: 22px;
+  }
 }
 .partners {
   background-color: #eaf7ff;

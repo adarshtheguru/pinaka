@@ -70,14 +70,14 @@ p{
 .customArrow{
     display: flex;
     align-items: center;
-    gap: 0 10px;
+    gap: 0 30px;
     cursor: pointer;
     justify-content: center;
     #serviceLeft, #testLeft,#blogLeft{
         transform:rotate(-180deg);
     }
     img{
-        width: 36px;
+        width: 25px;
     }
 }
 .blackBtn{

@@ -34,7 +34,7 @@
                 }
                 .box{
                     img{
-                        aspect-ratio: 4/2;
+                        /*aspect-ratio: 4/2;*/
                     }
                     .blog-info{
                         background-color: #003E63;
@@ -55,10 +55,17 @@
                         padding-bottom: 10px;
                         height: 65px;
                         overflow: hidden;
+                        @media ($max640){
+                        font-size: 18px;
+                        height: auto;
+                      }
                     }
                     .small-desc{
                         color: #EAF7FF;
                         height: 80px;
+                        @media ($max640){
+                           height: auto;
+                          }
                     }
                     .read-more{
                         color: rgba(234,247,255,0.5);
@@ -73,29 +80,30 @@
         }
     }
     .pagination {
-  display: inline-block;
-  margin-top: 40px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
 
   .page-numbers {
     display: inline-block;
     margin: 0 5px;
     padding: 8px 14px;
     border: 1px solid #ddd;
-    color: #333;
+    color: #003e63;
     border-radius: 6px;
     text-decoration: none;
     transition: 0.3s ease;
 
     &:hover {
-      background: #0073e6;
+      background: #003e63;
       color: #fff;
-      border-color: #0073e6;
+      border-color: #003e63;
     }
 
     &.current {
-      background: #0073e6;
+      background: #003e63;
       color: #fff;
-      border-color: #0073e6;
+      border-color: #003e63;
     }
   }
 }

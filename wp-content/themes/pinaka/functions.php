@@ -1114,5 +1114,10 @@ function theme_enqueue_assets() {
 }
 add_action('wp_enqueue_scripts', 'theme_enqueue_assets');
 
+add_action('pre_get_posts', function($query){
+  if ($query->is_main_query() && !is_admin()) {
+    $query->set('posts_per_page', 10);
+  }
+});
 
 

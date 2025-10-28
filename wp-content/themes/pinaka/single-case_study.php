@@ -123,13 +123,13 @@ if ($strategy) {
                     <?php endif; ?>
                     <?php if ($strategy_listings && count($strategy_listings) > 6): ?>
                         <!-- Show 2nd SVG -->
-                        <svg class="animatedThread" viewBox="0 0 500 682" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="animatedThread hidden-xs" viewBox="0 0 500 682" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.14718 1V593.5C0.176668 617.345 3.42417 654.729 28.6472 655H457.647C473.732 654.346 501 658.5 498.647 681.5"
                                 stroke="#003E63" stroke-linecap="round"/>
                         </svg>
                     <?php else: ?>
                         <!-- Show 1st SVG -->
-                        <svg class="animatedThread" viewBox="0 0 500 312" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="animatedThread hidden-xs" viewBox="0 0 500 312" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.14718 1V223.5C0.176668 247.345 3.42417 284.729 28.6472 285H457.647C473.732 284.346 501 288.5 498.647 311.5"
                                 stroke="#003E63" stroke-linecap="round" />
                         </svg>
