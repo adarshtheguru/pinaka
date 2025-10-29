@@ -165,9 +165,9 @@
 		</div>
 		<div class="blueCardSliderWrapepr pos-rel  scroll-animate fade-in">
 			<div class="blueCardSlider blueCardSlider-2">
-				<div><iframe width="315" height="450" src="https://www.youtube.com/embed/FQaM-qSPyrs" title="Aeterna reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-				<div><iframe width="315" height="450" src="https://www.youtube.com/embed/y8ScPuco2q0" title="Aeterna reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-				<div><iframe width="315" height="450" src="https://www.youtube.com/embed/e5MtjmE-y8M" title="Aeterna reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+				<div><iframe width="100%" height="450" src="https://www.youtube.com/embed/FQaM-qSPyrs" title="Aeterna reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+				<div><iframe width="100%" height="450" src="https://www.youtube.com/embed/y8ScPuco2q0" title="Aeterna reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+				<div><iframe width="100%" height="450" src="https://www.youtube.com/embed/e5MtjmE-y8M" title="Aeterna reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 			</div>
 			<div class="customArrow">
 				<div id="bc-l-arrow2">
@@ -314,7 +314,7 @@ if ($query->have_posts()) : ?>
         <div class="container">
             <div class="partA">
                 <div class="title">Relevant Case Studies</div>
-                <a href="<?php echo get_post_type_archive_link('case_study'); ?>" class="themeBtn">See All CASE STUDIES</a>
+                <a href="<?php echo get_post_type_archive_link('our-works'); ?>" class="themeBtn">See All CASE STUDIES</a>
             </div>
         </div>
 

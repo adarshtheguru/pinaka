@@ -358,6 +358,9 @@
     .partA {
       font-weight: 300;
       font-size: 36px;
+       @media ($max640){
+        font-size: 24px;
+       }
     }
     .partB {
       font-weight: 400;
@@ -376,6 +379,9 @@
 	}
   &.padding {
     padding: 175px 0 120px;
+    @media ($max640) {
+      padding: 50px 0;
+    }
   }
   .contData {
     display: flex;
@@ -1362,10 +1368,12 @@
     gap: 20px;
     .slick-slide {
       .box {
-        background-color: #fff;
-        margin: 10px 0;
+        /*margin: 10px 0;*/
+        padding: 10px 10px;
         img {
+        background-color: #fff;
           width: 100%;
+          border-radius: 12px;
         }
       }
     }
@@ -1464,7 +1472,7 @@
           -webkit-text-fill-color: transparent;
           background-clip: text;
           text-fill-color: transparent;*/
-              background: linear-gradient(318.01deg, #ffdc61 3.07%, #ffdc61 46.32%, #ff6ef1 96.93%);
+              background: linear-gradient(318.01deg, #ffdc61 3.07%, #ffdc61 30.32%, #ff6ef1 100.93%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;

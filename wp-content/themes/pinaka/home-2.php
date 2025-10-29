@@ -479,7 +479,7 @@ get_header();
 						</div>
 						<div class="testi-review">“Pinaka team is awesome to work with”</div>
 						<div class="">
-							<a href="javascript:;" class="know-more">Know More</a>
+							<a href="<?php echo site_url('/our-works'); ?>" class="know-more">Know More</a>
 						</div>
 					</div>
 					<div class="testi-card">
@@ -498,7 +498,7 @@ get_header();
 						<div class="testi-review">“Working with the Pinaka team is absolutely a wonderful experience”
 						</div>
 						<div class="">
-							<a href="javascript:;" class="know-more">Know More</a>
+							<a href="<?php echo site_url('/case-studies/pride-world-city-2'); ?>" class="know-more">Know More</a>
 						</div>
 					</div>
 					<div class="testi-card">
@@ -517,7 +517,7 @@ get_header();
 						</div>
 						<div class="testi-review">“Their expertise & collaborative spirit make project a success story”</div>
 						<div class="">
-							<a href="javascript:;" class="know-more">Know More</a>
+							<a href="<?php echo site_url('/case-studies/ceratec-group/'); ?>" class="know-more">Know More</a>
 						</div>
 					</div>
 				</div>

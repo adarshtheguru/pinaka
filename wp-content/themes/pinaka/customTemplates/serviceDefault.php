@@ -19,7 +19,7 @@
 	</div>
 </section>
 <section class="padding threadSection pos-rel" id="threadSection">
-	<svg class="topCenterThread" width="188" height="204" viewBox="0 0 188 204" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<svg class="topCenterThread hidden-xs" width="188" height="204" viewBox="0 0 188 204" fill="none" xmlns="http://www.w3.org/2000/svg">
 		<path d="M187.5 1V203.5H1" stroke="#003E63" stroke-linecap="round" />
 	</svg>
 	<div class="container">
@@ -36,7 +36,7 @@
 					<?php $left_img = get_field('left_section_image'); ?>
 					<img class="img-full" src="<?php echo esc_url($left_img['url']); ?>" alt="">
 				</div>
-				<svg class="topThread" width="418" height="404" viewBox="0 0 418 404" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<svg class="topThread hidden-xs" width="418" height="404" viewBox="0 0 418 404" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M1 1V403.5H417.5" stroke="#003E63" stroke-linecap="round" />
 				</svg>
 			</div>
@@ -52,7 +52,7 @@
 					<?php $right_img = get_field('right_section_image'); ?>
 					<img class="img-full" src="<?php echo esc_url($right_img['url']); ?>" alt="">
 				</div>
-				<svg class="bottomThread" width="418" height="574" viewBox="0 0 418 574" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<svg class="bottomThread hidden-xs" width="418" height="574" viewBox="0 0 418 574" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M417.5 1V573.5H1" stroke="#003E63" stroke-linecap="round" />
 				</svg>
 			</div>
@@ -228,7 +228,7 @@ if ($query->have_posts()) : ?>
         <div class="container">
             <div class="partA scroll-animate fade-in">
                 <div class="title">Relevant Case Studies</div>
-                <a href="<?php echo get_post_type_archive_link('case_study'); ?>" class="themeBtn">See All CASE STUDIES</a>
+                <a href="<?php echo get_post_type_archive_link('our-works'); ?>" class="themeBtn">See All CASE STUDIES</a>
             </div>
         </div>
 

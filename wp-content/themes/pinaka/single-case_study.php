@@ -100,7 +100,7 @@ if ($strategy) {
                             <?php if ($blue_box_right_listings): ?>
                                 <ul>
                                     <?php foreach ($blue_box_right_listings as $item): ?>
-                                        <li><?= esc_html($item['listing']); ?></li>
+                                        <li><?= wp_kses_post($item['listing']); ?></li>
                                     <?php endforeach; ?>
                                 </ul>
                             <?php endif; ?>

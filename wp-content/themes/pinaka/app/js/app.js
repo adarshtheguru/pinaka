@@ -252,7 +252,7 @@ $('.clientSlider').slick({
 //     pauseOnHover: false
 //   });
 $('.clientSlider4').slick({
-    slidesToShow: 5,      // 3 slides per row
+    slidesToShow: 4,      // 3 slides per row
 	slidesToScroll: 1,    // scroll 3 at a time
 	rows: 4,
     autoplay: true,
