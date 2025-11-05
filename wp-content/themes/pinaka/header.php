@@ -31,15 +31,29 @@ if ($menu_items) {
     }
 }
 ?>
-
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes(); ?>>
 
 <head>
-	<meta charset="utf-8">
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<title>Pinaka</title>
+	 <?php
+		// Force Yoast SEO output
+		if ( function_exists( 'wpseo_head' ) ) {
+		    wpseo_head();
+		}
+
+		// Fallback canonical if Yoast not active
+		if ( ! function_exists( 'wpseo_head' ) ) {
+		    $canonical = ( is_home() || is_front_page() )
+		        ? home_url( '/' )
+		        : get_permalink();
+		    echo '<link rel="canonical" href="' . esc_url( $canonical ) . '">';
+		}
+
+    wp_head();
+    ?>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo THEMEURL; ?>/assets/css/main.css">
@@ -157,7 +171,7 @@ Digital Social Marketing</a>
 </svg> Organic Search</a>
 										</li>
 										<li>
-											<a href="<?php echo site_url('/services/social-media-managment'); ?>"><svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<a href="<?php echo site_url('/services/social-media-management'); ?>"><svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 4.86134C0.0506776 4.86396 0.101355 4.8692 0.151693 4.8692C3.559 4.86953 9.96596 4.86953 13.3733 4.86953C13.4219 4.86953 13.4709 4.86953 13.5443 4.86953C12.3196 3.68693 11.1156 2.52432 9.92005 1.37023C10.2323 1.06803 10.5306 0.77959 10.8197 0.5C12.5434 2.1641 14.2756 3.83705 16 5.5018C14.28 7.16262 12.5498 8.83328 10.8237 10.5C10.5425 10.2214 10.2479 9.92968 9.94589 9.63042C11.1247 8.49207 12.3305 7.32782 13.5365 6.16357C13.5307 6.15276 13.525 6.14194 13.5195 6.13112C13.475 6.13112 13.4304 6.13112 13.3859 6.13112C9.97004 6.13112 3.55458 6.13113 0.138768 6.13145C0.0925123 6.13145 0.0462562 6.1367 0.000340283 6.13932C0.000340283 5.71322 0 5.28744 0 4.86134Z" fill="url(#paint0_linear_2267_333)"/>
 <defs>
 <linearGradient id="paint0_linear_2267_333" x1="3" y1="5.5" x2="16" y2="5.5" gradientUnits="userSpaceOnUse">

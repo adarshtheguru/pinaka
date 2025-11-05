@@ -216,7 +216,7 @@ function twentytwenty_register_styles() {
 	wp_enqueue_style( 'twentytwenty-print-style', get_template_directory_uri() . '/print.css', null, $theme_version, 'print' );
 }
 
-add_action( 'wp_enqueue_scripts', 'twentytwenty_register_styles' );
+// add_action( 'wp_enqueue_scripts', 'twentytwenty_register_styles' );
 
 /**
  * Register and Enqueue Scripts.
@@ -1120,4 +1120,83 @@ add_action('pre_get_posts', function($query){
   }
 });
 
+/**
+ * =========================================
+ * 🧹 WordPress Head Cleanup - Pinaka Digital
+ * =========================================
+ * Removes unnecessary WP-generated scripts, styles, and meta tags.
+ * Keeps SEO plugins (Yoast), title tags, and custom assets intact.
+ */
+
+function pinaka_head_cleanup() {
+
+    /** 🔹 Remove emoji scripts/styles */
+    remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+    remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
+    remove_action( 'wp_print_styles', 'print_emoji_styles' );
+    remove_action( 'admin_print_styles', 'print_emoji_styles' );
+    remove_filter( 'the_content_feed', 'wp_staticize_emoji' );
+    remove_filter( 'comment_text_rss', 'wp_staticize_emoji' );
+    remove_filter( 'wp_mail', 'wp_staticize_emoji_for_email' );
+    add_filter( 'tiny_mce_plugins', function( $plugins ) {
+        return is_array( $plugins ) ? array_diff( $plugins, [ 'wpemoji' ] ) : [];
+    });
+    add_filter( 'emoji_svg_url', '__return_false' );
+
+    /** 🔹 Remove Gutenberg Block Library CSS */
+    add_action( 'wp_enqueue_scripts', function() {
+        wp_dequeue_style( 'wp-block-library' );
+        wp_dequeue_style( 'wp-block-library-theme' );
+        wp_dequeue_style( 'wc-blocks-style' ); // WooCommerce blocks
+        wp_deregister_style( 'wp-block-library' );
+        wp_deregister_style( 'wp-block-library-theme' );
+        wp_deregister_style( 'wc-blocks-style' );
+    }, 100 );
+
+    /** 🔹 Remove WP Global Styles (theme.json output) */
+    remove_action( 'wp_enqueue_scripts', 'wp_enqueue_global_styles' );
+    remove_action( 'wp_footer', 'wp_enqueue_global_styles', 1 );
+    remove_action( 'wp_body_open', 'wp_global_styles_render_svg_filters' );
+    add_filter( 'render_block', function( $block_content, $block ) {
+        if ( isset( $block['blockName'] ) && 'core/global-styles' === $block['blockName'] ) {
+            return '';
+        }
+        return $block_content;
+    }, 10, 2 );
+
+    /** 🔹 Remove jQuery and jQuery Migrate */
+    wp_dequeue_script('jquery');
+    wp_deregister_script('jquery');
+    wp_dequeue_script('jquery-core');
+    wp_deregister_script('jquery-core');
+    wp_dequeue_script('jquery-migrate');
+    wp_deregister_script('jquery-migrate');
+
+    /** 🔹 Remove WP version, REST API links, feeds, and embeds */
+    remove_action( 'wp_head', 'wp_generator' );
+    remove_action( 'wp_head', 'rsd_link' );
+    remove_action( 'wp_head', 'wlwmanifest_link' );
+    remove_action( 'wp_head', 'rest_output_link_wp_head' );
+    remove_action( 'wp_head', 'wp_oembed_add_discovery_links' );
+    remove_action( 'wp_head', 'wp_oembed_add_host_js' );
+    remove_action( 'wp_head', 'feed_links_extra', 3 );
+    remove_action( 'wp_head', 'feed_links', 2 );
+
+    /** 🔹 Remove shortlink and adjacent posts links */
+    remove_action( 'wp_head', 'wp_shortlink_wp_head' );
+    remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0 );
+}
+add_action( 'init', 'pinaka_head_cleanup', 20 );
+
+/**
+ * 🔹 Prevent plugins or themes from re-adding jQuery
+ */
+add_action( 'wp_print_scripts', function() {
+    wp_dequeue_script('jquery');
+    wp_deregister_script('jquery');
+    wp_dequeue_script('jquery-core');
+    wp_deregister_script('jquery-core');
+    wp_dequeue_script('jquery-migrate');
+    wp_deregister_script('jquery-migrate');
+}, 1 );
 

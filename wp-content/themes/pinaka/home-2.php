@@ -62,7 +62,7 @@ get_header();
 					<img class="rOSOff img-responsive br-12" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/shubh-vedha-home.png">
 					<h3 class="rOSOff scroll-animate fade-in">Shubh Vedha</h3>
 					<p class="rOSOff scroll-animate fade-in">Campaigns, Digital Advertising, Social Advertising</p>
-					<a href="<?php echo site_url('/case-studies/shubh-veda'); ?>" class="blue-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
+					<a href="<?php echo site_url('/case-studies/performance-marketing/shubh-veda'); ?>" class="blue-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
 			</div>
 		</div>
@@ -72,7 +72,7 @@ get_header();
 					<img class="rOSOff img-responsive br-12" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/pwc-home.png">
 					<h3 class="rOSOff scroll-animate fade-in">Pride World City</h3>
 					<p class="rOSOff scroll-animate fade-in">Campaigns, Digital Advertising, Social Advertising</p>
-					<a href="<?php echo site_url('/case-studies/pride-world-city'); ?>" class="blue-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
+					<a href="<?php echo site_url('/case-studies/performance-marketing/pride-world-city'); ?>" class="blue-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
 			</div>
 		</div>
@@ -82,7 +82,7 @@ get_header();
 					<img src="<?php echo THEMEURL; ?>/app/images/goyal-properties-home.png" class="rOSOff br-12 img-responsive" data-animation="fadeInUp" data-timeout="200">
 					<h3 class="rOSOff  scroll-animate fade-in">Goyal Properties</h3>
 					<p class="rOSOff  scroll-animate fade-in">Campaigns, Website, SEO</p>
-					<a href="<?php echo site_url('/case-studies/goyal-properties'); ?>" class="blue-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
+					<a href="<?php echo site_url('/case-studies/seo/goyal-properties'); ?>" class="blue-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
 			</div>
 		</div>
@@ -498,7 +498,7 @@ get_header();
 						<div class="testi-review">“Working with the Pinaka team is absolutely a wonderful experience”
 						</div>
 						<div class="">
-							<a href="<?php echo site_url('/case-studies/pride-world-city-2'); ?>" class="know-more">Know More</a>
+							<a href="<?php echo site_url('/case-studies/seo/pride-world-city'); ?>" class="know-more">Know More</a>
 						</div>
 					</div>
 					<div class="testi-card">
@@ -517,7 +517,7 @@ get_header();
 						</div>
 						<div class="testi-review">“Their expertise & collaborative spirit make project a success story”</div>
 						<div class="">
-							<a href="<?php echo site_url('/case-studies/ceratec-group/'); ?>" class="know-more">Know More</a>
+							<a href="<?php echo site_url('/case-studies/public-relations-and-influencer/ceratec-group'); ?>" class="know-more">Know More</a>
 						</div>
 					</div>
 				</div>

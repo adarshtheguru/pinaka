@@ -8,8 +8,8 @@
             <p class="para">Facebook Marketing, Google Ad Marketing, LinkedIn Marketing, Bing Marketing, and Taboola included?</p>
             <p><strong>Join forces with Pinaka Digital today!</strong></p>
             <div class="ctas">
-                <a href="javascript:;" class="themeBtn rOSOff">Get a Quote</a>
-                <a href="<?php echo site_url('/contact-us'); ?>" class="blankBtn rOSOff">Contact Us</a>
+                <a href="<?php echo site_url('/contact-us'); ?>" class="themeBtn rOSOff">Get a Quote</a>
+                <!-- <a href="<?php echo site_url('/contact-us'); ?>" class="blankBtn rOSOff">Contact Us</a> -->
             </div>
         </div>
     </div>
