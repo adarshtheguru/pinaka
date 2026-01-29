@@ -495,7 +495,7 @@ get_header();
 				<div class="testimonial-grid">
 
 					<div class="testi-card">
-						<iframe width="100%" height="260" src="https://www.youtube.com/embed/z45qNLMBSWg" title="Client Testimonial - Ceratec Group" id="video-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<iframe width="100%" class="yt-player" height="260" src="https://www.youtube.com/embed/z45qNLMBSWg?enablejsapi=1" title="Client Testimonial - Ceratec Group" id="video-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 						
 						<h2 class="sec-title">Shubh Developers</h2>
 						<div class="card-intact">
@@ -515,7 +515,7 @@ get_header();
 					</div>
 					
 					<div class="testi-card">
-						<iframe width="100%" height="260" src="https://www.youtube.com/embed/DOjklhk2Y0g" title="Client Testimonial - Pride World City" id="video-2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<iframe width="100%" class="yt-player" height="260" src="https://www.youtube.com/embed/DOjklhk2Y0g?enablejsapi=1" title="Client Testimonial - Pride World City" id="video-2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 						<h2 class="sec-title">Pride World City</h2>
 						<div class="card-intact">
 							<div class="inner">
@@ -534,7 +534,7 @@ get_header();
 						</div>
 					</div>
 					<div class="testi-card">
-						<iframe width="100%" height="260" src="https://www.youtube.com/embed/H8zDlvWw-ZI" title="Client Testimonial - Ceratec Group" id="video-3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<iframe width="100%" class="yt-player" height="260" src="https://www.youtube.com/embed/H8zDlvWw-ZI?enablejsapi=1" title="Client Testimonial - Ceratec Group" id="video-3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 						
 						<h2 class="sec-title">Ceratec Group</h2>
 						<div class="card-intact">
@@ -553,7 +553,7 @@ get_header();
 						</div>
 					</div>
 					<div class="testi-card">
-						<iframe width="100%" height="260" src="https://www.youtube.com/embed/HuI3gtIBEY0" title="Client Testimonial - KBD Group" id="video-4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<iframe width="100%" class="yt-player" height="260" src="https://www.youtube.com/embed/HuI3gtIBEY0?enablejsapi=1" title="Client Testimonial - KBD Group" id="video-4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 						<h2 class="sec-title">KBD Group</h2>
 						<div class="card-intact">
 							<div class="inner">

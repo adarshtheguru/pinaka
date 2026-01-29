@@ -139,6 +139,32 @@
 	<script src="<?php echo THEMEURL; ?>/assets/js/lenis-min.js"></script>
 	<script type="text/javascript" src="<?php echo THEMEURL; ?>/assets/js/validate.js"></script>
 	<script src="<?php echo THEMEURL; ?>/assets/js/all.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script>
+let players = [];
+let currentPlayer = null;
+
+function onYouTubeIframeAPIReady() {
+    document.querySelectorAll('.yt-player').forEach((iframe, index) => {
+        players[index] = new YT.Player(iframe, {
+            events: {
+                onStateChange: onPlayerStateChange
+            }
+        });
+    });
+}
+
+function onPlayerStateChange(event) {
+    // When a video starts playing
+    if (event.data === YT.PlayerState.PLAYING) {
+        if (currentPlayer && currentPlayer !== event.target) {
+            currentPlayer.pauseVideo(); // stop previous
+        }
+        currentPlayer = event.target;
+    }
+}
+</script>
 
 	</body>
 </html>

@@ -37,6 +37,10 @@
     .blog-content{
       width: 70%;
       margin: auto;
+      @media ($max640) {
+        width: 100%;
+        padding: 0 20px;
+      }
     }
     .contentPanel {
       margin-top: 30px;
@@ -45,6 +49,9 @@
         font-size: 18px;
         font-weight: 400;
         line-height: normal;
+        @media ($max640) {
+          font-size: 16px;
+        }
       }
       .publishImg {
         margin: 48px 0;
@@ -54,11 +61,21 @@
         font-weight: 600;
         font-size: 32px;
         line-height: 56px;
+        @media ($max640) {
+          font-size: 22px;
+          line-height: 30px;
+          font-weight: 500;
+        }
       }
       h3 {
         font-weight: 600;
         font-size: 26px;
         line-height: 38px;
+
+        @media ($max640) {
+          font-size: 18px;
+          line-height: 26px;
+        }
       }
       ul{
         padding-left: 20px;
@@ -74,6 +91,9 @@
           display: grid;
           grid-template-columns: 1fr 1fr;
           gap: 20px;
+          @media ($max640) {
+            grid-template-columns: repeat(1, 1fr);
+          }
           .box{
             .blog-info{
                 background-color: #003E63;
@@ -99,13 +119,6 @@
                 color: #EAF7FF;
                 height: 80px;
                 font-size: 14px;
-            }
-            .read-more{
-                color: rgba(234,247,255,0.5);
-                font-weight: 700;
-                letter-spacing: 2px;
-                text-transform: uppercase;
-                margin-top: 20px;
             }
           }
         }

@@ -149,3 +149,106 @@
         }
     }
 }
+.awsm-job-item h2.awsm-job-post-title{
+    color: #000;
+}
+span.awsm-job-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 156px;
+    height: 44px;
+    border: 1px solid #003e63;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 6px;
+    background: #003e63;
+    margin-top: 10px;
+    span{
+        display: none;
+    }
+}
+.awsm-job-content{
+    ol{
+        padding-left: 20px;
+        li{
+            line-height: 26px;
+        }
+    }
+    ul{
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+    p{
+        margin-top: 20px;
+    }
+}
+.awsm-job-inline-group{
+    display: flex;
+    align-items: flex-start;
+}
+.awsm-job-form-group input[type=checkbox], .awsm-job-form-group input[type=radio] {
+    margin-right: 5px;
+    width: auto;
+}
+.awsm-job-form-group {
+    label, input, select {
+        display: block;
+        width: 100%;
+    }
+
+    label {
+        font-weight: 500;
+        font-size: 14px;
+        color: #4C4C4C;
+        padding-bottom: 0px;
+    }
+
+    input {
+        background: none;
+        border: none;
+        padding-bottom: 4px;
+        border-bottom: 1px solid #BFC3C6;
+        font-weight: 500;
+        font-size: 18px;
+
+        &::placeholder {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        &:focus,
+        &:focus-visible,
+        &:focus-within {
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #BFC3C6;
+        }
+    }
+    input[type=submit]{
+        background: linear-gradient(90deg, #003e63, #003e63);
+        padding: 10px 30px;
+        color: #fff !important;
+        border-radius: 6px;
+        font-weight: 600;
+        display: inline-block;
+        text-transform: uppercase;
+        width: auto;
+        font-size: 16px;
+    }
+}
+.awsm-job-single-content{
+   background-color: #eaf7ff;
+    padding-top: 120px;
+    @media ($max640) {
+        padding-bottom: 0px;
+        padding: 50px 20px 0;
+    }
+}
