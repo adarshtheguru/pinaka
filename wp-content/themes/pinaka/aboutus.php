@@ -234,100 +234,17 @@ get_header();
             </div>
             <div class="col-1 col-xs-12">&nbsp;</div>
             <div class="col-5 col-xs-12 scroll-animate fade-in">
-                <div class="secPrefix">Awards & Recognition </div>
+                <!-- <div class="secPrefix">Awards & Recognition </div> -->
                     <div class="secTitle">Behind every great brand is a team that brings vision to life.</div>
                     <p class="para mg-tp-30">
-                       At the heart of our success lies a passionate team of strategists, designers, developers, and storytellers — each dedicated to crafting experiences that inspire and deliver results. We don’t just create; we collaborate, innovate, and push boundaries to help brands thrive in a competitive digital world.<br>
-Our expertise lies in building bespoke strategies and creative solutions tailored to each client’s goals. Whether it’s designing captivating websites, shaping compelling brand identities, or driving engagement through impactful marketing campaigns, our team works with precision, purpose, and passion.<br>
-Together, we turn ideas into measurable success — helping businesses amplify their presence, connect with their audiences, and achieve sustainable growth.
+                       At the heart of our success is a passionate team of strategists, designers, developers, and storytellers who bring creativity and precision to every project. We collaborate closely with brands to craft tailored strategies, innovative designs, and impactful marketing solutions that inspire and deliver real results.<br>
+                        Driven by curiosity and commitment, we transform ideas into measurable success — helping businesses amplify their presence, engage their audiences, and achieve sustainable growth in a constantly evolving digital world.
+
                     </p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="padding bg-blue about-client" id="client">
-    <div class="container">
-        <div class="clientCont">
-            <div class="col-12 col-xs-12 text-left-xs scroll-animate fade-in">
-                <div class="secPrefix text-white">Our Clients</div>
-                <div class="secTitle mg-bt-20 text-white">Grow your inner circle. </div>
-            </div>
-            <div class="gridBoxs col-12 col-xs-12">
-                <div class="clientSlider4 col-12">
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client1.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client2.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client3.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client4.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client5.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client6.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client7.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client8.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client9.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client10.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client11.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client12.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client13.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client14.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client15.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client16.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client17.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client18.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client19.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client20.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client21.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client22.png" alt="">
-                    </div>
-                    <div class="box">
-                        <img class="img-responsive" src="<?php echo THEMEURL; ?>/app/images/client23.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
     <section class="padding whitePanel" id="whitePanel">
         <div class="container">
             <div class="panelBox">

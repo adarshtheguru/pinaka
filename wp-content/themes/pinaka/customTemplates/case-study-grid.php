@@ -29,7 +29,7 @@ if ($query->have_posts()) :
         $excerpt   = get_the_excerpt();
         $terms     = get_the_terms(get_the_ID(), 'case_study_category');
         ?>
-        <div class="box">
+        <div class="box" id="<?php echo sanitize_title_with_dashes($terms[0]->slug); ?>">
             <a href="<?php the_permalink(); ?>">
                 <img src="<?php echo esc_url($image_url ?: THEMEURL.'/app/images/rectPlace.png'); ?>" alt="<?php the_title_attribute(); ?>" class="img-full case-img">
             </a>
@@ -39,8 +39,8 @@ if ($query->have_posts()) :
                 <?php endif; ?>
                 <p class="case-title"><?php the_title(); ?></p>
                 <p class="abstract"><?php echo wp_trim_words($excerpt, 15, '...'); ?></p>
-                <a href="<?php the_permalink(); ?>" class="read-more">
-                    Read More <img src="<?php echo THEMEURL; ?>/app/images/blog-arrow.svg" alt="">
+                <a href="<?php the_permalink(); ?>" class="white-btn read-more">
+                    Read More
                 </a>
             </div>
         </div>
@@ -48,12 +48,12 @@ if ($query->have_posts()) :
     endwhile;
     echo '</div>';
 
-    echo '<div class="pagination text-center">';
-    echo paginate_links([
-        'total'   => $query->max_num_pages,
-        'current' => $paged,
-    ]);
-    echo '</div>';
+    // echo '<div class="pagination text-center">';
+    // echo paginate_links([
+    //     'total'   => $query->max_num_pages,
+    //     'current' => $paged,
+    // ]);
+    // echo '</div>';
 
     wp_reset_postdata();
 else :

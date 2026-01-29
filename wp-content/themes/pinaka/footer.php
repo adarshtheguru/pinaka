@@ -18,13 +18,13 @@
 			<div class="partA">
 				<div class="content">
 					<div class="logo">
-						<img src="<?php echo THEMEURL; ?>/app/images/pinakaWhite.svg" alt="" class="img-responsive footer-logo">
+						<img src="<?php echo THEMEURL; ?>/app/images/Pinaka-logo-white.png" alt="" class="img-responsive footer-logo">
 					</div>
 					<!-- <div class="title">Stay Ahead in Real Estate Marketing</div> -->
 					<!-- <p class="para">Sign up for our newsletter to receive the latest insights, tips, and industry news directly to your inbox.</p> -->
 				</div>
 				<div class="mailBox">
-					<p class="para">Sign up for our newsletter to receive the latest insights, tips,<br> and industry news directly to your inbox.</p><br>
+					<p class="para">Sign up for our newsletter to receive the latest insights, tips,<br class="hidden-xs"> and industry news directly to your inbox.</p><br>
 					<?php include 'customTemplates/subscribeMailForm.php'; ?>
 				</div>
 			</div>
@@ -40,7 +40,7 @@
 						<div class="arrow">
 							<img width="20" src="<?php echo THEMEURL; ?>/app/images/indiaFlag.png" alt="" class="flag">
 						</div>
-						<a href="tel:+917498044954">+91-7498044954</a>
+						<a href="tel:+917822961599">+91-78229 61599</a>/<a href="tel:+917498044954">74980 44954</a>
 					</div>
 					<div class="mail">
 						<div class="arrow">
@@ -65,13 +65,13 @@
 					<div class=" cols">
 						<div class="title">Services</div>
 						<div class="navLinks">
-							<a href="<?php echo site_url('/services/media-strategy'); ?>">Media Strategy</a>
+							<a href="<?php echo site_url('/services/media-strategy'); ?>">Media Strategy & Consulting</a>
 							<a href="<?php echo site_url('/services/digital-social-advertising'); ?>">Growth Marketing</a>
 							<a href="<?php echo site_url('/services/new-age-organic-search'); ?>">Organic Search</a>
-							<a href="<?php echo site_url('/services/social-media-managment'); ?>">Social Media Management</a>
+							<a href="<?php echo site_url('/services/social-media-management'); ?>">Social Media Management</a>
 							<a href="<?php echo site_url('/services/online-reputation-management'); ?>">Reputation Management</a>
-							<a href="<?php echo site_url('/services/public-relations-influencer/'); ?>">PR & Influencer</a>
-							<a href="<?php echo site_url('/services/website-design-development'); ?>">Web Development</a>
+							<a href="<?php echo site_url('/services/public-relations-influencer/'); ?>">Online PR & Influencer</a>
+							<a href="<?php echo site_url('/services/website-development'); ?>">Web Development</a>
 							<a href="<?php echo site_url('/services/graphic-designs-motion-graphic'); ?>">Creative & Visual Motion</a>
 							<a href="https://houseofhues.co/" target="_blank">Brand & Design</a>
 						</div>
@@ -97,10 +97,12 @@
 			</div>
 			<div class="partC">
 				<div class="corpInfo">
-					© 2025 Pinaka Digital Technologies
+					© <span class="copyrightYear">2025</span> All Right Reserved, All Wrong Reversed.
 				</div>
 				<div class="pagesInfo">
-					<a href="<?php echo site_url('privacy-policy'); ?>">Privacy Policy</a> | <a href="<?php echo site_url('terms-conditions'); ?>">Terms & Conditions</a> | <a href="<?php echo site_url('refund-policy'); ?>">Refund Policy</a>
+					<a href="<?php echo site_url('privacy-policy'); ?>">Privacy Policy</a> 
+					<!-- | <a href="<?php echo site_url('terms-conditions'); ?>">Terms & Conditions</a> -->
+					 | <a href="<?php echo site_url('refund-policy'); ?>">Refund Policy</a>
 				</div>
 			</div>
 		</div>
@@ -112,7 +114,7 @@
 				<a href="tel:+917498044954" class="mob-call-btn"><span>+91-7498044954</span></a>
 			</div>
 			<div class="col-6">
-				<a href="javascript:;" class="mob_enq_click mob-enq-btn" data-event-category="Footer"
+				<a href="javascript:;" class="mob_enq_click enq_click mob-enq-btn" data-event-category="Footer"
 					data-event-action="Click" data-event-name="Enquire Now">Enquire Now</a>
 			</div>
 		</div>
@@ -132,6 +134,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/zoom/lg-zoom.umd.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
 	<script src="https://assets.codepen.io/16327/ScrollTrigger.min.js"></script>
+	<script src="https://www.youtube.com/iframe_api"></script>
 	<!-- <script src="/assets/js/gsapanimation.js" defer></script> -->
 	<script src="<?php echo THEMEURL; ?>/assets/js/lenis-min.js"></script>
 	<script type="text/javascript" src="<?php echo THEMEURL; ?>/assets/js/validate.js"></script>

@@ -34,7 +34,7 @@ $video_file_mobile  = get_field('banner_video_upload_mobile');
                 <?php endif; ?>
             </video>
         <?php elseif ($video_type === 'upload'): ?>
-            <video class="hero-bg" autoplay muted loop playsinline>
+            <video class="hero-bg" autoplay muted loop playsinline poster="<?php echo THEMEURL; ?>/app/images/home-video.jpg">
                 <?php if ($video_file_desktop): ?>
                     <source src="<?= esc_url($video_file_desktop); ?>" media="(min-width: 769px)" type="video/mp4">
                 <?php endif; ?>

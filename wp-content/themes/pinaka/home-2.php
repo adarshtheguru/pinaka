@@ -1,6 +1,7 @@
 <?php /* Template Name: Home New Page */
 get_header();
 ?>
+<main class="home-page">
 <?php include 'customTemplates/heroSection.php' ?>
 <section class="shapingFuture pos-rel" id="shapingFuture">
 	<div class="container">
@@ -33,7 +34,7 @@ get_header();
   <div class="specialize_slider">
     <div class="specialize_cont specialise_1">
       <h2 class="text-left">We Specialize</h2>
-      <h3>in connecting brands<br>with the right audience...</h3>
+      <h3>in connecting brands<br>with the right audience.</h3>
     </div>
     <div class="specialize_cont specialise_2">
       <h3 class="text-white text-center">
@@ -59,30 +60,32 @@ get_header();
 		<div class="project-card-list justify-end col-12">
 			<div class="col-5 col-xs-12 col-md-12">
 				<div class="project-card-info">
-					<img class="rOSOff img-responsive br-12" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/shubh-vedha-home.png">
-					<h3 class="rOSOff scroll-animate fade-in">Shubh Vedha</h3>
-					<p class="rOSOff scroll-animate fade-in">Campaigns, Digital Advertising, Social Advertising</p>
-					<a href="<?php echo site_url('/case-studies/performance-marketing/shubh-veda'); ?>" class="blue-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
+					<img src="<?php echo THEMEURL; ?>/app/images/mantra-home.png" class="rOSOff br-12 img-responsive" data-animation="fadeInUp" data-timeout="200">
+					<h3 class="rOSOff  scroll-animate fade-in">Mantra Properties</h3>
+					<p class="rOSOff  scroll-animate fade-in">Digital Advertising, Social Advertising, SEO</p>
+					<a href="<?php echo site_url('/case-studies/social-media-management/mantra-properties/ '); ?>" class="blue-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
 			</div>
 		</div>
 		<div class="project-card-list col-12">
 			<div class="col-5 col-xs-12 col-md-12">
 				<div class="project-card-info">
-					<img class="rOSOff img-responsive br-12" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/pwc-home.png">
-					<h3 class="rOSOff scroll-animate fade-in">Pride World City</h3>
-					<p class="rOSOff scroll-animate fade-in">Campaigns, Digital Advertising, Social Advertising</p>
-					<a href="<?php echo site_url('/case-studies/performance-marketing/pride-world-city'); ?>" class="blue-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
+
+					<img class="rOSOff img-responsive br-12" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/shubh-vedha-home.png">
+					<h3 class="rOSOff scroll-animate fade-in">Shubh Developers</h3>
+					<p class="rOSOff scroll-animate fade-in">SEO, Digital Advertising, Social Advertising</p>
+					<a href="<?php echo site_url('/case-studies/performance-marketing/shubh-veda'); ?>" class="blue-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
 			</div>
 		</div>
 		<div class="project-card-list scroll_card justify-end col-12">
 			<div class="col-5 col-xs-12 col-md-12">
 				<div class="project-card-info">
-					<img src="<?php echo THEMEURL; ?>/app/images/goyal-properties-home.png" class="rOSOff br-12 img-responsive" data-animation="fadeInUp" data-timeout="200">
-					<h3 class="rOSOff  scroll-animate fade-in">Goyal Properties</h3>
-					<p class="rOSOff  scroll-animate fade-in">Campaigns, Website, SEO</p>
-					<a href="<?php echo site_url('/case-studies/seo/goyal-properties'); ?>" class="blue-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
+					
+					<img class="rOSOff img-responsive br-12" data-animation="fadeInUp" data-timeout="200" src="<?php echo THEMEURL; ?>/app/images/pwc-home.png">
+					<h3 class="rOSOff scroll-animate fade-in">Pride World City</h3>
+					<p class="rOSOff scroll-animate fade-in">SEO, Digital Advertising, Social Advertising</p>
+					<a href="<?php echo site_url('/case-studies/performance-marketing/pride-world-city'); ?>" class="blue-btn rOSOff" data-animation="fadeInUp" data-timeout="200">See the case study</a>
 				</div>
 			</div>
 		</div>
@@ -106,6 +109,10 @@ get_header();
 					<div class="col" ontouchstart="this.classList.toggle('hover');">
 						<div class="container">
 							<div class="front bg-top">
+								<video autoplay muted loop playsinline class="background-video">
+							    <source src="<?php echo THEMEURL; ?>/app/images/Media-Statergy.mp4" type="video/mp4" />
+							    Your browser does not support the video tag.
+							  </video>
 								<div class="inner">
 									<p>Media Strategy</p>
 								</div>
@@ -150,6 +157,10 @@ get_header();
 					<div class="col" ontouchstart="this.classList.toggle('hover');">
 						<div class="container">
 							<div class="front bg-top">
+								<video autoplay muted loop playsinline class="background-video">
+							    <source src="<?php echo THEMEURL; ?>/app/images/Organic-Search.mp4" type="video/mp4" />
+							    Your browser does not support the video tag.
+							  </video>
 								<div class="inner">
 									<p>Organic Search</p>
 								</div>
@@ -174,7 +185,7 @@ get_header();
 						<div class="container">
 							<div class="front bg-top bg-img bg-img-2">
 								<div class="inner">
-									<p>Social Media Management</p>
+									<p>Social Media</p>
 								</div>
 							</div>
 							<div class="back">
@@ -193,8 +204,12 @@ get_header();
 					<div class="col" ontouchstart="this.classList.toggle('hover');">
 						<div class="container">
 							<div class="front">
+								<video autoplay muted loop playsinline class="background-video">
+							    <source src="<?php echo THEMEURL; ?>/app/images/Review-Management.mp4" type="video/mp4" />
+							    Your browser does not support the video tag.
+							  </video>
 								<div class="inner">
-									<p>Reputation Management</p>
+									<p>Review Management</p>
 								</div>
 							</div>
 							<div class="back">
@@ -235,6 +250,10 @@ get_header();
 					<div class="col" ontouchstart="this.classList.toggle('hover');">
 						<div class="container">
 							<div class="front bg-top">
+								<video autoplay muted loop playsinline class="background-video">
+							    <source src="<?php echo THEMEURL; ?>/app/images/Web-Developement.mp4" type="video/mp4" />
+							    Your browser does not support the video tag.
+							  </video>
 								<div class="inner">
 									<p>Web Development</p>
 								</div>
@@ -250,7 +269,7 @@ get_header();
 										<li>UI/UX Design</li>
 										<li>Website Maintenance and Support</li>
 									</ul>
-									<a href="<?php echo site_url('/services/website-design-development'); ?>" class="readmore">Read More</a>
+									<a href="<?php echo site_url('/services/website-development'); ?>" class="readmore">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -259,7 +278,7 @@ get_header();
 						<div class="container">
 							<div class="front bg-top bg-img bg-img-4">
 								<div class="inner">
-									<p>Creative & Visual Motion</p>
+									<p>Motion Graphics</p>
 								</div>
 							</div>
 							<div class="back">
@@ -280,8 +299,12 @@ get_header();
 					<div class="col" ontouchstart="this.classList.toggle('hover');">
 						<div class="container">
 							<div class="front bg-top">
+								<video autoplay muted loop playsinline class="background-video">
+							    <source src="<?php echo THEMEURL; ?>/app/images/Brand-and-design.mp4" type="video/mp4" />
+							    Your browser does not support the video tag.
+							  </video>	
 								<div class="inner">
-									<p>Brand & Design</p>
+									<p>Brand & Designs</p>
 								</div>
 							</div>
 							<div class="back">
@@ -320,9 +343,9 @@ get_header();
 		<div class="clientCont">
 			<div class="col-5 text-left-xs col-md-12 fade-in scroll-animate">
 				<div class="secPrefix">Our Clients</div>
-				<div class="secTitle mg-bt-20">Why customers<br> love partnering<br> with us? </div>
+				<div class="secTitle mg-bt-20">Why customers<br class="hidden-xs"> love partnering<br class="hidden-xs"> with us? </div>
 				<p class="secPara col-10 col-xs-12">Because we pair smart strategy with relentless execution.</p>
-				<a href="<?php echo site_url('/clients'); ?>" class="blue-btn mg-tp-30 col-12 rOSOff">Explore More</a>
+				<a href="<?php echo site_url('/clients'); ?>" class="blue-btn mg-tp-30 col-12 rOSOff hidden-xs">Explore More</a>
 			</div>
 			<div class="gridBoxs col-7 col-md-12">
 				<div class="clientSlider">
@@ -395,7 +418,13 @@ get_header();
 					<div class="box">
 						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client23.png" alt="">
 					</div>
+					<div class="box">
+						<img class="zoomCard img-responsive" src="<?php echo THEMEURL; ?>/app/images/client24.png" alt="">
+					</div>
 				</div>
+			</div>
+			<div class="col-12 visible-xs">
+				<a href="<?php echo site_url('/clients'); ?>" class="blue-btn mg-tp-30 col-12 rOSOff">Explore More</a>
 			</div>
 		</div>
 	</div>
@@ -405,7 +434,7 @@ get_header();
 		<div class="clientCont">
 			<div class="col-5 text-left-xs col-md-12 fade-in scroll-animate">
 				<div class="secPrefix">Our Partners</div>
-				<div class="secTitle mg-bt-20">We simplify the<br> complex </div>
+				<div class="secTitle mg-bt-20">We simplify the<br class="hidden-xs"> complex </div>
 				<p class="secPara col-10 col-xs-12">guiding you to the best-fit digital solutions without the guesswork.</p>
 				<!-- <a href="javascript:;" class="blue-btn mg-tp-30 col-12">Explore More</a> -->
 			</div>
@@ -451,77 +480,100 @@ get_header();
 		</div>
 	</div>
 </section>
-<section class="padding testimonials">
+<section class="padding testimonials ">
 		<div class="container">
 			<div class="col-12">
 				<div class="col-5  col-md-12">
 					<div class="secPrefix scroll-animate slide-in-up delay-2">Client Testimonials</div>
-					<p class="secPara col-10 col-xs-12  scroll-animate slide-in-up delay-3">The landmark campaigns in Hall of Fame</p>
+					<p class="secPara col-10 col-xs-12 mg-bt-20  scroll-animate slide-in-up delay-3">The landmark campaigns in Hall of Fame</p>
 				</div>
 				<div class="col-7  col-md-12">
 					<div class="secTitle mg-bt-20  scroll-animate slide-in-up delay-4">How Pinaka Digital Technologies has helped brands thrive</div>
 				</div>
 			</div>
-			<div class="col-12 fade-in scroll-animate">
+			<div class="col-12 fade-in scroll-animate counterMain">
 				<div class="testimonial-grid">
+
 					<div class="testi-card">
-						<iframe width="100%" height="260" src="https://www.youtube.com/embed/bbOm_o7jS4k" title="Client Testimonial - KBD Group" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						<h2 class="sec-title">KBD Group</h2>
+						<iframe width="100%" height="260" src="https://www.youtube.com/embed/z45qNLMBSWg" title="Client Testimonial - Ceratec Group" id="video-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						
+						<h2 class="sec-title">Shubh Developers</h2>
 						<div class="card-intact">
 							<div class="inner">
-								<div class="number">10x</div>
+								<div class="number"><span class="count" data-count="10">0</span>x</div>
 								<div class="intact-title">Leads Growth</div>
 							</div>
 							<div class="inner">
-								<div class="number">30%</div>
+								<div class="number"><span class="count" data-count="20">0</span>%</div>
 								<div class="intact-title">Site Visit Growth</div>
 							</div>
 						</div>
-						<div class="testi-review">“Pinaka team is awesome to work with”</div>
+						<div class="testi-review">“Pinaka team is quite good”</div>
 						<div class="">
-							<a href="<?php echo site_url('/our-works'); ?>" class="know-more">Know More</a>
+							<a href="<?php echo site_url('/case-studies/performance-marketing/shubh-veda/'); ?>" class="know-more rOSOff">Know More</a>
 						</div>
 					</div>
+					
 					<div class="testi-card">
-						<iframe width="100%" height="260" src="https://www.youtube.com/embed/gqcSAxuPRvw" title="Client Testimonial - Pride World City" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<iframe width="100%" height="260" src="https://www.youtube.com/embed/DOjklhk2Y0g" title="Client Testimonial - Pride World City" id="video-2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 						<h2 class="sec-title">Pride World City</h2>
 						<div class="card-intact">
 							<div class="inner">
-								<div class="number">5x</div>
+								<div class="number"><span class="count" data-count="5">0</span>x</div>
 								<div class="intact-title">Leads Growth</div>
 							</div>
 							<div class="inner">
-								<div class="number">20%</div>
+								<div class="number"><span class="count" data-count="20">0</span>%</div>
 								<div class="intact-title">Site Visit Growth</div>
 							</div>
 						</div>
 						<div class="testi-review">“Working with the Pinaka team is absolutely a wonderful experience”
 						</div>
 						<div class="">
-							<a href="<?php echo site_url('/case-studies/seo/pride-world-city'); ?>" class="know-more">Know More</a>
+							<a href="<?php echo site_url('/case-studies/seo/pride-world-city'); ?>" class="know-more rOSOff">Know More</a>
 						</div>
 					</div>
 					<div class="testi-card">
-						<iframe width="100%" height="260" src="https://www.youtube.com/embed/qaKBMPuHVug" title="Client Testimonial - Ceratec Group" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<iframe width="100%" height="260" src="https://www.youtube.com/embed/H8zDlvWw-ZI" title="Client Testimonial - Ceratec Group" id="video-3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 						
 						<h2 class="sec-title">Ceratec Group</h2>
 						<div class="card-intact">
 							<div class="inner">
-								<div class="number">15x</div>
+								<div class="number"><span class="count" data-count="15">0</span>x</div>
 								<div class="intact-title">Leads Growth</div>
 							</div>
 							<div class="inner">
-								<div class="number">12%</div>
+								<div class="number"><span class="count" data-count="12">0</span>%</div>
 								<div class="intact-title">Site Visit Growth</div>
 							</div>
 						</div>
 						<div class="testi-review">“Their expertise & collaborative spirit make project a success story”</div>
 						<div class="">
-							<a href="<?php echo site_url('/case-studies/public-relations-and-influencer/ceratec-group'); ?>" class="know-more">Know More</a>
+							<a href="<?php echo site_url('/case-studies/public-relations-and-influencer/ceratec-group'); ?>" class="know-more rOSOff">Know More</a>
 						</div>
 					</div>
+					<div class="testi-card">
+						<iframe width="100%" height="260" src="https://www.youtube.com/embed/HuI3gtIBEY0" title="Client Testimonial - KBD Group" id="video-4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<h2 class="sec-title">KBD Group</h2>
+						<div class="card-intact">
+							<div class="inner">
+								<div class="number"><span class="count" data-count="10">0</span>x</div>
+								<div class="intact-title">Leads Growth</div>
+							</div>
+							<div class="inner">
+								<div class="number"><span class="count" data-count="30">0</span>%</div>
+								<div class="intact-title">Site Visit Growth</div>
+							</div>
+						</div>
+						<div class="testi-review">“Pinaka team is awesome to work with”</div>
+						<div class="">
+							<a href="<?php echo site_url('/our-works'); ?>" class="know-more rOSOff">Know More</a>
+						</div>
+					</div>
+					
+
 				</div>
-				<div class="customArrow visible-md mg-tp-30">
+				<div class="customArrow mg-tp-30">
 					<div id="testLeft">
 						<img src="<?php echo THEMEURL; ?>/app/images/next.svg" alt="" class="img-responsive">
 					</div>
@@ -541,9 +593,9 @@ get_header();
 				<p class="secPara text-white">
 					we keep learning, so you keep leading.
 				</p>
-				<a href="<?php echo site_url('/insights'); ?>" class="themeBtn border-white rOSOff">Explore More</a>
+				<a href="<?php echo site_url('/insights'); ?>" class="white-btn rOSOff hidden-xs">Explore More</a>
 			</div>
-			<div class="partB">
+			<div class="partB mg-tp-30">
 				<?php
 				// WP Query to get latest 4 blog posts
 				$args = array(
@@ -556,13 +608,13 @@ get_header();
 					while ($blog_query->have_posts()) : $blog_query->the_post();
 						?>
 						<div class="box">
-							<a href="<?php the_permalink(); ?>">
+							<a href="<?php the_permalink(); ?>" class="zoomCard">
 								<?php if (has_post_thumbnail()) : ?>
 									<?php the_post_thumbnail('full', array('class' => 'img-full scroll-animate clip-reveal')); ?>
 								<?php else : ?>
 									<img class="img-full scroll-animate clip-reveal br-12" src="<?php echo THEMEURL; ?>/app/images/rectPlace.png" alt="">
 								<?php endif; ?>
-							</a>
+							</a>							
 
 							<div class="info mg-tp-10">
 								<!-- <span class="text-white"><?php echo get_post_type_object(get_post_type())->labels->singular_name; ?> • </span> -->
@@ -570,7 +622,9 @@ get_header();
 								<!-- <span class="text-white"><?php echo estimated_reading_time(get_the_content()); ?></span> -->
 							</div>
 
+							<a href="<?php the_permalink(); ?>">
 							<p class="title text-white"> <?php echo mb_strimwidth( get_the_title(), 0, 60, '...' ); ?></p>
+							</a>
 						</div>
 					<?php
 					endwhile;
@@ -586,8 +640,13 @@ get_header();
 					<img src="<?php echo THEMEURL; ?>/app/images/next-wht.svg" alt="" class="img-responsive">
 				</div>
 			</div>
+			<div class="col-12 visible-xs text-center">
+				<a href="<?php echo site_url('/insights'); ?>" class="white-btn rOSOff" style="margin: 40px auto 0;">Explore More</a>
+			</div>
 		</div>
 	</div>
 </section>
+</main>
+
 <?php include 'customTemplates/footerGreen.php'; ?>
 <?php get_footer(); ?>

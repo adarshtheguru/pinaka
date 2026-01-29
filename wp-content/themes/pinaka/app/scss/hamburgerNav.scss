@@ -8,7 +8,7 @@
   position: absolute;
   top: 0px;
   right: 15px;
-  height: 40px;
+  height: 44px;
   cursor: pointer;
   > span {
     display: block;
@@ -40,6 +40,14 @@ body.menu-open {
   /*position: fixed;*/
   width: 100%;
 }
+.right-btn{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 70px;
+  .blue-btn{
+    margin-top: 0;
+  }
+}
 
 .hamburgerMenu {
   background-color: #fcfcfc;
@@ -53,7 +61,7 @@ body.menu-open {
   display: none;
   margin-top: -5px;
   @media ($max992) {
-    height: calc(100vh - 72px);
+    height: 100%;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
@@ -68,22 +76,33 @@ body.menu-open {
   .navBox {
     padding: 0 0px 0 15px;
     display: grid;
-    grid-template-columns: 30% auto;
+    grid-template-columns: 26% auto;
     @media ($max992) {
       grid-template-columns: auto;
     }
     .linkBox {
-      padding: 42px 0;
+      padding: 25px 0;
       .hamMenuA {
         display: grid;
-        gap: 22px 0;
+        gap: 33px 0;
+        padding-top: 30px;
         li {
-            width: fit-content;
+            width: 100%;
           a {
             font-weight: 450;
             font-size: 32px;
             line-height: normal;
             color: #2b2c2b;
+          }
+          &.mobile-service{
+            a{
+              display: flex;
+              justify-content: space-between;
+              width: 100%;
+              img{
+                width: 12px;
+              }
+            }
           }
           &.hasSubMenu{
             >a{
@@ -112,48 +131,102 @@ body.menu-open {
       }
     }
     .addressBox {
-      padding-top: 42px;
+      padding-top: 25px;
       padding-bottom: 42px;
       padding-left: 30px;
       border-left: 1px solid #dadbda;
-@media ($max992) {
-          padding-top: 42px;
-    padding-bottom: 42px;
-    padding-left: 0;
-    border-left: 0px solid #dadbda;
-    border-top: 1px solid #dadbda;
-  }
+      @media ($max992) {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+        border-left: 0 solid #dadbda;
+        border-top: 0px solid #dadbda;
+        position: fixed;
+        top: 0;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        left: 100%;
+        transition: all 0.6s ease-in-out;
+        &.active{
+          left: 0%;
+        }
+      }
       .service-list{
-        .title{
-          font-size: 32px;
-          line-height: 46px;
-          color: #2B2C2B;
+        > .title{
+          font-size: 20px;
+          line-height: 30px;
+          color: #003E63;
+          @media ($max992) {
+            display: flex;
+            justify-content: space-between;
+            padding: 19px 25px 0;
+            .close-menu{
+              color: #2B2C2B;
+              font-size: 32px;
+              font-weight: 500;
+            }
+          }
         }
         .service-list-menu{
           display: grid;
           grid-template-columns: repeat(3, 1fr);
-          gap: 30px;
-          margin-top: 30px;
+          gap: 24px;
+          margin-top: 15px;
           @media ($max992) {
             grid-template-columns: repeat(1, 1fr);
+            gap: 0;
           }
           .service-menu-wrap{
+            border-radius: 24px;
+            border:1px solid #EDEEEF;
+            padding: 32px 24px 24px 24px;
+            @media ($max992) {
+              display: flex;
+              gap: 25px;
+              border: 0px solid #edeeef;
+              padding: 15px 24px 16px;
+              border-top: 1px solid #edeeef;
+              border-radius: 0;
+            }
             .title{
-              font-size: 20px;
-              line-height: 29px;
-              background: linear-gradient(90deg, #003E63 0%, #0D669C 100%);
+              font-size: 18px;
+              line-height: 22px;
+              color: #2B2C2B;
+              margin-top: 20px;
+              font-weight: 600;
+              @media ($max992) {
+                display: flex;
+                justify-content: space-between;
+                padding: 0;
+                .close-menu{
+                  color: #2B2C2B;
+                  font-size: 20px;
+                }
+              }
+              /*background: linear-gradient(90deg, #003E63 0%, #0D669C 100%);
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
               background-clip: text;
-              text-fill-color: transparent;
-              margin-bottom: 5px;
+              text-fill-color: transparent;*/
             }
             ul{
               li{
                 padding-left: 10px;
-                padding-top: 10px;
+                padding-top: 5px;
+                position: relative;
+                &:after{
+                  content: '';
+                  position: absolute;
+                  left: 0;
+                  top: 15px;
+                  width: 4px;
+                  height: 4px;
+                  border-radius: 100%;
+                  background-color: #2B2C2B;
+                }
                 a{
-                  font-size: 16px;
+                  font-size: 14px;
                   line-height: 23px;
                   color: #2B2C2B;
                   svg{

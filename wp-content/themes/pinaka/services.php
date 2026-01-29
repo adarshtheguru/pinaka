@@ -1,4 +1,4 @@
-<?php /* Template Name: Services */
+<?php /* Template Name: Services Page */
 get_header();
 ?>
 <?php include 'customTemplates/heroSection.php' ?>
@@ -8,128 +8,56 @@ get_header();
 			<div class="col-12">
 				<div class="secPrefix">Services</div>
 			</div>
-			<div class="col-12 pd-tp-30 pd-bt-30 br-bt-1">
-				<div class="col-5 col-xs-12 pd-rt-30 pd-bt-30">
-					<h3 class="main-title">Performance</h3>
-					<p class="services-desc">We designed a data-driven performance marketing campaign powered.</p>
-				</div>
-				<div class="col-7  col-xs-12">
-					<div class="service-list">
-						<div class="services-item">
-							<img src="<?php echo THEMEURL; ?>/app/images/media-strategy.png">
-							<div class="services-title">
-								<h4>Media Strategy</h4>
-								<a href="<?php echo site_url('/services/media-strategy'); ?>"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
-							</div>
-						</div>
-						<div class="services-item">
-							<img src="<?php echo THEMEURL; ?>/app/images/dsm.png">
-							<div class="services-title">
-								<h4>Digital Social Marketing</h4>
-								<a href="<?php echo site_url('/services/digital-social-advertising'); ?>"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php if( have_rows('service_sections') ): ?>
+			    <?php while( have_rows('service_sections') ): the_row(); ?>
+			        <div class="col-12 pd-tp-30 pd-bt-30 br-bt-1">
+			            <div class="col-5 col-xs-12 pd-rt-30 pd-bt-30">
+			                <h3 class="main-title"><?php the_sub_field('section_title'); ?></h3>
+			                <p class="services-desc"><?php the_sub_field('section_description'); ?></p>
+			            </div>
+			            <div class="col-7 col-xs-12">
+			                <div class="service-list">
+			                    <?php if( have_rows('services_list') ): ?>
+			                        <?php while( have_rows('services_list') ): the_row(); 
+			                            $image = get_sub_field('service_image');
+			                            $title = get_sub_field('service_title');
+			                            $link  = get_sub_field('service_link');
+			                        ?>
+			                            <div class="services-item">
+			                                <?php 
+											if( $image ):
+											    if( is_array($image) && isset($image['url']) ) {
+											        $image_url = $image['url'];
+											    } elseif( is_numeric($image) ) {
+											        $image_url = wp_get_attachment_url($image);
+											    } else {
+											        $image_url = $image;
+											    }
+											?>
+											    <img src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($title); ?>">
+											<?php endif; ?>
 
-			<div class="col-12 pd-tp-30 pd-bt-30 br-bt-1">
-				<div class="col-5 col-xs-12 pd-rt-30  pd-bt-30">
-					<h3 class="main-title">Organic Marketing</h3>
-					<p class="services-desc">We designed a data-driven performance marketing campaign powered.</p>
-				</div>
-				<div class="col-7 col-xs-12">
-					<div class="service-list">
-						<div class="services-item">
-							<img src="<?php echo THEMEURL; ?>/app/images/organic-marketing.png">
-							<div class="services-title">
-								<h4>Organic Search</h4>
-								<a href="<?php echo site_url('/services/new-age-organic-search'); ?>"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
-							</div>
-						</div>
-						<div class="services-item">
-							<img src="<?php echo THEMEURL; ?>/app/images/SMM.png">
-							<div class="services-title">
-								<h4>Social Media Marketing</h4>
-								<a href="<?php echo site_url('/services/social-media-managment'); ?>"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			                                <div class="services-title">
+			                                    <h4><?php echo esc_html($title); ?></h4>
+			                                    <?php if($link): ?>
+			                                        <a href="<?php echo esc_url($link); ?>">
+			                                            <img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg" alt="CTA">
+			                                        </a>
+			                                    <?php endif; ?>
+			                                </div>
+			                            </div>
+			                        <?php endwhile; ?>
+			                    <?php endif; ?>
+			                </div>
+			            </div>
+			        </div>
+			    <?php endwhile; ?>
+			<?php endif; ?>
 
-			<div class="col-12 pd-tp-30 pd-bt-30 br-bt-1">
-				<div class="col-5 col-xs-12  pd-bt-30 pd-rt-30">
-					<h3 class="main-title">Tech</h3>
-					<p class="services-desc">We designed a data-driven performance marketing campaign powered.</p>
-				</div>
-				<div class="col-7 col-xs-12">
-					<div class="service-list">
-						<div class="services-item">
-							<img src="<?php echo THEMEURL; ?>/app/images/WD.png">
-							<div class="services-title">
-								<h4>Website Development</h4>
-								<a href="<?php echo site_url('/services/website-design-development'); ?>"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
-							</div>
-						</div>
-						<div class="services-item">
-							<img src="<?php echo THEMEURL; ?>/app/images/UX-UI.png">
-							<div class="services-title">
-								<h4>UX/UI Designs</h4>
-								<a href="<?php echo site_url('/services/website-design-development'); ?>"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-12 pd-tp-30 pd-bt-30 br-bt-1">
-				<div class="col-5 col-xs-12  pd-bt-30 pd-rt-30">
-					<h3 class="main-title">PR Services</h3>
-					<p class="services-desc">We designed a data-driven performance marketing campaign powered.</p>
-				</div>
-				<div class="col-7 col-xs-12">
-					<div class="service-list">
-						<div class="services-item">
-							<img src="<?php echo THEMEURL; ?>/app/images/PR-Service.png">
-							<div class="services-title">
-								<h4>Public Relations & Influencer</h4>
-								<a href="<?php echo site_url('/services/public-relations-influencer'); ?>"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-12 pd-tp-30 pd-bt-30 br-bt-1">
-				<div class="col-5  pd-bt-30 col-xs-12 pd-rt-30">
-					<h3 class="main-title">Brand Design</h3>
-					<p class="services-desc">We designed a data-driven performance marketing campaign powered.</p>
-				</div>
-				<div class="col-7 col-xs-12">
-					<div class="service-list">
-						<div class="services-item">
-							<img src="<?php echo THEMEURL; ?>/app/images/Branding.png">
-							<div class="services-title">
-								<h4>Branding</h4>
-								<a href="https://houseofhues.co" target="_blank"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
-							</div>
-						</div>
-						<div class="services-item">
-							<img src="<?php echo THEMEURL; ?>/app/images/Graphic-Design.png">
-							<div class="services-title">
-								<h4>Graphic & Motion Design</h4>
-								<a href="<?php echo site_url('/services/graphic-designs-motion-graphic'); ?>"><img src="<?php echo THEMEURL; ?>/app/images/service-cta.svg"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 
 		</div>
 	</div>
 </section>
-
 <?php
 // Query all case studies
 $args = [
@@ -147,11 +75,11 @@ if ($query->have_posts()) : ?>
         <div class="container">
             <div class="partA">
                 <div class="title">Case Studies</div>
-                <a href="<?php echo get_post_type_archive_link('case_study'); ?>" class="themeBtn">See All CASE STUDIES</a>
+                <a href="<?php echo get_post_type_archive_link('our-works'); ?>" class="themeBtn">See All CASE STUDIES</a>
             </div>
         </div>
 
-        <div class="case-study-wrapper">
+        <div class="case-study-wrapper pos-rel">
             <div class="case-study-slider">
                 <?php while ($query->have_posts()) : $query->the_post();
                     $image_id  = get_field('service_thumbnail_image', get_the_ID());
@@ -167,6 +95,14 @@ if ($query->have_posts()) : ?>
                     </div>
                 <?php endwhile; ?>
             </div>
+            <div class="customArrow">
+				<div id="csLeft">
+					<img src="<?php echo THEMEURL; ?>/app/images/blueLeft.svg" alt="">
+				</div>
+				<div id="csRight">
+					<img src="<?php echo THEMEURL; ?>/app/images/blueRight.svg" alt="">
+				</div>
+			</div>
         </div>
     </section>
 <?php
@@ -175,5 +111,5 @@ wp_reset_postdata();
 ?>
 
 
-<?php include 'customTemplates/footerGreen.php'; ?>
+<!-- <?php include 'customTemplates/footerGreen.php'; ?> -->
 <?php get_footer(); ?>

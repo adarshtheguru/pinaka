@@ -6,7 +6,7 @@
 </style>
 <section id="staticInfo" class="padding staticInfo">
 	<div class="container">
-		<h2 class="secPrefix text-center  scroll-animate slide-in-up">Media Strategy</h2>
+		<h2 class="secPrefix text-center  scroll-animate slide-in-up">Media Strategy & Consulting</h2>
 		<div class="mg-tp-30">
 			<div class="partA d-flex text-bold">
 				<?php echo esc_html($intro_a); ?>
@@ -17,17 +17,17 @@
 				<?php echo esc_html($intro_b); ?>
 			</div>
 		</div>
-		<div class="media-stats mg-tp-30">
+		<div class="media-stats mg-tp-30 counterMain">
 			<div class="numbers scroll-animate slide-in-up delay-1">
-				<h3>500+</h3>
+				<h3><span class="count" data-count="500">0</span>+</h3>
 				<p>Projects Successfully Launched</p>
 			</div>
 			<div class="numbers scroll-animate slide-in-up delay-2">
-				<h3>10,000+</h3>
+				<h3><span class="count" data-count="10000">0</span>+</h3>
 				<p>Successful Campaigns</p>
 			</div>
 			<div class="numbers scroll-animate slide-in-up delay-3">
-				<h3>₹100+ Cr</h3>
+				<h3>₹<span class="count" data-count="100">0</span>+ Cr</h3>
 				<p>Media Spends Managed</p>
 			</div>
 		</div>
@@ -39,9 +39,9 @@
 		<div class="mg-tp-40  scroll-animate slide-in-up delay-1">
 			<p class="partB d-flex text-justify">At Pinaka Digital Technologies, we believe performance campaigns can’t rely only on last-click conversions. With rising customer acquisition costs and changing consumer behavior, the key to success lies in a holistic full-funnel strategy. <br> <br>We structure every campaign across Awareness (Top Funnel), Consideration (Mid Funnel), and Conversion (Bottom Funnel) to ensure both short-term wins and long-term sustainable growth.</p>
 		</div>
-		<div class="mg-tp-40 text-center  scroll-animate slide-in-up delay-1">
+		<!-- <div class="mg-tp-40 text-center  scroll-animate slide-in-up delay-1">
 			<a href="<?php echo site_url('/contact-us'); ?>" class="themeBtn">Contact Us</a>
-		</div>
+		</div> -->
 	</div>
 </section>
 <main class="caseStudySingle funnel">
@@ -264,7 +264,7 @@
 				<?php endif; ?>
 				<?php if ($btn_text = get_field('button_text')) :
 				$btn_link = get_field('deliver_link'); ?>
-				<a href="<?php echo esc_url($btn_link ? get_permalink($btn_link) : 'javascript:;'); ?>" class="themeBtn">
+				<a href="<?php echo site_url('/service'); ?>" class="themeBtn">
 					<?php echo esc_html($btn_text); ?>
 				</a>
 				<?php endif; ?>
@@ -314,7 +314,7 @@ if ($query->have_posts()) : ?>
         <div class="container">
             <div class="partA">
                 <div class="title">Relevant Case Studies</div>
-                <a href="<?php echo get_post_type_archive_link('our-works'); ?>" class="themeBtn">See All CASE STUDIES</a>
+                <a href="<?php echo site_url('/our-works'); ?>" class="themeBtn">See All CASE STUDIES</a>
             </div>
         </div>
 
@@ -334,6 +334,17 @@ if ($query->have_posts()) : ?>
                     </div>
                 <?php endwhile; ?>
             </div>
+            <div class="customArrow">
+				<div id="csLeft">
+					<img src="<?php echo THEMEURL; ?>/app/images/blueLeft.svg" alt="">
+				</div>
+				<div id="csRight">
+					<img src="<?php echo THEMEURL; ?>/app/images/blueRight.svg" alt="">
+				</div>
+			</div>
+        </div>
+        <div class="container text-center mg-tp-30 visible-xs">
+        	<a href="<?php echo site_url('/our-works'); ?>" class="themeBtn">See All CASE STUDIES</a>
         </div>
     </section>
 <?php

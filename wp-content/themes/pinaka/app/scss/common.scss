@@ -14,7 +14,7 @@ p{
     font-size: 16px;
     line-height: 26px;
 }
-.themeBtn{
+.themeBtn,input[type=submit]{
     background: linear-gradient(90deg, #003E63 0%, #003E63 100%);
     padding: 10px 30px;
     color: $white !important;
@@ -92,9 +92,10 @@ p{
 .blankBtn{
     border: 1px solid #003E63;
     border-radius: 6px;
-    padding: 6px 20px;
+    padding: 9px 20px;
     display: inline-block;
     color: #003E63;
+    font-weight: 600;
 }
 .h100{
     height: 100vh;

@@ -13,13 +13,13 @@ get_header();
         <div class="container">
             <!-- <div class="secPrefix">Contact Us</div> -->
             <div class="caseBox">
-                <div class="partA  scroll-animate fade-in delay-1">
+                <div class="partA scroll-animate fade-in delay-1">
                     <div class="secTitle">Join our Journey</div>
                     <p class="para">
                         Partner with us to blend creative thinking and smart strategy for results that truly stand out.
                     </p>
                 </div>
-                <div class="partB  scroll-animate slide-in-up delay-2">
+                <div class="partB scroll-animate fade-in delay-1">
                     <?php include 'customTemplates/contactUsForm.php'; ?>
                     <div class="adBox" style="display:block!important;">
                         <div class="layer layerA">
@@ -66,4 +66,18 @@ get_header();
         </div>
     </section>
 </main>
+<?php
+$instagram_feed_shortcode = get_field('instagram_feed'); // ACF field name
+
+if ($instagram_feed_shortcode) {
+    ?>
+    <section class="padding  scroll-animate fade-in">
+    <div class="container"><?php
+    echo do_shortcode($instagram_feed_shortcode);
+    ?>
+</div>
+</section>
+<?php
+}
+?>
 <?php get_footer(); ?>

@@ -22,5 +22,5 @@ $service_slug = get_post_field('post_name', get_the_ID());
         <?php include 'customTemplates/serviceDefault.php'; ?>
     <?php endif; ?>
 </main>
-<?php include 'customTemplates/footerGreen.php'; ?>
+<!-- <?php include 'customTemplates/footerGreen.php'; ?> -->
 <?php get_footer(); ?>

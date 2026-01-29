@@ -66,6 +66,36 @@ if ($menu_items) {
 
   gtag('config', 'G-E3178XCLP2');
 </script>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2005436833663832');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2005436833663832&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17853022616"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17853022616');
+</script>
+
+
 </head>
 
 <body>
@@ -74,15 +104,19 @@ if ($menu_items) {
 			<div class="row">
 				<div id="comp-logo">
 					<div class="pull-left col-2 col-xs-9 brand-logo">
-						<a href="<?php echo site_url('/'); ?>" class="goto-home"><img src="<?php echo THEMEURL; ?>/app/images/logo.svg"
-								class="img-responsive" data-event-category="Header" data-event-action="Click"
-								data-event-name="Logo"></a>
+						<a href="<?php echo site_url('/'); ?>" class="goto-home">
+							<img src="<?php echo THEMEURL; ?>/app/images/Pinaka-logo.png" class="img-responsive logo-black">
+							<img src="<?php echo THEMEURL; ?>/app/images/Pinaka-logo-white.png" class="img-responsive white-logo">
+						</a>
 					</div>
 					<div class="col-10 col-xs-3 pull-right">
-						<div class="hamburger pull-right">
-							<span class="bar1"></span>
-							<span class="bar2"></span>
-							<span class="bar3"></span>
+						<div class="right-btn">
+							<a href="javascript:;" class="blue-btn hidden-xs enq_click rOSOff pull-right">Get a Quote</a>
+							<div class="hamburger pull-right">
+								<span class="bar1"></span>
+								<span class="bar2"></span>
+								<span class="bar3"></span>
+							</div>
 						</div>
 						<div class="col-12 lower">
 							<div class="nav-links">
@@ -107,152 +141,134 @@ if ($menu_items) {
 				<div class="navBox">
 					<div class="linkBox">
 						<ul class="hamMenuA">
-							<ul class="hamMenuA">
-							<?php foreach ($menu_tree as $item): ?>
-								<li class="<?php echo !empty($item['children']) ? 'hasSubMenu' : ''; ?>">
-									<a href="<?php echo esc_url($item['url']); ?>"><?php echo esc_html($item['title']); ?></a>
-									<?php if (!empty($item['children'])): ?>
-										<ul class="hamMenuB">
-											<?php foreach ($item['children'] as $child): ?>
-												<li><a href="<?php echo esc_url($child['url']); ?>"><?php echo esc_html($child['title']); ?></a></li>
-											<?php endforeach; ?>
-										</ul>
-									<?php endif; ?>
-								</li>
-							<?php endforeach; ?>
-							</ul>
+							    <?php foreach ($menu_tree as $item): ?>
+
+							        <?php 
+							            $has_children = !empty($item['children']);
+							            $item_url = $has_children ? 'javascript:void(0)' : esc_url($item['url']);
+							            $item_class = $has_children ? 'menu-parent' : '';
+							        ?>
+							        <?php 
+										$extra_class = (strtolower($item['title']) === 'services') ? 'mobile-service visible-sm' : '';
+										$is_services = (strtolower($item['title']) === 'services');
+										?>
+										<?php 
+											$item_url = (!empty($item['url'])) ? esc_url($item['url']) : 'javascript:void(0)';
+										?>
+							        <li class="<?php echo $extra_class; ?> <?php echo $has_children ? 'hasSubMenu' : ''; ?>">
+							            <a href="<?php echo $item_url; ?>" class="<?php echo $item_class; ?>">
+							            	<span>
+										    <?php echo esc_html($item['title']); ?>
+										    </span>
+										    <?php if ($is_services): ?>
+										        <span class="menu-arrow visible-sm">
+										            <img src="<?php echo THEMEURL; ?>/app/images/greaterThan.svg" alt="arrow">
+										        </span>
+										    <?php endif; ?>
+										</a>
+
+							            <?php if ($has_children): ?>
+							                <ul class="hamMenuB">
+							                    <?php foreach ($item['children'] as $child): ?>
+							                        <li>
+							                            <a href="<?php echo esc_url($child['url']); ?>">
+							                                <?php echo esc_html($child['title']); ?>
+							                            </a>
+							                        </li>
+							                    <?php endforeach; ?>
+							                </ul>
+							            <?php endif; ?>
+							        </li>
+
+							    <?php endforeach; ?>
+
 						</ul>
 					</div>
 					<div class="addressBox">
 						<div class="service-list">
-							<h2 class="title"><a href="<?php echo site_url('/service'); ?>">Services</a></h2>
+							<h2 class="title"><a href="<?php echo site_url('/service'); ?>">Services</a> <a href="javascript:;" class="close-menu visible-sm">&times;</a></h2>
 							<div class="service-list-menu">
 								<div class="service-menu-wrap">
-									<h3 class="title">Performance</h3>
-									<ul>
-										<li>
-											<a href="<?php echo site_url('/services/media-strategy'); ?>"><svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 4.86134C0.0506776 4.86396 0.101355 4.8692 0.151693 4.8692C3.559 4.86953 9.96596 4.86953 13.3733 4.86953C13.4219 4.86953 13.4709 4.86953 13.5443 4.86953C12.3196 3.68693 11.1156 2.52432 9.92005 1.37023C10.2323 1.06803 10.5306 0.77959 10.8197 0.5C12.5434 2.1641 14.2756 3.83705 16 5.5018C14.28 7.16262 12.5498 8.83328 10.8237 10.5C10.5425 10.2214 10.2479 9.92968 9.94589 9.63042C11.1247 8.49207 12.3305 7.32782 13.5365 6.16357C13.5307 6.15276 13.525 6.14194 13.5195 6.13112C13.475 6.13112 13.4304 6.13112 13.3859 6.13112C9.97004 6.13112 3.55458 6.13113 0.138768 6.13145C0.0925123 6.13145 0.0462562 6.1367 0.000340283 6.13932C0.000340283 5.71322 0 5.28744 0 4.86134Z" fill="url(#paint0_linear_2267_333)"/>
-<defs>
-<linearGradient id="paint0_linear_2267_333" x1="3" y1="5.5" x2="16" y2="5.5" gradientUnits="userSpaceOnUse">
-<stop stop-color="#003E63"/>
-<stop offset="1" stop-color="#0D669C"/>
-</linearGradient>
-</defs>
-</svg> 
-Media Strategy</a>
-										</li>
-										<li>
-											<a href="<?php echo site_url('/services/digital-social-advertising'); ?>"><svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 4.86134C0.0506776 4.86396 0.101355 4.8692 0.151693 4.8692C3.559 4.86953 9.96596 4.86953 13.3733 4.86953C13.4219 4.86953 13.4709 4.86953 13.5443 4.86953C12.3196 3.68693 11.1156 2.52432 9.92005 1.37023C10.2323 1.06803 10.5306 0.77959 10.8197 0.5C12.5434 2.1641 14.2756 3.83705 16 5.5018C14.28 7.16262 12.5498 8.83328 10.8237 10.5C10.5425 10.2214 10.2479 9.92968 9.94589 9.63042C11.1247 8.49207 12.3305 7.32782 13.5365 6.16357C13.5307 6.15276 13.525 6.14194 13.5195 6.13112C13.475 6.13112 13.4304 6.13112 13.3859 6.13112C9.97004 6.13112 3.55458 6.13113 0.138768 6.13145C0.0925123 6.13145 0.0462562 6.1367 0.000340283 6.13932C0.000340283 5.71322 0 5.28744 0 4.86134Z" fill="url(#paint0_linear_2267_333)"/>
-<defs>
-<linearGradient id="paint0_linear_2267_333" x1="3" y1="5.5" x2="16" y2="5.5" gradientUnits="userSpaceOnUse">
-<stop stop-color="#003E63"/>
-<stop offset="1" stop-color="#0D669C"/>
-</linearGradient>
-</defs>
-</svg> 
-Digital Social Marketing</a>
-										</li>
-									</ul>
+									<img src="<?php echo THEMEURL; ?>/app/images/menu-icon-1.svg" class="img-responsive">
+									<div>
+										<h3 class="title">Performance</h3>
+										<ul>
+											<li>
+												<a href="<?php echo site_url('/services/media-strategy'); ?>">Media Strategy</a>
+											</li>
+											<li>
+												<a href="<?php echo site_url('/services/digital-social-advertising'); ?>">Digital Social Marketing</a>
+											</li>
+										</ul>
+									</div>
 								</div>
 								<div class="service-menu-wrap">
-									<h3 class="title">Organic Marketing</h3>
-									<ul>
-										<li>
-											<a href="<?php echo site_url('/services/new-age-organic-search'); ?>"><svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 4.86134C0.0506776 4.86396 0.101355 4.8692 0.151693 4.8692C3.559 4.86953 9.96596 4.86953 13.3733 4.86953C13.4219 4.86953 13.4709 4.86953 13.5443 4.86953C12.3196 3.68693 11.1156 2.52432 9.92005 1.37023C10.2323 1.06803 10.5306 0.77959 10.8197 0.5C12.5434 2.1641 14.2756 3.83705 16 5.5018C14.28 7.16262 12.5498 8.83328 10.8237 10.5C10.5425 10.2214 10.2479 9.92968 9.94589 9.63042C11.1247 8.49207 12.3305 7.32782 13.5365 6.16357C13.5307 6.15276 13.525 6.14194 13.5195 6.13112C13.475 6.13112 13.4304 6.13112 13.3859 6.13112C9.97004 6.13112 3.55458 6.13113 0.138768 6.13145C0.0925123 6.13145 0.0462562 6.1367 0.000340283 6.13932C0.000340283 5.71322 0 5.28744 0 4.86134Z" fill="url(#paint0_linear_2267_333)"/>
-<defs>
-<linearGradient id="paint0_linear_2267_333" x1="3" y1="5.5" x2="16" y2="5.5" gradientUnits="userSpaceOnUse">
-<stop stop-color="#003E63"/>
-<stop offset="1" stop-color="#0D669C"/>
-</linearGradient>
-</defs>
-</svg> Organic Search</a>
-										</li>
-										<li>
-											<a href="<?php echo site_url('/services/social-media-management'); ?>"><svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 4.86134C0.0506776 4.86396 0.101355 4.8692 0.151693 4.8692C3.559 4.86953 9.96596 4.86953 13.3733 4.86953C13.4219 4.86953 13.4709 4.86953 13.5443 4.86953C12.3196 3.68693 11.1156 2.52432 9.92005 1.37023C10.2323 1.06803 10.5306 0.77959 10.8197 0.5C12.5434 2.1641 14.2756 3.83705 16 5.5018C14.28 7.16262 12.5498 8.83328 10.8237 10.5C10.5425 10.2214 10.2479 9.92968 9.94589 9.63042C11.1247 8.49207 12.3305 7.32782 13.5365 6.16357C13.5307 6.15276 13.525 6.14194 13.5195 6.13112C13.475 6.13112 13.4304 6.13112 13.3859 6.13112C9.97004 6.13112 3.55458 6.13113 0.138768 6.13145C0.0925123 6.13145 0.0462562 6.1367 0.000340283 6.13932C0.000340283 5.71322 0 5.28744 0 4.86134Z" fill="url(#paint0_linear_2267_333)"/>
-<defs>
-<linearGradient id="paint0_linear_2267_333" x1="3" y1="5.5" x2="16" y2="5.5" gradientUnits="userSpaceOnUse">
-<stop stop-color="#003E63"/>
-<stop offset="1" stop-color="#0D669C"/>
-</linearGradient>
-</defs>
-</svg> Social Media Marketing</a>
-										</li>
-									</ul>
+									<img src="<?php echo THEMEURL; ?>/app/images/menu-icon-2.svg" class="img-responsive">
+									<div>
+										<h3 class="title">Organic Marketing</h3>
+										<ul>
+											<li>
+												<a href="<?php echo site_url('/services/new-age-organic-search'); ?>">Organic Search</a>
+											</li>
+											<li>
+												<a href="<?php echo site_url('/services/social-media-management'); ?>">Social Media Management</a>
+											</li>
+										</ul>
+									</div>
 								</div>
 								<div class="service-menu-wrap">
-									<h3 class="title">Tech & Development</h3>
-									<ul>
-										<li>
-											<a href="<?php echo site_url('/services/website-design-development'); ?>"><svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 4.86134C0.0506776 4.86396 0.101355 4.8692 0.151693 4.8692C3.559 4.86953 9.96596 4.86953 13.3733 4.86953C13.4219 4.86953 13.4709 4.86953 13.5443 4.86953C12.3196 3.68693 11.1156 2.52432 9.92005 1.37023C10.2323 1.06803 10.5306 0.77959 10.8197 0.5C12.5434 2.1641 14.2756 3.83705 16 5.5018C14.28 7.16262 12.5498 8.83328 10.8237 10.5C10.5425 10.2214 10.2479 9.92968 9.94589 9.63042C11.1247 8.49207 12.3305 7.32782 13.5365 6.16357C13.5307 6.15276 13.525 6.14194 13.5195 6.13112C13.475 6.13112 13.4304 6.13112 13.3859 6.13112C9.97004 6.13112 3.55458 6.13113 0.138768 6.13145C0.0925123 6.13145 0.0462562 6.1367 0.000340283 6.13932C0.000340283 5.71322 0 5.28744 0 4.86134Z" fill="url(#paint0_linear_2267_333)"/>
-<defs>
-<linearGradient id="paint0_linear_2267_333" x1="3" y1="5.5" x2="16" y2="5.5" gradientUnits="userSpaceOnUse">
-<stop stop-color="#003E63"/>
-<stop offset="1" stop-color="#0D669C"/>
-</linearGradient>
-</defs>
-</svg> Website Development</a>
-										</li>
-										<li>
-											<a href="<?php echo site_url('/services/website-design-development'); ?>"><svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 4.86134C0.0506776 4.86396 0.101355 4.8692 0.151693 4.8692C3.559 4.86953 9.96596 4.86953 13.3733 4.86953C13.4219 4.86953 13.4709 4.86953 13.5443 4.86953C12.3196 3.68693 11.1156 2.52432 9.92005 1.37023C10.2323 1.06803 10.5306 0.77959 10.8197 0.5C12.5434 2.1641 14.2756 3.83705 16 5.5018C14.28 7.16262 12.5498 8.83328 10.8237 10.5C10.5425 10.2214 10.2479 9.92968 9.94589 9.63042C11.1247 8.49207 12.3305 7.32782 13.5365 6.16357C13.5307 6.15276 13.525 6.14194 13.5195 6.13112C13.475 6.13112 13.4304 6.13112 13.3859 6.13112C9.97004 6.13112 3.55458 6.13113 0.138768 6.13145C0.0925123 6.13145 0.0462562 6.1367 0.000340283 6.13932C0.000340283 5.71322 0 5.28744 0 4.86134Z" fill="url(#paint0_linear_2267_333)"/>
-<defs>
-<linearGradient id="paint0_linear_2267_333" x1="3" y1="5.5" x2="16" y2="5.5" gradientUnits="userSpaceOnUse">
-<stop stop-color="#003E63"/>
-<stop offset="1" stop-color="#0D669C"/>
-</linearGradient>
-</defs>
-</svg> UX/UI Designs</a>
-										</li>
-									</ul>
+									<img src="<?php echo THEMEURL; ?>/app/images/menu-icon-3.svg" class="img-responsive">
+									<div>
+										<h3 class="title">Tech & Development</h3>
+										<ul>
+											<li>
+												<a href="<?php echo site_url('/services/website-development'); ?>">Website Development</a>
+											</li>
+											<li>
+												<a href="<?php echo site_url('/services/website-development'); ?>">UX/UI Designs</a>
+											</li>
+										</ul>
+									</div>
 								</div>
 								<div class="service-menu-wrap">
-									<h3 class="title">PR Services</h3>
-									<ul>
-										<li>
-											<a href="<?php echo site_url('/services/public-relations-influencer'); ?>"><svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 4.86134C0.0506776 4.86396 0.101355 4.8692 0.151693 4.8692C3.559 4.86953 9.96596 4.86953 13.3733 4.86953C13.4219 4.86953 13.4709 4.86953 13.5443 4.86953C12.3196 3.68693 11.1156 2.52432 9.92005 1.37023C10.2323 1.06803 10.5306 0.77959 10.8197 0.5C12.5434 2.1641 14.2756 3.83705 16 5.5018C14.28 7.16262 12.5498 8.83328 10.8237 10.5C10.5425 10.2214 10.2479 9.92968 9.94589 9.63042C11.1247 8.49207 12.3305 7.32782 13.5365 6.16357C13.5307 6.15276 13.525 6.14194 13.5195 6.13112C13.475 6.13112 13.4304 6.13112 13.3859 6.13112C9.97004 6.13112 3.55458 6.13113 0.138768 6.13145C0.0925123 6.13145 0.0462562 6.1367 0.000340283 6.13932C0.000340283 5.71322 0 5.28744 0 4.86134Z" fill="url(#paint0_linear_2267_333)"/>
-<defs>
-<linearGradient id="paint0_linear_2267_333" x1="3" y1="5.5" x2="16" y2="5.5" gradientUnits="userSpaceOnUse">
-<stop stop-color="#003E63"/>
-<stop offset="1" stop-color="#0D669C"/>
-</linearGradient>
-</defs>
-</svg> Public Relations & Influencer</a>
-										</li>
-										
-									</ul>
+									<img src="<?php echo THEMEURL; ?>/app/images/menu-icon-4.svg" class="img-responsive">
+									<div>
+										<h3 class="title">PR Services</h3>
+										<ul>
+											<li>
+												<a href="<?php echo site_url('/services/public-relations-influencer'); ?>">Online PR</a>
+											</li>
+											<li>
+												<a href="<?php echo site_url('/services/public-relations-influencer'); ?>">Influencer</a>
+											</li>
+											
+										</ul>
+									</div>
 								</div>
 								<div class="service-menu-wrap">
-									<h3 class="title">Brand Design</h3>
-									<ul>
-										<li>
-											<a href="https://houseofhues.co" target="_blank"><svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 4.86134C0.0506776 4.86396 0.101355 4.8692 0.151693 4.8692C3.559 4.86953 9.96596 4.86953 13.3733 4.86953C13.4219 4.86953 13.4709 4.86953 13.5443 4.86953C12.3196 3.68693 11.1156 2.52432 9.92005 1.37023C10.2323 1.06803 10.5306 0.77959 10.8197 0.5C12.5434 2.1641 14.2756 3.83705 16 5.5018C14.28 7.16262 12.5498 8.83328 10.8237 10.5C10.5425 10.2214 10.2479 9.92968 9.94589 9.63042C11.1247 8.49207 12.3305 7.32782 13.5365 6.16357C13.5307 6.15276 13.525 6.14194 13.5195 6.13112C13.475 6.13112 13.4304 6.13112 13.3859 6.13112C9.97004 6.13112 3.55458 6.13113 0.138768 6.13145C0.0925123 6.13145 0.0462562 6.1367 0.000340283 6.13932C0.000340283 5.71322 0 5.28744 0 4.86134Z" fill="url(#paint0_linear_2267_333)"/>
-<defs>
-<linearGradient id="paint0_linear_2267_333" x1="3" y1="5.5" x2="16" y2="5.5" gradientUnits="userSpaceOnUse">
-<stop stop-color="#003E63"/>
-<stop offset="1" stop-color="#0D669C"/>
-</linearGradient>
-</defs>
-</svg> Branding</a>
-										</li>
-										<li>
-											<a href="<?php echo site_url('/services/graphic-designs-motion-graphic'); ?>"><svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 4.86134C0.0506776 4.86396 0.101355 4.8692 0.151693 4.8692C3.559 4.86953 9.96596 4.86953 13.3733 4.86953C13.4219 4.86953 13.4709 4.86953 13.5443 4.86953C12.3196 3.68693 11.1156 2.52432 9.92005 1.37023C10.2323 1.06803 10.5306 0.77959 10.8197 0.5C12.5434 2.1641 14.2756 3.83705 16 5.5018C14.28 7.16262 12.5498 8.83328 10.8237 10.5C10.5425 10.2214 10.2479 9.92968 9.94589 9.63042C11.1247 8.49207 12.3305 7.32782 13.5365 6.16357C13.5307 6.15276 13.525 6.14194 13.5195 6.13112C13.475 6.13112 13.4304 6.13112 13.3859 6.13112C9.97004 6.13112 3.55458 6.13113 0.138768 6.13145C0.0925123 6.13145 0.0462562 6.1367 0.000340283 6.13932C0.000340283 5.71322 0 5.28744 0 4.86134Z" fill="url(#paint0_linear_2267_333)"/>
-<defs>
-<linearGradient id="paint0_linear_2267_333" x1="3" y1="5.5" x2="16" y2="5.5" gradientUnits="userSpaceOnUse">
-<stop stop-color="#003E63"/>
-<stop offset="1" stop-color="#0D669C"/>
-</linearGradient>
-</defs>
-</svg> Graphic & Motion Designs</a>
-										</li>
-									</ul>
+									<img src="<?php echo THEMEURL; ?>/app/images/menu-icon-5.svg" class="img-responsive">
+									<div>
+										<h3 class="title">Brand Design</h3>
+										<ul>
+											<li>
+												<a href="https://houseofhues.co" target="_blank">Brand & Designs</a>
+											</li>
+											<li>
+												<a href="<?php echo site_url('/services/graphic-designs-motion-graphic'); ?>">Motion Graphics</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="service-menu-wrap">
+									<img src="<?php echo THEMEURL; ?>/app/images/menu-icon-6.svg" class="img-responsive">
+									<div>
+										<h3 class="title">ORM</h3>
+										<ul>
+											<li>
+												<a href="<?php echo site_url('/services/online-reputation-management'); ?>">Reputation Management</a>
+											</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>

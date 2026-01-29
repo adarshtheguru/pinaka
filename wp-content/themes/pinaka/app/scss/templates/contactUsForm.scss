@@ -24,11 +24,10 @@
             }
             label{
                 font-weight: 500;
-                font-size: 16px;
+                font-size: 14px;
                 color: #4C4C4C;
-                padding-bottom: 15px;
             }
-            input{
+            input,select{
                 background: none;
                 border: none;
                 padding-bottom: 10px;
@@ -51,5 +50,6 @@
     }
     .submitBtn{
         margin-top: 30px;
+        cursor: pointer;
     }
 }

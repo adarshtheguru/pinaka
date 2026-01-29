@@ -985,7 +985,7 @@ function register_services_cpt() {
     $args = [
         'labels'             => $labels,
         'public'             => true,
-        'has_archive'        => true,
+        'has_archive'        => false,
         'rewrite'            => ['slug' => 'services'],
         'supports'           => ['title', 'editor', 'thumbnail', 'excerpt'],
         'show_in_rest'       => true, // Enables Gutenberg/Block editor
@@ -1199,4 +1199,5 @@ add_action( 'wp_print_scripts', function() {
     wp_dequeue_script('jquery-migrate');
     wp_deregister_script('jquery-migrate');
 }, 1 );
+
 

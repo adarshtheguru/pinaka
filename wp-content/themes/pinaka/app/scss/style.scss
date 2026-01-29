@@ -33,6 +33,25 @@ a {
 		text-decoration: none !important;
 	}
 }
+a,
+a:focus,
+a:active {
+    outline: none !important;
+    box-shadow: none !important;
+    -webkit-tap-highlight-color: transparent;
+}
+* {
+    -webkit-tap-highlight-color: transparent; /* Removes blue highlight */
+}
+
+button,
+button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: none !important;
+    -webkit-tap-highlight-color: transparent; /* Safari + Mobile */
+}
+
 img {
 	text-decoration: none;
 	outline: none;
@@ -365,6 +384,9 @@ ol {
 .mg-lt-30 {
 	margin-left: 30px;
 }
+.no-pd{
+	padding: 0!important;
+}
 .pd-5 {
 	padding: 5px;
 }
@@ -523,6 +545,14 @@ header {
 	z-index: 9999;
 	// background-color: $white;
 	transition: all 0.6s ease-in-out;
+	.brand-logo{
+		img{
+			height: 44px;
+		}
+		.logo-black{
+			display: none;
+		}
+	}
 	.upper {
 		.number-wrapper {
 			margin-right: 20px;
@@ -591,13 +621,29 @@ header {
 }
 header.active {
 	background-color: $white;
-	z-index: 100000;
+	z-index: 1020;
 	box-shadow: 0px 3px 6px #00000029;
+	.brand-logo{
+		.white-logo{
+			display: none;
+		}
+		.logo-black{
+			display: block;
+		}
+	}
 }
 header.headerBg{
 	background-color: $white;
-	z-index: 100000;
+	z-index: 1020;
 	box-shadow: 0px 3px 6px #00000029;
+	.brand-logo{
+		.white-logo{
+			display: none;
+		}
+		.logo-black{
+			display: block;
+		}
+	}
 }
 .menu-icon-mobile {
 		display: block;
@@ -698,7 +744,7 @@ footer {
 						line-height: 24px;
 					}
 					.footer-logo{
-						width: 150px;
+						width: 200px;
 					}
 				}
 				.mailBox{

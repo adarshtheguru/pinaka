@@ -7,28 +7,48 @@
                 <input type="hidden" name="formType" value="popUpForm">
                 <div class="formRow">
                     <div class="formGroup">
-                        <label for="name">What's your name?</label>
-                        <input class="required" name="name" type="text" placeholder="Type your full name"/>
+                        <label for="name">Name</label>
+                        <input class="required" name="name" type="text"/>
                     </div>
                     <div class="formGroup">
-                        <label for="email">What's your email address?</label>
-                        <input name="email" type="email" placeholder="example@gmail.com" />
+                        <label for="email">Email Address</label>
+                        <input name="email" class="required" type="email"/>
                     </div>
                 </div>
                 <div class="formRow">
+                        <div class="formGroup">
+                            <label for="name">Mobile No.</label>
+                            <input name="phone" class="required" type="tel"/>
+                        </div>
+                        <div class="formGroup">
+                            <label for="name">What Service are you looking for</label>
+                            <select name="service">
+                                <option value="Media Strategy">Media Strategy</option>
+                                <option value="Growth Marketing">Growth Marketing</option>
+                                <option value="Organic Search">Organic Search</option>
+                                <option value="Social Media">Social Media</option>
+                                <option value="Review Management">Review Management</option>
+                                <option value="PR & Influencer">PR & Influencer</option>
+                                <option value="Web Development">Web Development</option>
+                                <option value="Motion Graphics">Motion Graphics</option>
+                                <option value="Brand & Designs">Brand & Designs</option>
+                            </select>
+                        </div>
+                    </div>
+                <div class="formRow">
                     <div class="formGroup">
-                        <label for="company">What's your Company name?</label>
-                        <input name="company" type="text" placeholder="enter your company name" />
+                        <label for="company">Company Name</label>
+                        <input name="company" class="required" type="text"/>
                     </div>
                     <div class="formGroup">
-                        <label for="website">Share your company Website</label>
-                        <input name="website" type="text" placeholder="enter company website link here" />
+                        <label for="website">Company Website</label>
+                        <input name="website" class="required" type="text"/>
                     </div>
                 </div>
                 <div class="formRow full">
                     <div class="formGroup">
-                        <label for="message">Any message for us?</label>
-                        <input class="required"  name="message" type="text" placeholder="Write your message here" />
+                        <label for="message">Message</label>
+                        <input class="required" name="message" type="text"/>
                     </div>
                 </div>
                 <button type="submit" class="themeBtn submitBtn">Get in Touch</button>

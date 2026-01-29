@@ -248,7 +248,7 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 		top: -10px;
 	}
 	header {
-		padding: 15px 0;
+		padding: 15px 0 10px;
 		background-color: $white;
 		.nav-links {
 			padding: 10px 0;
@@ -256,7 +256,13 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 		}
 		.brand-logo {
 			img {
-				width: 163px;
+				width: 180px;
+				&.logo-black{
+					display: block;
+				}
+				&.white-logo{
+					display: none;
+				}
 			}
 		}
 		.form-container {
@@ -305,10 +311,11 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 		background-color: $white;
 		font-size: 14px;
 		font-weight: 600;
-		z-index: 999999;
+		z-index: 999;
 		a {
 			display: block;
 			line-height: 30px;
+			padding:8px 0;
 		}
 		a.mob-enq-btn {
 			background-color: $pc;

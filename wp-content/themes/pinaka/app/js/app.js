@@ -45,6 +45,56 @@ $(document).ready(function () {
 	});
 
 
+	$(".mobile-service").click(function () {
+		$(".addressBox").addClass("active");
+	});
+	$(".close-menu").click(function () {
+		$(".addressBox").removeClass("active");
+	});
+
+    $('#caseStudyFilter').on('change', function() {
+        var selected = $(this).val();
+
+        if (selected === 'all') {
+            $('.caseGridBox .box').fadeIn(300);
+        } else {
+            $('.caseGridBox .box').hide();
+            $('.caseGridBox .box#' + selected).fadeIn(300);
+        }
+    });
+
+    $('.testimonial-grid').slick({
+			slidesToShow: 3,      // 3 slides per row
+			slidesToScroll: 1,    // scroll 3 at a time
+			rows: 1,
+			arrows: true,
+			dots: false,
+			autoplay: false,
+			autoplaySpeed: 3000,
+			infinite: false,
+			prevArrow: '#testLeft',
+			nextArrow: '#testRight',
+			responsive: [
+				{
+					breakpoint: 1441,
+					settings: {
+						slidesToShow: 3
+					}
+				},
+				{
+					breakpoint: 1025,
+					settings: {
+						slidesToShow: 2
+					}
+				},
+				{
+					breakpoint: 993,
+					settings: {
+						slidesToShow: 1
+					}
+				},
+			]
+		});
 
 	if (winWD < 992) {
 		// $(".enq_click, .frmclose").click(function() {
@@ -67,18 +117,7 @@ $(document).ready(function () {
 			prevArrow: '#serviceLeft',
 		  nextArrow: '#serviceRight',
 		});
-		$('.testimonial-grid').slick({
-			slidesToShow: 1,      // 3 slides per row
-			slidesToScroll: 1,    // scroll 3 at a time
-			rows: 1,
-			arrows: true,
-			dots: false,
-			autoplay: false,
-			autoplaySpeed: 3000,
-			infinite: true,
-			prevArrow: '#testLeft',
-		nextArrow: '#testRight',
-		});
+		
 
 		$('.insights .partB').slick({
 			slidesToShow: 1,      // 3 slides per row
@@ -206,7 +245,8 @@ $(document).ready(function () {
 		dots: false,
 		autoplay: true,
 		fade: true,
-		cssEase: 'linear'
+		cssEase: 'linear',
+		speed:1000
 	});
 
 $('.clientSlider').slick({
@@ -404,9 +444,9 @@ $('.clientSlider4').slick({
 	// 	nextArrow:'#specialize_sliderRight',
 	// });
 	$('.blueCardSlider-1').slick({
-		centerMode: true,
-		centerPadding: '420px', // controls half slide visibility
-		slidesToShow: 2,
+		centerMode: false,
+		centerPadding: '20px', // controls half slide visibility
+		slidesToShow: 3,
 		infinite: true,
 		arrows: true,
 		prevArrow: '#bc-l-arrow1',
@@ -456,9 +496,9 @@ $('.clientSlider4').slick({
 		]
 	});
 	$('.blueCardSlider-3').slick({
-		centerMode: true,
-		centerPadding: '420px', // controls half slide visibility
-		slidesToShow: 2,
+		centerMode: false,
+		centerPadding: '20px', // controls half slide visibility
+		slidesToShow: 3,
 		infinite: true,
 		arrows: true,
 		prevArrow: '#bc-l-arrow3',
@@ -486,9 +526,11 @@ $('.clientSlider4').slick({
 		slidesToShow: 2,
 		centerPadding: '10%', // ~10% visibility of left & right slides
 		infinite: true,
-		arrows: false,
+		arrows: true,
 		autoplay: true,
 		dots: false,
+		nextArrow: "#csRight",
+    	prevArrow: "#csLeft",
 		responsive: [
 			{
 				breakpoint: 1024,
@@ -555,6 +597,17 @@ $('.clientSlider4').slick({
         speed: 500,
     });
     lightGallery(document.querySelector('.campaign-slider-2'), {
+        selector: 'img',
+        plugins: [lgZoom],
+        speed: 500,
+    });
+
+    lightGallery(document.querySelector('.blueCardSlider-1'), {
+        selector: 'img',
+        plugins: [lgZoom],
+        speed: 500,
+    });
+    lightGallery(document.querySelector('.blueCardSlider-3'), {
         selector: 'img',
         plugins: [lgZoom],
         speed: 500,
@@ -890,6 +943,14 @@ $('.clientSlider4').slick({
 	$('#closePopupBtn').on('click', function () {
 		$('#popupOverlay').fadeOut();
 	});
+	$('.career_click').on('click', function () {
+		$('#popupOverlayCareer').fadeIn();
+		// checkHamburgerActive();
+	});
+
+	$('#closePopupBtn').on('click', function () {
+		$('#popupOverlayCareer').fadeOut();
+	});
 
 	// Optional: Hide popup on outside click
 	$('#popupOverlay').on('click', function (e) {
@@ -1033,3 +1094,58 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+var counted = 0;
+$(window).on('scroll', function () {
+   var oTop = $('.counterMain').offset().top - window.innerHeight;
+   if (counted === 0 && $(window).scrollTop() > oTop) {
+      $('.count').each(function () {
+         var $this = $(this);
+         var countTo = $this.attr('data-count');
+         $({
+            countNum: 0
+         }).animate({
+            countNum: countTo
+         }, {
+            duration: 2000,
+            easing: 'swing',
+            step: function () {
+               $this.text(Math.floor(this.countNum));
+            },
+            complete: function () {
+               $this.text(this.countNum);
+            },
+         });
+      });
+      counted = 1;
+   }
+});
+
+var players = {};
+
+function onYouTubeIframeAPIReady() {
+    const iframes = document.querySelectorAll(".testi-card iframe");
+
+    iframes.forEach((iframe, index) => {
+        const videoId = iframe.id;
+
+        players[videoId] = new YT.Player(videoId, {
+            events: {
+                onStateChange: function (event) {
+                    if (event.data === YT.PlayerState.PLAYING) {
+                        pauseAllExcept(videoId);
+                    }
+                }
+            }
+        });
+    });
+}
+
+function pauseAllExcept(activeId) {
+    Object.keys(players).forEach(id => {
+        if (id !== activeId) {
+            players[id].pauseVideo();
+        }
+    });
+}
+

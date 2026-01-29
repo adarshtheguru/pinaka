@@ -27,6 +27,12 @@
 			overflow: auto;
 		}
 		.services-item{
+			> img{
+				min-width: 330px;
+				height: 264px;
+				width: 330px;
+    			object-fit: cover;
+			}
 			.services-title{
 				display: flex;
 				justify-content: space-between;

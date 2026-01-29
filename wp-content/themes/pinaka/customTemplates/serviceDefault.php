@@ -178,7 +178,7 @@
 				<?php endif; ?>
 				<?php if ($btn_text = get_field('button_text')) :
 				$btn_link = get_field('deliver_link'); ?>
-				<a href="<?php echo esc_url($btn_link ? get_permalink($btn_link) : 'javascript:;'); ?>" class="themeBtn">
+				<a href="<?php echo site_url('/service'); ?>" class="themeBtn">
 					<?php echo esc_html($btn_text); ?>
 				</a>
 				<?php endif; ?>
@@ -228,7 +228,7 @@ if ($query->have_posts()) : ?>
         <div class="container">
             <div class="partA scroll-animate fade-in">
                 <div class="title">Relevant Case Studies</div>
-                <a href="<?php echo get_post_type_archive_link('our-works'); ?>" class="themeBtn">See All CASE STUDIES</a>
+                <a href="<?php echo site_url('/our-works'); ?>" class="themeBtn hidden-xs">See All CASE STUDIES</a>
             </div>
         </div>
 
@@ -248,7 +248,19 @@ if ($query->have_posts()) : ?>
                     </div>
                 <?php endwhile; ?>
             </div>
+            <div class="customArrow">
+				<div id="csLeft">
+					<img src="<?php echo THEMEURL; ?>/app/images/blueLeft.svg" alt="">
+				</div>
+				<div id="csRight">
+					<img src="<?php echo THEMEURL; ?>/app/images/blueRight.svg" alt="">
+				</div>
+			</div>
         </div>
+        <div class="container text-center mg-tp-30 visible-xs">
+        	<a href="<?php echo site_url('/our-works'); ?>" class="themeBtn">See All CASE STUDIES</a>
+        </div>
+
     </section>
 <?php
 endif;
